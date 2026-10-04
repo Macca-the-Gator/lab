@@ -219,5 +219,60 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "dan-houser-avoids-gta-6-reveal-to-prevent-creative-influence",
+    "publicationKey": "dan-houser-avoids-gta-6-reveal-to-prevent-creative-influence",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/dan-houser-avoids-gta-6-reveal-to-prevent-creative-influence/",
+    "sourceUrl": "https://www.videogameschronicle.com/news/dan-houser-still-hasnt-seen-gta-6-i-will-try-and-avoid-it/",
+    "title": "Dan Houser Avoids GTA 6 Reveal to Prevent Creative Influence",
+    "description": "Rockstar Games co-founder Dan Houser, who departed the company in 2020, stated in a recent interview with Variety that he has not watched Grand Theft Auto 6’s extended reveal. He explained that actively avoiding such content helps him focus on new creative directions without being distracted by comp",
+    "youtubeTitle": "Dan Houser Avoids GTA 6 Reveal to Prevent Creative Influence",
+    "socialHook": "Former Rockstar co-founder Dan Houser says he hasn't seen GTA 6's reveal to avoid being creatively distracted.",
+    "sections": [
+      {
+        "heading": "Avoiding Creative Distractions",
+        "paragraphs": [
+          "In a recent interview with Variety, Rockstar Games co-founder Dan Houser revealed he has not watched Grand Theft Auto 6’s extended reveal, which premiered in August 2026 on Netflix. Houser, who left Rockstar in 2020 after co-writing and producing titles like GTA 3 through GTA 5 and Red Dead Redemption 2, stated that avoiding such content helps him steer clear of distractions that could disrupt his creative process. He emphasized that his team at Absurd Ventures now handles competitive research on other open-world games to prevent him from deconstructing their design choices."
+        ]
+      },
+      {
+        "heading": "New Projects at Absurd Ventures",
+        "paragraphs": [
+          "Houser’s current studio, Absurd Ventures, is developing two new video games, including an open-world comedy and a dystopian sci-fi title centered on a rogue AI. While specifics remain under wraps, he hinted at upcoming reveals in the coming months. Additionally, Absurd Ventures has released audio dramas, comics, and novels as part of its multimedia approach. Houser reflected on his time at Rockstar, noting he never watched Western films or TV series like The Sopranos during development, preferring to isolate himself from external influences entirely."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Dan Houser",
+      "Industry News"
+    ],
+    "thumbnail": "https://www.videogameschronicle.com/files/2026/07/dan-houser.jpg",
+    "thumbnailAlt": "Dan Houser in 2023 (credit: Video Games Chronicle)",
+    "inlineImages": [
+      {
+        "url": "https://www.videogameschronicle.com/files/2026/07/dan-houser.jpg",
+        "alt": "Dan Houser",
+        "caption": "Rockstar Games co-founder Dan Houser (credit: Video Games Chronicle)",
+        "sourceUrl": "https://www.videogameschronicle.com/news/dan-houser-still-hasnt-seen-gta-6-i-will-try-and-avoid-it/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dan Houser still hasn’t seen GTA 6: &#8216;I will try and avoid it&#8217;",
+        "url": "https://www.videogameschronicle.com/news/dan-houser-still-hasnt-seen-gta-6-i-will-try-and-avoid-it/",
+        "publisher": "www.videogameschronicle.com"
+      },
+      {
+        "title": "Rockstar Co-Founder Dan Houser Says He Still Hasn’t Watched The Big GTA 6 Netflix Reveal | Kotaku",
+        "url": "https://kotaku.com/rockstar-cofounder-dan-houser-says-he-still-hasnt-watched-the-big-gta-6-netflix-reveal-2000739350",
+        "publisher": "kotaku.com"
+      }
+    ],
+    "socialScore": 82,
+    "queuedAt": "2026-10-04T15:22:52.638Z"
   }
 ]
