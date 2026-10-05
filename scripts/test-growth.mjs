@@ -8,7 +8,7 @@ const [
   adsTxt, blog, seo, ads, engagement, instagram, instagramMetrics, queue, socialVideo,
   shorts, ytMetrics, ytWorkflow, igWorkflow, weeklyWorkflow, dailyWorkflow,
   growth, searchConsole, searchWorkflow, searchOptimizeWorkflow, indexNow, indexWorkflow,
-  worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers
+  worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers, growthCss
 ] = await Promise.all([
   read('ads.txt'),
   read('scripts/blog.mjs'),
@@ -36,6 +36,7 @@ const [
   read('analytics/web-analytics.js'),
   read('.github/workflows/web-analytics.yml'),
   read('scripts/article_covers.py'),
+  read('blog/assets/growth.css'),
 ]);
 
 assert.match(adsTxt, /google\.com, pub-7821352420515145, DIRECT, f08c47fec0942fa0/);
@@ -77,6 +78,8 @@ assert.match(blog, /redditOnly/);
 assert.match(blog, /indexablePosts=posts\.filter\(searchIndexable\)/);
 assert.match(blog, /searchConsoleBonus/);
 assert.match(blog, /data-content-context/);
+assert.doesNotMatch(blog, /href="\/study\/">Study<\/a>/);
+assert.doesNotMatch(blog, /href="\/play\/">Play<\/a>/);
 assert.match(blog, /findUpdateTarget/);
 assert.match(blog, /status:'updated'/);
 assert.match(blog, /queueSocialPublication\(updated,\{update:true\}\)/);
@@ -94,6 +97,12 @@ assert.match(growth, /utm_campaign','macca_social_hub'/);
 assert.match(growth, /New from Macca Blog/);
 assert.match(growth, /editorial-policy/);
 assert.match(growth, /Corrections & Updates/);
+assert.match(growth, /href="\/study\/">Study<\/a>/);
+assert.match(growth, /href="\/play\/">Play<\/a>/);
+assert.match(growthCss, /\.growth-card>a\{[^}]*grid-template-rows:auto minmax\(0,1fr\)[^}]*align-content:start/);
+assert.match(growthCss, /\.growth-card img\{[^}]*height:auto[^}]*aspect-ratio:16\/9/);
+assert.match(growthCss, /\.social-story-main\{[^}]*align-items:start/);
+assert.match(growthCss, /\.social-story-main img\{[^}]*height:auto[^}]*aspect-ratio:16\/9/);
 
 assert.match(covers, /render_discover/);
 assert.match(covers, /1280, 720/);
@@ -146,19 +155,19 @@ assert.match(shorts, /def create_thumbnail/);
 assert.match(queue, /def youtube_title/);
 assert.match(queue, /def youtube_tags/);
 assert.match(queue, /set_thumbnail/);
-assert.match(queue, /DAILY_LIMIT/);
+assert.doesNotMatch(queue, /DAILY_LIMIT/);
 assert.match(queue, /socialScore/);
 assert.match(queue, /publicationKey/);
 assert.match(queue, /utm_source=youtube/);
 
-assert.match(socialVideo, /INSTAGRAM_DAILY_LIMIT/);
-assert.match(socialVideo, /YOUTUBE_DAILY_LIMIT/);
+assert.doesNotMatch(socialVideo, /INSTAGRAM_DAILY_LIMIT/);
+assert.doesNotMatch(socialVideo, /YOUTUBE_DAILY_LIMIT/);
 assert.match(socialVideo, /_ranked/);
 
 assert.match(instagram, /retaining the item in the Instagram queue for retry/);
 assert.doesNotMatch(instagram, /image_url:imageUrl/);
 assert.match(instagram, /share_to_feed:'false'/);
-assert.match(instagram, /DAILY_LIMIT/);
+assert.doesNotMatch(instagram, /DAILY_LIMIT/);
 assert.match(instagram, /content_publishing_limit/);
 assert.match(instagram, /quota_usage,config/);
 assert.match(instagram, /publicationKey/);
