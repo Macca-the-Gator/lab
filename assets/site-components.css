@@ -105,3 +105,5 @@ body.has-fixed-content-dock .about-chat-widget{bottom:calc(var(--fixed-content-d
 .content-filter-notice strong{display:block;margin-bottom:.2rem;color:#4de0ed;font-size:.94rem}
 .content-filter-notice p{margin:0;color:#ead8ea}
 .content-filter-notice button{flex:none;width:1.8rem;height:1.8rem;border:1px solid #ffffff44;border-radius:50%;background:#100d1b;color:#fff;font-size:1.1rem;cursor:pointer}
+/* Study and Play are root-only navigation entries. */
+a[href="/study/"],a[href="/play/"]{display:none!important}

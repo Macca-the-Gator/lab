@@ -8,7 +8,7 @@ const [
   adsTxt, blog, seo, ads, engagement, instagram, instagramMetrics, queue, socialVideo,
   shorts, ytMetrics, ytWorkflow, igWorkflow, weeklyWorkflow, dailyWorkflow,
   growth, searchConsole, searchWorkflow, searchOptimizeWorkflow, indexNow, indexWorkflow,
-  worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers, growthCss
+  worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers, growthCss, siteComponentsCss, siteComponentsJs, blogIndex
 ] = await Promise.all([
   read('ads.txt'),
   read('scripts/blog.mjs'),
@@ -37,6 +37,9 @@ const [
   read('.github/workflows/web-analytics.yml'),
   read('scripts/article_covers.py'),
   read('blog/assets/growth.css'),
+  read('assets/site-components.css'),
+  read('assets/site-components.js'),
+  read('blog/index.html'),
 ]);
 
 assert.match(adsTxt, /google\.com, pub-7821352420515145, DIRECT, f08c47fec0942fa0/);
@@ -103,6 +106,9 @@ assert.match(growthCss, /\.growth-card>a\{[^}]*grid-template-rows:auto minmax\(0
 assert.match(growthCss, /\.growth-card img\{[^}]*height:auto[^}]*aspect-ratio:16\/9/);
 assert.match(growthCss, /\.social-story-main\{[^}]*align-items:start/);
 assert.match(growthCss, /\.social-story-main img\{[^}]*height:auto[^}]*aspect-ratio:16\/9/);
+assert.match(siteComponentsCss, /a\[href="\/study\/"\],a\[href="\/play\/"\]\{display:none!important\}/);
+assert.match(siteComponentsJs, /document\.querySelectorAll\('a\[href="\/study\/"\],a\[href="\/play\/"\]'\)/);
+assert.doesNotMatch(blogIndex, /href="\/study\/"|href="\/play\/"/);
 
 assert.match(covers, /render_discover/);
 assert.match(covers, /1280, 720/);
