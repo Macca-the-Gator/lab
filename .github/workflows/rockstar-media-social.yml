@@ -1,0 +1,185 @@
+name: Macca Rockstar Media Shorts
+
+on:
+  schedule:
+    # 13:05 and 20:05 America/Sao_Paulo (UTC-3).
+    # These start before the hourly :17 blog job so the video slot wins social pacing.
+    - cron: '5 16 * * *'
+    - cron: '5 23 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Render a preview or publish the scheduled Rockstar-media Short/Reel
+        required: true
+        type: choice
+        default: preview
+        options: [preview, publish]
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rockstar-media-social.yml'
+      - 'scripts/rockstar_media_social.py'
+      - 'scripts/social_video.py'
+      - 'scripts/youtube_queue.py'
+      - 'scripts/instagram.mjs'
+      - 'src/youtube/shorts.py'
+      - 'src/youtube/kokoro_tts.py'
+      - 'src/youtube/upload.py'
+      - 'requirements-youtube.txt'
+      - 'requirements-kokoro.txt'
+      - 'tests/test_rockstar_media_social.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: macca-blog-publisher
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  ROCKSTAR_MEDIA_DAILY_LIMIT: '2'
+  ROCKSTAR_MEDIA_MIN_SPACING_HOURS: '1'
+  ROCKSTAR_MEDIA_CACHE: .cache/rockstar-media
+  KOKORO_VOICE: am_michael
+  SHORTS_MUSIC_PATH: ''
+
+jobs:
+  validate:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements-youtube.txt
+            requirements-kokoro.txt
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements-youtube.txt -r requirements-kokoro.txt
+      - name: Validate Rockstar media lane
+        run: |
+          python -m py_compile scripts/rockstar_media_social.py scripts/social_video.py scripts/youtube_queue.py src/youtube/shorts.py
+          python -m unittest tests.test_rockstar_media_social
+          node --check scripts/instagram.mjs
+
+  preview:
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'preview'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements-youtube.txt
+            requirements-kokoro.txt
+      - name: Build weekly Rockstar media cache key
+        id: media_key
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: .cache/rockstar-media
+          key: rockstar-gta-vi-media-${{ runner.os }}-${{ steps.media_key.outputs.week }}
+          restore-keys: |
+            rockstar-gta-vi-media-${{ runner.os }}-
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: kokoro-${{ runner.os }}-hexgrad-82m-am-michael-v1
+          restore-keys: |
+            kokoro-${{ runner.os }}-hexgrad-82m-
+      - name: Install renderer dependencies
+        run: |
+          python -m pip install -r requirements-youtube.txt -r requirements-kokoro.txt
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+      - name: Render one official-footage preview without publishing
+        env:
+          ROCKSTAR_MEDIA_PREVIEW_DIR: ${{ runner.temp }}/macca-rockstar-media-preview
+        run: python -m scripts.rockstar_media_social preview
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macca-rockstar-media-preview
+          path: ${{ runner.temp }}/macca-rockstar-media-preview/
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'publish')
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements-youtube.txt
+            requirements-kokoro.txt
+      - name: Build weekly Rockstar media cache key
+        id: media_key
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: .cache/rockstar-media
+          key: rockstar-gta-vi-media-${{ runner.os }}-${{ steps.media_key.outputs.week }}
+          restore-keys: |
+            rockstar-gta-vi-media-${{ runner.os }}-
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: kokoro-${{ runner.os }}-hexgrad-82m-am-michael-v1
+          restore-keys: |
+            kokoro-${{ runner.os }}-hexgrad-82m-
+      - name: Install renderer and publisher dependencies
+        run: |
+          python -m pip install -r requirements-youtube.txt -r requirements-kokoro.txt
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+      - name: Publish one official-footage video to YouTube and Instagram
+        id: publish_media
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: '17841427029514284'
+          INSTAGRAM_GRAPH_VERSION: 'v26.0'
+          CLOUDFLARE_R2_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_R2_ACCOUNT_ID }}
+          CLOUDFLARE_R2_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          CLOUDFLARE_R2_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          CLOUDFLARE_R2_BUCKET: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
+          CLOUDFLARE_R2_PUBLIC_BASE_URL: ${{ secrets.CLOUDFLARE_R2_PUBLIC_BASE_URL }}
+        run: python -m scripts.rockstar_media_social publish
+      - name: Persist Rockstar media publication state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog/rockstar-media-state.json blog/youtube-published.json blog/instagram-published.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No Rockstar media publication state changed."
+          else
+            git commit -m "Record Rockstar media social publications"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+      - name: Fail after saving partial publication state
+        if: steps.publish_media.outcome == 'failure'
+        run: |
+          echo "Rockstar media publishing failed; any successful platform records were saved first."
+          exit 1
