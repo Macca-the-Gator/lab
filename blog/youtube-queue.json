@@ -329,5 +329,52 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "gta-6-reportedly-includes-detailed-decapitation-and-drug-use-per",
+    "publicationKey": "gta-6-reportedly-includes-detailed-decapitation-and-drug-use-per",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-reportedly-includes-detailed-decapitation-and-drug-use-per/",
+    "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-features-detailed-decapitation-and-frequent-and-prominent-drug-use-according-to-hastily-deleted-pegi-rating/",
+    "title": "GTA 6 Reportedly Includes Detailed Decapitation and Drug Use, per PEGI Rating",
+    "description": "PC Gamer reports that a hastily deleted PEGI rating suggests Grand Theft Auto 6 will feature detailed decapitation and frequent, prominent drug use, with characters able to snort cocaine directly from hand.",
+    "youtubeTitle": "GTA 6 Reportedly Features Detailed Decapitation and Drug Use",
+    "socialHook": "GTA 6 is said to include detailed decapitation and frequent drug use, according to a deleted PEGI rating.",
+    "sections": [
+      {
+        "heading": "Reported GTA 6 Features",
+        "paragraphs": [
+          "PC Gamer cites a now‑deleted PEGI rating that allegedly describes GTA 6 as containing detailed decapitation and frequent, prominent drug use.",
+          "The report also claims that protagonists Jason and Lucia can snort cocaine directly from their hand at any time."
+        ]
+      },
+      {
+        "heading": "Uncertainty and Sources",
+        "paragraphs": [
+          "The PEGI rating was removed shortly after the leak, leaving no official confirmation from Rockstar or Take‑Two.",
+          "PC Gamer’s article is the primary source for these claims, and no further details have been provided by the developer."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "PEGI",
+      "drug use",
+      "decapitation",
+      "gaming news"
+    ],
+    "thumbnail": "https://cdn.mos.cms.futurecdn.net/rjLFde7bmaQCWqYowbJvaD-2560-80.jpg",
+    "thumbnailAlt": "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating | PC Gamer",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-features-detailed-decapitation-and-frequent-and-prominent-drug-use-according-to-hastily-deleted-pegi-rating/",
+        "publisher": "www.pcgamer.com"
+      }
+    ],
+    "socialScore": 78,
+    "queuedAt": "2026-10-05T02:02:02.654Z"
   }
 ]
