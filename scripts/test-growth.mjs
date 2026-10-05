@@ -13,7 +13,7 @@ const [
   read('ads.txt'),
   read('scripts/blog.mjs'),
   read('scripts/build-seo.mjs'),
-  read('ads/ads.js'),
+  read('assets/site-components.js'),
   read('blog/assets/engagement.js'),
   read('scripts/instagram.mjs'),
   read('scripts/instagram_metrics.mjs'),
@@ -76,7 +76,7 @@ assert.match(blog, /publishedAt:new Date\(\)\.toISOString\(\)/);
 assert.match(blog, /redditOnly/);
 assert.match(blog, /indexablePosts=posts\.filter\(searchIndexable\)/);
 assert.match(blog, /searchConsoleBonus/);
-assert.match(blog, /data-ad-context/);
+assert.match(blog, /data-content-context/);
 assert.match(blog, /findUpdateTarget/);
 assert.match(blog, /status:'updated'/);
 assert.match(blog, /queueSocialPublication\(updated,\{update:true\}\)/);
@@ -111,8 +111,8 @@ assert.match(ads, /affiliateGlobalLift/);
 assert.match(ads, /analytics\/affiliate-scores/);
 assert.match(ads, /20000 \+ Math\.random\(\) \* 10000/);
 assert.match(ads, /document\.visibilityState === 'visible'/);
-assert.match(ads, /article-inline/);
-assert.match(ads, /adRuntimeMounted/);
+assert.match(ads, /article-unit/);
+assert.match(ads, /unitRendered/);
 assert.match(ads, /macca:content-added/);
 assert.match(engagement, /macca:content-added/);
 

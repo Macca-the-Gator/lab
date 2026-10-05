@@ -115,7 +115,7 @@ function observeAffiliateImpression(slot, link, ad) {
     slot._maccaAdImpressionTimer = window.setTimeout(() => {
       if (!document.contains(link) || link.dataset.impressionRecorded === '1') return;
       link.dataset.impressionRecorded = '1';
-      recordAffiliateEvent(ad, 'impression', slot.dataset.adSlot || '');
+      recordAffiliateEvent(ad, 'impression', slot.dataset.contentUnit || '');
     }, 1000);
   }, {threshold:[0.5]});
   observer.observe(link);
@@ -145,11 +145,11 @@ function mountPklavcPopup() {
     shown = true;
 
     const backdrop = document.createElement('div');
-    backdrop.className = 'pklavc-promo-backdrop';
-    backdrop.innerHTML = `<section class="pklavc-promo" role="dialog" aria-modal="true" aria-labelledby="pklavc-promo-title" aria-describedby="pklavc-promo-description"><button class="pklavc-promo-close" type="button" aria-label="Close advertisement">&times;</button><div class="pklavc-promo-copy"><p class="eyebrow">FROM OUR PARTNER</p><h2 id="pklavc-promo-title">Curious minds, meet PKLAVC.</h2><p id="pklavc-promo-description">Explore the PKLAVC Blog for technology, engineering, open-source projects, and more.</p><a class="pklavc-promo-link" href="https://pklavc.com/blog" target="_blank" rel="sponsored noopener noreferrer">Visit the PKLAVC Blog <span aria-hidden="true">&#8599;</span></a></div><div class="pklavc-promo-art"><img src="/ads/partner.webp" alt="PKLAVC partner artwork" loading="lazy"></div></section>`;
+    backdrop.className = 'pklavc-partner-modal-backdrop';
+    backdrop.innerHTML = `<section class="pklavc-partner-modal" role="dialog" aria-modal="true" aria-labelledby="pklavc-partner-modal-title" aria-describedby="pklavc-partner-modal-description"><button class="pklavc-partner-modal-close" type="button" aria-label="Close advertisement">&times;</button><div class="pklavc-partner-modal-copy"><p class="eyebrow">FROM OUR PARTNER</p><h2 id="pklavc-partner-modal-title">Curious minds, meet PKLAVC.</h2><p id="pklavc-partner-modal-description">Explore the PKLAVC Blog for technology, engineering, open-source projects, and more.</p><a class="pklavc-partner-modal-link" href="https://pklavc.com/blog" target="_blank" rel="sponsored noopener noreferrer">Visit the PKLAVC Blog <span aria-hidden="true">&#8599;</span></a></div><div class="pklavc-partner-modal-art"><img src="/assets/creatives/visual-16.webp" alt="PKLAVC partner artwork" loading="lazy"></div></section>`;
     document.body.append(backdrop);
 
-    const closeButton = backdrop.querySelector('.pklavc-promo-close');
+    const closeButton = backdrop.querySelector('.pklavc-partner-modal-close');
     const close = wasDismissed => {
       if (wasDismissed) {
         try { localStorage.setItem(dismissedKey, String(Date.now())); } catch { /* storage is optional */ }
@@ -161,7 +161,7 @@ function mountPklavcPopup() {
       if (event.key === 'Escape') close(true);
     };
     closeButton.addEventListener('click', () => close(true));
-    backdrop.querySelector('.pklavc-promo-link').addEventListener('click', () => {
+    backdrop.querySelector('.pklavc-partner-modal-link').addEventListener('click', () => {
       try { localStorage.setItem(acceptedKey, '1'); } catch { /* storage is optional */ }
       close(false);
     });
@@ -176,7 +176,7 @@ let adConfigPromise = null;
 
 async function loadAdConfig() {
   if (!adConfigPromise) {
-    adConfigPromise = fetch('/ads/config.json', {cache: 'no-store'}).then(async response => {
+    adConfigPromise = fetch('/assets/site-data.json', {cache: 'no-store'}).then(async response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
     });
@@ -188,20 +188,20 @@ async function mountAds(root = document) {
   if (root === document) mountPklavcPopup();
   try {
     const [config] = await Promise.all([loadAdConfig(), loadAffiliateAnalytics()]);
-    const placements = [...root.querySelectorAll('[data-ad-slot]')]
-      .filter(slot => slot.dataset.adRuntimeMounted !== '1')
+    const placements = [...root.querySelectorAll('[data-content-unit]')]
+      .filter(slot => slot.dataset.unitRendered !== '1')
       .map(slot => {
-        const name = slot.dataset.adSlot;
-        const source = name === 'sidebar-smart'
-          ? [...(config.slots?.['sidebar-pklavc'] || []), ...(config.slots?.['sidebar-affiliate'] || [])]
-          : name.startsWith('sidebar-pklavc')
-            ? config.slots?.['sidebar-pklavc']
-            : name.startsWith('sidebar-affiliate')
-              ? config.slots?.['sidebar-affiliate']
-              : name.startsWith('sticky-affiliate')
-                ? config.slots?.['sticky-affiliate']
-                : name.startsWith('article-inline')
-                  ? [...(config.slots?.['article-inline'] || []), ...(config.slots?.['sidebar-affiliate'] || [])]
+        const name = slot.dataset.contentUnit;
+        const source = name === 'side-mix'
+          ? [...(config.slots?.['side-owner'] || []), ...(config.slots?.['side-rotating'] || [])]
+          : name.startsWith('side-owner')
+            ? config.slots?.['side-owner']
+            : name.startsWith('side-rotating')
+              ? config.slots?.['side-rotating']
+              : name.startsWith('dock-item')
+                ? config.slots?.['dock-item']
+                : name.startsWith('article-unit')
+                  ? [...(config.slots?.['article-unit'] || []), ...(config.slots?.['side-rotating'] || [])]
                   : config.slots?.[name];
         return {slot, ads: (source || []).filter(ad => ad.enabled && ad.href && ad.image)};
       })
@@ -213,25 +213,25 @@ async function mountAds(root = document) {
         link.href = ad.href;
         link.target = '_blank';
         link.rel = 'sponsored noopener noreferrer';
-        link.className = 'ad-creative';
+        link.className = 'sponsor-card';
         if (ad.theme && /^[a-z0-9-]+$/.test(ad.theme)) {
-          link.classList.add(`ad-theme-${ad.theme}`);
+          link.classList.add(`sponsor-theme-${ad.theme}`);
         }
 
         const copy = document.createElement('span');
-        copy.className = 'ad-copy';
+        copy.className = 'sponsor-copy';
         const kicker = document.createElement('span');
-        kicker.className = 'ad-kicker';
+        kicker.className = 'sponsor-kicker';
         kicker.textContent = ad.kicker || 'MACCA BLOG PRESENTS';
         const headline = document.createElement('strong');
         headline.textContent = ad.headline || ad.label || 'Advertisement';
         const description = document.createElement('span');
-        description.className = 'ad-description';
+        description.className = 'sponsor-description';
         description.textContent = ad.description || ad.alt || 'Visit pklavc.com';
         copy.append(kicker, headline, description);
 
         const art = document.createElement('span');
-        art.className = 'ad-art';
+        art.className = 'sponsor-art';
         const image = document.createElement('img');
         image.src = ad.image;
         image.alt = ad.alt || 'Macca partner artwork';
@@ -239,17 +239,17 @@ async function mountAds(root = document) {
         art.append(image);
         link.append(copy, art);
         link.addEventListener('click', () => {
-          recordAffiliateEvent(ad, 'click', slot.dataset.adSlot || '');
+          recordAffiliateEvent(ad, 'click', slot.dataset.contentUnit || '');
           flushAffiliateEvents();
         }, {once:true});
         slot.replaceChildren(link);
-        slot.dataset.adRuntimeMounted = '1';
+        slot.dataset.unitRendered = '1';
         observeAffiliateImpression(slot, link, ad);
     };
 
-    const stickyPlacements = placements.filter(({slot}) => slot.dataset.adSlot.startsWith('sticky-affiliate'));
-    const regularPlacements = placements.filter(({slot}) => !slot.dataset.adSlot.startsWith('sticky-affiliate'));
-    const contextText = String(document.body.dataset.adContext || '').toLowerCase();
+    const stickyPlacements = placements.filter(({slot}) => slot.dataset.contentUnit.startsWith('dock-item'));
+    const regularPlacements = placements.filter(({slot}) => !slot.dataset.contentUnit.startsWith('dock-item'));
+    const contextText = String(document.body.dataset.contentContext || '').toLowerCase();
 
     const affinity = ad => {
       const theme = String(ad.theme || '').toLowerCase();
@@ -334,7 +334,7 @@ async function mountAds(root = document) {
       };
       scheduleRotation(placement.slot, advance);
     }
-    if (document.querySelector('.sticky-ad-dock')) document.body.classList.add('has-sticky-ads');
+    if (document.querySelector('.fixed-content-dock')) document.body.classList.add('has-fixed-content-dock');
   } catch (error) {
     console.warn('Ad configuration unavailable', error);
   }
