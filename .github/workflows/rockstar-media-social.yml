@@ -2,10 +2,10 @@ name: Macca Rockstar Media Shorts
 
 on:
   schedule:
-    # 13:05 and 20:05 America/Sao_Paulo (UTC-3).
-    # These start before the hourly :17 blog job so the video slot wins social pacing.
-    - cron: '5 16 * * *'
-    - cron: '5 23 * * *'
+    # 13:45 and 20:45 America/Sao_Paulo (UTC-3).
+    # The hourly news workflow stays at :17, so the two publication lanes use distinct slots.
+    - cron: '45 16 * * *'
+    - cron: '45 23 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -38,8 +38,6 @@ concurrency:
 
 env:
   PYTHONDONTWRITEBYTECODE: '1'
-  ROCKSTAR_MEDIA_DAILY_LIMIT: '2'
-  ROCKSTAR_MEDIA_MIN_SPACING_HOURS: '1'
   ROCKSTAR_MEDIA_CACHE: .cache/rockstar-media
   KOKORO_VOICE: am_michael
   SHORTS_MUSIC_PATH: ''

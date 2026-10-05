@@ -183,8 +183,6 @@ jobs:
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
           R2_USAGE_FILE: blog/r2-upload-usage.json
           INSTAGRAM_RETRY_ONLY_FIRST: ${{ contains(github.event.head_commit.message, '[instagram-retry]') && 'true' || 'false' }}
-          INSTAGRAM_DAILY_LIMIT: '4'
-          YOUTUBE_DAILY_LIMIT: '4'
           CLOUDFLARE_R2_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_R2_ACCOUNT_ID }}
           CLOUDFLARE_R2_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
           CLOUDFLARE_R2_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
@@ -286,7 +284,6 @@ jobs:
           INSTAGRAM_QUEUE_FILE: blog/instagram-queue.json
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
           INSTAGRAM_RETRY_ONLY_FIRST: ${{ contains(github.event.head_commit.message, '[instagram-retry]') && 'true' || 'false' }}
-          INSTAGRAM_DAILY_LIMIT: '4'
         run: node scripts/instagram.mjs publish
       - name: Delete temporary Instagram Reel videos from R2
         if: always() && steps.render_social_videos.outcome != 'skipped'
@@ -347,7 +344,6 @@ jobs:
           SITE_URL: https://macca-lab.onrender.com
           SHORTS_RENDERER: ${{ vars.SHORTS_RENDERER || 'narrated' }}
           SOCIAL_VIDEO_DIR: ${{ runner.temp }}/macca-social-videos
-          YOUTUBE_DAILY_LIMIT: '4'
         run: python -m scripts.youtube_queue
       - name: Save YouTube upload records and retained retry queue
         if: always() && !contains(github.event.head_commit.message, '[instagram-retry]') && steps.youtube_config.outcome != 'skipped' && steps.commit_generated.outcome != 'failure'

@@ -55,8 +55,6 @@ MEDIA_ZIP_URL = os.environ.get(
     "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip",
 )
 MEDIA_SOURCE_PAGE = "https://www.rockstargames.com/VI/media/videos"
-MEDIA_DAILY_LIMIT = max(1, min(4, int(os.environ.get("ROCKSTAR_MEDIA_DAILY_LIMIT", "2"))))
-MIN_SPACING_HOURS = max(0.5, min(6.0, float(os.environ.get("ROCKSTAR_MEDIA_MIN_SPACING_HOURS", "1"))))
 MAX_R2_BYTES = 25 * 1024 * 1024
 
 
@@ -498,25 +496,6 @@ def publish_instagram(video: Path, article: dict, publication_key: str) -> dict:
             print(f"R2 cleanup failed ({type(exc).__name__}); bucket lifecycle remains the fallback.")
 
 
-def publication_plan(youtube_records, instagram_records) -> tuple[bool, bool, str]:
-    youtube_recent = recent_count(youtube_records, content_type="rockstar-media")
-    instagram_recent = recent_count(instagram_records, content_type="rockstar-media")
-    youtube_allowed = youtube_recent < MEDIA_DAILY_LIMIT
-    instagram_allowed = instagram_recent < MEDIA_DAILY_LIMIT
-    if not youtube_allowed and not instagram_allowed:
-        return False, False, f"Rockstar media daily cap reached on both platforms ({MEDIA_DAILY_LIMIT}/24h)."
-
-    latest = latest_publication(youtube_records, instagram_records)
-    if latest is not None:
-        age = (datetime.now(timezone.utc) - latest).total_seconds() / 3600
-        if age < MIN_SPACING_HOURS:
-            return False, False, (
-                f"Global social pacing guard: last publication was {age:.2f}h ago; "
-                f"need {MIN_SPACING_HOURS:.1f}h."
-            )
-    return youtube_allowed, instagram_allowed, ""
-
-
 def run(*, publish: bool) -> int:
     posts = read_json(POSTS_FILE, [])
     state = read_json(
@@ -526,12 +505,9 @@ def run(*, publish: bool) -> int:
     youtube_records = read_json(YOUTUBE_PUBLISHED, [])
     instagram_records = read_json(INSTAGRAM_PUBLISHED, {})
 
+    # Rockstar media is paced only by its own scheduled workflow times.
+    # It does not share the hourly article lane's publication budget.
     youtube_allowed = instagram_allowed = True
-    if publish:
-        youtube_allowed, instagram_allowed, reason = publication_plan(youtube_records, instagram_records)
-        if not youtube_allowed and not instagram_allowed:
-            print(reason)
-            return 0
 
     article = select_article(posts, state)
     clips = ensure_official_clips()
