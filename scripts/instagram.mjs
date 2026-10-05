@@ -14,8 +14,6 @@ const REEL_MANIFEST_FILE = process.env.INSTAGRAM_REEL_MANIFEST_FILE || path.join
 const token = process.env.INSTAGRAM_ACCESS_TOKEN;
 const configuredPageId = process.env.INSTAGRAM_PAGE_ID || '';
 const configuredInstagramId = process.env.INSTAGRAM_BUSINESS_ACCOUNT_ID || '';
-const DAILY_LIMIT = Math.max(1, Math.min(8, Number(process.env.INSTAGRAM_DAILY_LIMIT || 4)));
-const MIN_SPACING_HOURS = Math.max(1, Math.min(12, Number(process.env.INSTAGRAM_MIN_SPACING_HOURS || 4)));
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const safeJson = async (file, fallback) => { try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch { return fallback; } };
 const saveJson = async (file, value) => { await fs.mkdir(path.dirname(file), {recursive:true}); await fs.writeFile(file, JSON.stringify(value, null, 2) + '\n'); };
@@ -291,19 +289,9 @@ async function publish() {
   const account = await resolveAccount();
   if (account.username) console.log(`Instagram account resolved: @${account.username} through ${account.host}`);
   const retryOnlyFirst = process.env.INSTAGRAM_RETRY_ONLY_FIRST === 'true';
-  const recent = recentPublishedCount(published);
-  const lastPublished = latestPublishedAt(published);
-  if (lastPublished) {
-    const ageHours = (Date.now() - lastPublished) / 3600000;
-    if (ageHours < MIN_SPACING_HOURS) {
-      console.log(`Instagram pacing guard: last Reel was ${ageHours.toFixed(1)}h ago; waiting for ${MIN_SPACING_HOURS}h spacing.`);
-      return;
-    }
-  }
   const apiHeadroom = await publishingQuotaHeadroom(account);
-  const slots = Math.max(0, Math.min(DAILY_LIMIT - recent, apiHeadroom));
-  if (!slots) {
-    console.log(`Instagram daily cap reached (${recent}/${DAILY_LIMIT}); ${queue.length} queued item(s) retained.`);
+  if (apiHeadroom <= 0) {
+    console.log(`Instagram API publishing quota is exhausted; ${queue.length} queued item(s) retained.`);
     return;
   }
   const ranked = rankedQueue(queue);
