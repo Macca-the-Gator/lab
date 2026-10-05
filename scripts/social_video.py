@@ -35,7 +35,7 @@ def _write(path: Path, value) -> None:
     path.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
 
 
-def _published_last_24h(records) -> int:
+def _published_last_24h(records, *, exclude_content_type: str | None = None) -> int:
     cutoff = datetime.now(timezone.utc).timestamp() - 24 * 3600
     if isinstance(records, dict):
         values = records.values()
@@ -43,6 +43,8 @@ def _published_last_24h(records) -> int:
         values = records or []
     total = 0
     for record in values:
+        if exclude_content_type and record.get("contentType") == exclude_content_type:
+            continue
         try:
             stamp = datetime.fromisoformat(str(record.get("publishedAt", "")).replace("Z", "+00:00")).timestamp()
         except (ValueError, AttributeError):
@@ -105,8 +107,8 @@ def main() -> None:
     yt_limit = max(1, min(8, int(os.environ.get("YOUTUBE_DAILY_LIMIT", "4"))))
     ig_spacing = max(1, min(12, int(os.environ.get("INSTAGRAM_MIN_SPACING_HOURS", "4"))))
     yt_spacing = max(1, min(12, int(os.environ.get("YOUTUBE_MIN_SPACING_HOURS", "4"))))
-    ig_slots = max(0, ig_limit - _published_last_24h(ig_published))
-    yt_slots = max(0, yt_limit - _published_last_24h(yt_published))
+    ig_slots = max(0, ig_limit - _published_last_24h(ig_published, exclude_content_type="rockstar-media"))
+    yt_slots = max(0, yt_limit - _published_last_24h(yt_published, exclude_content_type="rockstar-media"))
     ig_age = _hours_since_latest(ig_published)
     yt_age = _hours_since_latest(yt_published)
     if ig_age is not None and ig_age < ig_spacing:

@@ -91,7 +91,7 @@ def publish_pending() -> int:
             continue
         if last_published_at is None or published_at > last_published_at:
             last_published_at = published_at
-        if (now - published_at).total_seconds() < 24 * 3600:
+        if record.get("contentType") != "rockstar-media" and (now - published_at).total_seconds() < 24 * 3600:
             recent_count += 1
 
     slots = max(0, DAILY_LIMIT - recent_count)
