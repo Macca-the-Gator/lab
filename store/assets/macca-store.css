@@ -1,0 +1,6 @@
+.macca-store-header{position:sticky;top:0;z-index:500;display:flex;align-items:center;gap:30px;padding:14px max(22px,calc((100vw - 1440px)/2 + 26px));background:#0a0e15ed;border-bottom:1px solid #242d39;backdrop-filter:blur(14px)}
+.macca-store-brand{color:#f5f7fa;text-decoration:none;font-size:.96rem;font-weight:900;letter-spacing:.12em;white-space:nowrap}.macca-store-brand span{color:#50e3e9}
+.macca-store-header nav{display:flex;align-items:center;gap:18px}.macca-store-header nav a{color:#aeb8c3;text-decoration:none;font-size:.83rem}.macca-store-header nav a:hover,.macca-store-header nav a[aria-current=page]{color:#50e3e9}
+.macca-store-header .store-search{width:min(420px,38vw);margin-left:auto}
+.macca-store-intro{margin:0 0 26px}.macca-store-eyebrow{margin:0 0 8px;color:#50e3e9;font-size:.72rem;font-weight:800;letter-spacing:.14em}.macca-store-intro h1{margin:0;color:#fff;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.045em}.macca-store-intro>p:last-child{max-width:820px;color:#a2adbb;line-height:1.6}
+@media(max-width:760px){.macca-store-header{flex-wrap:wrap;gap:13px;padding:13px 16px}.macca-store-header nav{order:3;width:100%;overflow:auto}.macca-store-header .store-search{width:auto;flex:1;min-width:130px}.macca-store-intro{margin-bottom:19px}}
