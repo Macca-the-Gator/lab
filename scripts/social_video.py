@@ -101,29 +101,18 @@ def _r2_client():
 def main() -> None:
     ig_queue = _read(Path(os.environ.get("INSTAGRAM_QUEUE_FILE", ROOT / "blog" / "instagram-queue.json")), [])
     yt_queue = _read(Path(os.environ.get("YOUTUBE_QUEUE_FILE", ROOT / "blog" / "youtube-queue.json")), [])
-    ig_published = _read(ROOT / "blog" / "instagram-published.json", {})
-    yt_published = _read(ROOT / "blog" / "youtube-published.json", [])
-    ig_limit = max(1, min(8, int(os.environ.get("INSTAGRAM_DAILY_LIMIT", "4"))))
-    yt_limit = max(1, min(8, int(os.environ.get("YOUTUBE_DAILY_LIMIT", "4"))))
-    ig_spacing = max(1, min(12, int(os.environ.get("INSTAGRAM_MIN_SPACING_HOURS", "4"))))
-    yt_spacing = max(1, min(12, int(os.environ.get("YOUTUBE_MIN_SPACING_HOURS", "4"))))
-    ig_slots = max(0, ig_limit - _published_last_24h(ig_published, exclude_content_type="rockstar-media"))
-    yt_slots = max(0, yt_limit - _published_last_24h(yt_published, exclude_content_type="rockstar-media"))
-    ig_age = _hours_since_latest(ig_published)
-    yt_age = _hours_since_latest(yt_published)
-    if ig_age is not None and ig_age < ig_spacing:
-        ig_slots = 0
-    if yt_age is not None and yt_age < yt_spacing:
-        yt_slots = 0
-    ig_queue = _ranked(ig_queue)[:1 if ig_slots else 0]
-    yt_queue = _ranked(yt_queue)[:1 if yt_slots else 0]
+    # The hourly workflow itself is the pacing mechanism: at most one queued
+    # article is rendered per platform on each run. There is no local daily cap
+    # or multi-hour spacing guard.
+    ig_queue = _ranked(ig_queue)[:1]
+    yt_queue = _ranked(yt_queue)[:1]
     if os.environ.get("INSTAGRAM_RETRY_ONLY_FIRST") == "true":
         ig_queue = ig_queue[:1]
         yt_queue = []
         print("Instagram-only retry enabled; rendering only the highest-priority pending Instagram item.")
     posts = _read(ROOT / "blog" / "posts.json", [])
     slugs = list(dict.fromkeys(item.get("slug") for item in [*ig_queue, *yt_queue] if item.get("slug")))
-    print(f"Social render budget: {len(ig_queue)} Instagram and {len(yt_queue)} YouTube item(s) selected; pacing {ig_spacing}h/{yt_spacing}h, daily caps {ig_limit}/{yt_limit}.")
+    print(f"Social render budget: {len(ig_queue)} Instagram and {len(yt_queue)} YouTube item(s) selected; no local daily cap or spacing guard.")
     by_slug = {item.get("slug"): item for item in posts}
     VIDEO_DIR.mkdir(parents=True, exist_ok=True)
     manifest = {"schemaVersion": 1, "videos": {}}
