@@ -23,6 +23,7 @@ const saveJson = async (file, value) => { await fs.mkdir(path.dirname(file), {re
 function recentPublishedCount(published) {
   const cutoff = Date.now() - 24 * 60 * 60 * 1000;
   return Object.values(published || {}).filter(item => {
+    if (item?.contentType === 'rockstar-media') return false;
     const stamp = Date.parse(item?.publishedAt || '');
     return Number.isFinite(stamp) && stamp >= cutoff;
   }).length;
