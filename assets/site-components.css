@@ -120,9 +120,9 @@ a[href="/study/"],a[href="/play/"]{display:none!important}
 
 /* Partner marks are the primary artwork and fill the banner's full-height art panel. */
 .content-unit .sponsor-art{width:min(42%,320px);}
-.content-unit .sponsor-art .sponsor-logo-badge{position:absolute;z-index:5;inset:.45rem .5rem;display:flex;width:auto;min-width:0;max-width:none;height:auto;align-items:center;justify-content:center;padding:.5rem;border:1px solid #ffffffd9;border-radius:9px;background:#fff;box-shadow:0 5px 18px #0006;}
-.content-unit .sponsor-art img.sponsor-logo-image{position:relative;z-index:1;display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;object-position:center;filter:none;}
+.content-unit .sponsor-art .sponsor-logo-badge{position:absolute;z-index:5;inset:.2rem .35rem;display:flex;width:auto;min-width:0;max-width:none;height:auto;align-items:center;justify-content:center;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;}
+.content-unit .sponsor-art img.sponsor-logo-image{position:relative;z-index:1;display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;filter:drop-shadow(0 0 9px color-mix(in srgb,var(--store-accent,#63d5e7) 65%,transparent));}
 .content-unit .sponsor-art>img:not(.sponsor-logo-image){z-index:0;opacity:.18;}
 .content-unit .sponsor-copy{max-width:58%;}
 .content-unit .sponsor-copy .sponsor-inline-logo{display:none;}
-@media(max-width:620px){.content-unit .sponsor-art{right:-.1rem;width:42%;opacity:1}.content-unit .sponsor-art .sponsor-logo-badge{inset:.35rem .3rem;padding:.3rem}}
+@media(max-width:620px){.content-unit .sponsor-art{right:-.1rem;width:42%;opacity:1}.content-unit .sponsor-art .sponsor-logo-badge{inset:.2rem .25rem;padding:0}}
