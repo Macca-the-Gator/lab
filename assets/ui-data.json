@@ -1,0 +1,984 @@
+{
+  "slots": {
+    "feed-unit": [
+      {
+        "enabled": true,
+        "label": "AliExpress Affiliate",
+        "href": "https://rzekl.com/c/1e8d114494824bc5aa3116525dc3e8/",
+        "image": "/assets/creatives/visual-02.svg",
+        "alt": "Discover deals and everyday finds on AliExpress.",
+        "kicker": "ONLINE SHOPPING",
+        "headline": "AliExpress",
+        "description": "Discover deals and everyday finds.",
+        "theme": "aliexpress"
+      },
+      {
+        "enabled": true,
+        "label": "Alibaba.com Affiliate",
+        "href": "https://rzekl.com/c/pm1aev55cl824bc5aa31219aa26f6f/",
+        "image": "/assets/creatives/visual-01.svg",
+        "alt": "Explore products and suppliers worldwide on Alibaba.com.",
+        "kicker": "GLOBAL MARKETPLACE",
+        "headline": "Alibaba.com",
+        "description": "Discover products and suppliers worldwide.",
+        "theme": "alibaba"
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Blog",
+        "href": "https://pklavc.com/blog",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "PKLAVC technology and engineering blog: open-source projects, technical writing, and more.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC BLOG",
+        "description": "Technology, engineering, open-source projects, and more. Read the blog."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Store",
+        "href": "https://pklavc.com/store",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Visit the PKLAVC Store at pklavc.com/store.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC STORE 🛒",
+        "description": "Explore the PKLAVC Store. Visit pklavc.com/store."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Projects",
+        "href": "https://pklavc.com/projects/",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Explore open-source and other projects at pklavc.com/projects.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC PROJECTS </>",
+        "description": "Explore PKLAVC Projects"
+      },
+      {
+        "enabled": true,
+        "label": "REDMAGIC",
+        "href": "https://yyczo.com/c/qmttmvxh1u824bc5aa3156637026d8/",
+        "image": "/assets/creatives/visual-17.svg",
+        "alt": "REDMAGIC gaming phone illustration.",
+        "kicker": "GAMING GEAR",
+        "headline": "REDMAGIC",
+        "description": "Gaming phones and gear built for play.",
+        "theme": "redmagic"
+      },
+      {
+        "enabled": true,
+        "label": "iCases",
+        "href": "https://ypetp.com/c/wqd2fqy91h824bc5aa3158f5722f30/",
+        "image": "/assets/creatives/visual-10.svg",
+        "alt": "iCases protective phone case illustration.",
+        "kicker": "PHONE CASES & ACCESSORIES",
+        "headline": "iCases",
+        "description": "Cases and accessories for your devices.",
+        "theme": "icases"
+      },
+      {
+        "enabled": true,
+        "label": "ChicMe",
+        "href": "https://rzekl.com/c/gf807z8tar824bc5aa31312b8f391a/",
+        "image": "/assets/creatives/visual-03.svg",
+        "alt": "CHICME fashion dress illustration.",
+        "kicker": "FASHION & STYLE",
+        "headline": "CHICME",
+        "description": "Discover new looks and styles.",
+        "theme": "chicme"
+      },
+      {
+        "enabled": true,
+        "label": "hidemy.name VPN",
+        "href": "https://codeaven.com/c/d6ig17yj38824bc5aa31cfba9fca8a/",
+        "image": "/assets/creatives/visual-07.svg",
+        "alt": "hidemy.name VPN shield illustration.",
+        "kicker": "PRIVACY ONLINE",
+        "headline": "hidemy.name VPN",
+        "description": "Secure your connection with a VPN.",
+        "theme": "hidemyname"
+      },
+      {
+        "enabled": true,
+        "label": "Vagamo",
+        "href": "https://rthsu.com/c/0lyhuakd0e824bc5aa316ac117ee14/",
+        "image": "/assets/creatives/visual-27.svg",
+        "alt": "Vagamo shopping collection illustration.",
+        "kicker": "FIND YOUR STYLE",
+        "headline": "Vagamo",
+        "description": "Discover the latest collection.",
+        "theme": "vagamo"
+      },
+      {
+        "label": "Ticombo",
+        "href": "https://zmgig.com/c/hn23xca4o8824bc5aa31bcf92d8d7a/",
+        "image": "/assets/creatives/visual-23.svg",
+        "alt": "Ticombo event ticket illustration.",
+        "kicker": "GLOBAL EVENT TICKETS",
+        "headline": "Ticombo",
+        "description": "Find tickets for events around the world.",
+        "theme": "ticombo",
+        "enabled": true
+      },
+      {
+        "label": "Geekbuying",
+        "href": "https://bywiola.com/c/78tuvzaw8k824bc5aa310267b86f6e/",
+        "image": "/assets/creatives/visual-04.svg",
+        "alt": "Geekbuying electronics illustration.",
+        "kicker": "TECH & GADGETS",
+        "headline": "Geekbuying",
+        "description": "Explore gadgets and electronics.",
+        "theme": "geekbuying",
+        "enabled": true
+      },
+      {
+        "label": "Notta AI",
+        "href": "https://ypetp.com/c/7gbdp8tygu824bc5aa31f50bb56640/",
+        "image": "/assets/creatives/visual-14.svg",
+        "alt": "Notta AI audio transcription illustration.",
+        "kicker": "AI MEETING NOTES",
+        "headline": "Notta AI",
+        "description": "Turn conversations into searchable notes.",
+        "theme": "notta",
+        "enabled": true
+      },
+      {
+        "label": "Square",
+        "href": "https://rcpsj.com/c/xmbwxznk57824bc5aa31c1c4731730/",
+        "image": "/assets/creatives/visual-20.svg",
+        "alt": "Square payment terminal illustration.",
+        "kicker": "TOOLS FOR BUSINESS",
+        "headline": "Square",
+        "description": "Payment and point-of-sale tools for business.",
+        "theme": "square",
+        "enabled": true
+      },
+      {
+        "label": "Repjegy.hu",
+        "href": "https://zallj.com/c/o5xydq5rnp824bc5aa313fe229b7dc/",
+        "image": "/assets/creatives/visual-18.svg",
+        "alt": "Repjegy.hu flight travel illustration.",
+        "kicker": "FLIGHT SEARCH",
+        "headline": "Repjegy.hu",
+        "description": "Find flights for your next trip.",
+        "theme": "repjegy",
+        "enabled": true
+      },
+      {
+        "label": "Italo Jewelry",
+        "href": "https://ad.admitad.com/c/l926tcw2sm824bc5aa3187e51e1a66/",
+        "image": "/assets/creatives/visual-11.svg",
+        "alt": "Italo Jewelry gemstone ring illustration.",
+        "kicker": "JEWELRY COLLECTIONS",
+        "headline": "Italo Jewelry",
+        "description": "Explore rings, necklaces and more.",
+        "theme": "italojewelry",
+        "enabled": true
+      },
+      {
+        "label": "SUNSKY",
+        "href": "https://dorinebeaumont.com/c/7npkd4cs1i824bc5aa31869a299fda/",
+        "image": "/assets/creatives/visual-22.svg",
+        "alt": "SUNSKY online shopping parcel illustration.",
+        "kicker": "ONLINE WHOLESALE",
+        "headline": "SUNSKY",
+        "description": "Explore electronics and accessories.",
+        "theme": "sunsky",
+        "enabled": true
+      },
+      {
+        "label": "Samsonite",
+        "href": "https://xmknb.com/c/cj6zaw6m9p824bc5aa31a68f2598b9/",
+        "image": "/assets/creatives/visual-19.svg",
+        "alt": "Samsonite travel suitcase illustration.",
+        "kicker": "READY FOR THE JOURNEY",
+        "headline": "Samsonite",
+        "description": "Discover luggage for your next trip.",
+        "theme": "samsonite",
+        "enabled": true
+      },
+      {
+        "label": "TTGO E-bike",
+        "href": "https://dkfrh.com/c/nz4081dh12824bc5aa31d0a9902774/",
+        "image": "/assets/creatives/visual-25.svg",
+        "alt": "TTGO electric bicycle illustration.",
+        "kicker": "ELECTRIC BIKES",
+        "headline": "TTGO E-bike",
+        "description": "Explore electric bikes for city and trail.",
+        "theme": "ttgo",
+        "enabled": true
+      },
+      {
+        "label": "Govee",
+        "href": "https://rthsu.com/c/yzzx0gmxy0824bc5aa313791d3d079/",
+        "image": "/assets/creatives/visual-05.svg",
+        "alt": "Govee smart lighting illustration.",
+        "kicker": "SMART LIGHTING",
+        "headline": "Govee",
+        "description": "Bring color and smart lighting home.",
+        "theme": "govee",
+        "enabled": true
+      },
+      {
+        "label": "Nubia",
+        "href": "https://ziejy.com/c/lh3bbik9ly824bc5aa31e62ca5e32f/",
+        "image": "/assets/creatives/visual-15.svg",
+        "alt": "Nubia smartphone illustration.",
+        "kicker": "SMARTPHONES & TECH",
+        "headline": "Nubia",
+        "description": "Explore Nubia phones and technology.",
+        "theme": "nubia",
+        "enabled": true
+      },
+      {
+        "label": "Travelking PL & HU",
+        "href": "https://vxrlm.com/c/dquwu4q32h824bc5aa317eaf385c59/",
+        "image": "/assets/creatives/visual-24.svg",
+        "alt": "Travelking hotel getaway illustration.",
+        "kicker": "TRAVEL GETAWAYS",
+        "headline": "Travelking",
+        "description": "Discover stays and trips in Poland and Hungary.",
+        "theme": "travelking",
+        "enabled": true
+      },
+      {
+        "label": "Homestyler",
+        "href": "https://cafxq.com/c/swlngq9rrz824bc5aa3128a65238d7/",
+        "image": "/assets/creatives/visual-08.svg",
+        "alt": "Homestyler interior design illustration.",
+        "kicker": "DESIGN YOUR SPACE",
+        "headline": "Homestyler",
+        "description": "Explore ideas for your next room design.",
+        "theme": "homestyler",
+        "enabled": true
+      },
+      {
+        "label": "TurboVPN",
+        "href": "https://grfpr.com/c/exe221unkp824bc5aa31ddf84d4c0b/",
+        "image": "/assets/creatives/visual-26.svg",
+        "alt": "TurboVPN secure connection shield illustration.",
+        "kicker": "VPN CONNECTION",
+        "headline": "TurboVPN",
+        "description": "Explore VPN apps for your devices.",
+        "theme": "turbovpn",
+        "enabled": true
+      },
+      {
+        "label": "Hyper Host",
+        "href": "https://rcpsj.com/c/4y24lnxl7f824bc5aa317f67b8171e/",
+        "image": "/assets/creatives/visual-09.svg",
+        "alt": "Hyper Host server and cloud illustration.",
+        "kicker": "WEB HOSTING",
+        "headline": "Hyper Host",
+        "description": "Hosting for websites and projects.",
+        "theme": "hyperhost",
+        "enabled": true
+      },
+      {
+        "label": "Gshopper",
+        "href": "https://bywiola.com/c/nx2yncwth6824bc5aa31d497214fca/",
+        "image": "/assets/creatives/visual-06.svg",
+        "alt": "Gshopper online shopping bag illustration.",
+        "kicker": "GLOBAL SHOPPING",
+        "headline": "Gshopper",
+        "description": "Discover products from around the world.",
+        "theme": "gshopper",
+        "enabled": true
+      },
+      {
+        "label": "Stylewe",
+        "href": "https://codeaven.com/c/r9ybpohdxo824bc5aa31806f4427c0/",
+        "image": "/assets/creatives/visual-21.svg",
+        "alt": "Stylewe fashion illustration.",
+        "kicker": "FASHION & STYLE",
+        "headline": "Stylewe",
+        "description": "Find new looks for your wardrobe.",
+        "theme": "stylewe",
+        "enabled": true
+      },
+      {
+        "label": "Noracora",
+        "href": "https://qwpeg.com/c/of8pqgktr2824bc5aa31c8dbeb8f0d/",
+        "image": "/assets/creatives/visual-13.svg",
+        "alt": "Noracora fashion collection illustration.",
+        "kicker": "NEW COLLECTION",
+        "headline": "Noracora",
+        "description": "Discover styles for everyday wear.",
+        "theme": "noracora",
+        "enabled": true
+      },
+      {
+        "label": "Justfashionnow",
+        "href": "https://rzekl.com/c/kmcoj56juv824bc5aa31608cdf386b/",
+        "image": "/assets/creatives/visual-12.svg",
+        "alt": "Justfashionnow fashion dress illustration.",
+        "kicker": "FASHION FINDS",
+        "headline": "Justfashionnow",
+        "description": "Explore new fashion and accessories.",
+        "theme": "justfashionnow",
+        "enabled": true
+      }
+    ],
+    "article-unit": [
+      {
+        "enabled": true,
+        "label": "PKLAVC Blog",
+        "href": "https://pklavc.com/blog",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "PKLAVC technology and engineering blog: open-source projects, technical writing, and more.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC BLOG",
+        "description": "Technology, engineering, open-source projects, and more. Read the blog."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Store",
+        "href": "https://pklavc.com/store",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Visit the PKLAVC Store at pklavc.com/store.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC STORE 🛒",
+        "description": "Explore the PKLAVC Store. Visit pklavc.com/store."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Projects",
+        "href": "https://pklavc.com/projects/",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Explore open-source and other projects at pklavc.com/projects.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC PROJECTS </>",
+        "description": "Explore PKLAVC Projects"
+      }
+    ],
+    "sidebar": [
+      {
+        "enabled": true,
+        "label": "PKLAVC Blog",
+        "href": "https://pklavc.com/blog",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "PKLAVC technology and engineering blog: open-source projects, technical writing, and more.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC BLOG",
+        "description": "Technology, engineering, open-source projects, and more. Read the blog."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Store",
+        "href": "https://pklavc.com/store",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Visit the PKLAVC Store at pklavc.com/store.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC STORE 🛒",
+        "description": "Explore the PKLAVC Store. Visit pklavc.com/store."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Projects",
+        "href": "https://pklavc.com/projects/",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Explore open-source and other projects at pklavc.com/projects.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC PROJECTS </>",
+        "description": "Explore PKLAVC Projects"
+      }
+    ],
+    "side-owner": [
+      {
+        "enabled": true,
+        "label": "PKLAVC Blog",
+        "href": "https://pklavc.com/blog",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "PKLAVC technology and engineering blog: open-source projects, technical writing, and more.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC BLOG",
+        "description": "Technology, engineering, open-source projects, and more. Read the blog."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Store",
+        "href": "https://pklavc.com/store",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Visit the PKLAVC Store at pklavc.com/store.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC STORE 🛒",
+        "description": "Explore the PKLAVC Store. Visit pklavc.com/store."
+      },
+      {
+        "enabled": true,
+        "label": "PKLAVC Projects",
+        "href": "https://pklavc.com/projects/",
+        "image": "/assets/creatives/visual-16.webp",
+        "alt": "Explore open-source and other projects at pklavc.com/projects.",
+        "kicker": "MACCA BLOG PRESENTS",
+        "headline": "PKLAVC PROJECTS </>",
+        "description": "Explore PKLAVC Projects"
+      }
+    ],
+    "side-rotating": [
+      {
+        "enabled": true,
+        "label": "AliExpress Affiliate",
+        "href": "https://rzekl.com/c/1e8d114494824bc5aa3116525dc3e8/",
+        "image": "/assets/creatives/visual-02.svg",
+        "alt": "Discover deals and everyday finds on AliExpress.",
+        "kicker": "ONLINE SHOPPING",
+        "headline": "AliExpress",
+        "description": "Discover deals and everyday finds.",
+        "theme": "aliexpress"
+      },
+      {
+        "enabled": true,
+        "label": "Alibaba.com Affiliate",
+        "href": "https://rzekl.com/c/pm1aev55cl824bc5aa31219aa26f6f/",
+        "image": "/assets/creatives/visual-01.svg",
+        "alt": "Explore products and suppliers worldwide on Alibaba.com.",
+        "kicker": "GLOBAL MARKETPLACE",
+        "headline": "Alibaba.com",
+        "description": "Discover products and suppliers worldwide.",
+        "theme": "alibaba"
+      },
+      {
+        "label": "REDMAGIC",
+        "href": "https://yyczo.com/c/qmttmvxh1u824bc5aa3156637026d8/",
+        "image": "/assets/creatives/visual-17.svg",
+        "alt": "REDMAGIC gaming phone illustration.",
+        "kicker": "GAMING GEAR",
+        "headline": "REDMAGIC",
+        "description": "Gaming phones and gear built for play.",
+        "theme": "redmagic"
+      },
+      {
+        "label": "iCases",
+        "href": "https://ypetp.com/c/wqd2fqy91h824bc5aa3158f5722f30/",
+        "image": "/assets/creatives/visual-10.svg",
+        "alt": "iCases protective phone case illustration.",
+        "kicker": "PHONE CASES & ACCESSORIES",
+        "headline": "iCases",
+        "description": "Cases and accessories for your devices.",
+        "theme": "icases"
+      },
+      {
+        "label": "ChicMe",
+        "href": "https://rzekl.com/c/gf807z8tar824bc5aa31312b8f391a/",
+        "image": "/assets/creatives/visual-03.svg",
+        "alt": "CHICME fashion dress illustration.",
+        "kicker": "FASHION & STYLE",
+        "headline": "CHICME",
+        "description": "Discover new looks and styles.",
+        "theme": "chicme"
+      },
+      {
+        "label": "hidemy.name VPN",
+        "href": "https://codeaven.com/c/d6ig17yj38824bc5aa31cfba9fca8a/",
+        "image": "/assets/creatives/visual-07.svg",
+        "alt": "hidemy.name VPN shield illustration.",
+        "kicker": "PRIVACY ONLINE",
+        "headline": "hidemy.name VPN",
+        "description": "Secure your connection with a VPN.",
+        "theme": "hidemyname"
+      },
+      {
+        "label": "Vagamo",
+        "href": "https://rthsu.com/c/0lyhuakd0e824bc5aa316ac117ee14/",
+        "image": "/assets/creatives/visual-27.svg",
+        "alt": "Vagamo shopping collection illustration.",
+        "kicker": "FIND YOUR STYLE",
+        "headline": "Vagamo",
+        "description": "Discover the latest collection.",
+        "theme": "vagamo"
+      },
+      {
+        "label": "Ticombo",
+        "href": "https://zmgig.com/c/hn23xca4o8824bc5aa31bcf92d8d7a/",
+        "image": "/assets/creatives/visual-23.svg",
+        "alt": "Ticombo event ticket illustration.",
+        "kicker": "GLOBAL EVENT TICKETS",
+        "headline": "Ticombo",
+        "description": "Find tickets for events around the world.",
+        "theme": "ticombo",
+        "enabled": true
+      },
+      {
+        "label": "Geekbuying",
+        "href": "https://bywiola.com/c/78tuvzaw8k824bc5aa310267b86f6e/",
+        "image": "/assets/creatives/visual-04.svg",
+        "alt": "Geekbuying electronics illustration.",
+        "kicker": "TECH & GADGETS",
+        "headline": "Geekbuying",
+        "description": "Explore gadgets and electronics.",
+        "theme": "geekbuying",
+        "enabled": true
+      },
+      {
+        "label": "Notta AI",
+        "href": "https://ypetp.com/c/7gbdp8tygu824bc5aa31f50bb56640/",
+        "image": "/assets/creatives/visual-14.svg",
+        "alt": "Notta AI audio transcription illustration.",
+        "kicker": "AI MEETING NOTES",
+        "headline": "Notta AI",
+        "description": "Turn conversations into searchable notes.",
+        "theme": "notta",
+        "enabled": true
+      },
+      {
+        "label": "Square",
+        "href": "https://rcpsj.com/c/xmbwxznk57824bc5aa31c1c4731730/",
+        "image": "/assets/creatives/visual-20.svg",
+        "alt": "Square payment terminal illustration.",
+        "kicker": "TOOLS FOR BUSINESS",
+        "headline": "Square",
+        "description": "Payment and point-of-sale tools for business.",
+        "theme": "square",
+        "enabled": true
+      },
+      {
+        "label": "Repjegy.hu",
+        "href": "https://zallj.com/c/o5xydq5rnp824bc5aa313fe229b7dc/",
+        "image": "/assets/creatives/visual-18.svg",
+        "alt": "Repjegy.hu flight travel illustration.",
+        "kicker": "FLIGHT SEARCH",
+        "headline": "Repjegy.hu",
+        "description": "Find flights for your next trip.",
+        "theme": "repjegy",
+        "enabled": true
+      },
+      {
+        "label": "Italo Jewelry",
+        "href": "https://ad.admitad.com/c/l926tcw2sm824bc5aa3187e51e1a66/",
+        "image": "/assets/creatives/visual-11.svg",
+        "alt": "Italo Jewelry gemstone ring illustration.",
+        "kicker": "JEWELRY COLLECTIONS",
+        "headline": "Italo Jewelry",
+        "description": "Explore rings, necklaces and more.",
+        "theme": "italojewelry",
+        "enabled": true
+      },
+      {
+        "label": "SUNSKY",
+        "href": "https://dorinebeaumont.com/c/7npkd4cs1i824bc5aa31869a299fda/",
+        "image": "/assets/creatives/visual-22.svg",
+        "alt": "SUNSKY online shopping parcel illustration.",
+        "kicker": "ONLINE WHOLESALE",
+        "headline": "SUNSKY",
+        "description": "Explore electronics and accessories.",
+        "theme": "sunsky",
+        "enabled": true
+      },
+      {
+        "label": "Samsonite",
+        "href": "https://xmknb.com/c/cj6zaw6m9p824bc5aa31a68f2598b9/",
+        "image": "/assets/creatives/visual-19.svg",
+        "alt": "Samsonite travel suitcase illustration.",
+        "kicker": "READY FOR THE JOURNEY",
+        "headline": "Samsonite",
+        "description": "Discover luggage for your next trip.",
+        "theme": "samsonite",
+        "enabled": true
+      },
+      {
+        "label": "TTGO E-bike",
+        "href": "https://dkfrh.com/c/nz4081dh12824bc5aa31d0a9902774/",
+        "image": "/assets/creatives/visual-25.svg",
+        "alt": "TTGO electric bicycle illustration.",
+        "kicker": "ELECTRIC BIKES",
+        "headline": "TTGO E-bike",
+        "description": "Explore electric bikes for city and trail.",
+        "theme": "ttgo",
+        "enabled": true
+      },
+      {
+        "label": "Govee",
+        "href": "https://rthsu.com/c/yzzx0gmxy0824bc5aa313791d3d079/",
+        "image": "/assets/creatives/visual-05.svg",
+        "alt": "Govee smart lighting illustration.",
+        "kicker": "SMART LIGHTING",
+        "headline": "Govee",
+        "description": "Bring color and smart lighting home.",
+        "theme": "govee",
+        "enabled": true
+      },
+      {
+        "label": "Nubia",
+        "href": "https://ziejy.com/c/lh3bbik9ly824bc5aa31e62ca5e32f/",
+        "image": "/assets/creatives/visual-15.svg",
+        "alt": "Nubia smartphone illustration.",
+        "kicker": "SMARTPHONES & TECH",
+        "headline": "Nubia",
+        "description": "Explore Nubia phones and technology.",
+        "theme": "nubia",
+        "enabled": true
+      },
+      {
+        "label": "Travelking PL & HU",
+        "href": "https://vxrlm.com/c/dquwu4q32h824bc5aa317eaf385c59/",
+        "image": "/assets/creatives/visual-24.svg",
+        "alt": "Travelking hotel getaway illustration.",
+        "kicker": "TRAVEL GETAWAYS",
+        "headline": "Travelking",
+        "description": "Discover stays and trips in Poland and Hungary.",
+        "theme": "travelking",
+        "enabled": true
+      },
+      {
+        "label": "Homestyler",
+        "href": "https://cafxq.com/c/swlngq9rrz824bc5aa3128a65238d7/",
+        "image": "/assets/creatives/visual-08.svg",
+        "alt": "Homestyler interior design illustration.",
+        "kicker": "DESIGN YOUR SPACE",
+        "headline": "Homestyler",
+        "description": "Explore ideas for your next room design.",
+        "theme": "homestyler",
+        "enabled": true
+      },
+      {
+        "label": "TurboVPN",
+        "href": "https://grfpr.com/c/exe221unkp824bc5aa31ddf84d4c0b/",
+        "image": "/assets/creatives/visual-26.svg",
+        "alt": "TurboVPN secure connection shield illustration.",
+        "kicker": "VPN CONNECTION",
+        "headline": "TurboVPN",
+        "description": "Explore VPN apps for your devices.",
+        "theme": "turbovpn",
+        "enabled": true
+      },
+      {
+        "label": "Hyper Host",
+        "href": "https://rcpsj.com/c/4y24lnxl7f824bc5aa317f67b8171e/",
+        "image": "/assets/creatives/visual-09.svg",
+        "alt": "Hyper Host server and cloud illustration.",
+        "kicker": "WEB HOSTING",
+        "headline": "Hyper Host",
+        "description": "Hosting for websites and projects.",
+        "theme": "hyperhost",
+        "enabled": true
+      },
+      {
+        "label": "Gshopper",
+        "href": "https://bywiola.com/c/nx2yncwth6824bc5aa31d497214fca/",
+        "image": "/assets/creatives/visual-06.svg",
+        "alt": "Gshopper online shopping bag illustration.",
+        "kicker": "GLOBAL SHOPPING",
+        "headline": "Gshopper",
+        "description": "Discover products from around the world.",
+        "theme": "gshopper",
+        "enabled": true
+      },
+      {
+        "label": "Stylewe",
+        "href": "https://codeaven.com/c/r9ybpohdxo824bc5aa31806f4427c0/",
+        "image": "/assets/creatives/visual-21.svg",
+        "alt": "Stylewe fashion illustration.",
+        "kicker": "FASHION & STYLE",
+        "headline": "Stylewe",
+        "description": "Find new looks for your wardrobe.",
+        "theme": "stylewe",
+        "enabled": true
+      },
+      {
+        "label": "Noracora",
+        "href": "https://qwpeg.com/c/of8pqgktr2824bc5aa31c8dbeb8f0d/",
+        "image": "/assets/creatives/visual-13.svg",
+        "alt": "Noracora fashion collection illustration.",
+        "kicker": "NEW COLLECTION",
+        "headline": "Noracora",
+        "description": "Discover styles for everyday wear.",
+        "theme": "noracora",
+        "enabled": true
+      },
+      {
+        "label": "Justfashionnow",
+        "href": "https://rzekl.com/c/kmcoj56juv824bc5aa31608cdf386b/",
+        "image": "/assets/creatives/visual-12.svg",
+        "alt": "Justfashionnow fashion dress illustration.",
+        "kicker": "FASHION FINDS",
+        "headline": "Justfashionnow",
+        "description": "Explore new fashion and accessories.",
+        "theme": "justfashionnow",
+        "enabled": true
+      }
+    ],
+    "dock-item": [
+      {
+        "enabled": true,
+        "label": "AliExpress Affiliate",
+        "href": "https://rzekl.com/c/1e8d114494824bc5aa3116525dc3e8/",
+        "image": "/assets/creatives/visual-02.svg",
+        "alt": "Discover deals and everyday finds on AliExpress.",
+        "kicker": "ONLINE SHOPPING",
+        "headline": "AliExpress",
+        "description": "Discover deals and everyday finds.",
+        "theme": "aliexpress"
+      },
+      {
+        "enabled": true,
+        "label": "Alibaba.com Affiliate",
+        "href": "https://rzekl.com/c/pm1aev55cl824bc5aa31219aa26f6f/",
+        "image": "/assets/creatives/visual-01.svg",
+        "alt": "Explore products and suppliers worldwide on Alibaba.com.",
+        "kicker": "GLOBAL MARKETPLACE",
+        "headline": "Alibaba.com",
+        "description": "Discover products and suppliers worldwide.",
+        "theme": "alibaba"
+      },
+      {
+        "label": "REDMAGIC",
+        "href": "https://yyczo.com/c/qmttmvxh1u824bc5aa3156637026d8/",
+        "image": "/assets/creatives/visual-17.svg",
+        "alt": "REDMAGIC gaming phone illustration.",
+        "kicker": "GAMING GEAR",
+        "headline": "REDMAGIC",
+        "description": "Gaming phones and gear built for play.",
+        "theme": "redmagic"
+      },
+      {
+        "label": "iCases",
+        "href": "https://ypetp.com/c/wqd2fqy91h824bc5aa3158f5722f30/",
+        "image": "/assets/creatives/visual-10.svg",
+        "alt": "iCases protective phone case illustration.",
+        "kicker": "PHONE CASES & ACCESSORIES",
+        "headline": "iCases",
+        "description": "Cases and accessories for your devices.",
+        "theme": "icases"
+      },
+      {
+        "label": "ChicMe",
+        "href": "https://rzekl.com/c/gf807z8tar824bc5aa31312b8f391a/",
+        "image": "/assets/creatives/visual-03.svg",
+        "alt": "CHICME fashion dress illustration.",
+        "kicker": "FASHION & STYLE",
+        "headline": "CHICME",
+        "description": "Discover new looks and styles.",
+        "theme": "chicme"
+      },
+      {
+        "label": "hidemy.name VPN",
+        "href": "https://codeaven.com/c/d6ig17yj38824bc5aa31cfba9fca8a/",
+        "image": "/assets/creatives/visual-07.svg",
+        "alt": "hidemy.name VPN shield illustration.",
+        "kicker": "PRIVACY ONLINE",
+        "headline": "hidemy.name VPN",
+        "description": "Secure your connection with a VPN.",
+        "theme": "hidemyname"
+      },
+      {
+        "label": "Vagamo",
+        "href": "https://rthsu.com/c/0lyhuakd0e824bc5aa316ac117ee14/",
+        "image": "/assets/creatives/visual-27.svg",
+        "alt": "Vagamo shopping collection illustration.",
+        "kicker": "FIND YOUR STYLE",
+        "headline": "Vagamo",
+        "description": "Discover the latest collection.",
+        "theme": "vagamo"
+      },
+      {
+        "label": "Ticombo",
+        "href": "https://zmgig.com/c/hn23xca4o8824bc5aa31bcf92d8d7a/",
+        "image": "/assets/creatives/visual-23.svg",
+        "alt": "Ticombo event ticket illustration.",
+        "kicker": "GLOBAL EVENT TICKETS",
+        "headline": "Ticombo",
+        "description": "Find tickets for events around the world.",
+        "theme": "ticombo",
+        "enabled": true
+      },
+      {
+        "label": "Geekbuying",
+        "href": "https://bywiola.com/c/78tuvzaw8k824bc5aa310267b86f6e/",
+        "image": "/assets/creatives/visual-04.svg",
+        "alt": "Geekbuying electronics illustration.",
+        "kicker": "TECH & GADGETS",
+        "headline": "Geekbuying",
+        "description": "Explore gadgets and electronics.",
+        "theme": "geekbuying",
+        "enabled": true
+      },
+      {
+        "label": "Notta AI",
+        "href": "https://ypetp.com/c/7gbdp8tygu824bc5aa31f50bb56640/",
+        "image": "/assets/creatives/visual-14.svg",
+        "alt": "Notta AI audio transcription illustration.",
+        "kicker": "AI MEETING NOTES",
+        "headline": "Notta AI",
+        "description": "Turn conversations into searchable notes.",
+        "theme": "notta",
+        "enabled": true
+      },
+      {
+        "label": "Square",
+        "href": "https://rcpsj.com/c/xmbwxznk57824bc5aa31c1c4731730/",
+        "image": "/assets/creatives/visual-20.svg",
+        "alt": "Square payment terminal illustration.",
+        "kicker": "TOOLS FOR BUSINESS",
+        "headline": "Square",
+        "description": "Payment and point-of-sale tools for business.",
+        "theme": "square",
+        "enabled": true
+      },
+      {
+        "label": "Repjegy.hu",
+        "href": "https://zallj.com/c/o5xydq5rnp824bc5aa313fe229b7dc/",
+        "image": "/assets/creatives/visual-18.svg",
+        "alt": "Repjegy.hu flight travel illustration.",
+        "kicker": "FLIGHT SEARCH",
+        "headline": "Repjegy.hu",
+        "description": "Find flights for your next trip.",
+        "theme": "repjegy",
+        "enabled": true
+      },
+      {
+        "label": "Italo Jewelry",
+        "href": "https://ad.admitad.com/c/l926tcw2sm824bc5aa3187e51e1a66/",
+        "image": "/assets/creatives/visual-11.svg",
+        "alt": "Italo Jewelry gemstone ring illustration.",
+        "kicker": "JEWELRY COLLECTIONS",
+        "headline": "Italo Jewelry",
+        "description": "Explore rings, necklaces and more.",
+        "theme": "italojewelry",
+        "enabled": true
+      },
+      {
+        "label": "SUNSKY",
+        "href": "https://dorinebeaumont.com/c/7npkd4cs1i824bc5aa31869a299fda/",
+        "image": "/assets/creatives/visual-22.svg",
+        "alt": "SUNSKY online shopping parcel illustration.",
+        "kicker": "ONLINE WHOLESALE",
+        "headline": "SUNSKY",
+        "description": "Explore electronics and accessories.",
+        "theme": "sunsky",
+        "enabled": true
+      },
+      {
+        "label": "Samsonite",
+        "href": "https://xmknb.com/c/cj6zaw6m9p824bc5aa31a68f2598b9/",
+        "image": "/assets/creatives/visual-19.svg",
+        "alt": "Samsonite travel suitcase illustration.",
+        "kicker": "READY FOR THE JOURNEY",
+        "headline": "Samsonite",
+        "description": "Discover luggage for your next trip.",
+        "theme": "samsonite",
+        "enabled": true
+      },
+      {
+        "label": "TTGO E-bike",
+        "href": "https://dkfrh.com/c/nz4081dh12824bc5aa31d0a9902774/",
+        "image": "/assets/creatives/visual-25.svg",
+        "alt": "TTGO electric bicycle illustration.",
+        "kicker": "ELECTRIC BIKES",
+        "headline": "TTGO E-bike",
+        "description": "Explore electric bikes for city and trail.",
+        "theme": "ttgo",
+        "enabled": true
+      },
+      {
+        "label": "Govee",
+        "href": "https://rthsu.com/c/yzzx0gmxy0824bc5aa313791d3d079/",
+        "image": "/assets/creatives/visual-05.svg",
+        "alt": "Govee smart lighting illustration.",
+        "kicker": "SMART LIGHTING",
+        "headline": "Govee",
+        "description": "Bring color and smart lighting home.",
+        "theme": "govee",
+        "enabled": true
+      },
+      {
+        "label": "Nubia",
+        "href": "https://ziejy.com/c/lh3bbik9ly824bc5aa31e62ca5e32f/",
+        "image": "/assets/creatives/visual-15.svg",
+        "alt": "Nubia smartphone illustration.",
+        "kicker": "SMARTPHONES & TECH",
+        "headline": "Nubia",
+        "description": "Explore Nubia phones and technology.",
+        "theme": "nubia",
+        "enabled": true
+      },
+      {
+        "label": "Travelking PL & HU",
+        "href": "https://vxrlm.com/c/dquwu4q32h824bc5aa317eaf385c59/",
+        "image": "/assets/creatives/visual-24.svg",
+        "alt": "Travelking hotel getaway illustration.",
+        "kicker": "TRAVEL GETAWAYS",
+        "headline": "Travelking",
+        "description": "Discover stays and trips in Poland and Hungary.",
+        "theme": "travelking",
+        "enabled": true
+      },
+      {
+        "label": "Homestyler",
+        "href": "https://cafxq.com/c/swlngq9rrz824bc5aa3128a65238d7/",
+        "image": "/assets/creatives/visual-08.svg",
+        "alt": "Homestyler interior design illustration.",
+        "kicker": "DESIGN YOUR SPACE",
+        "headline": "Homestyler",
+        "description": "Explore ideas for your next room design.",
+        "theme": "homestyler",
+        "enabled": true
+      },
+      {
+        "label": "TurboVPN",
+        "href": "https://grfpr.com/c/exe221unkp824bc5aa31ddf84d4c0b/",
+        "image": "/assets/creatives/visual-26.svg",
+        "alt": "TurboVPN secure connection shield illustration.",
+        "kicker": "VPN CONNECTION",
+        "headline": "TurboVPN",
+        "description": "Explore VPN apps for your devices.",
+        "theme": "turbovpn",
+        "enabled": true
+      },
+      {
+        "label": "Hyper Host",
+        "href": "https://rcpsj.com/c/4y24lnxl7f824bc5aa317f67b8171e/",
+        "image": "/assets/creatives/visual-09.svg",
+        "alt": "Hyper Host server and cloud illustration.",
+        "kicker": "WEB HOSTING",
+        "headline": "Hyper Host",
+        "description": "Hosting for websites and projects.",
+        "theme": "hyperhost",
+        "enabled": true
+      },
+      {
+        "label": "Gshopper",
+        "href": "https://bywiola.com/c/nx2yncwth6824bc5aa31d497214fca/",
+        "image": "/assets/creatives/visual-06.svg",
+        "alt": "Gshopper online shopping bag illustration.",
+        "kicker": "GLOBAL SHOPPING",
+        "headline": "Gshopper",
+        "description": "Discover products from around the world.",
+        "theme": "gshopper",
+        "enabled": true
+      },
+      {
+        "label": "Stylewe",
+        "href": "https://codeaven.com/c/r9ybpohdxo824bc5aa31806f4427c0/",
+        "image": "/assets/creatives/visual-21.svg",
+        "alt": "Stylewe fashion illustration.",
+        "kicker": "FASHION & STYLE",
+        "headline": "Stylewe",
+        "description": "Find new looks for your wardrobe.",
+        "theme": "stylewe",
+        "enabled": true
+      },
+      {
+        "label": "Noracora",
+        "href": "https://qwpeg.com/c/of8pqgktr2824bc5aa31c8dbeb8f0d/",
+        "image": "/assets/creatives/visual-13.svg",
+        "alt": "Noracora fashion collection illustration.",
+        "kicker": "NEW COLLECTION",
+        "headline": "Noracora",
+        "description": "Discover styles for everyday wear.",
+        "theme": "noracora",
+        "enabled": true
+      },
+      {
+        "label": "Justfashionnow",
+        "href": "https://rzekl.com/c/kmcoj56juv824bc5aa31608cdf386b/",
+        "image": "/assets/creatives/visual-12.svg",
+        "alt": "Justfashionnow fashion dress illustration.",
+        "kicker": "FASHION FINDS",
+        "headline": "Justfashionnow",
+        "description": "Explore new fashion and accessories.",
+        "theme": "justfashionnow",
+        "enabled": true
+      }
+    ]
+  }
+}
