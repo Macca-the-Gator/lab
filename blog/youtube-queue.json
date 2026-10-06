@@ -425,5 +425,58 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "red-dead-online-halloween-event-month-begins-october-6-and-runs",
+    "publicationKey": "red-dead-online-halloween-event-month-begins-october-6-and-runs",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/red-dead-online-halloween-event-month-begins-october-6-and-runs/",
+    "sourceUrl": "https://rockstarintel.com/red-dead-online-event-month-halloween-october-6th-november-2nd/",
+    "title": "Red Dead Online Halloween Event Month Begins October 6 and Runs Through November 2",
+    "description": "Rockstar announces a Halloween Event Month in Red Dead Online from Oct 6 to Nov 2, with themed rewards, discounts and the Halloween Pass 2.",
+    "youtubeTitle": "Red Dead Online Halloween Event Begins Oct 6 – Bonuses & Rewards",
+    "socialHook": "Red Dead Online's Halloween Event runs from October 6 to November 2 with new rewards and discounts.",
+    "sections": [
+      {
+        "heading": "Event Details",
+        "paragraphs": [
+          "The Halloween Event Month in Red Dead Online begins on October 6 and continues through November 2.",
+          "During this period players can enjoy special bonuses, rotating rewards, and discounts on various in‑game items."
+        ]
+      },
+      {
+        "heading": "Rewards & Outfit",
+        "paragraphs": [
+          "The Halloween Pass 2 returns, adding themed clothing items and other seasonal content.",
+          "A community‑created outfit designed by Criggz628 is also featured, showcasing custom items available to players."
+        ]
+      }
+    ],
+    "tags": [
+      "Rockstar Games",
+      "Red Dead Online",
+      "Halloween",
+      "Event",
+      "Bonuses"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2025/10/f4cdb5dbf1b3615cc8d4506a34e81174605d0ac0-scaled.jpg",
+    "thumbnailAlt": "Red Dead Online Event Month: Halloween (October 6th-November 2nd) - RockstarINTEL",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2025/10/f4cdb5dbf1b3615cc8d4506a34e81174605d0ac0-scaled.jpg",
+        "alt": "Red Dead Online Halloween Event Month screenshot",
+        "caption": "Red Dead Online Event Month: Halloween (October 6th-November 2nd)",
+        "sourceUrl": "https://rockstarintel.com/red-dead-online-event-month-halloween-october-6th-november-2nd/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Red Dead Online Event Month: Halloween (October 6th-November 2nd)",
+        "url": "https://rockstarintel.com/red-dead-online-event-month-halloween-october-6th-november-2nd/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 72,
+    "queuedAt": "2026-10-06T00:59:13.318Z"
   }
 ]
