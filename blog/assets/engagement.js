@@ -97,7 +97,7 @@
 
     var wrapper = document.createElement('article');
     wrapper.className = 'continuous-article';
-    wrapper.innerHTML = '<div class="continuous-divider"><span>CONTINUE READING</span></div>';
+    wrapper.innerHTML = '<div class="continuous-divider"><span>CONTINUE READING</span></div><div class="content-panel continuous-story-break" data-content-slot="story-break" aria-label="Partner content"></div>';
     wrapper.appendChild(fetched);
 
     observeUrl(wrapper, '/blog/' + encodeURIComponent(post.slug) + '/', post.title, post.description);
