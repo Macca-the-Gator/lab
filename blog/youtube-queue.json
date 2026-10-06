@@ -478,56 +478,5 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
-  },
-  {
-    "slug": "a-gta-6-mural-is-being-painted-in-new-york-city",
-    "publicationKey": "a-gta-6-mural-is-being-painted-in-new-york-city",
-    "forceRepublish": false,
-    "articleUrl": "https://macca-lab.onrender.com/blog/a-gta-6-mural-is-being-painted-in-new-york-city/",
-    "sourceUrl": "https://rockstarintel.com/a-gta-6-mural-is-being-painted-in-new-york-city/",
-    "title": "A GTA 6 Mural Is Being Painted In New York City",
-    "description": "Rockstar Games is painting an official GTA 6 promotional mural in Williamsburg, Brooklyn, featuring main characters Jason and Lucia. The artwork is expected to be completed shortly.",
-    "youtubeTitle": "GTA 6 Mural Painting in NYC - Rockstar INTEL Report",
-    "socialHook": "An official GTA 6 mural is currently being painted in New York City's Williamsburg neighborhood.",
-    "sections": [
-      {
-        "heading": "Mural Project Overview",
-        "paragraphs": [
-          "Rockstar Games is actively painting an official promotional mural for Grand Theft Auto VI in New York City. The artwork continues Rockstar's longstanding tradition of decorating large buildings with GTA-themed imagery to build hype ahead of the release."
-        ]
-      },
-      {
-        "heading": "Location and Design Details",
-        "paragraphs": [
-          "The mural is situated at the intersection of Wythe Avenue and North 11th Street in Williamsburg, Brooklyn. It prominently features the main characters Jason and Lucia from previous GTA titles, with the iconic GTA logo integrated into the design. The piece is still in its early stages and is slated for completion within the coming days."
-        ]
-      }
-    ],
-    "tags": [
-      "GTA 6",
-      "Rockstar Games",
-      "mural",
-      "New York City",
-      "promotional art"
-    ],
-    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/Jason_and_Lucia_08.webp",
-    "thumbnailAlt": "Preview of GTA 6 mural featuring Jason and Lucia characters in Williamsburg",
-    "inlineImages": [
-      {
-        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/Jason_and_Lucia_08.webp",
-        "alt": "GTA 6 mural concept with Jason and Lucia characters",
-        "caption": "Mural design preview for upcoming GTA 6 promotion",
-        "sourceUrl": "https://rockstarintel.com/a-gta-6-mural-is-being-painted-in-new-york-city/"
-      }
-    ],
-    "sources": [
-      {
-        "title": "A GTA 6 Mural Is Being Painted In New York City",
-        "url": "https://rockstarintel.com/a-gta-6-mural-is-being-painted-in-new-york-city/",
-        "publisher": "rockstarintel.com"
-      }
-    ],
-    "socialScore": 98,
-    "queuedAt": "2026-10-06T01:41:11.070Z"
   }
 ]
