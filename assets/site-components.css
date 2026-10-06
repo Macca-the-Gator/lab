@@ -107,3 +107,13 @@ body.has-fixed-content-dock .about-chat-widget{bottom:calc(var(--fixed-content-d
 .content-filter-notice button{flex:none;width:1.8rem;height:1.8rem;border:1px solid #ffffff44;border-radius:50%;background:#100d1b;color:#fff;font-size:1.1rem;cursor:pointer}
 /* Study and Play are root-only navigation entries. */
 a[href="/study/"],a[href="/play/"]{display:none!important}
+
+/* Local sponsor marks stay visible independently from each banner illustration. */
+.content-unit .sponsor-art>img:not(.sponsor-logo-image){height:76%;max-height:76%;}
+.sponsor-logo-badge{position:absolute;z-index:4;top:.55rem;right:.6rem;display:flex;width:auto;min-width:76px;max-width:126px;height:34px;align-items:center;justify-content:center;padding:.25rem .55rem;border:1px solid #ffffffb3;border-radius:8px;background:#fff;box-shadow:0 4px 14px #0007;}
+.sponsor-logo-badge img.sponsor-logo-image{position:static;display:block;width:auto;height:auto;max-width:112px;max-height:25px;object-fit:contain;object-position:center;filter:none;}
+.sponsor-inline-logo{display:none;}
+.fixed-content-item .sponsor-logo-badge{top:.35rem;right:.4rem;min-width:48px;max-width:82px;height:23px;padding:.15rem .35rem;border-radius:6px;}
+.fixed-content-item .sponsor-logo-badge img.sponsor-logo-image{max-width:72px;max-height:16px;}
+.content-unit.fixed-content-item .sponsor-art>img:not(.sponsor-logo-image){height:65%;max-height:65%;}
+@media(max-width:620px){.content-unit .sponsor-art>img:not(.sponsor-logo-image){height:64%;max-height:64%;}.sponsor-logo-badge{top:.4rem;right:.35rem;min-width:54px;max-width:90px;height:27px;padding:.2rem .4rem;}.sponsor-logo-badge img.sponsor-logo-image{max-width:78px;max-height:19px;}.fixed-content-item .sponsor-logo-badge{top:.3rem;right:.3rem;min-width:42px;max-width:68px;height:21px;}.content-unit.fixed-content-item .sponsor-art>img:not(.sponsor-logo-image){height:58%;max-height:58%;}.sponsor-brand-line{display:flex;align-items:center;gap:.4rem;}.sponsor-art .sponsor-logo-badge{display:none;}.sponsor-copy .sponsor-inline-logo{position:static;display:flex;width:36px;min-width:36px;max-width:54px;height:21px;padding:2px 4px;border-radius:5px;}.sponsor-copy .sponsor-inline-logo img.sponsor-logo-image{max-width:46px;max-height:15px;}}

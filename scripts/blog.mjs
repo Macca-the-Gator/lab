@@ -74,11 +74,13 @@ const affiliateFallbacks = [
   {theme:'noracora',href:'https://qwpeg.com/c/of8pqgktr2824bc5aa31c8dbeb8f0d/',image:'/assets/creatives/visual-13.svg',kicker:'NEW COLLECTION',headline:'Noracora',description:'Discover styles for everyday wear.'},
   {theme:'justfashionnow',href:'https://rzekl.com/c/kmcoj56juv824bc5aa31608cdf386b/',image:'/assets/creatives/visual-12.svg',kicker:'FASHION FINDS',headline:'Justfashionnow',description:'Explore new fashion and accessories.'}
 ];
+const logoExt = theme => ['square','sunsky','ticombo'].includes(theme) ? 'ico' : 'png';
+const logoMarkup = (theme, label, inline=false) => `<span class="sponsor-logo-badge${inline?' sponsor-inline-logo':''}"><img class="sponsor-logo-image" src="/assets/brand-logos/${theme}.${logoExt(theme)}" alt="${esc(label)} logo" loading="lazy"></span>`;
 const adMarkup = (slot='feed-unit') => {
-  if(slot==='side-owner'||slot==='article-unit') return `<a class="sponsor-card" href="https://pklavc.com/blog" target="_blank" rel="sponsored noopener noreferrer"><span class="sponsor-copy"><span class="sponsor-kicker">MACCA BLOG PRESENTS</span><strong>THE PKLAVC BLOG</strong><span class="sponsor-description">Technology, engineering, open-source projects, and more. Read the blog.</span></span><span class="sponsor-art"><img src="/assets/creatives/visual-16.webp" alt="Macca partner artwork" loading="lazy"></span></a>`;
+  if(slot==='side-owner'||slot==='article-unit') return `<a class="sponsor-card" href="https://pklavc.com/blog" target="_blank" rel="sponsored noopener noreferrer"><span class="sponsor-copy"><span class="sponsor-brand-line"><span class="sponsor-kicker">MACCA BLOG PRESENTS</span>${logoMarkup('pklavc','PKLAVC',true)}</span><strong>THE PKLAVC BLOG</strong><span class="sponsor-description">Technology, engineering, open-source projects, and more. Read the blog.</span></span><span class="sponsor-art">${logoMarkup('pklavc','PKLAVC')}<img src="/assets/creatives/visual-16.webp" alt="Macca partner artwork" loading="lazy"></span></a>`;
   const number=Number(slot.match(/(?:side-rotating|dock-item)-(\d+)/)?.[1]||1);
   const ad=affiliateFallbacks[(number-1)%affiliateFallbacks.length];
-  return `<a class="sponsor-card sponsor-theme-${ad.theme}" href="${ad.href}" target="_blank" rel="sponsored noopener noreferrer"><span class="sponsor-copy"><span class="sponsor-kicker">${ad.kicker}</span><strong>${ad.headline}</strong><span class="sponsor-description">${ad.description}</span></span><span class="sponsor-art"><img src="${ad.image}" alt="" loading="lazy"></span></a>`;
+  return `<a class="sponsor-card sponsor-theme-${ad.theme}" href="${ad.href}" target="_blank" rel="sponsored noopener noreferrer"><span class="sponsor-copy"><span class="sponsor-brand-line"><span class="sponsor-kicker">${ad.kicker}</span>${logoMarkup(ad.theme,ad.headline,true)}</span><strong>${ad.headline}</strong><span class="sponsor-description">${ad.description}</span></span><span class="sponsor-art">${logoMarkup(ad.theme,ad.headline)}<img src="${ad.image}" alt="" loading="lazy"></span></a>`;
 };
 const neutralizeAdMarkup = markup => String(markup)
   .replaceAll('sponsor-card','partner-card')
