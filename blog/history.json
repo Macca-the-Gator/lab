@@ -1,5 +1,15 @@
 [
   {
+    "sourceUrl": "https://www.gamespot.com/articles/warhammer-survivors-is-launching-mere-days-before-gta-6-and-i-respect-the-audacity/",
+    "title": "Warhammer Survivors Is Launching Mere Days Before GTA 6, And I Respect The Audacity",
+    "date": "2026-10-06T20:19:12.218Z",
+    "status": "ai-rejected",
+    "reason": "The article is about Warhammer Survivors, not Grand Theft Auto or Rockstar Games; it only mentions GTA 6 in passing.",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/warhammer-survivors-is-launching-mere-days-before-gta-6-and-i-respect-the-audacity/"
+    ]
+  },
+  {
     "sourceUrl": "https://rockstarintel.com/gta-v-playable-in-browser-and-on-mobile-with-gta-6-map/",
     "title": "GTA V Playable In Browser And On Mobile With GTA 6 Map",
     "date": "2026-10-06T15:12:12.368Z",
