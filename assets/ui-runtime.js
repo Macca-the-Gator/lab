@@ -109,6 +109,10 @@ function affiliateGlobalLift(ad) {
   return Math.max(-0.4, Math.min(1.5, Number(score.lift) || 0));
 }
 
+function slotName(slot) {
+  return String(slot?.dataset?.contentSlot || slot?.dataset?.contentUnit || '');
+}
+
 function observeAffiliateImpression(slot, link, ad) {
   if (!('IntersectionObserver' in window)) return;
   if (slot._maccaAdObserver) slot._maccaAdObserver.disconnect();
@@ -119,7 +123,7 @@ function observeAffiliateImpression(slot, link, ad) {
     slot._maccaAdImpressionTimer = window.setTimeout(() => {
       if (!document.contains(link) || link.dataset.impressionRecorded === '1') return;
       link.dataset.impressionRecorded = '1';
-      recordAffiliateEvent(ad, 'impression', placementName(slot));
+      recordAffiliateEvent(ad, 'impression', slotName(slot));
     }, 1000);
   }, {threshold:[0.5]});
   observer.observe(link);
@@ -192,11 +196,10 @@ async function mountAds(root = document) {
   if (root === document) mountPklavcPopup();
   try {
     const [config] = await Promise.all([loadAdConfig(), loadAffiliateAnalytics()]);
-    const placementName = slot => String(slot.dataset.contentSlot || placementName(slot));
     const placements = [...root.querySelectorAll('[data-content-slot], [data-content-unit]')]
       .filter(slot => slot.dataset.unitRendered !== '1')
       .map(slot => {
-        const name = placementName(slot);
+        const name = slotName(slot);
         const source = name === 'side-mix' || name.startsWith('story-side')
           ? [...(config.slots?.['side-owner'] || []), ...(config.slots?.['side-rotating'] || [])]
           : name.startsWith('side-owner')
@@ -247,7 +250,7 @@ async function mountAds(root = document) {
         art.append(image);
         link.append(copy, art);
         link.addEventListener('click', () => {
-          recordAffiliateEvent(ad, 'click', placementName(slot));
+          recordAffiliateEvent(ad, 'click', slotName(slot));
           flushAffiliateEvents();
         }, {once:true});
         slot.replaceChildren(link);
@@ -255,8 +258,8 @@ async function mountAds(root = document) {
         observeAffiliateImpression(slot, link, ad);
     };
 
-    const stickyPlacements = placements.filter(({slot}) => placementName(slot).startsWith('dock-item'));
-    const regularPlacements = placements.filter(({slot}) => !placementName(slot).startsWith('dock-item'));
+    const stickyPlacements = placements.filter(({slot}) => slotName(slot).startsWith('dock-item'));
+    const regularPlacements = placements.filter(({slot}) => !slotName(slot).startsWith('dock-item'));
     const contextText = String(document.body.dataset.contentContext || '').toLowerCase();
 
     const affinity = ad => {
