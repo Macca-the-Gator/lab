@@ -1,16 +1,10 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 12,
+  "monthlyUploadAttempts": 14,
   "recentUploadAttempts24h": [
-    "2026-10-02T01:46:28.933584Z",
-    "2026-10-02T01:46:28.933584Z",
-    "2026-10-02T15:52:02.677733Z",
-    "2026-10-02T15:52:02.677733Z",
-    "2026-10-03T00:33:35.867858Z",
-    "2026-10-03T00:33:35.867858Z",
-    "2026-10-03T01:03:12.399805Z",
-    "2026-10-03T01:03:12.399805Z"
+    "2026-10-06T01:44:43.124845Z",
+    "2026-10-06T01:44:43.124845Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -101,6 +95,14 @@
       "publicVerifiedAt": "2026-10-03T02:22:10.602943Z",
       "deletedAt": "2026-10-03T02:22:54.941850Z",
       "retryReservedAt": "2026-10-03T02:21:58.083120Z"
+    },
+    "a-gta-6-mural-is-being-painted-in-new-york-city": {
+      "objectKey": "instagram-reels/3f7a34501f2941c4af97d1f38594ccc9-a-gta-6-mural-is-being-painted-in-new-york-city.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-06T01:44:43.124845Z",
+      "sizeBytes": 993435
     }
   }
 }
