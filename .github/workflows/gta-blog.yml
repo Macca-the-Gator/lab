@@ -15,7 +15,6 @@ on:
       - 'blog/assets/blog.css'
       - 'blog/assets/growth.css'
       - 'blog/assets/engagement.js'
-      - 'ads/ads.js'
       - 'analytics/**'
       - 'scripts/build-seo.mjs'
       - 'scripts/instagram.mjs'
@@ -122,7 +121,6 @@ jobs:
           node --check scripts/indexnow.mjs
           node --check scripts/instagram.mjs
           node --check scripts/instagram_metrics.mjs
-          node --check ads/ads.js
           node --check analytics/web-analytics.js
           python -m py_compile scripts/article_covers.py scripts/search_console.py scripts/youtube_metrics.py scripts/youtube_queue.py scripts/youtube_weekly.py scripts/social_video.py src/youtube/shorts.py src/youtube/upload.py
       - name: Check whether social video queues contain work
