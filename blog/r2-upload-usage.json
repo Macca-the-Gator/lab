@@ -100,9 +100,12 @@
       "objectKey": "instagram-reels/3f7a34501f2941c4af97d1f38594ccc9-a-gta-6-mural-is-being-painted-in-new-york-city.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-06T01:44:43.124845Z",
-      "sizeBytes": 993435
+      "sizeBytes": 993435,
+      "uploadedAt": "2026-10-06T01:45:03.659434Z",
+      "publicVerifiedAt": "2026-10-06T01:45:03.879451Z",
+      "deletedAt": "2026-10-06T01:45:36.612709Z"
     }
   }
 }
