@@ -98,12 +98,8 @@ def render_discover(post: dict, output: Path):
     # Keep the artwork dominant. Only use a restrained lower-third label.
     overlay = Image.new("RGBA", base.size, (5, 4, 12, 34))
     base = Image.alpha_composite(base, overlay)
-    draw = ImageDraw.Draw(base, "RGBA")
-    draw.rounded_rectangle((46, 590, 1234, 676), radius=24, fill=(12, 8, 24, 190))
-    draw.rounded_rectangle((68, 615, 226, 646), radius=15, fill=(77, 224, 237, 235))
-    draw.text((86, 619), "MACCA BLOG", font=font(20, True), fill=(8, 7, 18, 255))
-    category = str(post.get("category") or "GTA & ROCKSTAR").upper()[:34]
-    draw.text((255, 617), category, font=font(20, True), fill=(255, 247, 242, 245))
+    # Keep Discover artwork clean and fully visual. Card metadata is rendered in HTML,
+    # so no dark lower-third is baked into the image itself.
     output.parent.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(output, "JPEG", quality=91, optimize=True)
 
