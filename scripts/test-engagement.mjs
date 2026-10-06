@@ -20,7 +20,7 @@ assert.match(article,/data-next-story-peek/,'Article should render the next-stor
 assert.match(article,/data-continuous-sentinel/,'Article should render the continuous-reading sentinel');
 assert.ok(article.indexOf('class="continuous-feed"') < article.indexOf('</article><aside>'),'Continuous feed must stay inside the article column so a tall sidebar cannot create a blank gap');
 assert.match(article,/class="side-content-rail"/,'Article should render a persistent right-side affiliate rail');
-assert.match(article,/data-content-unit="side-mix"/,'Persistent rail should expose the smart rotating affiliate slot');
+assert.match(article,/data-content-slot="story-side"/,'Persistent rail should expose the neutral rotating partner slot');
 
 const client=await fs.readFile(path.join(root,'blog','assets','engagement.js'),'utf8');
 assert.match(client,/IntersectionObserver/,'Continuous reading should be viewport-driven');
@@ -29,3 +29,6 @@ assert.doesNotMatch(client,/window\.open|target\s*=\s*['"]_blank/,'Recirculation
 assert.match(client,/\.article-related, \.continuous-feed/,'Fetched articles must remove their nested continuous-feed container');
 
 console.log('Engagement UI checks passed.');
+
+assert.match(client, /data-content-slot="story-break"/,'Continuous reading should insert a partner banner between stories');
+assert.match(client, /continuous-story-break/,'Continuous reading should style the between-story placement');
