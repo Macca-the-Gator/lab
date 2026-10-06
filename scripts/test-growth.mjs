@@ -8,7 +8,7 @@ const [
   adsTxt, blog, seo, ads, engagement, instagram, instagramMetrics, queue, socialVideo,
   shorts, ytMetrics, ytWorkflow, igWorkflow, weeklyWorkflow, dailyWorkflow,
   growth, searchConsole, searchWorkflow, searchOptimizeWorkflow, indexNow, indexWorkflow,
-  worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers, growthCss, siteComponentsCss, siteComponentsJs, blogIndex
+  worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers, growthCss, siteComponentsCss, siteComponentsJs, blogIndex, visitorsPage, visitorMapJs
 ] = await Promise.all([
   read('ads.txt'),
   read('scripts/blog.mjs'),
@@ -40,6 +40,8 @@ const [
   read('assets/site-components.css'),
   read('assets/site-components.js'),
   read('blog/index.html'),
+  read('visitors/index.html'),
+  read('assets/visitor-map.js'),
 ]);
 
 assert.match(adsTxt, /google\.com, pub-7821352420515145, DIRECT, f08c47fec0942fa0/);
@@ -140,6 +142,12 @@ assert.match(wrangler, /dataset = "macca_affiliate"/);
 assert.match(wrangler, /\[analytics\]/);
 
 assert.match(webAnalyticsLoader, /static\.cloudflareinsights\.com\/beacon\.min\.js/);
+assert.match(webAnalyticsLoader, /api\.pklavc\.com\/analytics\/visit\?site=macca/);
+assert.match(webAnalyticsLoader, /MaccaGeoVisitReady/);
+assert.match(visitorsPage, /<html lang="en">/);
+assert.doesNotMatch(visitorsPage, /hreflang|\/pt\/|\/es\//);
+assert.match(visitorMapJs, /api\.pklavc\.com\/analytics\/map\?site=macca/);
+assert.match(visitorMapJs, /MaccaGeoVisitReady/);
 assert.match(webAnalyticsWorkflow, /rum\/site_info/);
 assert.match(blog, /analytics\/web-analytics\.js/);
 
