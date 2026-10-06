@@ -125,3 +125,12 @@ a[href="/study/"],a[href="/play/"]{display:none!important}
 .content-panel .partner-card:hover strong{color:#4de0ed}
 .continuous-story-break{margin:1.2rem 0 2rem}
 @media(max-width:520px){.content-panel .partner-card{min-height:122px;padding:.9rem}.partner-copy{max-width:74%;gap:.25rem}.partner-kicker{font-size:.56rem;letter-spacing:.1em}.partner-copy strong{font-size:1.12rem}.partner-description{max-width:27ch;font-size:.74rem;line-height:1.35}.partner-art{right:-.25rem;width:38%;opacity:.95}}
+
+/* Give each partner mark a full-height, high-contrast panel in every placement. */
+.partner-art,.sponsor-art{width:min(42%,320px)}
+.partner-art .partner-logo-badge,.partner-art .sponsor-logo-badge,.sponsor-art .partner-logo-badge,.sponsor-art .sponsor-logo-badge{position:absolute;z-index:5;inset:.45rem .5rem;display:flex;width:auto;min-width:0;max-width:none;height:auto;align-items:center;justify-content:center;padding:.5rem;border:1px solid #ffffffd9;border-radius:9px;background:#fff;box-shadow:0 5px 18px #0006}
+.partner-art img.partner-logo-image,.partner-art img.sponsor-logo-image,.sponsor-art img.partner-logo-image,.sponsor-art img.sponsor-logo-image{position:relative;z-index:1;display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;object-position:center;filter:none}
+.partner-art>img:not(.partner-logo-image):not(.sponsor-logo-image),.sponsor-art>img:not(.partner-logo-image):not(.sponsor-logo-image){z-index:0;opacity:.18}
+.partner-copy,.sponsor-copy{max-width:58%}
+.partner-copy .partner-logo-badge,.partner-copy .sponsor-logo-badge,.sponsor-copy .partner-logo-badge,.sponsor-copy .sponsor-logo-badge{display:none}
+@media(max-width:520px){.partner-art,.sponsor-art{right:-.1rem;width:42%;opacity:1}.partner-art .partner-logo-badge,.partner-art .sponsor-logo-badge,.sponsor-art .partner-logo-badge,.sponsor-art .sponsor-logo-badge{inset:.35rem .3rem;padding:.3rem}.partner-copy,.sponsor-copy{max-width:58%}}

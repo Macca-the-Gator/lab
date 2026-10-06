@@ -243,11 +243,21 @@ async function mountAds(root = document) {
 
         const art = document.createElement('span');
         art.className = neutral ? 'partner-art' : 'sponsor-art';
+        const logoBadge = document.createElement('span');
+        logoBadge.className = neutral ? 'partner-logo-badge' : 'sponsor-logo-badge';
+        const logoImage = document.createElement('img');
+        logoImage.className = neutral ? 'partner-logo-image' : 'sponsor-logo-image';
+        const theme = String(ad.theme || 'pklavc').replace(/[^a-z0-9-]/gi, '');
+        const logoExtension = ['square', 'sunsky', 'ticombo'].includes(theme) ? 'ico' : 'png';
+        logoImage.src = `/assets/brand-logos/${theme}.${logoExtension}`;
+        logoImage.alt = `${ad.headline || ad.label || 'PKLAVC'} logo`;
+        logoImage.loading = 'lazy';
+        logoBadge.append(logoImage);
         const image = document.createElement('img');
         image.src = ad.image;
         image.alt = ad.alt || 'Macca partner artwork';
         image.loading = 'lazy';
-        art.append(image);
+        art.append(logoBadge, image);
         link.append(copy, art);
         link.addEventListener('click', () => {
           recordAffiliateEvent(ad, 'click', slotName(slot));
