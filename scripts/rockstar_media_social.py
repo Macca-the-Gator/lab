@@ -394,6 +394,42 @@ def _get_json(url: str) -> dict:
         raise RuntimeError(f"Meta Graph API returned HTTP {exc.code}: {body[:500]}") from None
 
 
+def _trending_audio_configuration(account_id: str) -> str:
+    token = os.environ.get("INSTAGRAM_AUDIO_ACCESS_TOKEN") or os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
+    if not token:
+        raise RuntimeError("Instagram Audio API token is not configured.")
+    version = os.environ.get("INSTAGRAM_GRAPH_VERSION", "v26.0")
+    last_error = ""
+    for audio_type in ("music", "original_sound"):
+        query = urllib.parse.urlencode({"audio_type": audio_type, "user_id": account_id, "access_token": token})
+        try:
+            payload = _get_json(f"https://graph.facebook.com/{version}/ig_audio?{query}")
+        except Exception as exc:
+            last_error = str(exc)
+            continue
+        rows = payload.get("audio", []) if isinstance(payload, dict) else []
+        for row in rows:
+            audio_id = str(row.get("audio_id") or row.get("id") or "").strip()
+            if not audio_id:
+                continue
+            title = row.get("title") or row.get("name") or ""
+            artist = row.get("display_artist") or row.get("artist") or ""
+            label = " - ".join(value for value in (title, artist) if value) or audio_id
+            print(f"Instagram trending audio selected from Meta: {label} ({audio_type}).")
+            audio_volume = max(0, min(100, int(os.environ.get("INSTAGRAM_TREND_AUDIO_VOLUME", "100"))))
+            video_volume = max(0, min(100, int(os.environ.get("INSTAGRAM_VIDEO_AUDIO_VOLUME", "25"))))
+            return json.dumps({
+                "audio_id": audio_id,
+                "audio_volume": audio_volume,
+                "video_volume": video_volume,
+            }, separators=(",", ":"))
+    raise RuntimeError(
+        "Instagram Audio API returned no usable trending audio"
+        + (f": {last_error}" if last_error else "")
+        + ". Reel retained for retry."
+    )
+
+
 def publish_instagram(video: Path, article: dict, publication_key: str) -> dict:
     token = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
     account = os.environ.get("INSTAGRAM_BUSINESS_ACCOUNT_ID", "")
@@ -439,11 +475,13 @@ def publish_instagram(video: Path, article: dict, publication_key: str) -> dict:
         )[:1400]
         version = os.environ.get("INSTAGRAM_GRAPH_VERSION", "v26.0")
         base = f"https://graph.facebook.com/{version}"
+        audio_configuration = _trending_audio_configuration(account)
         container = _post_form(f"{base}/{account}/media", {
             "media_type": "REELS",
             "video_url": public_url,
             "caption": caption,
             "share_to_feed": "false",
+            "audio_configuration": audio_configuration,
             "access_token": token,
         })
         container_id = container.get("id")
