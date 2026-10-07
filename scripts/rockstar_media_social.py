@@ -394,20 +394,20 @@ def _get_json(url: str) -> dict:
         raise RuntimeError(f"Meta Graph API returned HTTP {exc.code}: {body[:500]}") from None
 
 
-def _trending_audio_configuration() -> str:
+def _trending_audio_configuration(account_id: str) -> str:
     token = os.environ.get("INSTAGRAM_AUDIO_ACCESS_TOKEN") or os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
     if not token:
         raise RuntimeError("Instagram Audio API token is not configured.")
     version = os.environ.get("INSTAGRAM_GRAPH_VERSION", "v26.0")
     last_error = ""
     for audio_type in ("music", "original_sound"):
-        query = urllib.parse.urlencode({"audio_type": audio_type, "access_token": token})
+        query = urllib.parse.urlencode({"audio_type": audio_type, "user_id": account_id, "access_token": token})
         try:
             payload = _get_json(f"https://graph.facebook.com/{version}/ig_audio?{query}")
         except Exception as exc:
             last_error = str(exc)
             continue
-        rows = payload.get("data", []) if isinstance(payload, dict) else []
+        rows = payload.get("audio", []) if isinstance(payload, dict) else []
         for row in rows:
             audio_id = str(row.get("audio_id") or row.get("id") or "").strip()
             if not audio_id:
@@ -475,7 +475,7 @@ def publish_instagram(video: Path, article: dict, publication_key: str) -> dict:
         )[:1400]
         version = os.environ.get("INSTAGRAM_GRAPH_VERSION", "v26.0")
         base = f"https://graph.facebook.com/{version}"
-        audio_configuration = _trending_audio_configuration()
+        audio_configuration = _trending_audio_configuration(account)
         container = _post_form(f"{base}/{account}/media", {
             "media_type": "REELS",
             "video_url": public_url,
