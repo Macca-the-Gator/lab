@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 14,
+  "monthlyUploadAttempts": 16,
   "recentUploadAttempts24h": [
-    "2026-10-06T01:44:43.124845Z",
-    "2026-10-06T01:44:43.124845Z"
+    "2026-10-07T21:16:19.427577Z",
+    "2026-10-07T21:16:19.427577Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -106,6 +106,14 @@
       "uploadedAt": "2026-10-06T01:45:03.659434Z",
       "publicVerifiedAt": "2026-10-06T01:45:03.879451Z",
       "deletedAt": "2026-10-06T01:45:36.612709Z"
+    },
+    "miami-heat-to-host-a-night-in-vice-city-gta-6-themed-game-before": {
+      "objectKey": "instagram-reels/e1e856363a9c4c3cb1400d5bd252004d-miami-heat-to-host-a-night-in-vice-city-gta-6-themed-game-before.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-07T21:16:19.427577Z",
+      "sizeBytes": 415072
     }
   }
 }
