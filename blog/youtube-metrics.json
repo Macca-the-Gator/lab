@@ -243,6 +243,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 5,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -462,6 +476,20 @@
           "date": "2026-10-04",
           "metrics": {
             "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 2,
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
@@ -1724,6 +1752,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -1946,6 +1988,20 @@
             "engagedViews": 1,
             "averageViewDuration": 4,
             "averageViewPercentage": 15.7,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -3205,6 +3261,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -3433,6 +3503,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -3600,6 +3684,20 @@
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 2,
+            "engagedViews": 1,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 50.529999999999994,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -3779,6 +3877,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -3911,6 +4023,20 @@
             "engagedViews": 2,
             "averageViewDuration": 0,
             "averageViewPercentage": 5,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 5,
+            "engagedViews": 3,
+            "averageViewDuration": 2,
+            "averageViewPercentage": 17.72,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -5080,6 +5206,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 6,
+            "engagedViews": 4,
+            "averageViewDuration": 12,
+            "averageViewPercentage": 64.05,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -6207,6 +6347,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 3,
+            "engagedViews": 1,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 61.25000000000001,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -6309,6 +6463,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 4,
+            "engagedViews": 1,
+            "averageViewDuration": 15,
+            "averageViewPercentage": 78,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -6405,6 +6573,20 @@
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-10-05",
+          "metrics": {
+            "views": 9,
+            "engagedViews": 2,
+            "averageViewDuration": 13,
+            "averageViewPercentage": 66.05,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -7445,6 +7627,24 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/a-gta-6-mural-is-being-painted-in-new-york-city/",
       "youtubeUrl": "https://www.youtube.com/watch?v=hCia5xtsmIw",
       "publishedAt": "2026-10-06T01:45:42.990592+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "-3BI3oDmUFE": {
+      "slug": "miami-heat-to-host-a-night-in-vice-city-gta-6-themed-game-before",
+      "articleUrl": "https://macca-lab.onrender.com/blog/miami-heat-to-host-a-night-in-vice-city-gta-6-themed-game-before/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-3BI3oDmUFE",
+      "publishedAt": "2026-10-07T21:17:19.757028+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "DwrNZ_N0o3M": {
+      "slug": "gta-online-event-week-halloween-event-continues-october-8th-14th",
+      "articleUrl": "https://macca-lab.onrender.com/blog/gta-online-event-week-halloween-event-continues-october-8th-14th/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DwrNZ_N0o3M",
+      "publishedAt": "2026-10-07T21:43:30.211355+00:00",
       "samples": [],
       "daily": [],
       "retentionSnapshots": []
