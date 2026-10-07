@@ -185,13 +185,14 @@ async function graphPost(host, resource, params) {
 }
 
 
-async function trendingAudioConfiguration() {
+async function trendingAudioConfiguration(accountId) {
   const audioToken = process.env.INSTAGRAM_AUDIO_ACCESS_TOKEN || token;
   if (!audioToken) throw new Error('Instagram Audio API token is not configured.');
   let lastError = '';
   for (const audioType of ['music', 'original_sound']) {
     const url = new URL(`https://graph.facebook.com/${GRAPH_VERSION}/ig_audio`);
     url.searchParams.set('audio_type', audioType);
+    url.searchParams.set('user_id', accountId);
     url.searchParams.set('access_token', audioToken);
     const response = await fetch(url, {signal:AbortSignal.timeout(20000)});
     const body = await response.json().catch(() => ({}));
@@ -200,7 +201,7 @@ async function trendingAudioConfiguration() {
       lastError = `${error.message || `HTTP ${response.status}`}${error.code ? ` (code ${error.code})` : ''}`;
       continue;
     }
-    const rows = Array.isArray(body.data) ? body.data : [];
+    const rows = Array.isArray(body.audio) ? body.audio : [];
     const selected = rows.find(item => String(item?.audio_id || item?.id || '').trim());
     if (!selected) continue;
     const audioId = String(selected.audio_id || selected.id);
@@ -357,7 +358,7 @@ async function publish() {
       queue.splice(0, queue.length, ...remaining);
       continue;
     }
-    const audioConfiguration = await trendingAudioConfiguration();
+    const audioConfiguration = await trendingAudioConfiguration(account.id);
     const container = await graphPost(account.host, `${account.id}/media`, {
       media_type:'REELS',
       video_url:reelUrl,
