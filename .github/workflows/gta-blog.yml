@@ -277,6 +277,7 @@ jobs:
         env:
           SITE_URL: https://macca-lab.onrender.com
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_AUDIO_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_AUDIO_ACCESS_TOKEN }}
           INSTAGRAM_PAGE_ID: '1398291306701395'
           INSTAGRAM_BUSINESS_ACCOUNT_ID: '17841427029514284'
           INSTAGRAM_QUEUE_FILE: blog/instagram-queue.json
