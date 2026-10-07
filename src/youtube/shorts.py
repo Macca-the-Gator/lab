@@ -295,10 +295,26 @@ def _create_narrated_short(article: dict, output: str | Path, workdir: str | Pat
             # Preserve the hook, main fact, and CTA; remove only the optional context card.
             beats = beats[:2] + beats[-1:]
             continue
-        if voice_speed < 1.06:
-            voice_speed = round(min(1.06, voice_speed + 0.03), 2)
+        if len(beats) > 2:
+            # Reliability fallback: when even the reduced fact set is too long,
+            # keep the full headline visually but speak a compact title + CTA.
+            title_headline = beats[0][0]
+            compact_title = " ".join(str(beats[0][1]).split()[:12]).rstrip(" ,:;-")
+            beats = [
+                (title_headline, compact_title or "Latest GTA and Rockstar update."),
+                (CTA_TEXT, "Full story on Macca Blog."),
+            ]
+            voice_speed = 1.0
             continue
-        raise RuntimeError(f"Narrated video would exceed {MAX_DURATION:.0f} seconds without cutting a complete fact.")
+        if voice_speed < 1.20:
+            voice_speed = round(min(1.20, voice_speed + 0.05), 2)
+            continue
+        # Final safety net: never let one unusually long title block the entire queue.
+        title_headline = beats[0][0]
+        compact_title = " ".join(str(beats[0][1]).split()[:8]).rstrip(" ,:;-")
+        beats = [(title_headline, compact_title or "Latest GTA and Rockstar update.")]
+        voice_speed = 1.0
+        continue
 
     print(f"Generated {len(audio_files)} narration clips with {tts_metadata['engine']} (voice {tts_metadata['voice']}, speed {tts_metadata['speed']:.2f}).")
     print(f"TTS timing: {tts_metadata['synthesisSeconds']:.2f}s synthesis; {tts_metadata['modelLoadSeconds']:.2f}s model setup.")
