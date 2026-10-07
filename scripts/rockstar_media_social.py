@@ -30,6 +30,7 @@ from botocore.config import Config
 from PIL import Image, ImageDraw
 
 from src.youtube.kokoro_tts import LocalNarrator
+from src.instagram_audio import mix_instagram_audio
 from src.youtube.shorts import (
     FPS,
     HEIGHT,
@@ -561,7 +562,8 @@ def run(*, publish: bool) -> int:
 
         if instagram_allowed:
             try:
-                instagram_record = publish_instagram(output, article, publication_key)
+                instagram_output = mix_instagram_audio(output, Path(temp) / "macca-rockstar-instagram.mp4")
+                instagram_record = publish_instagram(instagram_output, article, publication_key)
                 instagram_records[f"rockstar-media://{publication_key}"] = instagram_record
                 write_json(INSTAGRAM_PUBLISHED, instagram_records)
                 successes += 1
