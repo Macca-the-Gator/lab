@@ -37,9 +37,7 @@ def mix_instagram_audio(source: Path, output: Path) -> Path:
     """
     music = instagram_music_track()
     if not music:
-        if source != output:
-            shutil.copy2(source, output)
-        return output
+        return source
 
     ffmpeg = shutil.which("ffmpeg")
     if not ffmpeg:
