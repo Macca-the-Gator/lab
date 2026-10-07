@@ -111,9 +111,12 @@
       "objectKey": "instagram-reels/e1e856363a9c4c3cb1400d5bd252004d-miami-heat-to-host-a-night-in-vice-city-gta-6-themed-game-before.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-07T21:16:19.427577Z",
-      "sizeBytes": 415072
+      "sizeBytes": 415072,
+      "uploadedAt": "2026-10-07T21:16:37.154867Z",
+      "publicVerifiedAt": "2026-10-07T21:16:37.326260Z",
+      "deletedAt": "2026-10-07T21:17:14.733012Z"
     }
   }
 }
