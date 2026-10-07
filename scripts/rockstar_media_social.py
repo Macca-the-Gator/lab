@@ -270,10 +270,24 @@ def render_short(article: dict, source_clip: Path, output: Path, work: Path) -> 
         if len(beats) == MAX_SLIDES:
             beats = beats[:2] + beats[-1:]
             continue
-        if speed < 1.06:
-            speed = round(min(1.06, speed + 0.03), 2)
+        if len(beats) > 2:
+            title_headline = beats[0][0]
+            compact_title = " ".join(str(beats[0][1]).split()[:12]).rstrip(" ,:;-")
+            beats = [
+                (title_headline, compact_title or "Latest GTA and Rockstar update."),
+                ("Full story → Macca Blog. Link on profile.", "Full story on Macca Blog."),
+            ]
+            speed = 1.0
             continue
-        raise RuntimeError("Rockstar media narration cannot fit the 15-20 second target without cutting a fact.")
+        if speed < 1.20:
+            speed = round(min(1.20, speed + 0.05), 2)
+            continue
+        # Final safety net: a pathological title must not block both platforms.
+        title_headline = beats[0][0]
+        compact_title = " ".join(str(beats[0][1]).split()[:8]).rstrip(" ,:;-")
+        beats = [(title_headline, compact_title or "Latest GTA and Rockstar update.")]
+        speed = 1.0
+        continue
 
     probe = json.loads(subprocess.check_output(
         [ffprobe, "-v", "error", "-show_entries", "format=duration", "-of", "json", str(source_clip)],
