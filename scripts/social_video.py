@@ -15,6 +15,7 @@ import boto3
 from botocore.config import Config
 
 from src.youtube.shorts import create_short
+from src.instagram_audio import mix_instagram_audio
 from src.youtube.r2_limits import MAX_OBJECTS_PER_RUN, MAX_ATTEMPTS_PER_OBJECT, MAX_OBJECT_BYTES, consume_reserved_r2_attempt, remaining_r2_attempts_after_cleanup, reserve_r2_upload
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -131,6 +132,9 @@ def main() -> None:
                 create_short(article, output, work)
         entry = {"localPath": str(output)}
         queued_for_instagram = any(item.get("slug") == slug for item in ig_queue)
+        if queued_for_instagram:
+            instagram_output = mix_instagram_audio(output, VIDEO_DIR / f"{slug}-instagram.mp4")
+            entry["instagramPath"] = str(instagram_output)
         if r2_ready and os.environ.get("SHORTS_RENDERER", "narrated").lower() != "legacy" and queued_for_instagram:
             reservation = usage.get("articles", {}).get(slug)
             object_key = f"instagram-reels/{uuid.uuid4().hex}-{slug}.mp4"
@@ -141,7 +145,8 @@ def main() -> None:
             elif reservation:
                 reserved = min(MAX_ATTEMPTS_PER_OBJECT, int(reservation.get("attemptsReserved", 0)))
                 remaining = remaining_r2_attempts_after_cleanup(reservation)
-                if reservation.get("deletedAt") and remaining > 0 and output.stat().st_size <= MAX_OBJECT_BYTES:
+                instagram_path = Path(entry.get("instagramPath", entry["localPath"]))
+                if reservation.get("deletedAt") and remaining > 0 and instagram_path.stat().st_size <= MAX_OBJECT_BYTES:
                     object_key = reservation.get("objectKey", "")
                     if object_key.startswith("instagram-reels/"):
                         attempts = remaining
@@ -156,7 +161,7 @@ def main() -> None:
                     reason = "This article has no unused pre-reserved R2 attempt."
             else:
                 attempts, reason = reserve_r2_upload(
-                    usage, slug=slug, object_key=object_key, size_bytes=output.stat().st_size,
+                    usage, slug=slug, object_key=object_key, size_bytes=Path(entry.get("instagramPath", entry["localPath"])).stat().st_size,
                     objects_reserved_this_run=objects_reserved_this_run,
                 )
                 if attempts:
@@ -194,7 +199,7 @@ def upload_reel_objects() -> None:
             print("R2 per-run guard stopped unexpected additional object uploads.")
             break
         uploaded_objects_this_run += 1
-        path = Path(entry.get("localPath", ""))
+        path = Path(entry.get("instagramPath") or entry.get("localPath", ""))
         try:
             size = path.stat().st_size
         except OSError:
