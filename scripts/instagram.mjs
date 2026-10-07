@@ -6,7 +6,7 @@ import { spawnSync } from 'node:child_process';
 
 const ROOT = process.cwd();
 const BASE = (process.env.SITE_URL || 'https://macca-lab.onrender.com').replace(/\/$/, '');
-const GRAPH_VERSION = 'v23.0';
+const GRAPH_VERSION = process.env.INSTAGRAM_GRAPH_VERSION || 'v26.0';
 const QUEUE_FILE = process.env.INSTAGRAM_QUEUE_FILE || path.join(ROOT, 'blog', 'instagram-queue.json');
 const POSTS_FILE = path.join(ROOT, 'blog', 'posts.json');
 const PUBLISHED_FILE = path.join(ROOT, 'blog', 'instagram-published.json');
@@ -184,6 +184,38 @@ async function graphPost(host, resource, params) {
   return body;
 }
 
+
+async function trendingAudioConfiguration() {
+  const audioToken = process.env.INSTAGRAM_AUDIO_ACCESS_TOKEN || token;
+  if (!audioToken) throw new Error('Instagram Audio API token is not configured.');
+  let lastError = '';
+  for (const audioType of ['music', 'original_sound']) {
+    const url = new URL(`https://graph.facebook.com/${GRAPH_VERSION}/ig_audio`);
+    url.searchParams.set('audio_type', audioType);
+    url.searchParams.set('access_token', audioToken);
+    const response = await fetch(url, {signal:AbortSignal.timeout(20000)});
+    const body = await response.json().catch(() => ({}));
+    if (!response.ok || body.error) {
+      const error = body.error || {};
+      lastError = `${error.message || `HTTP ${response.status}`}${error.code ? ` (code ${error.code})` : ''}`;
+      continue;
+    }
+    const rows = Array.isArray(body.data) ? body.data : [];
+    const selected = rows.find(item => String(item?.audio_id || item?.id || '').trim());
+    if (!selected) continue;
+    const audioId = String(selected.audio_id || selected.id);
+    const title = selected.title || selected.name || '';
+    const artist = selected.display_artist || selected.artist || '';
+    console.log(`Instagram trending audio selected from Meta: ${[title, artist].filter(Boolean).join(' - ') || audioId} (${audioType}).`);
+    return JSON.stringify({
+      audio_id: audioId,
+      audio_volume: Math.max(0, Math.min(100, Number(process.env.INSTAGRAM_TREND_AUDIO_VOLUME || 100))),
+      video_volume: Math.max(0, Math.min(100, Number(process.env.INSTAGRAM_VIDEO_AUDIO_VOLUME || 25)))
+    });
+  }
+  throw new Error(`Instagram Audio API returned no usable trending audio${lastError ? `: ${lastError}` : ''}. Reel retained for retry.`);
+}
+
 function caption(post) {
   const hook = String(post.instagramCaptionLead || post.socialHook || post.title || '').replace(/\s+/g, ' ').trim();
   const context = String(post.description || '').replace(/\s+/g, ' ').trim();
@@ -325,11 +357,13 @@ async function publish() {
       queue.splice(0, queue.length, ...remaining);
       continue;
     }
+    const audioConfiguration = await trendingAudioConfiguration();
     const container = await graphPost(account.host, `${account.id}/media`, {
       media_type:'REELS',
       video_url:reelUrl,
       caption:caption(post),
-      share_to_feed:'false'
+      share_to_feed:'false',
+      audio_configuration:audioConfiguration
     });
     if (!container.id) throw new Error('Meta did not return a media container ID.');
     await waitForContainer(account.host, container.id);
