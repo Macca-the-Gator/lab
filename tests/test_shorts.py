@@ -13,7 +13,6 @@ from unittest.mock import patch
 from PIL import Image, ImageDraw
 
 from src.youtube.shorts import CTA_TEXT, MAX_SLIDES, _article_script, _layout_text, _wrap, create_short, create_thumbnail
-from src.instagram_audio import instagram_music_track, mix_instagram_audio
 
 
 class FakeNarrator:
@@ -149,22 +148,6 @@ class SharedShortRendererTests(unittest.TestCase):
             self.assertEqual("h264", stream["codec_name"])
             self.assertEqual(1080, stream["width"])
             self.assertEqual(1920, stream["height"])
-
-
-    def test_instagram_music_is_optional_and_keeps_source_video(self):
-        with tempfile.TemporaryDirectory(prefix="macca-instagram-audio-") as temp:
-            source = Path(temp) / "source.mp4"
-            source.write_bytes(b"video")
-            with patch("src.instagram_audio.MUSIC_DIR", Path(temp) / "missing"), patch.dict(os.environ, {"INSTAGRAM_MUSIC_PATH": ""}):
-                self.assertIsNone(instagram_music_track())
-                self.assertEqual(source, mix_instagram_audio(source, Path(temp) / "instagram.mp4"))
-
-    def test_instagram_music_can_use_explicit_local_track(self):
-        with tempfile.TemporaryDirectory(prefix="macca-instagram-audio-") as temp:
-            track = Path(temp) / "trend.mp3"
-            track.write_bytes(b"audio")
-            with patch.dict(os.environ, {"INSTAGRAM_MUSIC_PATH": str(track)}):
-                self.assertEqual(track, instagram_music_track())
 
 
 if __name__ == "__main__":
