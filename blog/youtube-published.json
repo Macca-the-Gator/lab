@@ -138,5 +138,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=0LOcei4r6S0",
     "socialScore": 86,
     "publishedAt": "2026-10-08T01:05:38.383256+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
+    "publicationKey": "rockstar-media:xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "qFnqy486dDQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qFnqy486dDQ",
+    "publishedAt": "2026-10-08T03:03:41.456555+00:00"
   }
 ]

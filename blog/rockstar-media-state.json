@@ -1,10 +1,12 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-online-event-week-halloween-event-continues-october-8th-14th"
+    "gta-online-event-week-halloween-event-continues-october-8th-14th",
+    "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -13,6 +15,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-07T21:44:20.281762+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco:brian-heder-video-clip",
+      "articleSlug": "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-08T03:04:17.295420+00:00"
     }
   ]
 }
