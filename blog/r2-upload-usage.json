@@ -163,9 +163,12 @@
       "objectKey": "instagram-reels/20b88a05595142f897c0993d240e7eb4-dan-houser-avoids-gta-6-reveal-to-prevent-creative-influence.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-08T13:10:14.258628Z",
-      "sizeBytes": 511862
+      "sizeBytes": 511862,
+      "uploadedAt": "2026-10-08T13:10:30.944642Z",
+      "publicVerifiedAt": "2026-10-08T13:10:31.103508Z",
+      "deletedAt": "2026-10-08T13:11:10.104622Z"
     }
   }
 }
