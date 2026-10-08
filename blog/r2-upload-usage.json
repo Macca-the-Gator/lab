@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 18,
+  "monthlyUploadAttempts": 20,
   "recentUploadAttempts24h": [
     "2026-10-07T21:16:19.427577Z",
     "2026-10-07T21:16:19.427577Z",
     "2026-10-08T00:25:11.965665Z",
-    "2026-10-08T00:25:11.965665Z"
+    "2026-10-08T00:25:11.965665Z",
+    "2026-10-08T01:03:36.203558Z",
+    "2026-10-08T01:03:36.203558Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -130,6 +132,14 @@
       "uploadedAt": "2026-10-08T00:26:15.352653Z",
       "publicVerifiedAt": "2026-10-08T00:26:15.527982Z",
       "deletedAt": "2026-10-08T00:27:48.514538Z"
+    },
+    "gta-vi-characters-appear-in-snl-sketch-promoting-november-releas": {
+      "objectKey": "instagram-reels/dbe9c8818bf445cbb948b920d9bbae29-gta-vi-characters-appear-in-snl-sketch-promoting-november-releas.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-08T01:03:36.203558Z",
+      "sizeBytes": 949326
     }
   }
 }
