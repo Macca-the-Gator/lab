@@ -27,7 +27,10 @@ MUSIC_DIR = ROOT / "assets" / "audio" / "shorts"
 MAX_SLIDES = 4
 MIN_DURATION = 15.0
 MAX_DURATION = 20.0
-CTA_TEXT = "Full story → Macca Blog. Link on profile."
+CTA_TEXT = os.environ.get("SOCIAL_VIDEO_CTA_TEXT", "Full story → Macca Blog. Link on profile.")
+CTA_SPOKEN = os.environ.get("SOCIAL_VIDEO_CTA_SPOKEN", "Full story on Macca Blog.")
+BRAND_TEXT = os.environ.get("SOCIAL_VIDEO_BRAND_TEXT", "MACCA THE GATOR  |  GTA & ROCKSTAR")
+FOOTER_TEXT = os.environ.get("SOCIAL_VIDEO_FOOTER_TEXT", "MACCA BLOG")
 
 
 def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
@@ -202,6 +205,8 @@ def _load_background(article: dict, work: Path) -> Image.Image:
                 return image.convert("RGB")
         except Exception:
             continue
+    if os.environ.get("SOCIAL_VIDEO_NEUTRAL_FALLBACK", "").lower() == "true":
+        return Image.new("RGB", (WIDTH, HEIGHT), (18, 18, 24))
     fallback = ROOT / "images" / "macca-blog-banner.jpg"
     with Image.open(fallback) as image:
         return image.convert("RGB")
@@ -217,7 +222,8 @@ def _render_card(path: Path, background: Image.Image, headline: str, beat_index:
     image = Image.alpha_composite(image, Image.new("RGBA", image.size, (8, 5, 17, 112)))
     draw = ImageDraw.Draw(image, "RGBA")
 
-    draw.text((76, 235), "MACCA THE GATOR  |  GTA & ROCKSTAR", font=_font(28, True), fill=(77, 224, 237, 255))
+    if BRAND_TEXT:
+        draw.text((76, 235), BRAND_TEXT, font=_font(28, True), fill=(77, 224, 237, 255))
     draw.rounded_rectangle((76, 300, 1004, 309), radius=5, fill=(52, 43, 64, 255))
     progress_right = 76 + round(928 * (beat_index + 1) / max(total, 1))
     draw.rounded_rectangle((76, 300, progress_right, 309), radius=5, fill=(255, 104, 173, 255))
@@ -241,7 +247,7 @@ def _render_card(path: Path, background: Image.Image, headline: str, beat_index:
         draw.text((x, y), line, font=font, fill=(255, 247, 242, 255), stroke_width=1, stroke_fill=(10, 7, 20, 220))
         y += line_height
 
-    footer = f"MACCA BLOG                                      {beat_index + 1:02d} / {total:02d}"
+    footer = f"{FOOTER_TEXT}                                      {beat_index + 1:02d} / {total:02d}" if FOOTER_TEXT else f"{beat_index + 1:02d} / {total:02d}"
     draw.text((76, 1570), footer, font=_font(25, True), fill=(230, 215, 232, 255))
     image.convert("RGB").save(path, quality=92)
 
@@ -302,7 +308,7 @@ def _create_narrated_short(article: dict, output: str | Path, workdir: str | Pat
             compact_title = " ".join(str(beats[0][1]).split()[:12]).rstrip(" ,:;-")
             beats = [
                 (title_headline, compact_title or "Latest GTA and Rockstar update."),
-                (CTA_TEXT, "Full story on Macca Blog."),
+                (CTA_TEXT, CTA_SPOKEN),
             ]
             voice_speed = 1.0
             continue

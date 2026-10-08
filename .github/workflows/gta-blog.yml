@@ -19,6 +19,7 @@ on:
       - 'scripts/build-seo.mjs'
       - 'scripts/instagram.mjs'
       - 'scripts/social_video.py'
+      - 'scripts/tiktok_publish.py'
       - 'scripts/youtube_queue.py'
       - 'src/youtube/shorts.py'
       - 'requirements-youtube.txt'
@@ -39,6 +40,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: macca-blog-publisher
@@ -122,7 +124,7 @@ jobs:
           node --check scripts/instagram.mjs
           node --check scripts/instagram_metrics.mjs
           node --check analytics/web-analytics.js
-          python -m py_compile scripts/article_covers.py scripts/search_console.py scripts/youtube_metrics.py scripts/youtube_queue.py scripts/youtube_weekly.py scripts/social_video.py src/youtube/shorts.py src/youtube/upload.py
+          python -m py_compile scripts/article_covers.py scripts/search_console.py scripts/youtube_metrics.py scripts/youtube_queue.py scripts/youtube_weekly.py scripts/social_video.py scripts/tiktok_publish.py src/youtube/shorts.py src/youtube/upload.py
       - name: Check whether social video queues contain work
         id: social_video_work
         if: always()
@@ -138,8 +140,32 @@ jobs:
           console.log(`${pending} queued social item(s).`);
           fs.appendFileSync(process.env.GITHUB_OUTPUT, `has_work=${pending > 0}\n`);
           NODE
+      - name: Check whether TikTok needs work
+        id: tiktok_work
+        if: always() && !contains(github.event.head_commit.message, '[instagram-retry]')
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const posts = JSON.parse(fs.readFileSync('blog/posts.json', 'utf8'));
+          let state = {posts:{}};
+          try { state = JSON.parse(fs.readFileSync('blog/tiktok-published.json', 'utf8')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
+          const records = state.posts || {};
+          const now = Date.now();
+          let needed = Object.values(records).some(r => r && r.publishId && !['PUBLISH_COMPLETE','FAILED'].includes(r.status));
+          if (!needed) {
+            needed = posts.some(post => {
+              const slug = post.slug;
+              const when = Date.parse(post.publishedAt || '');
+              if (!slug || !Number.isFinite(when)) return false;
+              const ageHours = (now - when) / 3600000;
+              return ageHours >= 0 && ageHours <= 24 && records[slug]?.status !== 'PUBLISH_COMPLETE';
+            });
+          }
+          console.log(`TikTok work needed: ${needed}`);
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `has_work=${needed}\n`);
+          NODE
       - name: Set up Python for shared social videos
-        if: always() && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true')
+        if: always() && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true' || steps.tiktok_work.outputs.has_work == 'true')
         continue-on-error: true
         uses: actions/setup-python@v5
         with:
@@ -149,7 +175,7 @@ jobs:
             requirements-youtube.txt
             requirements-kokoro.txt
       - name: Cache Kokoro model and voice weights
-        if: always() && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true')
+        if: always() && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true' || steps.tiktok_work.outputs.has_work == 'true')
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface/hub
@@ -158,12 +184,12 @@ jobs:
             kokoro-${{ runner.os }}-hexgrad-82m-
       - name: Install shared video renderer dependencies
         id: install_social_renderer
-        if: always() && steps.build_blog.outcome != 'failure' && steps.build_seo.outcome != 'failure' && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true')
+        if: always() && steps.build_blog.outcome != 'failure' && steps.build_seo.outcome != 'failure' && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true' || steps.tiktok_work.outputs.has_work == 'true')
         continue-on-error: true
         run: python -m pip install -r requirements-youtube.txt -r requirements-kokoro.txt
       - name: Install FFmpeg and local TTS for queued videos
         id: install_video_system_deps
-        if: always() && steps.social_video_work.outputs.has_work == 'true' && steps.build_blog.outcome != 'failure' && steps.build_seo.outcome != 'failure'
+        if: always() && (steps.social_video_work.outputs.has_work == 'true' || steps.tiktok_work.outputs.has_work == 'true') && steps.build_blog.outcome != 'failure' && steps.build_seo.outcome != 'failure'
         continue-on-error: true
         run: |
           sudo apt-get update
@@ -222,6 +248,42 @@ jobs:
               assert 15 <= duration <= 25, duration
               print(f'Validated {video.name}: H.264 1080x1920, AAC, 30 FPS, {duration:.2f}s.')
           PY
+      - name: Mint GitHub OIDC token for PKLavc TikTok publisher
+        id: tiktok_oidc
+        if: always() && steps.tiktok_work.outputs.has_work == 'true' && steps.install_social_renderer.outcome != 'failure' && steps.install_video_system_deps.outcome != 'failure' && github.repository == 'Macca-the-Gator/lab'
+        shell: bash
+        run: |
+          response="$(curl -fsSL \
+            -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=https%3A%2F%2Fapi.pklavc.com%2Ftiktok%2Fpublish")"
+          token="$(printf '%s' "$response" | python -c 'import json,sys; print(json.load(sys.stdin)["value"])')"
+          echo "::add-mask::$token"
+          echo "token=$token" >> "$GITHUB_OUTPUT"
+      - name: Publish recent Macca story to PKLavc TikTok
+        id: tiktok_publish
+        if: always() && steps.tiktok_oidc.outcome == 'success' && steps.tiktok_work.outputs.has_work == 'true'
+        continue-on-error: true
+        env:
+          TIKTOK_PUBLISH_OIDC_TOKEN: ${{ steps.tiktok_oidc.outputs.token }}
+          TIKTOK_PUBLISHED_FILE: blog/tiktok-published.json
+          TIKTOK_VIDEO_DIR: ${{ runner.temp }}/macca-tiktok-videos
+          KOKORO_VOICE: am_michael
+          SOCIAL_ALLOW_ESPEAK_FALLBACK: 'true'
+        run: python -m scripts.tiktok_publish
+      - name: Save TikTok publication state
+        if: always() && steps.tiktok_publish.outcome != 'skipped' && hashFiles('blog/tiktok-published.json') != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog/tiktok-published.json
+          if git diff --cached --quiet; then
+            echo "No TikTok publication state changes."
+          else
+            git commit -m "Record PKLavc TikTok publication"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
       - name: Inspect pending Instagram posts
         id: instagram_queue
         if: always()
