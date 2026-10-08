@@ -175,7 +175,7 @@ jobs:
             requirements-youtube.txt
             requirements-kokoro.txt
       - name: Cache Kokoro model and voice weights
-        if: always() && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true')
+        if: always() && (hashFiles('blog/youtube-queue.json') != '' || steps.social_video_work.outputs.has_work == 'true' || steps.tiktok_work.outputs.has_work == 'true')
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface/hub
