@@ -137,9 +137,12 @@
       "objectKey": "instagram-reels/dbe9c8818bf445cbb948b920d9bbae29-gta-vi-characters-appear-in-snl-sketch-promoting-november-releas.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-08T01:03:36.203558Z",
-      "sizeBytes": 949326
+      "sizeBytes": 949326,
+      "uploadedAt": "2026-10-08T01:04:46.646930Z",
+      "publicVerifiedAt": "2026-10-08T01:04:46.873396Z",
+      "deletedAt": "2026-10-08T01:05:32.690686Z"
     }
   }
 }
