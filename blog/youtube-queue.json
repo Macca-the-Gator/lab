@@ -1,54 +1,5 @@
 [
   {
-    "slug": "how-is-a-game-like-gta-6-actually-made-here-s-how-rockstar-gets",
-    "publicationKey": "how-is-a-game-like-gta-6-actually-made-here-s-how-rockstar-gets",
-    "forceRepublish": false,
-    "articleUrl": "https://macca-lab.onrender.com/blog/how-is-a-game-like-gta-6-actually-made-here-s-how-rockstar-gets/",
-    "sourceUrl": "https://www.gamespot.com/articles/how-is-a-game-like-gta-6-actually-made-heres-how-rockstar-gets-it-done/",
-    "title": "How Is A Game Like GTA 6 Actually Made? Here’s How Rockstar Gets It Done",
-    "description": "Rockstar North boss Rob Nelson reveals GTA 6's development uses eight-week milestones, with content roughened across all areas, while teams focus on NPC depth, pedestrian dialogue, and detailed world-building for Vice City.",
-    "youtubeTitle": "Rockstar Details GTA 6 Eight-Week Milestone Development",
-    "socialHook": "Rockstar's Rob Nelson reveals GTA 6 is built through eight-week milestones and iterative content compilation.",
-    "sections": [
-      {
-        "heading": "Development Milestones",
-        "paragraphs": [
-          "Rob Nelson of Rockstar North explains GTA 6 is built through a series of eight-week milestones where selected game pieces are compiled, evaluated, and refined iteratively.",
-          "The process involves creating assets and systems first, then roughing in content across all development areas, course-correcting year after year toward the finished vision."
-        ]
-      },
-      {
-        "heading": "NPC and World Detail",
-        "paragraphs": [
-          "GTA 6 writing director James Horton emphasizes no shortcuts when building a vast world, focusing on making every element ring true from distant conversations to small room details.",
-          "Rockstar launched a dedicated LA team for pedestrian dialogue and NPC creation, while developers visited Florida strip clubs and rode along with police to authenticate Vice City details."
-        ]
-      }
-    ],
-    "tags": [
-      "GTA 6",
-      "Rockstar Games",
-      "Development",
-      "Interview",
-      "Rob Nelson",
-      "James Horton",
-      "NPCs",
-      "Vice City"
-    ],
-    "thumbnail": "https://kotaku.com/app/uploads/2026/08/gta-6a.jpg",
-    "thumbnailAlt": "GTA 6 in development screenshot",
-    "inlineImages": [],
-    "sources": [
-      {
-        "title": "How Is A Game Like GTA 6 Actually Made? Here&#8217;s How Rockstar Gets It Done",
-        "url": "https://www.gamespot.com/articles/how-is-a-game-like-gta-6-actually-made-heres-how-rockstar-gets-it-done/",
-        "publisher": "www.gamespot.com"
-      }
-    ],
-    "socialScore": 82,
-    "queuedAt": "2026-10-05T18:31:51.610Z"
-  },
-  {
     "slug": "dan-houser-avoids-gta-6-reveal-to-prevent-creative-influence",
     "publicationKey": "dan-houser-avoids-gta-6-reveal-to-prevent-creative-influence",
     "forceRepublish": false,
@@ -301,6 +252,57 @@
     "queuedAt": "2026-10-05T02:02:02.654Z"
   },
   {
+    "slug": "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
+    "publicationKey": "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r/",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-wants-losing-your-wanted-level-to-feel-like-a-hit-and-run/",
+    "title": "GTA 6 Wanted System Overhaul: Hit-and-Run Mechanics Detailed by Rockstar",
+    "description": "GameSpot reports that Rockstar Games' head of development Rob Nelson described a revamped wanted system in GTA 6 during an IGN interview. The new \"heat\" system tracks the player's appearance and vehicle, encouraging evasion through outfit changes, haircuts, and splitting up with the co-protagonist r",
+    "youtubeTitle": "GTA 6 Wanted Level Overhaul: Hit-and-Run Mechanics, Heat System Revealed",
+    "socialHook": "Rockstar confirms GTA 6's wanted system encourages hit-and-run evasion over combat.",
+    "sections": [
+      {
+        "heading": "New Wanted System Emphasizes 'Hit-and-Run' Gameplay",
+        "paragraphs": [
+          "According to GameSpot, Rockstar co‑studio head Rob Nelson told IGN that GTA 6’s wanted system is designed around a \"hit-and-run\" philosophy. Instead of merely fleeing a glowing red zone, players can escape a one‑star wanted level by leaving the response area before police arrive. Nelson said the team wants players to have options: escalate into a shootout or commit a crime and move on before law enforcement converges. The system supports the narrative of a couple on the run, rewarding players who avoid unnecessary violence.",
+          "The demo showed Lucia gaining a wanted star after an NPC pulled a gun during an interaction. Nelson explained that stealing a vehicle or injuring a pedestrian also raises the wanted level, but players can flee, get a haircut, change clothes, or even separate from the other protagonist to lose the heat."
+        ]
+      },
+      {
+        "heading": "Heat System Tracks Appearance and Vehicle",
+        "paragraphs": [
+          "GameSpot reports that GTA 6 introduces a persistent heat system: police remember what the player looks like and what they are wearing. Simply putting on glasses or a hat is not enough; the player must visit a clothing store or access outfit changes stored in their personal vehicle’s trunk. Vehicles also become compromised—cops will recognize the car and the last known location. Nelson noted that staying low‑profile keeps the player safe, but the dynamic open world makes that challenging."
+        ]
+      },
+      {
+        "heading": "Safehouse and NPC Interactions Expand Role‑Playing",
+        "paragraphs": [
+          "The IGN demo began in Jason and Lucia’s safehouse, one of many interactive personal spaces. Rockstar emphasized the characters are staying in someone else’s house, not their own. An evolved version of Red Dead Redemption 2’s NPC interaction system allows eavesdropping, following routines, and confrontations that can escalate organically. These interactions feed directly into the wanted and heat systems, creating emergent moments that feel earned and can be resolved in multiple ways."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Wanted System",
+      "Gameplay",
+      "IGN Interview"
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "GTA 6 Wanted System Overhaul: Hit-and-Run Mechanics Detailed by Rockstar",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6 Wants Losing Your Wanted Level To Feel Like A &#8220;Hit-And-Run&#8221;",
+        "url": "https://www.gamespot.com/articles/gta-6-wants-losing-your-wanted-level-to-feel-like-a-hit-and-run/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "socialScore": 72,
+    "queuedAt": "2026-10-08T07:24:38.260Z"
+  },
+  {
     "slug": "red-dead-online-halloween-event-month-begins-october-6-and-runs",
     "publicationKey": "red-dead-online-halloween-event-month-begins-october-6-and-runs",
     "forceRepublish": false,
@@ -457,56 +459,5 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
-  },
-  {
-    "slug": "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
-    "publicationKey": "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
-    "forceRepublish": false,
-    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r/",
-    "sourceUrl": "https://www.gamespot.com/articles/gta-6-wants-losing-your-wanted-level-to-feel-like-a-hit-and-run/",
-    "title": "GTA 6 Wanted System Overhaul: Hit-and-Run Mechanics Detailed by Rockstar",
-    "description": "GameSpot reports that Rockstar Games' head of development Rob Nelson described a revamped wanted system in GTA 6 during an IGN interview. The new \"heat\" system tracks the player's appearance and vehicle, encouraging evasion through outfit changes, haircuts, and splitting up with the co-protagonist r",
-    "youtubeTitle": "GTA 6 Wanted Level Overhaul: Hit-and-Run Mechanics, Heat System Revealed",
-    "socialHook": "Rockstar confirms GTA 6's wanted system encourages hit-and-run evasion over combat.",
-    "sections": [
-      {
-        "heading": "New Wanted System Emphasizes 'Hit-and-Run' Gameplay",
-        "paragraphs": [
-          "According to GameSpot, Rockstar co‑studio head Rob Nelson told IGN that GTA 6’s wanted system is designed around a \"hit-and-run\" philosophy. Instead of merely fleeing a glowing red zone, players can escape a one‑star wanted level by leaving the response area before police arrive. Nelson said the team wants players to have options: escalate into a shootout or commit a crime and move on before law enforcement converges. The system supports the narrative of a couple on the run, rewarding players who avoid unnecessary violence.",
-          "The demo showed Lucia gaining a wanted star after an NPC pulled a gun during an interaction. Nelson explained that stealing a vehicle or injuring a pedestrian also raises the wanted level, but players can flee, get a haircut, change clothes, or even separate from the other protagonist to lose the heat."
-        ]
-      },
-      {
-        "heading": "Heat System Tracks Appearance and Vehicle",
-        "paragraphs": [
-          "GameSpot reports that GTA 6 introduces a persistent heat system: police remember what the player looks like and what they are wearing. Simply putting on glasses or a hat is not enough; the player must visit a clothing store or access outfit changes stored in their personal vehicle’s trunk. Vehicles also become compromised—cops will recognize the car and the last known location. Nelson noted that staying low‑profile keeps the player safe, but the dynamic open world makes that challenging."
-        ]
-      },
-      {
-        "heading": "Safehouse and NPC Interactions Expand Role‑Playing",
-        "paragraphs": [
-          "The IGN demo began in Jason and Lucia’s safehouse, one of many interactive personal spaces. Rockstar emphasized the characters are staying in someone else’s house, not their own. An evolved version of Red Dead Redemption 2’s NPC interaction system allows eavesdropping, following routines, and confrontations that can escalate organically. These interactions feed directly into the wanted and heat systems, creating emergent moments that feel earned and can be resolved in multiple ways."
-        ]
-      }
-    ],
-    "tags": [
-      "GTA 6",
-      "Rockstar Games",
-      "Wanted System",
-      "Gameplay",
-      "IGN Interview"
-    ],
-    "thumbnail": "",
-    "thumbnailAlt": "GTA 6 Wanted System Overhaul: Hit-and-Run Mechanics Detailed by Rockstar",
-    "inlineImages": [],
-    "sources": [
-      {
-        "title": "GTA 6 Wants Losing Your Wanted Level To Feel Like A &#8220;Hit-And-Run&#8221;",
-        "url": "https://www.gamespot.com/articles/gta-6-wants-losing-your-wanted-level-to-feel-like-a-hit-and-run/",
-        "publisher": "www.gamespot.com"
-      }
-    ],
-    "socialScore": 72,
-    "queuedAt": "2026-10-08T07:24:38.260Z"
   }
 ]
