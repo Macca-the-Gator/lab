@@ -176,9 +176,12 @@
       "objectKey": "instagram-reels/670646c345bf4be69717647b5b6b0a3f-gta-6-screenshots-rockstar-reveals-new-vice-city-views.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-08T15:39:53.962379Z",
-      "sizeBytes": 585127
+      "sizeBytes": 585127,
+      "uploadedAt": "2026-10-08T15:40:10.214750Z",
+      "publicVerifiedAt": "2026-10-08T15:40:10.356153Z",
+      "deletedAt": "2026-10-08T15:40:47.703993Z"
     }
   }
 }
