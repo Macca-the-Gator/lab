@@ -150,9 +150,12 @@
       "objectKey": "instagram-reels/c8678d7efbda4f6baf962711e30685bd-how-is-a-game-like-gta-6-actually-made-here-s-how-rockstar-gets.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-08T07:28:06.881751Z",
-      "sizeBytes": 504068
+      "sizeBytes": 504068,
+      "uploadedAt": "2026-10-08T07:29:02.712335Z",
+      "publicVerifiedAt": "2026-10-08T07:29:02.878589Z",
+      "deletedAt": "2026-10-08T07:29:44.244098Z"
     }
   }
 }
