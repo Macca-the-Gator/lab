@@ -124,9 +124,12 @@
       "objectKey": "instagram-reels/476bf7c975e747d180776b3ba6ac85fd-xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-08T00:25:11.965665Z",
-      "sizeBytes": 554460
+      "sizeBytes": 554460,
+      "uploadedAt": "2026-10-08T00:26:15.352653Z",
+      "publicVerifiedAt": "2026-10-08T00:26:15.527982Z",
+      "deletedAt": "2026-10-08T00:27:48.514538Z"
     }
   }
 }
