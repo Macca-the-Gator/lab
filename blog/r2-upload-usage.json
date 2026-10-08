@@ -1,10 +1,12 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 16,
+  "monthlyUploadAttempts": 18,
   "recentUploadAttempts24h": [
     "2026-10-07T21:16:19.427577Z",
-    "2026-10-07T21:16:19.427577Z"
+    "2026-10-07T21:16:19.427577Z",
+    "2026-10-08T00:25:11.965665Z",
+    "2026-10-08T00:25:11.965665Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -117,6 +119,14 @@
       "uploadedAt": "2026-10-07T21:16:37.154867Z",
       "publicVerifiedAt": "2026-10-07T21:16:37.326260Z",
       "deletedAt": "2026-10-07T21:17:14.733012Z"
+    },
+    "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco": {
+      "objectKey": "instagram-reels/476bf7c975e747d180776b3ba6ac85fd-xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-08T00:25:11.965665Z",
+      "sizeBytes": 554460
     }
   }
 }
