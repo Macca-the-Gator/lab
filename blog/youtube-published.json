@@ -185,5 +185,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=6_XiOgKICdQ",
     "socialScore": 80,
     "publishedAt": "2026-10-08T21:38:12.812757+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
+    "publicationKey": "rockstar-media:gta-6-screenshots-rockstar-reveals-new-vice-city-views:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-screenshots-rockstar-reveals-new-vice-city-views/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "ukMz9hEi4TE",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ukMz9hEi4TE",
+    "publishedAt": "2026-10-08T21:42:31.285613+00:00"
   }
 ]

@@ -2,11 +2,13 @@
   "schemaVersion": 1,
   "articleHistory": [
     "gta-online-event-week-halloween-event-continues-october-8th-14th",
-    "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco"
+    "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
+    "gta-6-screenshots-rockstar-reveals-new-vice-city-views"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -22,6 +24,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-08T03:04:17.295420+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-screenshots-rockstar-reveals-new-vice-city-views:cal-hampton-video-clip",
+      "articleSlug": "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-08T21:43:32.498774+00:00"
     }
   ]
 }
