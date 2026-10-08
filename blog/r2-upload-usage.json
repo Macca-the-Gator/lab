@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 20,
+  "monthlyUploadAttempts": 22,
   "recentUploadAttempts24h": [
     "2026-10-07T21:16:19.427577Z",
     "2026-10-07T21:16:19.427577Z",
     "2026-10-08T00:25:11.965665Z",
     "2026-10-08T00:25:11.965665Z",
     "2026-10-08T01:03:36.203558Z",
-    "2026-10-08T01:03:36.203558Z"
+    "2026-10-08T01:03:36.203558Z",
+    "2026-10-08T07:28:06.881751Z",
+    "2026-10-08T07:28:06.881751Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -143,6 +145,14 @@
       "uploadedAt": "2026-10-08T01:04:46.646930Z",
       "publicVerifiedAt": "2026-10-08T01:04:46.873396Z",
       "deletedAt": "2026-10-08T01:05:32.690686Z"
+    },
+    "how-is-a-game-like-gta-6-actually-made-here-s-how-rockstar-gets": {
+      "objectKey": "instagram-reels/c8678d7efbda4f6baf962711e30685bd-how-is-a-game-like-gta-6-actually-made-here-s-how-rockstar-gets.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-08T07:28:06.881751Z",
+      "sizeBytes": 504068
     }
   }
 }
