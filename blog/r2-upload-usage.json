@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 26,
+  "monthlyUploadAttempts": 28,
   "recentUploadAttempts24h": [
-    "2026-10-07T21:16:19.427577Z",
-    "2026-10-07T21:16:19.427577Z",
     "2026-10-08T00:25:11.965665Z",
     "2026-10-08T00:25:11.965665Z",
     "2026-10-08T01:03:36.203558Z",
@@ -14,7 +12,9 @@
     "2026-10-08T13:10:14.258628Z",
     "2026-10-08T13:10:14.258628Z",
     "2026-10-08T15:39:53.962379Z",
-    "2026-10-08T15:39:53.962379Z"
+    "2026-10-08T15:39:53.962379Z",
+    "2026-10-08T21:34:11.950053Z",
+    "2026-10-08T21:34:11.950053Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -182,6 +182,14 @@
       "uploadedAt": "2026-10-08T15:40:10.214750Z",
       "publicVerifiedAt": "2026-10-08T15:40:10.356153Z",
       "deletedAt": "2026-10-08T15:40:47.703993Z"
+    },
+    "gta-online-event-week-halloween-event-continues-october-8th-14th": {
+      "objectKey": "instagram-reels/8c26b65c8e434686ad494104ea318677-gta-online-event-week-halloween-event-continues-october-8th-14th.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-08T21:34:11.950053Z",
+      "sizeBytes": 807088
     }
   }
 }
