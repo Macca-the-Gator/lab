@@ -1,5 +1,62 @@
 [
   {
+    "title": "GTA 6 Screenshots: Rockstar Reveals New Vice City Views",
+    "description": "Rockstar Games has released three new Grand Theft Auto VI screenshots alongside in-engine radio station backgrounds, showcasing the vibrant streets of Vice City.",
+    "seoTitle": "GTA 6 Screenshots: Rockstar Reveals New Vice City Views",
+    "seoDescription": "Rockstar Games has released three new Grand Theft Auto VI screenshots showcasing Vice City's vibrant streets, along with in-engine radio station backgrounds.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Vice City",
+      "Screenshots",
+      "Gaming News"
+    ],
+    "featured": true,
+    "youtubeTitle": "New GTA 6 Screenshots Show Vice City and Radio Station Backgrounds",
+    "socialHook": "Rockstar Games has officially released new GTA 6 screenshots highlighting Vice City's vibrant streets and radio station aesthetics.",
+    "instagramCaptionLead": "Rockstar drops new GTA 6 screenshots showcasing Vice City's neon-lit streets and in-engine radio station backdrops.",
+    "sections": [
+      {
+        "heading": "New GTA 6 Visuals Revealed",
+        "paragraphs": [
+          "Rockstar Games has officially released a batch of new Grand Theft Auto VI screenshots, offering fans a fresh look at the highly anticipated title. The images were published as part of a new webpage dedicated to the game's music and radio stations, highlighting the vibrant and dense environment of Vice City. The screenshots capture the atmospheric details of the game, including neon signs reflecting in puddles and busy streets filled with cars and pedestrians, showcasing the visual fidelity players can expect. Additionally, the release includes three in-engine backgrounds designed as promotional material for various in-game radio stations. While the characters Jason and Lucia are reportedly present in one of the shots, their exact location remains a fun detail for fans to discover. This official visual drop provides concrete evidence of the game's progress and aesthetic direction ahead of its release."
+        ]
+      },
+      {
+        "heading": "Source and Details",
+        "paragraphs": [
+          "The report, published by RockstarINTEL, details the official Rockstar Games webpage update. The new screenshots and backgrounds are available in full 4K resolution on the official platforms, emphasizing the atmospheric lighting and dense urban layout of the Vice City setting. As the release date approaches, these official assets serve to build anticipation and provide concrete visual benchmarks for the community."
+        ]
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/album-background-desktop.0sxn7hogv.8xn-1280.webp",
+    "thumbnailAlt": "GTA 6 screenshot showing Vice City streets and neon lights",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/album-background-desktop.0sxn7hogv.8xn-1280.webp",
+        "alt": "GTA 6 screenshot showing Vice City streets and neon lights",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://rockstarintel.com/3-new-stunning-gta-6-screenshots-released-by-rockstar/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "3 New Stunning GTA 6 Screenshots Released By Rockstar",
+        "url": "https://rockstarintel.com/3-new-stunning-gta-6-screenshots-released-by-rockstar/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "date": "2026-10-08",
+    "publishedAt": "2026-10-08T15:36:58.152Z",
+    "slug": "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
+    "sourceUrl": "https://rockstarintel.com/3-new-stunning-gta-6-screenshots-released-by-rockstar/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "socialImage": "/blog/assets/covers/gta-6-screenshots-rockstar-reveals-new-vice-city-views.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-screenshots-rockstar-reveals-new-vice-city-views-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "GTA 6 Wanted System Overhaul: Hit-and-Run Mechanics Detailed by Rockstar",
     "description": "GameSpot reports that Rockstar Games' head of development Rob Nelson described a revamped wanted system in GTA 6 during an IGN interview. The new \"heat\" system tracks the player's appearance and vehicle, encouraging evasion through outfit changes, haircuts, and splitting up with the co-protagonist r",

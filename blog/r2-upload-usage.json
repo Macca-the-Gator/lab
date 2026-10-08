@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 24,
+  "monthlyUploadAttempts": 26,
   "recentUploadAttempts24h": [
     "2026-10-07T21:16:19.427577Z",
     "2026-10-07T21:16:19.427577Z",
@@ -12,7 +12,9 @@
     "2026-10-08T07:28:06.881751Z",
     "2026-10-08T07:28:06.881751Z",
     "2026-10-08T13:10:14.258628Z",
-    "2026-10-08T13:10:14.258628Z"
+    "2026-10-08T13:10:14.258628Z",
+    "2026-10-08T15:39:53.962379Z",
+    "2026-10-08T15:39:53.962379Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -169,6 +171,14 @@
       "uploadedAt": "2026-10-08T13:10:30.944642Z",
       "publicVerifiedAt": "2026-10-08T13:10:31.103508Z",
       "deletedAt": "2026-10-08T13:11:10.104622Z"
+    },
+    "gta-6-screenshots-rockstar-reveals-new-vice-city-views": {
+      "objectKey": "instagram-reels/670646c345bf4be69717647b5b6b0a3f-gta-6-screenshots-rockstar-reveals-new-vice-city-views.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-08T15:39:53.962379Z",
+      "sizeBytes": 585127
     }
   }
 }
