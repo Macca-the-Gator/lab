@@ -187,9 +187,12 @@
       "objectKey": "instagram-reels/8c26b65c8e434686ad494104ea318677-gta-online-event-week-halloween-event-continues-october-8th-14th.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-08T21:34:11.950053Z",
-      "sizeBytes": 807088
+      "sizeBytes": 807088,
+      "uploadedAt": "2026-10-08T21:38:03.425198Z",
+      "publicVerifiedAt": "2026-10-08T21:38:03.637862Z",
+      "deletedAt": "2026-10-08T21:38:07.227831Z"
     }
   }
 }
