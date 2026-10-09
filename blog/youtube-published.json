@@ -205,5 +205,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=T75h_MIk5kM",
     "socialScore": 88,
     "publishedAt": "2026-10-09T02:13:21.152530+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-month-55-launches-with-free-vehicles-and-discounts",
+    "publicationKey": "rockstar-media:gta-month-55-launches-with-free-vehicles-and-discounts:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-month-55-launches-with-free-vehicles-and-discounts/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "DreQuan_Priest_Video_Clip.mp4",
+    "youtubeVideoId": "5-DYjDzZ2E4",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5-DYjDzZ2E4",
+    "publishedAt": "2026-10-09T03:10:10.300468+00:00"
   }
 ]
