@@ -1,18 +1,16 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 32,
+  "monthlyUploadAttempts": 34,
   "recentUploadAttempts24h": [
-    "2026-10-08T13:10:14.258628Z",
-    "2026-10-08T13:10:14.258628Z",
-    "2026-10-08T15:39:53.962379Z",
-    "2026-10-08T15:39:53.962379Z",
     "2026-10-08T21:34:11.950053Z",
     "2026-10-08T21:34:11.950053Z",
     "2026-10-09T02:12:03.599583Z",
     "2026-10-09T02:12:03.599583Z",
     "2026-10-09T09:06:04.365075Z",
-    "2026-10-09T09:06:04.365075Z"
+    "2026-10-09T09:06:04.365075Z",
+    "2026-10-09T16:14:58.299175Z",
+    "2026-10-09T16:14:58.299175Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -213,6 +211,14 @@
       "uploadedAt": "2026-10-09T09:06:21.250851Z",
       "publicVerifiedAt": "2026-10-09T09:06:21.369071Z",
       "deletedAt": "2026-10-09T09:07:24.056609Z"
+    },
+    "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo": {
+      "objectKey": "instagram-reels/f05b6b317dfe4e3290663991cf0c849a-dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-09T16:14:58.299175Z",
+      "sizeBytes": 496019
     }
   }
 }
