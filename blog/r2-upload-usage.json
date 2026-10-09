@@ -207,9 +207,12 @@
       "objectKey": "instagram-reels/e8bc87f796b44be197bf0327f04c27d3-rockstarintel-lists-gta-online-ghost-exposed-2026-ghost-location.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-09T09:06:04.365075Z",
-      "sizeBytes": 741363
+      "sizeBytes": 741363,
+      "uploadedAt": "2026-10-09T09:06:21.250851Z",
+      "publicVerifiedAt": "2026-10-09T09:06:21.369071Z",
+      "deletedAt": "2026-10-09T09:07:24.056609Z"
     }
   }
 }
