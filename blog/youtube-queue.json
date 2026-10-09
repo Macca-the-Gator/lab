@@ -254,5 +254,65 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
+    "publicationKey": "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr/",
+    "sourceUrl": "https://rockstarintel.com/bad-bunny-lana-del-rey-and-more-confirmed-as-gta-6-radio-hosts-confirms-music-features/",
+    "title": "GTA 6 Radio Hosts Revealed: Bad Bunny, Lana Del Rey, Burna Boy, Kerry King",
+    "description": "Rockstar confirms Bad Bunny, Lana Del Rey, Burna Boy and Kerry King as GTA 6 radio hosts.",
+    "youtubeTitle": "GTA 6 Radio Hosts Revealed: Bad Bunny, Lana Del Rey, More",
+    "socialHook": "Rockstar confirms Bad Bunny, Lana Del Rey and more as GTA 6 radio hosts.",
+    "sections": [
+      {
+        "heading": "Radio Hosts Announced",
+        "paragraphs": [
+          "According to RockstarINTEL, Rockstar has confirmed the DJs for several GTA 6 radio stations. Bad Bunny will host Cocoteo FM with RaiNao, Lana Del Rey will host Back Country Radio alongside Morgan Wallen, Burna Boy will lead AfroBank FM with Palms Trax, and Kerry King will co‑host The Chamber 106.6 with Tom Araya. Flash FM will feature Robyn and Alex (Consani)."
+        ]
+      },
+      {
+        "heading": "Station Details",
+        "paragraphs": [
+          "The new webpage dedicated to GTA 6 music and radio reveals that Cocoteo FM will be Leonida's home for modern Latin music, playing bachata, merengue, dembow and reggaeton. Back Country Radio will broadcast renegade country to the Grassrivers and Port Gellhorn, and will include a swamp meteorologist and Mud Dog Mike. AfroBank FM will curate African music from 20th‑century classics to contemporary amapiano, while The Chamber 106.6 will deliver classic metal from the '80s and beyond."
+        ]
+      },
+      {
+        "heading": "Music System and Unknowns",
+        "paragraphs": [
+          "RockstarINTEL also details a new music system that allows players to listen to radio and on‑demand podcasts through headphones or earbuds connected to their smartphones, both in vehicles and on foot. The company calls the lineup the largest and most comprehensive in the series. The exact release date and full tracklist remain unknown."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Radio Hosts",
+      "Bad Bunny",
+      "Lana Del Rey",
+      "Burna Boy",
+      "Kerry King",
+      "Music"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/hero-background-desktop.05jwq4z-sjai_-copy-1280.webp",
+    "thumbnailAlt": "GTA 6 radio hosts announcement banner",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/hero-background-desktop.05jwq4z-sjai_-copy-1280.webp",
+        "alt": "GTA 6 radio hosts announcement banner",
+        "caption": "RockstarINTEL article banner showing GTA 6 radio hosts",
+        "sourceUrl": "https://rockstarintel.com/bad-bunny-lana-del-rey-and-more-confirmed-as-gta-6-radio-hosts-confirms-music-features/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bad Bunny, Lana Del Rey And More Confirmed As GTA 6 Radio Hosts, Music Features Revealed",
+        "url": "https://rockstarintel.com/bad-bunny-lana-del-rey-and-more-confirmed-as-gta-6-radio-hosts-confirms-music-features/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 82,
+    "queuedAt": "2026-10-09T20:56:00.858Z"
   }
 ]

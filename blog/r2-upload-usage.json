@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 34,
+  "monthlyUploadAttempts": 36,
   "recentUploadAttempts24h": [
     "2026-10-08T21:34:11.950053Z",
     "2026-10-08T21:34:11.950053Z",
@@ -10,7 +10,9 @@
     "2026-10-09T09:06:04.365075Z",
     "2026-10-09T09:06:04.365075Z",
     "2026-10-09T16:14:58.299175Z",
-    "2026-10-09T16:14:58.299175Z"
+    "2026-10-09T16:14:58.299175Z",
+    "2026-10-09T20:58:58.403205Z",
+    "2026-10-09T20:58:58.403205Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -222,6 +224,14 @@
       "uploadedAt": "2026-10-09T16:15:13.535596Z",
       "publicVerifiedAt": "2026-10-09T16:15:13.743398Z",
       "deletedAt": "2026-10-09T16:16:16.256552Z"
+    },
+    "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr": {
+      "objectKey": "instagram-reels/b080328426864a84b656a272143f7ad4-gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-09T20:58:58.403205Z",
+      "sizeBytes": 1033277
     }
   }
 }
