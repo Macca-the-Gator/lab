@@ -4,13 +4,15 @@
     "gta-online-event-week-halloween-event-continues-october-8th-14th",
     "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
     "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
-    "gta-month-55-launches-with-free-vehicles-and-discounts"
+    "gta-month-55-launches-with-free-vehicles-and-discounts",
+    "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
     {
@@ -40,6 +42,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-09T03:11:21.987906+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr:gtavi-official-cover-art-landscape",
+      "articleSlug": "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-09T21:21:04.379716+00:00"
     }
   ]
 }

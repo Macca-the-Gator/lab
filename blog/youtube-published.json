@@ -243,5 +243,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=eq-7G15MTXM",
     "socialScore": 82,
     "publishedAt": "2026-10-09T21:00:09.421049+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
+    "publicationKey": "rockstar-media:gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "youtubeVideoId": "lxsctUtqxmE",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lxsctUtqxmE",
+    "publishedAt": "2026-10-09T21:20:20.945319+00:00"
   }
 ]
