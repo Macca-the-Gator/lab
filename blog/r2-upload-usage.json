@@ -1,12 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 28,
+  "monthlyUploadAttempts": 30,
   "recentUploadAttempts24h": [
-    "2026-10-08T00:25:11.965665Z",
-    "2026-10-08T00:25:11.965665Z",
-    "2026-10-08T01:03:36.203558Z",
-    "2026-10-08T01:03:36.203558Z",
     "2026-10-08T07:28:06.881751Z",
     "2026-10-08T07:28:06.881751Z",
     "2026-10-08T13:10:14.258628Z",
@@ -14,7 +10,9 @@
     "2026-10-08T15:39:53.962379Z",
     "2026-10-08T15:39:53.962379Z",
     "2026-10-08T21:34:11.950053Z",
-    "2026-10-08T21:34:11.950053Z"
+    "2026-10-08T21:34:11.950053Z",
+    "2026-10-09T02:12:03.599583Z",
+    "2026-10-09T02:12:03.599583Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -193,6 +191,14 @@
       "uploadedAt": "2026-10-08T21:38:03.425198Z",
       "publicVerifiedAt": "2026-10-08T21:38:03.637862Z",
       "deletedAt": "2026-10-08T21:38:07.227831Z"
+    },
+    "gta-month-55-launches-with-free-vehicles-and-discounts": {
+      "objectKey": "instagram-reels/73aa63ea3b5049aca0349bee97842b11-gta-month-55-launches-with-free-vehicles-and-discounts.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-09T02:12:03.599583Z",
+      "sizeBytes": 494461
     }
   }
 }

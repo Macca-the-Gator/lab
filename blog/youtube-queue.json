@@ -353,5 +353,62 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "gta-month-55-launches-with-free-vehicles-and-discounts",
+    "publicationKey": "gta-month-55-launches-with-free-vehicles-and-discounts",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-month-55-launches-with-free-vehicles-and-discounts/",
+    "sourceUrl": "https://rockstarintel.com/gta-month-55-all-rewards-for-october/",
+    "title": "GTA+ Month 55 Launches with Free Vehicles and Discounts",
+    "description": "Rockstar announces new GTA+ Month 55 perks including the Pegassi Oppressor as a free vehicle, Vinewood Car Club discounts, and new Chameleon Paints. Available until November 4th.",
+    "youtubeTitle": "GTA+ Month 55: Free Pegassi Oppressor, Discounts & Rewards",
+    "socialHook": "Rockstar just dropped GTA+ Month 55 perks, including the Pegassi Oppressor free for members until November 4th.",
+    "sections": [
+      {
+        "heading": "GTA+ Month 55 Details and Free Vehicles",
+        "paragraphs": [
+          "Rockstar Games has launched GTA+ Month 55 for October, offering exclusive rewards to members paying $7.99/month. The month runs from October 8th through November 4th. Key additions include the Pegassi Oppressor as a free vehicle via the Vinewood Car Club and the MTL Brickade 6×6 available at The Freakshop in Mirror Park."
+        ]
+      },
+      {
+        "heading": "Additional Perks and Storage Upgrades",
+        "paragraphs": [
+          "This month also introduces free Red/Orange Flip Chameleon Paints for eligible vehicles and 5 additional aircraft storage slots for all GTA+ members. The Vinewood Car Club continues to offer 20% discounts on rotating vehicles, accessible only to subscribers."
+        ]
+      },
+      {
+        "heading": "How to Claim Rewards",
+        "paragraphs": [
+          "GTA+ members can claim the Pegassi Oppressor by visiting the Vinewood Car Club, marked FREE for members. The Pegassi Oppressor typically costs $2,750,000 in-game. The MTL Brickade 6×6 must be claimed at The Freakshop in Mirror Park as part of the month’s exclusive offerings."
+        ]
+      }
+    ],
+    "tags": [
+      "Rockstar Games",
+      "GTA+",
+      "GTA V",
+      "Pegassi Oppressor",
+      "Vinewood Car Club"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/HUHDHwtXQAAiDlK.webp",
+    "thumbnailAlt": "GTA+ Month 55 promotional image showing the Pegassi Oppressor vehicle",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/HUHDHwtXQAAiDlK.webp",
+        "alt": "GTA+ Month 55 promotional image showing the Pegassi Oppressor vehicle",
+        "caption": "GTA+ Month 55 promotional art featuring the free Pegassi Oppressor vehicle",
+        "sourceUrl": "https://rockstarintel.com/gta-month-55-all-rewards-for-october/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA+ Month 55: All Rewards For October",
+        "url": "https://rockstarintel.com/gta-month-55-all-rewards-for-october/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 88,
+    "queuedAt": "2026-10-09T02:09:22.566Z"
   }
 ]
