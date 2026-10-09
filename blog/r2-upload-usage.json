@@ -229,9 +229,12 @@
       "objectKey": "instagram-reels/b080328426864a84b656a272143f7ad4-gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-09T20:58:58.403205Z",
-      "sizeBytes": 1033277
+      "sizeBytes": 1033277,
+      "uploadedAt": "2026-10-09T20:59:14.960062Z",
+      "publicVerifiedAt": "2026-10-09T20:59:15.210234Z",
+      "deletedAt": "2026-10-09T21:00:02.785744Z"
     }
   }
 }
