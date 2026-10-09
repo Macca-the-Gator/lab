@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 30,
+  "monthlyUploadAttempts": 32,
   "recentUploadAttempts24h": [
-    "2026-10-08T07:28:06.881751Z",
-    "2026-10-08T07:28:06.881751Z",
     "2026-10-08T13:10:14.258628Z",
     "2026-10-08T13:10:14.258628Z",
     "2026-10-08T15:39:53.962379Z",
@@ -12,7 +10,9 @@
     "2026-10-08T21:34:11.950053Z",
     "2026-10-08T21:34:11.950053Z",
     "2026-10-09T02:12:03.599583Z",
-    "2026-10-09T02:12:03.599583Z"
+    "2026-10-09T02:12:03.599583Z",
+    "2026-10-09T09:06:04.365075Z",
+    "2026-10-09T09:06:04.365075Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -202,6 +202,14 @@
       "uploadedAt": "2026-10-09T02:12:18.380209Z",
       "publicVerifiedAt": "2026-10-09T02:12:18.541291Z",
       "deletedAt": "2026-10-09T02:13:15.487337Z"
+    },
+    "rockstarintel-lists-gta-online-ghost-exposed-2026-ghost-location": {
+      "objectKey": "instagram-reels/e8bc87f796b44be197bf0327f04c27d3-rockstarintel-lists-gta-online-ghost-exposed-2026-ghost-location.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-09T09:06:04.365075Z",
+      "sizeBytes": 741363
     }
   }
 }
