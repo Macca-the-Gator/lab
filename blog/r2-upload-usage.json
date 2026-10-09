@@ -216,9 +216,12 @@
       "objectKey": "instagram-reels/f05b6b317dfe4e3290663991cf0c849a-dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-09T16:14:58.299175Z",
-      "sizeBytes": 496019
+      "sizeBytes": 496019,
+      "uploadedAt": "2026-10-09T16:15:13.535596Z",
+      "publicVerifiedAt": "2026-10-09T16:15:13.743398Z",
+      "deletedAt": "2026-10-09T16:16:16.256552Z"
     }
   }
 }
