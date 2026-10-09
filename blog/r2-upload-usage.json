@@ -196,9 +196,12 @@
       "objectKey": "instagram-reels/73aa63ea3b5049aca0349bee97842b11-gta-month-55-launches-with-free-vehicles-and-discounts.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-09T02:12:03.599583Z",
-      "sizeBytes": 494461
+      "sizeBytes": 494461,
+      "uploadedAt": "2026-10-09T02:12:18.380209Z",
+      "publicVerifiedAt": "2026-10-09T02:12:18.541291Z",
+      "deletedAt": "2026-10-09T02:13:15.487337Z"
     }
   }
 }
