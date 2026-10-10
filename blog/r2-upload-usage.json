@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 36,
+  "monthlyUploadAttempts": 38,
   "recentUploadAttempts24h": [
-    "2026-10-08T21:34:11.950053Z",
-    "2026-10-08T21:34:11.950053Z",
     "2026-10-09T02:12:03.599583Z",
     "2026-10-09T02:12:03.599583Z",
     "2026-10-09T09:06:04.365075Z",
@@ -12,7 +10,9 @@
     "2026-10-09T16:14:58.299175Z",
     "2026-10-09T16:14:58.299175Z",
     "2026-10-09T20:58:58.403205Z",
-    "2026-10-09T20:58:58.403205Z"
+    "2026-10-09T20:58:58.403205Z",
+    "2026-10-10T00:53:24.984452Z",
+    "2026-10-10T00:53:24.984452Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -235,6 +235,14 @@
       "uploadedAt": "2026-10-09T20:59:14.960062Z",
       "publicVerifiedAt": "2026-10-09T20:59:15.210234Z",
       "deletedAt": "2026-10-09T21:00:02.785744Z"
+    },
+    "gta-6-reportedly-includes-detailed-decapitation-and-drug-use-per": {
+      "objectKey": "instagram-reels/4b6f1872d5624193bf0c6690b3f627b4-gta-6-reportedly-includes-detailed-decapitation-and-drug-use-per.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-10T00:53:24.984452Z",
+      "sizeBytes": 619675
     }
   }
 }

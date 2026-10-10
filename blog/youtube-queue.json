@@ -254,5 +254,62 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "gta-online-background-patch-fixes-kortz-heist-glitches",
+    "publicationKey": "gta-online-background-patch-fixes-kortz-heist-glitches",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-online-background-patch-fixes-kortz-heist-glitches/",
+    "sourceUrl": "https://rockstarintel.com/rockstar-quietly-releases-gta-online-update-to-fix-glitches/",
+    "title": "GTA Online Background Patch Fixes Kortz Heist Glitches",
+    "description": "Rockstar Games has quietly released a new background patch for GTA Online, according to a report by RockstarINTEL citing dataminer Tex2. Unlike standard updates requiring downloads, this fix is handled server-side and applies automatically to players already connected to the service. The patch arriv",
+    "youtubeTitle": "GTA Online Background Patch Fixes Kortz Heist Bugs",
+    "socialHook": "Rockstar Games has quietly released a background patch for GTA Online fixing glitches.",
+    "sections": [
+      {
+        "heading": "Background Patch Deployed",
+        "paragraphs": [
+          "Rockstar Games has quietly released a new background patch for GTA Online, according to a report by RockstarINTEL citing dataminer Tex2. Unlike standard updates requiring downloads, this fix is handled server-side and applies automatically to players already connected to the service."
+        ]
+      },
+      {
+        "heading": "Issues Addressed",
+        "paragraphs": [
+          "The patch arrives during the recent Halloween Event Week and appears to address glitches that emerged alongside seasonal content. Additionally, the company continues to respond to issues stemming from this summer's GTA Online DLC, specifically targeting bugs associated with the Kortz Center Heist. One reported improvement restricts access to modded cars."
+        ]
+      },
+      {
+        "heading": "What Remains Unknown",
+        "paragraphs": [
+          "Rockstar Games has not issued an official statement confirming the specific scope of this background update, and detailed patch notes remain unavailable. These changes follow the previous patch 1.73 Kortz Center Heist update. Fans are advised to monitor Tex2's feed and RockstarINTEL for further announcements regarding potential additional background patches."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA Online",
+      "Rockstar Games",
+      "Background Patch",
+      "Kortz Center Heist",
+      "Glitch Fix"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/06/562584d66bad6b386beced00f471290c6d9f62be-scaled.jpg",
+    "thumbnailAlt": "Rockstar Quietly Releases GTA Online Update To Fix Glitches",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/06/562584d66bad6b386beced00f471290c6d9f62be-scaled.jpg",
+        "alt": "GTA Online background patch reported by RockstarINTEL dataminer Tex2.",
+        "caption": "RockstarINTEL reports a new background patch for GTA Online.",
+        "sourceUrl": "https://rockstarintel.com/rockstar-quietly-releases-gta-online-update-to-fix-glitches/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rockstar Quietly Releases GTA Online Update To Fix Glitches",
+        "url": "https://rockstarintel.com/rockstar-quietly-releases-gta-online-update-to-fix-glitches/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 72,
+    "queuedAt": "2026-10-10T00:50:38.032Z"
   }
 ]
