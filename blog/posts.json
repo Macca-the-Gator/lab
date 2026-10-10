@@ -1,5 +1,76 @@
 [
   {
+    "skip": false,
+    "title": "GTA 6 Reveals 6 Radio Stations and On-Foot Podcasts",
+    "description": "Rockstar Games has revealed six new radio stations for Grand Theft Auto 6 and confirmed a series first: players can listen to on-demand podcasts and music on foot. According to GameSpot, the announcement details the stations and their host DJs, while Eurogamer confirms the audio mechanics.",
+    "seoTitle": "GTA 6 Reveals 6 Radio Stations and On-Foot Podcasts",
+    "seoDescription": "Rockstar Games announces six radio stations and new on-foot podcast support for Grand Theft Auto 6, hosted by stars like Bad Bunny and Lana Del Rey.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Radio Stations",
+      "Podcasts",
+      "Bad Bunny",
+      "Lana Del Rey"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6: 6 New Radio Stations and On-Foot Podcasts Announced",
+    "socialHook": "Grand Theft Auto 6 players can now listen to podcasts and radio on foot.",
+    "instagramCaptionLead": "GTA 6 just revealed six radio stations and a new way to listen: podcasts and radio on foot via smartphones. Bad Bunny and Lana Del Rey host stations.",
+    "sections": [
+      {
+        "heading": "Six New Radio Stations and DJ Lineup",
+        "paragraphs": [
+          "GameSpot reports that Rockstar Games has unveiled six radio stations for Grand Theft Auto 6, spanning modern Latin, renegade country, African music, heavy metal, pop, and regional hip-hop. Cocoteo FM hosts modern Latin music, Back Country covers renegade country, AfroBank FM features African tracks, The Chamber 106.6 offers heavy metal, Flash FM plays pop, and Dirty South Classics focuses on regional rap. Rockstar has reportedly recruited high-profile voices, with Bad Bunny and RaiNao starring as Cocoteo FM hosts and Lana Del Rey and Morgan Wallen headlining Back Country.",
+          ""
+        ]
+      },
+      {
+        "heading": "On-Foot Audio and Podcast Support",
+        "paragraphs": [
+          "Eurogamer confirms a series first: both radio and podcasts will be available to listen to on foot through headphones and earbuds connected to smartphones, rather than solely in vehicles. Details on the specific podcast content remain unspecified, with Rockstar stating more information is coming soon. The announcement aligns with the game's scheduled November 19, 2026 release window."
+        ]
+      }
+    ],
+    "thumbnail": "https://assetsio.gnwcdn.com/lucia-gta-6-headphones.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "thumbnailAlt": "GTA 6 character Lucia listening to radio via smartphone-connected headphones",
+    "inlineImages": [
+      {
+        "url": "https://assetsio.gnwcdn.com/lucia-gta-6-headphones.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "alt": "GTA 6 character Lucia listening to radio via smartphone-connected headphones",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/"
+      },
+      {
+        "url": "https://assetsio.gnwcdn.com/lucia-gta-6-headphones.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+        "alt": "GTA 6 character Lucia listening to radio via smartphone-connected headphones",
+        "caption": "Rockstar reveals GTA 6 audio changes available on foot",
+        "sourceUrl": "https://www.eurogamer.net/gta-6-headpones-earbuds-radio-podcasts"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 Reveals 6 Radio Stations, Plus Podcasts You Can Listen To On Foot",
+        "url": "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+        "publisher": "www.gamespot.com"
+      },
+      {
+        "title": "For the first time in the series, Grand Theft Auto 6 lets you use headphones to listen to radio stations and podcasts",
+        "url": "https://www.eurogamer.net/gta-6-headpones-earbuds-radio-podcasts",
+        "publisher": "Eurogamer"
+      }
+    ],
+    "date": "2026-10-10",
+    "publishedAt": "2026-10-10T07:07:06.932Z",
+    "slug": "gta-6-reveals-6-radio-stations-and-on-foot-podcasts",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "socialImage": "/blog/assets/covers/gta-6-reveals-6-radio-stations-and-on-foot-podcasts.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-reveals-6-radio-stations-and-on-foot-podcasts-discover.jpg"
+  },
+  {
     "title": "GTA Online Background Patch Fixes Kortz Heist Glitches",
     "description": "Rockstar Games has quietly released a new background patch for GTA Online, according to a report by RockstarINTEL citing dataminer Tex2. Unlike standard updates requiring downloads, this fix is handled server-side and applies automatically to players already connected to the service. The patch arriv",
     "seoTitle": "GTA Online Background Patch Fixes Kortz Heist Glitches",

@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 38,
+  "monthlyUploadAttempts": 40,
   "recentUploadAttempts24h": [
-    "2026-10-09T02:12:03.599583Z",
-    "2026-10-09T02:12:03.599583Z",
     "2026-10-09T09:06:04.365075Z",
     "2026-10-09T09:06:04.365075Z",
     "2026-10-09T16:14:58.299175Z",
@@ -12,7 +10,9 @@
     "2026-10-09T20:58:58.403205Z",
     "2026-10-09T20:58:58.403205Z",
     "2026-10-10T00:53:24.984452Z",
-    "2026-10-10T00:53:24.984452Z"
+    "2026-10-10T00:53:24.984452Z",
+    "2026-10-10T07:09:56.947619Z",
+    "2026-10-10T07:09:56.947619Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -246,6 +246,14 @@
       "uploadedAt": "2026-10-10T00:53:38.861595Z",
       "publicVerifiedAt": "2026-10-10T00:53:39.036296Z",
       "deletedAt": "2026-10-10T00:54:52.719870Z"
+    },
+    "gta-6-reveals-6-radio-stations-and-on-foot-podcasts": {
+      "objectKey": "instagram-reels/6aad1f227fb84c8196f53830ef211317-gta-6-reveals-6-radio-stations-and-on-foot-podcasts.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-10T07:09:56.947619Z",
+      "sizeBytes": 961131
     }
   }
 }
