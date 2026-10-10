@@ -240,9 +240,12 @@
       "objectKey": "instagram-reels/4b6f1872d5624193bf0c6690b3f627b4-gta-6-reportedly-includes-detailed-decapitation-and-drug-use-per.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-10T00:53:24.984452Z",
-      "sizeBytes": 619675
+      "sizeBytes": 619675,
+      "uploadedAt": "2026-10-10T00:53:38.861595Z",
+      "publicVerifiedAt": "2026-10-10T00:53:39.036296Z",
+      "deletedAt": "2026-10-10T00:54:52.719870Z"
     }
   }
 }
