@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 40,
+  "monthlyUploadAttempts": 42,
   "recentUploadAttempts24h": [
-    "2026-10-09T09:06:04.365075Z",
-    "2026-10-09T09:06:04.365075Z",
     "2026-10-09T16:14:58.299175Z",
     "2026-10-09T16:14:58.299175Z",
     "2026-10-09T20:58:58.403205Z",
@@ -12,7 +10,9 @@
     "2026-10-10T00:53:24.984452Z",
     "2026-10-10T00:53:24.984452Z",
     "2026-10-10T07:09:56.947619Z",
-    "2026-10-10T07:09:56.947619Z"
+    "2026-10-10T07:09:56.947619Z",
+    "2026-10-10T13:43:44.621218Z",
+    "2026-10-10T13:43:44.621218Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -257,6 +257,14 @@
       "uploadedAt": "2026-10-10T07:10:12.029520Z",
       "publicVerifiedAt": "2026-10-10T07:10:12.190010Z",
       "deletedAt": "2026-10-10T07:10:49.308038Z"
+    },
+    "gta-online-background-patch-fixes-kortz-heist-glitches": {
+      "objectKey": "instagram-reels/41c42fed736b4c22b7071389645dbd15-gta-online-background-patch-fixes-kortz-heist-glitches.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-10T13:43:44.621218Z",
+      "sizeBytes": 466936
     }
   }
 }
