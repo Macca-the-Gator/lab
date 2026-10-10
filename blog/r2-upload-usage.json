@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 42,
+  "monthlyUploadAttempts": 44,
   "recentUploadAttempts24h": [
-    "2026-10-09T16:14:58.299175Z",
-    "2026-10-09T16:14:58.299175Z",
     "2026-10-09T20:58:58.403205Z",
     "2026-10-09T20:58:58.403205Z",
     "2026-10-10T00:53:24.984452Z",
@@ -12,7 +10,9 @@
     "2026-10-10T07:09:56.947619Z",
     "2026-10-10T07:09:56.947619Z",
     "2026-10-10T13:43:44.621218Z",
-    "2026-10-10T13:43:44.621218Z"
+    "2026-10-10T13:43:44.621218Z",
+    "2026-10-10T18:38:06.175228Z",
+    "2026-10-10T18:38:06.175228Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -268,6 +268,14 @@
       "uploadedAt": "2026-10-10T13:44:04.579228Z",
       "publicVerifiedAt": "2026-10-10T13:44:04.728566Z",
       "deletedAt": "2026-10-10T13:44:07.240758Z"
+    },
+    "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says": {
+      "objectKey": "instagram-reels/efa07849d2034a949a57de9f62eaf888-is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-10T18:38:06.175228Z",
+      "sizeBytes": 479897
     }
   }
 }
