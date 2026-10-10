@@ -263,5 +263,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=thcd1-IA1W4",
     "socialScore": 78,
     "publishedAt": "2026-10-10T00:54:56.849752+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-online-background-patch-fixes-kortz-heist-glitches",
+    "publicationKey": "rockstar-media:gta-online-background-patch-fixes-kortz-heist-glitches:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-online-background-patch-fixes-kortz-heist-glitches/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "cFonw_27dd0",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cFonw_27dd0",
+    "publishedAt": "2026-10-10T02:51:33.242159+00:00"
   }
 ]

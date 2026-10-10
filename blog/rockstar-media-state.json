@@ -5,14 +5,16 @@
     "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
     "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
     "gta-month-55-launches-with-free-vehicles-and-discounts",
-    "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr"
+    "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
+    "gta-online-background-patch-fixes-kortz-heist-glitches"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -49,6 +51,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-09T21:21:04.379716+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-online-background-patch-fixes-kortz-heist-glitches:boobie-ike-video-clip",
+      "articleSlug": "gta-online-background-patch-fixes-kortz-heist-glitches",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-10T02:53:26.963948+00:00"
     }
   ]
 }
