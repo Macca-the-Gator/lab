@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 44,
+  "monthlyUploadAttempts": 46,
   "recentUploadAttempts24h": [
-    "2026-10-09T20:58:58.403205Z",
-    "2026-10-09T20:58:58.403205Z",
     "2026-10-10T00:53:24.984452Z",
     "2026-10-10T00:53:24.984452Z",
     "2026-10-10T07:09:56.947619Z",
@@ -12,7 +10,9 @@
     "2026-10-10T13:43:44.621218Z",
     "2026-10-10T13:43:44.621218Z",
     "2026-10-10T18:38:06.175228Z",
-    "2026-10-10T18:38:06.175228Z"
+    "2026-10-10T18:38:06.175228Z",
+    "2026-10-10T22:37:54.767756Z",
+    "2026-10-10T22:37:54.767756Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -279,6 +279,14 @@
       "uploadedAt": "2026-10-10T18:38:24.620031Z",
       "publicVerifiedAt": "2026-10-10T18:38:24.788855Z",
       "deletedAt": "2026-10-10T18:38:56.916276Z"
+    },
+    "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build": {
+      "objectKey": "instagram-reels/cfd0da315ce04d36b604fa98953aae44-gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-10T22:37:54.767756Z",
+      "sizeBytes": 999483
     }
   }
 }

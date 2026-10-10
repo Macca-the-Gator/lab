@@ -207,5 +207,50 @@
       }
     ],
     "queuedAt": "2026-10-03T01:18:45.368Z"
+  },
+  {
+    "slug": "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
+    "publicationKey": "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build/",
+    "sourceUrl": "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak",
+    "title": "GTA 6 Leaker CyberLeek Reportedly Threatens Full Playable Build",
+    "description": "Eurogamer reports that GTA 6 leaker CyberLeek has threatened to release a complete, playable build of the game from start to finish, demanding a $30 million cryptocurrency market cap.",
+    "youtubeTitle": "GTA 6 Leaker CyberLeek Threatens Full Playable Build",
+    "socialHook": "Eurogamer reports GTA 6 leaker CyberLeek threatens full playable build if crypto hits $30M.",
+    "sections": [
+      {
+        "heading": "Report",
+        "paragraphs": [
+          "Eurogamer reports that GTA 6 leaker CyberLeek has threatened to release a complete, playable build of the game, start to finish."
+        ]
+      },
+      {
+        "heading": "Demand",
+        "paragraphs": [
+          "The leaker claims the full story mode build will be released if their cryptocurrency coin reaches a $30 million market cap, and says it can be played through to the end credits."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Leaker",
+      "CyberLeek",
+      "Leak"
+    ],
+    "thumbnail": "https://assetsio.gnwcdn.com/gta-6_XFAse3R.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "thumbnailAlt": "GTA 6 leaker CyberLeek threat report",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6 leaker CyberLeek is now reportedly threatening to release a full, playable build of the game",
+        "url": "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak",
+        "publisher": "www.eurogamer.net"
+      }
+    ],
+    "socialScore": 86,
+    "queuedAt": "2026-10-10T22:35:13.391Z"
   }
 ]
