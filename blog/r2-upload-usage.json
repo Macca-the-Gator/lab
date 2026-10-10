@@ -251,9 +251,12 @@
       "objectKey": "instagram-reels/6aad1f227fb84c8196f53830ef211317-gta-6-reveals-6-radio-stations-and-on-foot-podcasts.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-10T07:09:56.947619Z",
-      "sizeBytes": 961131
+      "sizeBytes": 961131,
+      "uploadedAt": "2026-10-10T07:10:12.029520Z",
+      "publicVerifiedAt": "2026-10-10T07:10:12.190010Z",
+      "deletedAt": "2026-10-10T07:10:49.308038Z"
     }
   }
 }
