@@ -301,5 +301,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=7R-LGdKnKtA",
     "socialScore": 90,
     "publishedAt": "2026-10-10T18:39:00.992323+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
+    "publicationKey": "rockstar-media:is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "8pZwgcF7Q-Y",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8pZwgcF7Q-Y",
+    "publishedAt": "2026-10-10T20:22:57.010900+00:00"
   }
 ]
