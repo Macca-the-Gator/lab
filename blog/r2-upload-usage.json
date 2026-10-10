@@ -262,9 +262,12 @@
       "objectKey": "instagram-reels/41c42fed736b4c22b7071389645dbd15-gta-online-background-patch-fixes-kortz-heist-glitches.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-10T13:43:44.621218Z",
-      "sizeBytes": 466936
+      "sizeBytes": 466936,
+      "uploadedAt": "2026-10-10T13:44:04.579228Z",
+      "publicVerifiedAt": "2026-10-10T13:44:04.728566Z",
+      "deletedAt": "2026-10-10T13:44:07.240758Z"
     }
   }
 }
