@@ -273,9 +273,12 @@
       "objectKey": "instagram-reels/efa07849d2034a949a57de9f62eaf888-is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-10T18:38:06.175228Z",
-      "sizeBytes": 479897
+      "sizeBytes": 479897,
+      "uploadedAt": "2026-10-10T18:38:24.620031Z",
+      "publicVerifiedAt": "2026-10-10T18:38:24.788855Z",
+      "deletedAt": "2026-10-10T18:38:56.916276Z"
     }
   }
 }
