@@ -284,9 +284,12 @@
       "objectKey": "instagram-reels/cfd0da315ce04d36b604fa98953aae44-gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-10T22:37:54.767756Z",
-      "sizeBytes": 999483
+      "sizeBytes": 999483,
+      "uploadedAt": "2026-10-10T22:38:09.110788Z",
+      "publicVerifiedAt": "2026-10-10T22:38:09.262866Z",
+      "deletedAt": "2026-10-10T22:38:50.920668Z"
     }
   }
 }
