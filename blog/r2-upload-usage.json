@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 54,
+  "monthlyUploadAttempts": 56,
   "recentUploadAttempts24h": [
-    "2026-10-10T22:37:54.767756Z",
-    "2026-10-10T22:37:54.767756Z",
     "2026-10-11T01:55:57.212760Z",
     "2026-10-11T01:55:57.212760Z",
     "2026-10-11T08:52:31.170921Z",
@@ -12,7 +10,9 @@
     "2026-10-11T15:43:33.523564Z",
     "2026-10-11T15:43:33.523564Z",
     "2026-10-11T20:19:58.572439Z",
-    "2026-10-11T20:19:58.572439Z"
+    "2026-10-11T20:19:58.572439Z",
+    "2026-10-11T23:47:04.065415Z",
+    "2026-10-11T23:47:04.065415Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -334,6 +334,14 @@
       "uploadedAt": "2026-10-11T20:20:15.616365Z",
       "publicVerifiedAt": "2026-10-11T20:20:15.789073Z",
       "deletedAt": "2026-10-11T20:20:58.827905Z"
+    },
+    "gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot": {
+      "objectKey": "instagram-reels/293fd37794d54a93baf12c0be6999ee0-gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-11T23:47:04.065415Z",
+      "sizeBytes": 516548
     }
   }
 }
