@@ -339,9 +339,12 @@
       "objectKey": "instagram-reels/293fd37794d54a93baf12c0be6999ee0-gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-11T23:47:04.065415Z",
-      "sizeBytes": 516548
+      "sizeBytes": 516548,
+      "uploadedAt": "2026-10-11T23:47:24.505087Z",
+      "publicVerifiedAt": "2026-10-11T23:47:24.640963Z",
+      "deletedAt": "2026-10-11T23:48:05.850029Z"
     }
   }
 }
