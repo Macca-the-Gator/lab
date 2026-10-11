@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 48,
+  "monthlyUploadAttempts": 50,
   "recentUploadAttempts24h": [
-    "2026-10-10T07:09:56.947619Z",
-    "2026-10-10T07:09:56.947619Z",
     "2026-10-10T13:43:44.621218Z",
     "2026-10-10T13:43:44.621218Z",
     "2026-10-10T18:38:06.175228Z",
@@ -12,7 +10,9 @@
     "2026-10-10T22:37:54.767756Z",
     "2026-10-10T22:37:54.767756Z",
     "2026-10-11T01:55:57.212760Z",
-    "2026-10-11T01:55:57.212760Z"
+    "2026-10-11T01:55:57.212760Z",
+    "2026-10-11T08:52:31.170921Z",
+    "2026-10-11T08:52:31.170921Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -301,6 +301,14 @@
       "uploadedAt": "2026-10-11T01:56:11.036948Z",
       "publicVerifiedAt": "2026-10-11T01:56:11.228613Z",
       "deletedAt": "2026-10-11T01:57:51.221996Z"
+    },
+    "gta-6-leak-hacker-trial-begins-10-days-before-release": {
+      "objectKey": "instagram-reels/512adf7128d54062847c88359f498548-gta-6-leak-hacker-trial-begins-10-days-before-release.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-11T08:52:31.170921Z",
+      "sizeBytes": 798172
     }
   }
 }
