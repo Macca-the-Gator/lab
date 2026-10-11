@@ -306,9 +306,12 @@
       "objectKey": "instagram-reels/512adf7128d54062847c88359f498548-gta-6-leak-hacker-trial-begins-10-days-before-release.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-11T08:52:31.170921Z",
-      "sizeBytes": 798172
+      "sizeBytes": 798172,
+      "uploadedAt": "2026-10-11T08:52:47.671328Z",
+      "publicVerifiedAt": "2026-10-11T08:52:47.835691Z",
+      "deletedAt": "2026-10-11T08:54:21.118096Z"
     }
   }
 }
