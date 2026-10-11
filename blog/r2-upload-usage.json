@@ -295,9 +295,12 @@
       "objectKey": "instagram-reels/8dbd32ea3a8b4d1a80a606a8f1002852-gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-11T01:55:57.212760Z",
-      "sizeBytes": 541365
+      "sizeBytes": 541365,
+      "uploadedAt": "2026-10-11T01:56:11.036948Z",
+      "publicVerifiedAt": "2026-10-11T01:56:11.228613Z",
+      "deletedAt": "2026-10-11T01:57:51.221996Z"
     }
   }
 }
