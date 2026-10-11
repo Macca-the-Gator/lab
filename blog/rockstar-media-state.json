@@ -8,7 +8,8 @@
     "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
     "gta-online-background-patch-fixes-kortz-heist-glitches",
     "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
-    "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build"
+    "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
+    "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -18,7 +19,8 @@
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
-    "Cal_Hampton_Video_Clip.mp4"
+    "Cal_Hampton_Video_Clip.mp4",
+    "Lucia_Caminos_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -76,6 +78,13 @@
       "clip": "Cal_Hampton_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-11T02:18:44.333700+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-leaker-cyberleek-shares-new-video-featuring-lucia:lucia-caminos-video-clip",
+      "articleSlug": "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia",
+      "clip": "Lucia_Caminos_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-11T20:39:20.271545+00:00"
     }
   ]
 }
