@@ -328,9 +328,12 @@
       "objectKey": "instagram-reels/b773db43259d4d128004de55615b9109-gta-6-aims-to-amplify-real-world-with-over-the-top-experience-ga.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-11T20:19:58.572439Z",
-      "sizeBytes": 929820
+      "sizeBytes": 929820,
+      "uploadedAt": "2026-10-11T20:20:15.616365Z",
+      "publicVerifiedAt": "2026-10-11T20:20:15.789073Z",
+      "deletedAt": "2026-10-11T20:20:58.827905Z"
     }
   }
 }
