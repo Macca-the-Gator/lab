@@ -1,5 +1,15 @@
 [
   {
+    "sourceUrl": "https://www.gamespot.com/articles/video-games-singer-cant-wait-to-play-new-video-game-gta-6/",
+    "title": "&#8220;Video Games&#8221; Singer Can&#8217;t Wait To Play New Video Game GTA 6",
+    "date": "2026-10-11T01:53:02.756Z",
+    "status": "ai-rejected",
+    "reason": "Future‑dated article (Oct 2026) – not a current publication and lacks a credible, verifiable source for recent GTA/Rockstar news.",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/video-games-singer-cant-wait-to-play-new-video-game-gta-6/"
+    ]
+  },
+  {
     "slug": "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
     "title": "GTA 6 Leaker CyberLeek Reportedly Threatens Full Playable Build",
     "sourceUrl": "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak",

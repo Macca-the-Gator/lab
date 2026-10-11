@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 46,
+  "monthlyUploadAttempts": 48,
   "recentUploadAttempts24h": [
-    "2026-10-10T00:53:24.984452Z",
-    "2026-10-10T00:53:24.984452Z",
     "2026-10-10T07:09:56.947619Z",
     "2026-10-10T07:09:56.947619Z",
     "2026-10-10T13:43:44.621218Z",
@@ -12,7 +10,9 @@
     "2026-10-10T18:38:06.175228Z",
     "2026-10-10T18:38:06.175228Z",
     "2026-10-10T22:37:54.767756Z",
-    "2026-10-10T22:37:54.767756Z"
+    "2026-10-10T22:37:54.767756Z",
+    "2026-10-11T01:55:57.212760Z",
+    "2026-10-11T01:55:57.212760Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -290,6 +290,14 @@
       "uploadedAt": "2026-10-10T22:38:09.110788Z",
       "publicVerifiedAt": "2026-10-10T22:38:09.262866Z",
       "deletedAt": "2026-10-10T22:38:50.920668Z"
+    },
+    "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r": {
+      "objectKey": "instagram-reels/8dbd32ea3a8b4d1a80a606a8f1002852-gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-11T01:55:57.212760Z",
+      "sizeBytes": 541365
     }
   }
 }
