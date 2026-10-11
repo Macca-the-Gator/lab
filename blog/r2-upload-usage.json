@@ -317,9 +317,12 @@
       "objectKey": "instagram-reels/5893c7c9ffc84100bfdf346cfdc35ab6-red-dead-online-halloween-event-month-begins-october-6-and-runs.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-11T15:43:33.523564Z",
-      "sizeBytes": 1260390
+      "sizeBytes": 1260390,
+      "uploadedAt": "2026-10-11T15:43:48.295566Z",
+      "publicVerifiedAt": "2026-10-11T15:43:48.462317Z",
+      "deletedAt": "2026-10-11T15:44:25.354836Z"
     }
   }
 }
