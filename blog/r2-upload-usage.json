@@ -361,9 +361,12 @@
       "objectKey": "instagram-reels/21d38cb5eaa34c95a33e3d6ad9d2ce14-gta-6-boxed-copies-sold-out-at-some-retailers.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-12T15:25:55.178493Z",
-      "sizeBytes": 528326
+      "sizeBytes": 528326,
+      "uploadedAt": "2026-10-12T15:26:08.765696Z",
+      "publicVerifiedAt": "2026-10-12T15:26:08.909593Z",
+      "deletedAt": "2026-10-12T15:26:50.661462Z"
     }
   }
 }
