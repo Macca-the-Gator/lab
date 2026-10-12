@@ -370,9 +370,12 @@
       "objectKey": "instagram-reels/208fab26c13040d9a393e40cb4011bce-rockstar-announces-gta-online-halloween-content-for-october-2026.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-12T23:01:53.226742Z",
-      "sizeBytes": 540415
+      "sizeBytes": 540415,
+      "uploadedAt": "2026-10-12T23:02:09.435948Z",
+      "publicVerifiedAt": "2026-10-12T23:02:09.609818Z",
+      "deletedAt": "2026-10-12T23:02:45.121954Z"
     }
   }
 }
