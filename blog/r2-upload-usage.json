@@ -350,9 +350,12 @@
       "objectKey": "instagram-reels/9bb752daeb064daa8e7d8d156cfc1f0a-gta-6-leaker-cyberleek-shares-new-video-featuring-lucia.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-12T05:59:06.476815Z",
-      "sizeBytes": 970797
+      "sizeBytes": 970797,
+      "uploadedAt": "2026-10-12T05:59:19.783462Z",
+      "publicVerifiedAt": "2026-10-12T05:59:19.944057Z",
+      "deletedAt": "2026-10-12T05:59:23.450765Z"
     }
   }
 }
