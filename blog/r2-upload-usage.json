@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 58,
+  "monthlyUploadAttempts": 60,
   "recentUploadAttempts24h": [
-    "2026-10-11T08:52:31.170921Z",
-    "2026-10-11T08:52:31.170921Z",
     "2026-10-11T15:43:33.523564Z",
     "2026-10-11T15:43:33.523564Z",
     "2026-10-11T20:19:58.572439Z",
@@ -12,7 +10,9 @@
     "2026-10-11T23:47:04.065415Z",
     "2026-10-11T23:47:04.065415Z",
     "2026-10-12T05:59:06.476815Z",
-    "2026-10-12T05:59:06.476815Z"
+    "2026-10-12T05:59:06.476815Z",
+    "2026-10-12T15:25:55.178493Z",
+    "2026-10-12T15:25:55.178493Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -356,6 +356,14 @@
       "uploadedAt": "2026-10-12T05:59:19.783462Z",
       "publicVerifiedAt": "2026-10-12T05:59:19.944057Z",
       "deletedAt": "2026-10-12T05:59:23.450765Z"
+    },
+    "gta-6-boxed-copies-sold-out-at-some-retailers": {
+      "objectKey": "instagram-reels/21d38cb5eaa34c95a33e3d6ad9d2ce14-gta-6-boxed-copies-sold-out-at-some-retailers.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-12T15:25:55.178493Z",
+      "sizeBytes": 528326
     }
   }
 }
