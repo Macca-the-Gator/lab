@@ -1,10 +1,8 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 56,
+  "monthlyUploadAttempts": 58,
   "recentUploadAttempts24h": [
-    "2026-10-11T01:55:57.212760Z",
-    "2026-10-11T01:55:57.212760Z",
     "2026-10-11T08:52:31.170921Z",
     "2026-10-11T08:52:31.170921Z",
     "2026-10-11T15:43:33.523564Z",
@@ -12,7 +10,9 @@
     "2026-10-11T20:19:58.572439Z",
     "2026-10-11T20:19:58.572439Z",
     "2026-10-11T23:47:04.065415Z",
-    "2026-10-11T23:47:04.065415Z"
+    "2026-10-11T23:47:04.065415Z",
+    "2026-10-12T05:59:06.476815Z",
+    "2026-10-12T05:59:06.476815Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -345,6 +345,14 @@
       "uploadedAt": "2026-10-11T23:47:24.505087Z",
       "publicVerifiedAt": "2026-10-11T23:47:24.640963Z",
       "deletedAt": "2026-10-11T23:48:05.850029Z"
+    },
+    "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia": {
+      "objectKey": "instagram-reels/9bb752daeb064daa8e7d8d156cfc1f0a-gta-6-leaker-cyberleek-shares-new-video-featuring-lucia.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-12T05:59:06.476815Z",
+      "sizeBytes": 970797
     }
   }
 }
