@@ -426,5 +426,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=3Aciu2at0hc",
     "socialScore": 0,
     "publishedAt": "2026-10-12T23:02:49.526019+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-boxed-copies-sold-out-at-some-retailers",
+    "publicationKey": "rockstar-media:gta-6-boxed-copies-sold-out-at-some-retailers:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-boxed-copies-sold-out-at-some-retailers/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "TSygjP5e-Yk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TSygjP5e-Yk",
+    "publishedAt": "2026-10-12T23:17:30.593341+00:00"
   }
 ]
