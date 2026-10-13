@@ -1,16 +1,12 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 62,
+  "monthlyUploadAttempts": 64,
   "recentUploadAttempts24h": [
-    "2026-10-11T23:47:04.065415Z",
-    "2026-10-11T23:47:04.065415Z",
-    "2026-10-12T05:59:06.476815Z",
-    "2026-10-12T05:59:06.476815Z",
-    "2026-10-12T15:25:55.178493Z",
-    "2026-10-12T15:25:55.178493Z",
     "2026-10-12T23:01:53.226742Z",
-    "2026-10-12T23:01:53.226742Z"
+    "2026-10-12T23:01:53.226742Z",
+    "2026-10-13T19:21:31.835258Z",
+    "2026-10-13T19:21:31.835258Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -376,6 +372,14 @@
       "uploadedAt": "2026-10-12T23:02:09.435948Z",
       "publicVerifiedAt": "2026-10-12T23:02:09.609818Z",
       "deletedAt": "2026-10-12T23:02:45.121954Z"
+    },
+    "new-gta-6-merch-released-alongside-art-museum-exhibition": {
+      "objectKey": "instagram-reels/02dbacf6c94d45ba9a63b2fa53d0044d-new-gta-6-merch-released-alongside-art-museum-exhibition.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-13T19:21:31.835258Z",
+      "sizeBytes": 515132
     }
   }
 }
