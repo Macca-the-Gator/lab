@@ -15,6 +15,11 @@ on:
         options:
           - preflight
           - renew
+  push:
+    paths:
+      - ".github/workflows/instagram-token-rotation.yml"
+      - "scripts/instagram_token_rotation.py"
+      - "tests/test_instagram_token_rotation.py"
   pull_request:
     paths:
       - ".github/workflows/instagram-token-rotation.yml"
