@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import secrets
 import subprocess
 import sys
 import urllib.error
@@ -91,7 +92,21 @@ def gh(args: list[str], credential: str, *, input_text: str | None = None) -> No
 
 
 def verify_github_access(credential: str) -> None:
+    """Verify both GitHub Secret read and write permissions without exposing tokens."""
     gh(["api", f"repos/{REPOSITORY}/actions/secrets/public-key", "--jq", ".key_id"], credential)
+    probe_name = "IG_ROTATION_PROBE_" + secrets.token_hex(6).upper()
+    created = False
+    try:
+        gh(
+            ["secret", "set", probe_name, "--repo", REPOSITORY],
+            credential, input_text="nonsecret-probe\n",
+        )
+        created = True
+    finally:
+        if created:
+            gh(["secret", "delete", probe_name, "--repo", REPOSITORY], credential)
+
+
 
 
 def check_and_rotate(old_token: str, credential: str, *, preflight: bool = False) -> str:
