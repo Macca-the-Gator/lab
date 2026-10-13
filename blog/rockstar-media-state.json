@@ -12,7 +12,8 @@
     "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia",
     "gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot",
     "gta-6-boxed-copies-sold-out-at-some-retailers",
-    "gta-6-leak-hacker-trial-begins-10-days-before-release"
+    "gta-6-leak-hacker-trial-begins-10-days-before-release",
+    "new-gta-6-merch-released-alongside-art-museum-exhibition"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -26,7 +27,8 @@
     "Lucia_Caminos_Video_Clip.mp4",
     "Lucia_Caminos_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -112,6 +114,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-13T04:00:00.464299+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:new-gta-6-merch-released-alongside-art-museum-exhibition:cal-hampton-video-clip",
+      "articleSlug": "new-gta-6-merch-released-alongside-art-museum-exhibition",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-13T21:38:44.545047+00:00"
     }
   ]
 }

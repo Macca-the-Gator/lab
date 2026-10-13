@@ -457,5 +457,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=uqn-5siwVAY",
     "socialScore": 100,
     "publishedAt": "2026-10-13T19:22:39.812880+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "new-gta-6-merch-released-alongside-art-museum-exhibition",
+    "publicationKey": "rockstar-media:new-gta-6-merch-released-alongside-art-museum-exhibition:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/new-gta-6-merch-released-alongside-art-museum-exhibition/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "6vrQ418NlXk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6vrQ418NlXk",
+    "publishedAt": "2026-10-13T21:37:22.225714+00:00"
   }
 ]
