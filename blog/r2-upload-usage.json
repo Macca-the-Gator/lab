@@ -377,9 +377,12 @@
       "objectKey": "instagram-reels/02dbacf6c94d45ba9a63b2fa53d0044d-new-gta-6-merch-released-alongside-art-museum-exhibition.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-13T19:21:31.835258Z",
-      "sizeBytes": 515132
+      "sizeBytes": 515132,
+      "uploadedAt": "2026-10-13T19:21:47.913813Z",
+      "publicVerifiedAt": "2026-10-13T19:21:48.104964Z",
+      "deletedAt": "2026-10-13T19:22:33.456776Z"
     }
   }
 }
