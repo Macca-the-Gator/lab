@@ -506,5 +506,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=_xKKzjafhxY",
     "socialScore": 82,
     "publishedAt": "2026-10-14T20:18:36.257062+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "rockstar-says-gta-6-will-speed-up-future-game-development",
+    "publicationKey": "rockstar-media:rockstar-says-gta-6-will-speed-up-future-game-development:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/rockstar-says-gta-6-will-speed-up-future-game-development/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "youtubeVideoId": "LiBrJWq3UIw",
+    "youtubeUrl": "https://www.youtube.com/watch?v=LiBrJWq3UIw",
+    "publishedAt": "2026-10-14T20:23:37.897095+00:00"
   }
 ]
