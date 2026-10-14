@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "month": "2026-10",
-  "monthlyUploadAttempts": 64,
+  "monthlyUploadAttempts": 66,
   "recentUploadAttempts24h": [
-    "2026-10-12T23:01:53.226742Z",
-    "2026-10-12T23:01:53.226742Z",
     "2026-10-13T19:21:31.835258Z",
-    "2026-10-13T19:21:31.835258Z"
+    "2026-10-13T19:21:31.835258Z",
+    "2026-10-14T04:55:39.699916Z",
+    "2026-10-14T04:55:39.699916Z"
   ],
   "articles": {
     "gta-6-won-t-spoof-disney-world-says-rockstar-here-s-what-we-know": {
@@ -383,6 +383,14 @@
       "uploadedAt": "2026-10-13T19:21:47.913813Z",
       "publicVerifiedAt": "2026-10-13T19:21:48.104964Z",
       "deletedAt": "2026-10-13T19:22:33.456776Z"
+    },
+    "gta-6-pc-port-could-arrive-within-three-months-of-console-launch": {
+      "objectKey": "instagram-reels/e026502fb8dc497c971fbf5864b2a009-gta-6-pc-port-could-arrive-within-three-months-of-console-launch.mp4",
+      "month": "2026-10",
+      "attemptsReserved": 2,
+      "attemptsConsumed": 0,
+      "reservedAt": "2026-10-14T04:55:39.699916Z",
+      "sizeBytes": 946124
     }
   }
 }
