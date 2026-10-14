@@ -12,6 +12,7 @@ const POSTS_FILE = path.join(ROOT, 'blog', 'posts.json');
 const PUBLISHED_FILE = path.join(ROOT, 'blog', 'instagram-published.json');
 const REEL_MANIFEST_FILE = process.env.INSTAGRAM_REEL_MANIFEST_FILE || path.join(os.tmpdir(), 'macca-reel-manifest.json');
 const token = process.env.INSTAGRAM_ACCESS_TOKEN;
+const musicToken = process.env.INSTAGRAM_AUDIO_ACCESS_TOKEN || '';
 const configuredPageId = process.env.INSTAGRAM_PAGE_ID || '';
 const configuredInstagramId = process.env.INSTAGRAM_BUSINESS_ACCOUNT_ID || '';
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -128,10 +129,10 @@ async function prepare() {
   } finally { await fs.rm(tempDir, {recursive:true, force:true}); }
 }
 
-async function graphGet(host, resource, fields, version = GRAPH_VERSION) {
+async function graphGet(host, resource, fields, version = GRAPH_VERSION, credential = token) {
   const url = new URL(`https://${host}/${version}/${resource}`);
   if (fields) url.searchParams.set('fields', fields);
-  const response = await fetch(url, {headers:{authorization:`Bearer ${token}`}, signal:AbortSignal.timeout(20000)});
+  const response = await fetch(url, {headers:{authorization:`Bearer ${credential}`}, signal:AbortSignal.timeout(20000)});
   const body = await response.json().catch(() => ({}));
   if (!response.ok || body.error) {
     const error = body.error;
@@ -172,9 +173,9 @@ async function resolveAccount() {
   throw new Error('Could not resolve a professional Instagram account from INSTAGRAM_ACCESS_TOKEN. Confirm account type, token validity, linked Facebook Page when applicable, and publishing permissions.');
 }
 
-async function graphPost(host, resource, params) {
+async function graphPost(host, resource, params, credential = token) {
   const response = await fetch(`https://${host}/${GRAPH_VERSION}/${resource}`, {
-    method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body:new URLSearchParams({...params, access_token:token}), signal:AbortSignal.timeout(30000)
+    method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body:new URLSearchParams({...params, access_token:credential}), signal:AbortSignal.timeout(30000)
   });
   const body = await response.json().catch(() => ({}));
   if (!response.ok || body.error) {
@@ -186,35 +187,40 @@ async function graphPost(host, resource, params) {
 
 
 async function trendingAudioConfiguration(accountId) {
-  const audioToken = process.env.INSTAGRAM_AUDIO_ACCESS_TOKEN || token;
-  if (!audioToken) throw new Error('Instagram Audio API token is not configured.');
-  let lastError = '';
-  for (const audioType of ['music', 'original_sound']) {
-    const url = new URL(`https://graph.facebook.com/${GRAPH_VERSION}/ig_audio`);
-    url.searchParams.set('audio_type', audioType);
+  // MUSIC only. Never fall back to original_sound or a random first-row trend.
+  if (!musicToken) throw new Error('INSTAGRAM_AUDIO_ACCESS_TOKEN (Facebook Login) is missing.');
+  const blocked = ['romaria', 'gospel', 'worship', 'padre', 'christmas', 'nossa senhora',
+    'ave maria', 'religious', 'hino', 'oracao', 'oração'];
+  const suitable = ['phonk', 'synth', 'electro', 'beat', 'bass', 'trap', 'hip hop', 'instrumental',
+    'ambient', 'cinematic', 'neon', 'drift', 'funk', 'techno', 'house', 'gaming', 'future', 'rock'];
+  let after = '';
+  const seen = new Set();
+  for (let page = 0; page < 8; page++) {
+    const url = new URL('https://graph.facebook.com/' + GRAPH_VERSION + '/ig_audio');
+    url.searchParams.set('audio_type', 'music');
     url.searchParams.set('user_id', accountId);
-    url.searchParams.set('access_token', audioToken);
-    const response = await fetch(url, {signal:AbortSignal.timeout(20000)});
-    const body = await response.json().catch(() => ({}));
-    if (!response.ok || body.error) {
-      const error = body.error || {};
-      lastError = `${error.message || `HTTP ${response.status}`}${error.code ? ` (code ${error.code})` : ''}`;
-      continue;
-    }
-    const rows = Array.isArray(body.audio) ? body.audio : [];
-    const selected = rows.find(item => String(item?.audio_id || item?.id || '').trim());
-    if (!selected) continue;
-    const audioId = String(selected.audio_id || selected.id);
-    const title = selected.title || selected.name || '';
-    const artist = selected.display_artist || selected.artist || '';
-    console.log(`Instagram trending audio selected from Meta: ${[title, artist].filter(Boolean).join(' - ') || audioId} (${audioType}).`);
-    return JSON.stringify({
-      audio_id: audioId,
-      audio_volume: Math.max(0, Math.min(100, Number(process.env.INSTAGRAM_TREND_AUDIO_VOLUME || 100))),
-      video_volume: Math.max(0, Math.min(100, Number(process.env.INSTAGRAM_VIDEO_AUDIO_VOLUME || 25)))
+    if (after) url.searchParams.set('after', after);
+    // Do not place tokens in logged URLs or API errors.
+    const response = await fetch(url, {
+      headers: {authorization: 'Bearer ' + musicToken},
+      signal: AbortSignal.timeout(30000)
     });
+    const body = await response.json().catch(() => ({}));
+    if (!response.ok || body.error) throw new Error('Instagram MUSIC catalog request rejected (HTTP ' + response.status + ').');
+    for (const row of Array.isArray(body.audio) ? body.audio : []) {
+      const id = String(row?.audio_id || row?.id || '').trim();
+      const title = String(row?.title || row?.name || '');
+      const artist = String(row?.display_artist || row?.artist || '');
+      const name = (title + ' ' + artist).toLowerCase();
+      if (!id || blocked.some(term => name.includes(term)) || !suitable.some(term => name.includes(term))) continue;
+      console.log('Instagram MUSIC selected: ' + title + ' - ' + artist);
+      return JSON.stringify({audio_id:id, audio_volume:100, video_volume:0});
+    }
+    after = String(body.paging?.cursors?.after || '');
+    if (!after || seen.has(after)) break;
+    seen.add(after);
   }
-  throw new Error(`Instagram Audio API returned no usable trending audio${lastError ? `: ${lastError}` : ''}. Reel retained for retry.`);
+  throw new Error('No relevant Instagram MUSIC track available; Reel remains queued.');
 }
 
 function caption(post) {
@@ -246,7 +252,7 @@ async function waitForPublicVideo(url) {
   for (let attempt = 1; attempt <= 20; attempt++) {
     try {
       const response = await fetch(url, {method:'HEAD', redirect:'follow', signal:AbortSignal.timeout(15000)});
-      if (response.ok && /^video\/mp4/i.test(response.headers.get('content-type') || '')) return;
+      if (response.ok && /^(video\/mp4|application\/octet-stream)/i.test(response.headers.get('content-type') || '')) return;
       console.log(`Waiting for temporary Reel video (${attempt}/20, HTTP ${response.status || 'unknown'}).`);
     } catch { console.log(`Waiting for temporary Reel video (${attempt}/20).`); }
     await delay(5000);
@@ -254,10 +260,10 @@ async function waitForPublicVideo(url) {
   throw new Error(`Temporary Reel MP4 is not publicly reachable as video/mp4: ${url}`);
 }
 
-async function waitForContainer(host, containerId) {
+async function waitForContainer(host, containerId, credential = token) {
   let status = null;
   for (let attempt = 1; attempt <= 30; attempt++) {
-    const result = await graphGet(host, containerId, 'status_code,status');
+    const result = await graphGet(host, containerId, 'status_code', GRAPH_VERSION, credential);
     status = result.status_code;
     if (status === 'FINISHED') return;
     if (status === 'ERROR' || status === 'EXPIRED') throw new Error(`Instagram media processing ended with ${status}: ${result.status || 'no further details'}`);
@@ -315,7 +321,7 @@ async function findExisting(host, accountId, storyUrl, published, title) {
 async function publish() {
   const queue = await safeJson(QUEUE_FILE, []);
   if (!Array.isArray(queue) || !queue.length) { console.log('No new articles to publish to Instagram.'); return; }
-  if (!token) throw new Error('INSTAGRAM_ACCESS_TOKEN is not configured in GitHub Actions secrets.');
+  if (!token || !musicToken) throw new Error('Instagram publishing and Facebook Login audio tokens are both required.');
   const posts = await safeJson(POSTS_FILE, []);
   const published = await safeJson(PUBLISHED_FILE, {});
   const reelManifest = await safeJson(REEL_MANIFEST_FILE, {videos:{}});
@@ -342,7 +348,7 @@ async function publish() {
     const storyUrl = `${BASE}/blog/${encodeURIComponent(slug)}/`;
     // Meta's documented Reels Publishing request currently uses the Facebook
     // Login / Page-token flow. Do not send it through an Instagram Login host.
-    const reelUrl = account.host === 'graph.facebook.com' ? (reelManifest.videos?.[slug]?.reelUrl || '') : '';
+    const reelUrl = reelManifest.videos?.[slug]?.reelUrl || '';
     if (!reelUrl) {
       console.warn(`Reel video is unavailable for ${slug}; retaining the item in the Instagram queue for retry instead of falling back to an image post.`);
       continue;
@@ -358,27 +364,44 @@ async function publish() {
       queue.splice(0, queue.length, ...remaining);
       continue;
     }
-    const audioConfiguration = await trendingAudioConfiguration(account.id);
-    const container = await graphPost(account.host, `${account.id}/media`, {
+    const reelAccountId = configuredInstagramId || account.id;
+    const audioConfiguration = await trendingAudioConfiguration(reelAccountId);
+    const container = await graphPost('graph.facebook.com', `${reelAccountId}/media`, {
       media_type:'REELS',
       video_url:reelUrl,
       caption:caption(post),
       share_to_feed:'false',
       audio_configuration:audioConfiguration
-    });
+    }, musicToken);
     if (!container.id) throw new Error('Meta did not return a media container ID.');
-    await waitForContainer(account.host, container.id);
-    const media = await graphPost(account.host, `${account.id}/media_publish`, {creation_id:container.id});
+    await waitForContainer('graph.facebook.com', container.id, musicToken);
+    const media = await graphPost('graph.facebook.com', `${reelAccountId}/media_publish`, {creation_id:container.id}, musicToken);
     if (!media.id) throw new Error('Meta did not return a published media ID.');
     let permalink = '';
-    try { permalink = (await graphGet(account.host, media.id, 'permalink')).permalink || ''; } catch {}
+    let mediaAudioType = 'UNKNOWN';
+    for (let attempt = 0; attempt < 4; attempt++) {
+      try {
+        const info = await graphGet('graph.facebook.com', media.id, 'permalink,media_audio_type', GRAPH_VERSION, musicToken);
+        permalink = info.permalink || permalink;
+        mediaAudioType = String(info.media_audio_type || 'UNKNOWN').toUpperCase();
+        if (mediaAudioType === 'MUSIC') break;
+      } catch {}
+      if (attempt < 3) await delay(3000);
+    }
     const publishedKey = forceRepublish ? `${storyUrl}::${publicationKey}` : storyUrl;
-    published[publishedKey] = {articleUrl:storyUrl, publicationKey, mediaId:media.id, permalink, mediaType:'REELS', socialScore:Number(queued.socialScore || 0), publishedAt:new Date().toISOString()};
+    published[publishedKey] = {articleUrl:storyUrl, publicationKey, mediaId:media.id, permalink,
+      mediaType:'REELS', mediaAudioType, musicVerified:mediaAudioType === 'MUSIC',
+      uploadMode:'github-release', socialScore:Number(queued.socialScore || 0), publishedAt:new Date().toISOString()};
     await saveJson(PUBLISHED_FILE, published);
     const remaining = queue.filter(item => (item.publicationKey || item.slug) !== publicationKey);
     await saveJson(QUEUE_FILE, remaining);
     queue.splice(0, queue.length, ...remaining);
-    console.log(`Published ${slug} to Instagram as Reel (${media.id})${permalink ? `: ${permalink}` : ''}`);
+    if (mediaAudioType !== 'MUSIC') {
+      console.error('::error::Reel was published but Meta returned ' + mediaAudioType + '. Recorded ID to prevent duplicate uploads.');
+      process.exitCode = 1;
+    } else {
+      console.log(`Published ${slug} to Instagram with MUSIC (${media.id})${permalink ? `: ${permalink}` : ''}`);
+    }
   }
 }
 
