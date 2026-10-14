@@ -1,5 +1,16 @@
 [
   {
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-fans-are-excited-for-another-date-in-november-and-its-not-release-day/",
+    "title": "GTA 6 Fans Are Excited For Another Date In November, And It&#8217;s Not Release Day",
+    "date": "2026-10-14T10:12:11.996Z",
+    "status": "ai-rejected",
+    "reason": "The lead item is relevant, recent, and specifically about Grand Theft Auto 6 and Rockstar Games/Take-Two. It contains a specific report (Take-Two earnings briefing announcement) with verifiable details. The second source (Eurogamer) provides supplementary context about PC release timing but is not required.",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/gta-6-fans-are-excited-for-another-date-in-november-and-its-not-release-day/",
+      "https://www.eurogamer.net/gta-6s-pc-release-date-is-set-for-q1-2027-per-a-new-report"
+    ]
+  },
+  {
     "slug": "gta-6-pc-port-could-arrive-within-three-months-of-console-launch",
     "title": "GTA 6 PC Port Could Arrive Within Three Months of Console Launch",
     "sourceUrl": "https://www.gamespot.com/articles/gta-6-will-reportedly-come-to-pc-much-earlier-than-expected/",
