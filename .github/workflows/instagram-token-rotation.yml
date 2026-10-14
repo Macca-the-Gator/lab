@@ -3,7 +3,7 @@ name: Maintain Instagram publishing token
 on:
   schedule:
     # Checks twice monthly. Instagram Login tokens are refreshed;
-    # valid Facebook Page tokens are preserved, not exchanged.
+    # Facebook Login MUSIC token maintenance is independent of Instagram Login.
     - cron: "23 6 1,15 * *"
   workflow_dispatch:
     inputs:
@@ -20,11 +20,15 @@ on:
       - ".github/workflows/instagram-token-rotation.yml"
       - "scripts/instagram_token_rotation.py"
       - "tests/test_instagram_token_rotation.py"
+      - "scripts/facebook_audio_token_rotation.py"
+      - "tests/test_facebook_audio_rotation.py"
   pull_request:
     paths:
       - ".github/workflows/instagram-token-rotation.yml"
       - "scripts/instagram_token_rotation.py"
       - "tests/test_instagram_token_rotation.py"
+      - "scripts/facebook_audio_token_rotation.py"
+      - "tests/test_facebook_audio_rotation.py"
 
 permissions:
   contents: read
@@ -43,7 +47,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run offline rotation tests
-        run: python -m unittest discover -s tests -p 'test_instagram_token_rotation.py' -v
+        run: |
+          python -m unittest discover -s tests -p 'test_instagram_token_rotation.py' -v
+          python -m unittest discover -s tests -p 'test_facebook_audio_rotation.py' -v
 
   rotate:
     if: github.repository == 'Macca-the-Gator/lab' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
@@ -61,3 +67,23 @@ jobs:
           INSTAGRAM_TOKEN_ROTACION: ${{ secrets.INSTAGRAM_TOKEN_ROTACION }}
           RUN_MODE: ${{ github.event_name == 'schedule' && 'renew' || inputs.mode || 'preflight' }}
         run: python scripts/instagram_token_rotation.py "$RUN_MODE"
+
+  facebook-audio:
+    if: github.repository == 'Macca-the-Gator/lab' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    needs: unit-tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Independently validate or extend Facebook Login MUSIC token
+        env:
+          INSTAGRAM_AUDIO_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_AUDIO_ACCESS_TOKEN }}
+          INSTAGRAM_APP_SECRET: ${{ secrets.INSTAGRAM_APP_SECRET }}
+          INSTAGRAM_AUDIO_APP_ID: ${{ vars.INSTAGRAM_AUDIO_APP_ID }}
+          INSTAGRAM_TOKEN_ROTACION: ${{ secrets.INSTAGRAM_TOKEN_ROTACION }}
+          INSTAGRAM_GRAPH_VERSION: v26.0
+          RUN_MODE: ${{ github.event_name == 'schedule' && 'renew' || inputs.mode || 'preflight' }}
+        run: python scripts/facebook_audio_token_rotation.py "$RUN_MODE"
