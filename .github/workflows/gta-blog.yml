@@ -262,7 +262,6 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: '1'
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
-        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m scripts.social_video upload
       - name: Publish new stories to Instagram
@@ -284,7 +283,6 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: '1'
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
-        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m scripts.social_video cleanup
       - name: Save Instagram publication IDs
