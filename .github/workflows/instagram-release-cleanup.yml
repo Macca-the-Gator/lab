@@ -1,0 +1,28 @@
+name: Clean up temporary Macca Reel videos
+
+on:
+  schedule:
+    - cron: '9 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: macca-blog-publisher
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    if: github.repository == 'Macca-the-Gator/lab'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Remove only expired, prefixed Reel Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m scripts.github_reel_media
