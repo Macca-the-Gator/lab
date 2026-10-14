@@ -13,7 +13,8 @@
     "gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot",
     "gta-6-boxed-copies-sold-out-at-some-retailers",
     "gta-6-leak-hacker-trial-begins-10-days-before-release",
-    "new-gta-6-merch-released-alongside-art-museum-exhibition"
+    "new-gta-6-merch-released-alongside-art-museum-exhibition",
+    "gta-6-reveals-6-radio-stations-and-on-foot-podcasts"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -28,7 +29,8 @@
     "Lucia_Caminos_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
-    "Cal_Hampton_Video_Clip.mp4"
+    "Cal_Hampton_Video_Clip.mp4",
+    "DreQuan_Priest_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -121,6 +123,13 @@
       "clip": "Cal_Hampton_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-13T21:38:44.545047+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-reveals-6-radio-stations-and-on-foot-podcasts:drequan-priest-video-clip",
+      "articleSlug": "gta-6-reveals-6-radio-stations-and-on-foot-podcasts",
+      "clip": "DreQuan_Priest_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-14T02:15:23.981290+00:00"
     }
   ]
 }
