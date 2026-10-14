@@ -413,7 +413,9 @@ def publish_instagram(video: Path, article: dict, publication_key: str) -> dict:
     YouTube keeps its narrated MP4. Macca Instagram receives only video and
     Meta-licensed music; no R2 and no narration/audio fallback.
     """
-    token = os.environ.get("INSTAGRAM_AUDIO_ACCESS_TOKEN", "")
+    # Preserve the publishing credential that already posted Macca Reels.
+    # Facebook catalog tokens are used for MUSIC selection only.
+    token = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
     account = os.environ.get("INSTAGRAM_BUSINESS_ACCOUNT_ID", "")
     if not token or not account:
         raise RuntimeError("Missing Macca Facebook Login audio token or Instagram account ID.")
