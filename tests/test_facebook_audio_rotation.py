@@ -17,6 +17,23 @@ class FacebookAudioRotationTests(unittest.TestCase):
         self.env.start()
         self.addCleanup(self.env.stop)
 
+    @patch.object(rotation, 'account_valid', return_value=False)
+    @patch.object(rotation, 'update_secret')
+    def test_catalog_rejection_keeps_existing_tokens(self, write, available):
+        self.assertEqual(rotation.maintain(), 'unchanged_unverified_catalog')
+        write.assert_not_called()
+
+    @patch.object(rotation, 'account_valid', return_value=False)
+    @patch.object(rotation, 'update_secret')
+    def test_missing_app_secret_does_not_break_existing_publisher(self, write, available):
+        with patch.dict(os.environ, {'INSTAGRAM_APP_SECRET': ''}):
+            self.assertEqual(rotation.maintain(), 'unchanged_no_app_secret')
+        write.assert_not_called()
+
+    @patch.object(rotation, 'get', side_effect=rotation.AudioTokenError('catalog unavailable'))
+    def test_music_catalog_error_does_not_claim_token_expired(self, meta_get):
+        self.assertFalse(rotation.account_valid('previously-working-token'))
+
     @patch.object(rotation, "account_valid")
     @patch.object(rotation, "expiry", return_value=1000000 + 55 * 86400)
     @patch.object(rotation, "update_secret")

@@ -66,11 +66,11 @@ def identify_token(token: str) -> tuple[str, str]:
             "the current GitHub secret was not changed."
         ) from None
     page_id = str(page.get("id") or "").strip()
+    # /me for a Facebook Login user token returns the *user* ID, not
+    # the Page ID. This is a normal response and must never cause a token
+    # rewrite or a misleading "wrong Page" error.
     if page_id != EXPECTED_PAGE_ID:
-        raise RotationError(
-            "Facebook token is not for the configured Macca Page; "
-            "automatic replacement is blocked."
-        )
+        return "facebook_graph_user_or_page", page_id
     return "facebook_page", page_id
 
 
@@ -114,12 +114,14 @@ def check_and_rotate(old_token: str, credential: str, *, preflight: bool = False
         raise RotationError("Missing INSTAGRAM_ACCESS_TOKEN Actions secret.")
 
     kind, identity_id = identify_token(old_token)
-    if kind == "facebook_page":
+    if kind in ("facebook_page", "facebook_graph_user_or_page"):
         print(
-            "Facebook Page access token is valid; it is not an Instagram Login token. "
-            "The Page token remains unchanged. Check its expiry in Meta Access Token Debugger."
+            "Facebook Graph token accepted; this is not an Instagram Login token. "
+            "Keeping the existing token unchanged: Instagram Login refresh does not apply. "
+            "A different /me ID can represent the logged-in Facebook user rather than the Page. "
+            "Actual Macca Page publishing permissions were not checked in this step."
         )
-        return "page_valid"
+        return "page_valid" if kind == "facebook_page" else "facebook_graph_unchanged"
 
     verify_github_access(credential)
     if preflight:

@@ -48,14 +48,28 @@ def get(path: str, params: dict[str, str]) -> dict:
     return payload
 
 
-def account_valid(token: str) -> None:
-    # The same token must actually list usable music for Macca's account.
-    result = get("/ig_audio", {
-        "audio_type": "music", "user_id": EXPECTED_IG_ID, "access_token": token,
-    })
+def account_valid(token: str) -> bool:
+    """Try optional catalog access without invalidating a publishing token.
+
+    A catalog rejection does not prove the Facebook token is expired. Previous
+    Macca publishing used its own INSTAGRAM_ACCESS_TOKEN and must stay intact.
+    """
+    try:
+        result = get("/ig_audio", {
+            "audio_type": "music", "user_id": EXPECTED_IG_ID, "access_token": token,
+        })
+    except AudioTokenError:
+        print(
+            "::warning::Optional Facebook audio token cannot read /ig_audio. "
+            "Keeping existing secrets unchanged; the Reel publisher also checks "
+            "the original Instagram publishing token for MUSIC."
+        )
+        return False
     if not isinstance(result.get("audio"), list):
-        raise AudioTokenError("Macca Instagram MUSIC catalog is not accessible.")
-    print("Macca Facebook Audio token can access the Instagram music catalog.")
+        print("::warning::Facebook audio response has no music list; current secrets unchanged.")
+        return False
+    print("Facebook music catalog access confirmed.")
+    return True
 
 
 def app_id(token: str) -> str:
@@ -103,9 +117,25 @@ def update_secret(token: str) -> None:
 
 def maintain(*, preflight: bool = False) -> str:
     old = require(SECRET)
-    account_valid(old)
+    music_available = account_valid(old)
+    # Meta requires an app secret to debug expiry and exchange a *Facebook*
+    # user token; do not require a new secret just to keep the old publisher
+    # working. Missing optional configuration must never reset tokens.
+    secret = os.environ.get("INSTAGRAM_APP_SECRET", "").strip()
+    if not secret:
+        print(
+            "::warning::INSTAGRAM_APP_SECRET is not configured. "
+            "Facebook Login expiry inspection and rotation are unavailable; "
+            "the existing token was preserved. Instagram publishing is independent."
+        )
+        return "unchanged_no_app_secret"
+    if not music_available:
+        print(
+            "::warning::Music token is not validated for the Macca catalog. "
+            "Skipping rotation instead of replacing an unverified token."
+        )
+        return "unchanged_unverified_catalog"
     ident = app_id(old)
-    secret = require("INSTAGRAM_APP_SECRET")
     now = int(time.time())
     old_exp = expiry(old, ident, secret)
     if old_exp <= now:
@@ -118,10 +148,9 @@ def maintain(*, preflight: bool = False) -> str:
     if not fresh or duration < 45 * 86400:
         raise AudioTokenError("Meta did not issue a long-lived Facebook token; reauthorize.")
     print("::add-mask::" + fresh, flush=True)
-    account_valid(fresh)
+    if not account_valid(fresh):
+        raise AudioTokenError("Exchanged Facebook user token cannot access MUSIC; existing secret unchanged.")
     next_exp = expiry(fresh, ident, secret)
-    # Most existing 60-day Facebook tokens cannot be indefinitely extended;
-    # check actual expiry instead of trusting a successful exchange response.
     if next_exp <= max(old_exp + 86400, now + 45 * 86400):
         raise AudioTokenError("Meta did not extend expiry; manual Facebook Login reauthorization needed.")
     update_secret(fresh)

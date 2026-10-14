@@ -22,6 +22,10 @@ on:
       - "tests/test_instagram_token_rotation.py"
       - "scripts/facebook_audio_token_rotation.py"
       - "tests/test_facebook_audio_rotation.py"
+      - "scripts/instagram.mjs"
+      - "scripts/instagram_music.py"
+      - "scripts/rockstar_media_social.py"
+      - "tests/test_instagram_music.py"
   pull_request:
     paths:
       - ".github/workflows/instagram-token-rotation.yml"
@@ -29,6 +33,10 @@ on:
       - "tests/test_instagram_token_rotation.py"
       - "scripts/facebook_audio_token_rotation.py"
       - "tests/test_facebook_audio_rotation.py"
+      - "scripts/instagram.mjs"
+      - "scripts/instagram_music.py"
+      - "scripts/rockstar_media_social.py"
+      - "tests/test_instagram_music.py"
 
 permissions:
   contents: read
@@ -50,6 +58,9 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_instagram_token_rotation.py' -v
           python -m unittest discover -s tests -p 'test_facebook_audio_rotation.py' -v
+          python -m unittest discover -s tests -p 'test_instagram_music.py' -v
+          python -m py_compile scripts/instagram_token_rotation.py scripts/facebook_audio_token_rotation.py scripts/instagram_music.py scripts/rockstar_media_social.py
+          node --check scripts/instagram.mjs
 
   rotate:
     if: github.repository == 'Macca-the-Gator/lab' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
