@@ -433,5 +433,17 @@
     "mediaType": "REELS",
     "socialScore": 80,
     "publishedAt": "2026-10-14T04:56:32.136Z"
+  },
+  "https://macca-lab.onrender.com/blog/new-gta-6-screenshots-revealed-via-bloomberg-interview/": {
+    "articleUrl": "https://macca-lab.onrender.com/blog/new-gta-6-screenshots-revealed-via-bloomberg-interview/",
+    "publicationKey": "new-gta-6-screenshots-revealed-via-bloomberg-interview",
+    "mediaId": "18214450387360079",
+    "permalink": "https://www.instagram.com/reel/DefEyoQlECe/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "uploadMode": "github-release",
+    "socialScore": 100,
+    "publishedAt": "2026-10-14T18:55:24.328Z"
   }
 }
