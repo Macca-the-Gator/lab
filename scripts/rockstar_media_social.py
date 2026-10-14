@@ -25,8 +25,8 @@ import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-import boto3
-from botocore.config import Config
+from scripts.github_reel_media import upload_video as upload_github_reel, delete_video as delete_github_reel, MAX_VIDEO_BYTES
+from scripts.instagram_music import choose_music
 from PIL import Image, ImageDraw
 
 from src.youtube.kokoro_tts import LocalNarrator
@@ -55,7 +55,6 @@ MEDIA_ZIP_URL = os.environ.get(
     "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip",
 )
 MEDIA_SOURCE_PAGE = "https://www.rockstargames.com/VI/media/videos"
-MAX_R2_BYTES = 25 * 1024 * 1024
 
 
 def read_json(path: Path, fallback):
@@ -408,144 +407,103 @@ def _get_json(url: str) -> dict:
         raise RuntimeError(f"Meta Graph API returned HTTP {exc.code}: {body[:500]}") from None
 
 
-def _trending_audio_configuration(account_id: str) -> str:
-    token = os.environ.get("INSTAGRAM_AUDIO_ACCESS_TOKEN") or os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
-    if not token:
-        raise RuntimeError("Instagram Audio API token is not configured.")
-    version = os.environ.get("INSTAGRAM_GRAPH_VERSION", "v26.0")
-    last_error = ""
-    for audio_type in ("music", "original_sound"):
-        query = urllib.parse.urlencode({"audio_type": audio_type, "user_id": account_id, "access_token": token})
-        try:
-            payload = _get_json(f"https://graph.facebook.com/{version}/ig_audio?{query}")
-        except Exception as exc:
-            last_error = str(exc)
-            continue
-        rows = payload.get("audio", []) if isinstance(payload, dict) else []
-        for row in rows:
-            audio_id = str(row.get("audio_id") or row.get("id") or "").strip()
-            if not audio_id:
-                continue
-            title = row.get("title") or row.get("name") or ""
-            artist = row.get("display_artist") or row.get("artist") or ""
-            label = " - ".join(value for value in (title, artist) if value) or audio_id
-            print(f"Instagram trending audio selected from Meta: {label} ({audio_type}).")
-            audio_volume = max(0, min(100, int(os.environ.get("INSTAGRAM_TREND_AUDIO_VOLUME", "100"))))
-            video_volume = max(0, min(100, int(os.environ.get("INSTAGRAM_VIDEO_AUDIO_VOLUME", "25"))))
-            return json.dumps({
-                "audio_id": audio_id,
-                "audio_volume": audio_volume,
-                "video_volume": video_volume,
-            }, separators=(",", ":"))
-    raise RuntimeError(
-        "Instagram Audio API returned no usable trending audio"
-        + (f": {last_error}" if last_error else "")
-        + ". Reel retained for retry."
-    )
-
-
 def publish_instagram(video: Path, article: dict, publication_key: str) -> dict:
-    token = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
+    """Rockstar Instagram variant uses temporary GitHub video_url and native MUSIC.
+
+    YouTube keeps its narrated MP4. Macca Instagram receives only video and
+    Meta-licensed music; no R2 and no narration/audio fallback.
+    """
+    token = os.environ.get("INSTAGRAM_AUDIO_ACCESS_TOKEN", "")
     account = os.environ.get("INSTAGRAM_BUSINESS_ACCOUNT_ID", "")
-    required_r2 = (
-        "CLOUDFLARE_R2_ACCOUNT_ID",
-        "CLOUDFLARE_R2_ACCESS_KEY_ID",
-        "CLOUDFLARE_R2_SECRET_ACCESS_KEY",
-        "CLOUDFLARE_R2_BUCKET",
-        "CLOUDFLARE_R2_PUBLIC_BASE_URL",
-    )
-    if not token or not account or not all(os.environ.get(name) for name in required_r2):
-        raise RuntimeError("Instagram or R2 publishing credentials are not configured.")
-    if video.stat().st_size > MAX_R2_BYTES:
-        raise RuntimeError("Rockstar media MP4 exceeds the 25 MB temporary R2 guard.")
+    if not token or not account:
+        raise RuntimeError("Missing Macca Facebook Login audio token or Instagram account ID.")
+    if video.stat().st_size > MAX_VIDEO_BYTES:
+        raise RuntimeError("Rockstar media MP4 exceeds the 25 MiB temporary GitHub limit.")
 
-    r2 = boto3.client(
-        "s3",
-        endpoint_url=f"https://{os.environ['CLOUDFLARE_R2_ACCOUNT_ID']}.r2.cloudflarestorage.com",
-        aws_access_key_id=os.environ["CLOUDFLARE_R2_ACCESS_KEY_ID"],
-        aws_secret_access_key=os.environ["CLOUDFLARE_R2_SECRET_ACCESS_KEY"],
-        region_name="auto",
-        config=Config(retries={"total_max_attempts": 2, "mode": "standard"}),
-    )
-    key = f"rockstar-media/{uuid.uuid4().hex}-{_safe_slug(article['slug'])}.mp4"
-    bucket = os.environ["CLOUDFLARE_R2_BUCKET"]
-    public_url = f"{os.environ['CLOUDFLARE_R2_PUBLIC_BASE_URL'].rstrip('/')}/{key}"
-    r2.put_object(
-        Bucket=bucket, Key=key, Body=video.read_bytes(),
-        ContentType="video/mp4", CacheControl="public, max-age=3600",
-    )
+    config, music_title = choose_music(account)
+    article_url = f"https://macca-lab.onrender.com/blog/{article['slug']}/"
+    hook = str(article.get("instagramCaptionLead") or article.get("socialHook") or article.get("title") or "").strip()
+    caption = (
+        f"{hook}\n\nOfficial GTA VI footage from Rockstar Games.\n"
+        f"Full story → {article_url}?utm_source=instagram&utm_medium=reel&utm_campaign=rockstar_media\n\n"
+        f"Media source: {MEDIA_SOURCE_PAGE}\n\n#GTA6 #RockstarGames #MaccaTheGator"
+    )[:1400]
+    silent = video.with_name("macca-rockstar-instagram.mp4")
+    subprocess.run([
+        "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+        "-i", str(video), "-f", "lavfi", "-i",
+        "anullsrc=channel_layout=stereo:sample_rate=48000",
+        "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy",
+        "-c:a", "aac", "-b:a", "128k", "-shortest",
+        "-movflags", "+faststart", str(silent)
+    ], check=True, timeout=180)
+    if silent.stat().st_size > MAX_VIDEO_BYTES:
+        raise RuntimeError("Silent Rockstar Reel exceeds the temporary GitHub size guard.")
+    key = f"rockstar:{publication_key}"
+    tag = None
     try:
-        request = urllib.request.Request(public_url, method="HEAD", headers={"User-Agent": "MaccaRockstarMedia/1.0"})
-        with urllib.request.urlopen(request, timeout=30) as response:
-            if response.status != 200 or not str(response.headers.get("content-type", "")).startswith("video/mp4"):
-                raise RuntimeError("Temporary R2 object is not publicly reachable as video/mp4.")
-
-        hook = str(article.get("instagramCaptionLead") or article.get("socialHook") or article.get("title") or "").strip()
-        article_url = f"https://macca-lab.onrender.com/blog/{article['slug']}/"
-        caption = (
-            f"{hook}\n\nOfficial GTA VI footage from Rockstar Games.\n"
-            f"Full story → {article_url}?utm_source=instagram&utm_medium=reel&utm_campaign=rockstar_media\n\n"
-            f"Media source: {MEDIA_SOURCE_PAGE}\n\n#GTA6 #RockstarGames #MaccaTheGator"
-        )[:1400]
+        tag, public_url = upload_github_reel(silent, key)
         version = os.environ.get("INSTAGRAM_GRAPH_VERSION", "v26.0")
         base = f"https://graph.facebook.com/{version}"
-        audio_configuration = _trending_audio_configuration(account)
         container = _post_form(f"{base}/{account}/media", {
-            "media_type": "REELS",
-            "video_url": public_url,
-            "caption": caption,
-            "share_to_feed": "false",
-            "audio_configuration": audio_configuration,
-            "access_token": token,
+            "media_type": "REELS", "video_url": public_url,
+            "caption": caption, "share_to_feed": "false",
+            "audio_configuration": config, "access_token": token,
         })
-        container_id = container.get("id")
-        if not container_id:
-            raise RuntimeError("Meta did not return an Instagram media container ID.")
-
+        cid = container.get("id")
+        if not cid:
+            raise RuntimeError("Meta did not return Rockstar Reel container ID.")
         import time
         status = ""
         for _ in range(30):
-            status_data = _get_json(
-                f"{base}/{container_id}?fields=status_code,status&access_token={urllib.parse.quote(token)}"
-            )
-            status = status_data.get("status_code", "")
+            query = urllib.parse.urlencode({
+                "fields": "status_code", "access_token": token,
+            })
+            details = _get_json(f"{base}/{cid}?{query}")
+            status = str(details.get("status_code") or "")
             if status == "FINISHED":
                 break
-            if status in {"ERROR", "EXPIRED"}:
-                raise RuntimeError(f"Instagram container ended with {status}: {status_data.get('status', '')}")
+            if status in ("ERROR", "EXPIRED"):
+                raise RuntimeError("Meta could not process Macca Rockstar Reel.")
             time.sleep(5)
         if status != "FINISHED":
-            raise RuntimeError(f"Instagram container did not finish processing (last status: {status or 'unknown'}).")
-
-        media = _post_form(f"{base}/{account}/media_publish", {
-            "creation_id": container_id,
-            "access_token": token,
+            raise RuntimeError("Meta processing timed out; publication not attempted.")
+        response = _post_form(f"{base}/{account}/media_publish", {
+            "creation_id": cid, "access_token": token,
         })
-        media_id = media.get("id")
+        media_id = str(response.get("id") or "")
         if not media_id:
-            raise RuntimeError("Meta did not return a published media ID.")
-        try:
-            info = _get_json(
-                f"{base}/{media_id}?fields=permalink&access_token={urllib.parse.quote(token)}"
-            )
-            permalink = info.get("permalink", "")
-        except Exception:
-            permalink = ""
+            raise RuntimeError("Meta returned no published media ID; inspect before retrying.")
+        permalink, media_audio_type = "", "UNKNOWN"
+        for attempt in range(4):
+            try:
+                qs = urllib.parse.urlencode({
+                    "fields": "permalink,media_audio_type", "access_token": token,
+                })
+                info = _get_json(f"{base}/{media_id}?{qs}")
+                permalink = str(info.get("permalink") or permalink)
+                media_audio_type = str(info.get("media_audio_type") or "UNKNOWN").upper()
+                if media_audio_type == "MUSIC":
+                    break
+            except Exception:
+                pass
+            if attempt < 3:
+                time.sleep(3)
         return {
-            "contentType": "rockstar-media",
-            "publicationKey": publication_key,
-            "articleUrl": article_url,
-            "mediaId": media_id,
-            "permalink": permalink,
-            "mediaType": "REELS",
+            "contentType": "rockstar-media", "publicationKey": publication_key,
+            "articleUrl": article_url, "mediaId": media_id,
+            "permalink": permalink, "mediaType": "REELS",
+            "mediaAudioType": media_audio_type,
+            "musicVerified": media_audio_type == "MUSIC",
+            "musicTitle": music_title, "uploadMode": "github-release",
             "publishedAt": datetime.now(timezone.utc).isoformat(),
         }
     finally:
-        try:
-            r2.delete_object(Bucket=bucket, Key=key)
-            print("Temporary Rockstar Reel object deleted from R2.")
-        except Exception as exc:
-            print(f"R2 cleanup failed ({type(exc).__name__}); bucket lifecycle remains the fallback.")
+        if tag:
+            try:
+                delete_github_reel(tag)
+            except Exception:
+                print(f"::warning::Could not remove Rockstar temporary release {tag}; scheduled cleanup will retry.")
 
 
 def run(*, publish: bool) -> int:
@@ -559,12 +517,14 @@ def run(*, publish: bool) -> int:
 
     # Rockstar media is paced only by its own scheduled workflow times.
     # It does not share the hourly article lane's publication budget.
-    youtube_allowed = instagram_allowed = True
-
     article = select_article(posts, state)
     clips = ensure_official_clips()
     clip = select_clip(clips, article, state)
     publication_key = f"rockstar-media:{article['slug']}:{_safe_slug(clip.stem)}"
+    youtube_allowed = not any(
+        x.get("publicationKey") == publication_key for x in published_values(youtube_records))
+    instagram_allowed = not any(
+        x.get("publicationKey") == publication_key for x in published_values(instagram_records))
     print(f"Rockstar media selection: article={article['slug']}; clip={clip.name}; publish={publish}.")
 
     with tempfile.TemporaryDirectory(prefix="macca-rockstar-media-") as temp:
@@ -617,6 +577,8 @@ def run(*, publish: bool) -> int:
                 instagram_records[f"rockstar-media://{publication_key}"] = instagram_record
                 write_json(INSTAGRAM_PUBLISHED, instagram_records)
                 successes += 1
+                if not instagram_record.get("musicVerified"):
+                    failures.append("Instagram: published Reel is not classified as MUSIC by Meta.")
                 print(
                     "Rockstar media Reel published to Instagram: "
                     f"{instagram_record.get('permalink') or instagram_record['mediaId']}"
@@ -643,7 +605,7 @@ def run(*, publish: bool) -> int:
 
     for failure in failures:
         print(f"::warning::{failure}")
-    return 1 if failures and not successes else 0
+    return 1 if failures else 0
 
 
 def main() -> None:
