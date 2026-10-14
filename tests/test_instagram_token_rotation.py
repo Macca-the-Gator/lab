@@ -67,10 +67,21 @@ class RotationTests(unittest.TestCase):
         api.assert_not_called()
 
     @patch.object(rotation, "api_json")
-    def test_unexpected_facebook_identity_is_rejected(self, api):
-        api.side_effect = [rotation.RotationError("bad ig token"), {"id": "other-page"}]
-        with self.assertRaisesRegex(rotation.RotationError, "not for the configured Macca Page"):
-            rotation.identify_token("token")
+    @patch.object(rotation, "gh")
+    def test_facebook_user_id_is_not_misidentified_as_wrong_page(self, gh, api):
+        api.side_effect = [rotation.RotationError("not Instagram Login"), {"id": "fb-user-id"}]
+        self.assertEqual(
+            rotation.identify_token("existing-macca-token"),
+            ("facebook_graph_user_or_page", "fb-user-id"),
+        )
+        gh.assert_not_called()
+
+    @patch.object(rotation, "identify_token", return_value=("facebook_graph_user_or_page", "fb-user-id"))
+    @patch.object(rotation, "gh")
+    def test_existing_facebook_user_token_is_never_overwritten(self, gh, identity):
+        self.assertEqual(rotation.check_and_rotate("existing-macca-token", "", preflight=False),
+                         "facebook_graph_unchanged")
+        gh.assert_not_called()
 
     @patch.object(rotation, "api_json")
     def test_unrecognized_token_fails_without_write(self, api):
