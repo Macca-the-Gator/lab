@@ -388,9 +388,12 @@
       "objectKey": "instagram-reels/e026502fb8dc497c971fbf5864b2a009-gta-6-pc-port-could-arrive-within-three-months-of-console-launch.mp4",
       "month": "2026-10",
       "attemptsReserved": 2,
-      "attemptsConsumed": 0,
+      "attemptsConsumed": 1,
       "reservedAt": "2026-10-14T04:55:39.699916Z",
-      "sizeBytes": 946124
+      "sizeBytes": 946124,
+      "uploadedAt": "2026-10-14T04:55:51.036621Z",
+      "publicVerifiedAt": "2026-10-14T04:55:51.256284Z",
+      "deletedAt": "2026-10-14T04:56:32.554528Z"
     }
   }
 }
