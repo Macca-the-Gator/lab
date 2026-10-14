@@ -187,40 +187,46 @@ async function graphPost(host, resource, params, credential = token) {
 
 
 async function trendingAudioConfiguration(accountId) {
-  // MUSIC only. Never fall back to original_sound or a random first-row trend.
-  if (!musicToken) throw new Error('INSTAGRAM_AUDIO_ACCESS_TOKEN (Facebook Login) is missing.');
+  // Keep the existing publishing token independent of optional catalog tokens.
+  // Some existing Macca Page tokens already have MUSIC access. Never substitute
+  // original_sound, and never log token-bearing query URLs.
+  const candidates = [...new Set([musicToken, token].filter(Boolean))];
   const blocked = ['romaria', 'gospel', 'worship', 'padre', 'christmas', 'nossa senhora',
     'ave maria', 'religious', 'hino', 'oracao', 'oração'];
   const suitable = ['phonk', 'synth', 'electro', 'beat', 'bass', 'trap', 'hip hop', 'instrumental',
     'ambient', 'cinematic', 'neon', 'drift', 'funk', 'techno', 'house', 'gaming', 'future', 'rock'];
-  let after = '';
-  const seen = new Set();
-  for (let page = 0; page < 8; page++) {
-    const url = new URL('https://graph.facebook.com/' + GRAPH_VERSION + '/ig_audio');
-    url.searchParams.set('audio_type', 'music');
-    url.searchParams.set('user_id', accountId);
-    if (after) url.searchParams.set('after', after);
-    // Do not place tokens in logged URLs or API errors.
-    const response = await fetch(url, {
-      headers: {authorization: 'Bearer ' + musicToken},
-      signal: AbortSignal.timeout(30000)
-    });
-    const body = await response.json().catch(() => ({}));
-    if (!response.ok || body.error) throw new Error('Instagram MUSIC catalog request rejected (HTTP ' + response.status + ').');
-    for (const row of Array.isArray(body.audio) ? body.audio : []) {
-      const id = String(row?.audio_id || row?.id || '').trim();
-      const title = String(row?.title || row?.name || '');
-      const artist = String(row?.display_artist || row?.artist || '');
-      const name = (title + ' ' + artist).toLowerCase();
-      if (!id || blocked.some(term => name.includes(term)) || !suitable.some(term => name.includes(term))) continue;
-      console.log('Instagram MUSIC selected: ' + title + ' - ' + artist);
-      return JSON.stringify({audio_id:id, audio_volume:100, video_volume:0});
+  for (const credential of candidates) {
+    let after = '';
+    const seen = new Set();
+    for (let page = 0; page < 8; page++) {
+      const url = new URL('https://graph.facebook.com/' + GRAPH_VERSION + '/ig_audio');
+      url.searchParams.set('audio_type', 'music');
+      url.searchParams.set('user_id', accountId);
+      url.searchParams.set('access_token', credential);
+      if (after) url.searchParams.set('after', after);
+      let response;
+      try {
+        response = await fetch(url, {signal:AbortSignal.timeout(30000)});
+      } catch {
+        break;
+      }
+      const body = await response.json().catch(() => ({}));
+      if (!response.ok || body.error) break;
+      for (const row of Array.isArray(body.audio) ? body.audio : []) {
+        const id = String(row?.audio_id || row?.id || '').trim();
+        const title = String(row?.title || row?.name || '');
+        const artist = String(row?.display_artist || row?.artist || '');
+        const name = (title + ' ' + artist).toLowerCase();
+        if (!id || blocked.some(term => name.includes(term)) || !suitable.some(term => name.includes(term))) continue;
+        console.log('Instagram MUSIC selected: ' + title + ' - ' + artist);
+        return JSON.stringify({audio_id:id, audio_volume:100, video_volume:0});
+      }
+      after = String(body.paging?.cursors?.after || '');
+      if (!after || seen.has(after)) break;
+      seen.add(after);
     }
-    after = String(body.paging?.cursors?.after || '');
-    if (!after || seen.has(after)) break;
-    seen.add(after);
   }
-  throw new Error('No relevant Instagram MUSIC track available; Reel remains queued.');
+  throw new Error('No usable Instagram MUSIC with the existing account tokens. Reel retained for retry.');
 }
 
 function caption(post) {
@@ -321,7 +327,7 @@ async function findExisting(host, accountId, storyUrl, published, title) {
 async function publish() {
   const queue = await safeJson(QUEUE_FILE, []);
   if (!Array.isArray(queue) || !queue.length) { console.log('No new articles to publish to Instagram.'); return; }
-  if (!token || !musicToken) throw new Error('Instagram publishing and Facebook Login audio tokens are both required.');
+  if (!token) throw new Error('INSTAGRAM_ACCESS_TOKEN (original Macca publishing token) is missing.');
   const posts = await safeJson(POSTS_FILE, []);
   const published = await safeJson(PUBLISHED_FILE, {});
   const reelManifest = await safeJson(REEL_MANIFEST_FILE, {videos:{}});
@@ -366,22 +372,22 @@ async function publish() {
     }
     const reelAccountId = configuredInstagramId || account.id;
     const audioConfiguration = await trendingAudioConfiguration(reelAccountId);
-    const container = await graphPost('graph.facebook.com', `${reelAccountId}/media`, {
+    const container = await graphPost(account.host, `${reelAccountId}/media`, {
       media_type:'REELS',
       video_url:reelUrl,
       caption:caption(post),
       share_to_feed:'false',
       audio_configuration:audioConfiguration
-    }, musicToken);
+    });
     if (!container.id) throw new Error('Meta did not return a media container ID.');
-    await waitForContainer('graph.facebook.com', container.id, musicToken);
-    const media = await graphPost('graph.facebook.com', `${reelAccountId}/media_publish`, {creation_id:container.id}, musicToken);
+    await waitForContainer(account.host, container.id);
+    const media = await graphPost(account.host, `${reelAccountId}/media_publish`, {creation_id:container.id});
     if (!media.id) throw new Error('Meta did not return a published media ID.');
     let permalink = '';
     let mediaAudioType = 'UNKNOWN';
     for (let attempt = 0; attempt < 4; attempt++) {
       try {
-        const info = await graphGet('graph.facebook.com', media.id, 'permalink,media_audio_type', GRAPH_VERSION, musicToken);
+        const info = await graphGet(account.host, media.id, 'permalink,media_audio_type');
         permalink = info.permalink || permalink;
         mediaAudioType = String(info.media_audio_type || 'UNKNOWN').toUpperCase();
         if (mediaAudioType === 'MUSIC') break;
