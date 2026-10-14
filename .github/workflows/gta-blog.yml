@@ -19,6 +19,8 @@ on:
       - 'scripts/build-seo.mjs'
       - 'scripts/instagram.mjs'
       - 'scripts/social_video.py'
+      - 'scripts/github_reel_media.py'
+      - 'scripts/instagram_music.py'
       - 'scripts/youtube_queue.py'
       - 'src/youtube/shorts.py'
       - 'requirements-youtube.txt'
@@ -179,13 +181,8 @@ jobs:
           KOKORO_VOICE: am_michael
           SOCIAL_VIDEO_DIR: ${{ runner.temp }}/macca-social-videos
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
-          R2_USAGE_FILE: blog/r2-upload-usage.json
+          INSTAGRAM_GRAPH_VERSION: 'v26.0'
           INSTAGRAM_RETRY_ONLY_FIRST: ${{ contains(github.event.head_commit.message, '[instagram-retry]') && 'true' || 'false' }}
-          CLOUDFLARE_R2_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_R2_ACCOUNT_ID }}
-          CLOUDFLARE_R2_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-          CLOUDFLARE_R2_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-          CLOUDFLARE_R2_BUCKET: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
-          CLOUDFLARE_R2_PUBLIC_BASE_URL: ${{ secrets.CLOUDFLARE_R2_PUBLIC_BASE_URL }}
         run: python -m scripts.social_video
       - name: Validate rendered vertical MP4
         if: steps.render_social_videos.outcome == 'success'
@@ -259,17 +256,14 @@ jobs:
           else
             echo "No blog changes to publish."
           fi
-      - name: Upload the reserved Reel object to R2
+      - name: Upload temporary Reel MP4 to GitHub Releases
         if: always() && steps.render_social_videos.outcome == 'success' && steps.commit_generated.outcome != 'failure'
         continue-on-error: true
         env:
           PYTHONDONTWRITEBYTECODE: '1'
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
-          CLOUDFLARE_R2_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_R2_ACCOUNT_ID }}
-          CLOUDFLARE_R2_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-          CLOUDFLARE_R2_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-          CLOUDFLARE_R2_BUCKET: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
-          CLOUDFLARE_R2_PUBLIC_BASE_URL: ${{ secrets.CLOUDFLARE_R2_PUBLIC_BASE_URL }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m scripts.social_video upload
       - name: Publish new stories to Instagram
         id: instagram_publish
@@ -284,16 +278,14 @@ jobs:
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
           INSTAGRAM_RETRY_ONLY_FIRST: ${{ contains(github.event.head_commit.message, '[instagram-retry]') && 'true' || 'false' }}
         run: node scripts/instagram.mjs publish
-      - name: Delete temporary Instagram Reel videos from R2
+      - name: Delete temporary Instagram Reel MP4 releases
         if: always() && steps.render_social_videos.outcome != 'skipped'
         continue-on-error: true
         env:
           PYTHONDONTWRITEBYTECODE: '1'
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
-          CLOUDFLARE_R2_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_R2_ACCOUNT_ID }}
-          CLOUDFLARE_R2_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-          CLOUDFLARE_R2_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-          CLOUDFLARE_R2_BUCKET: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m scripts.social_video cleanup
       - name: Save Instagram publication IDs
         if: always() && steps.instagram_publish.outcome != 'skipped' && hashFiles('blog/instagram-queue.json') != ''
@@ -301,9 +293,6 @@ jobs:
           git add blog/instagram-queue.json
           if [[ -f blog/instagram-published.json ]]; then
             git add blog/instagram-published.json
-          fi
-          if [[ -f blog/r2-upload-usage.json ]]; then
-            git add blog/r2-upload-usage.json
           fi
           if git diff --cached --quiet; then
             echo "No new Instagram publication records."
