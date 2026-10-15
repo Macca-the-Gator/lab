@@ -1,8 +1,12 @@
 name: Macca editorial recovery regression
 on:
   push:
-    branches:
-      - fix/macca-news-quality-recovery-20261015
+    branches: [main]
+    paths:
+      - scripts/blog.mjs
+      - scripts/blog_quality.mjs
+      - scripts/test-blog-quality.mjs
+      - .github/workflows/test-macca-editorial.yml
   pull_request:
     paths:
       - scripts/blog.mjs
