@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { articleQualityIssue, selectCandidate, retryAnotherCandidate } from './blog_quality.mjs';
+import { articleQualityIssue, selectCandidate, retryAnotherCandidate, reportingFlags, GAMEPLAY_DISCOVERY } from './blog_quality.mjs';
 
 const paragraph = 'An independent games publication described a new report about Grand Theft Auto. The article distinguishes what the reporter saw from what Rockstar Games has officially announced, explains the timeline and names unknown details clearly. Readers can follow the original source without treating this third-party coverage as a confirmed announcement.';
 const valid = () => ({
@@ -54,4 +54,34 @@ test('an AI skipped candidate is excluded before retrying, without infinite retr
   assert.equal(retryAnotherCandidate(2),true);
   assert.equal(retryAnotherCandidate(3),false);
   assert.equal(retryAnotherCandidate(25),false);
+});
+
+test('post-launch GTA 6 Easter eggs missions and bugs count as publishable topics', () => {
+  for (const headline of [
+    'GTA 6 Easter egg discovered by players',
+    'GTA 6 hidden mission walkthrough',
+    'GTA 6 bug and glitch workaround',
+    'GTA 6 collectibles locations guide',
+  ]) assert.match(headline, GAMEPLAY_DISCOVERY);
+});
+test('non-official Easter egg reporting stays publishable as a labeled rumor', () => {
+  const result=reportingFlags({title:'GTA 6 Easter egg uncovered',source:'Game Rant'});
+  assert.equal(result.reportStatus,'rumor');
+  assert.equal(articleQualityIssue(valid(),{leadTitle:'Report: GTA 6 Easter egg'}),null);
+});
+test('first-party confirmed gameplay update remains confirmed', () => {
+  assert.equal(reportingFlags({title:'GTA 6 mission update',source:'Rockstar Games'}).reportStatus,'confirmed');
+  assert.equal(reportingFlags({title:'GTA 6 alleged secret mission',source:'Rockstar Games'}).reportStatus,'rumor');
+});
+test('story spoilers are labeled but still eligible', () => {
+  const result=reportingFlags({title:'GTA 6 final mission ending guide',source:'gamesradar.com'});
+  assert.equal(result.reportStatus,'rumor');
+  assert.equal(result.spoilerWarning,true);
+});
+
+test('journalist quoting explicit Rockstar confirmation remains confirmed', () => {
+  assert.equal(reportingFlags({
+    title:'Rockstar confirms GTA 6 new missions',
+    source:'Game Rant'
+  }).reportStatus,'confirmed');
 });
