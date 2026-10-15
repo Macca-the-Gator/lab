@@ -3,6 +3,27 @@
  * These are intentionally lighter than PkLavc's long-form Tech rules.
  * They do not require additional AI calls, dependencies or paid services.
  */
+// Both verified gameplay information and unconfirmed player findings are eligible.
+// A journalist's discovery without an official primary source is a reported claim.
+export const GAMEPLAY_DISCOVERY = /\b(?:easter[\s-]?eggs?|secrets?|hidden|mysteries?|missions?|quests?|walkthroughs?|guides?|endings?|collectibles?|challenges?|bugs?|glitches?|exploits?|patches?|workarounds?|gameplay|tips?|tricks?|cheats?|weapons?|vehicles?|locations?|discover(?:ed|ies|y)?)\b/i;
+const GAMEPLAY_SPOILER = /\b(?:final[\s-]?missions?|story[\s-]?missions?|endings?|plot[\s-]?twists?|walkthroughs?)\b/i;
+const RUMOR_TERMS = /\b(?:leak(?:ed|s)?|rumou?rs?|unconfirmed|unverified|alleged|reportedly|claims?|claimed|might|possibly|potentially)\b/i;
+
+export function reportingFlags(candidate) {
+  const headline=String(candidate?.title||'');
+  const summary=String(candidate?.description||'');
+  const sourcedByRockstar=/^(?:rockstar(?:\s+games)?|take[\s-]*two|rockstargames\.com|take2games\.com)$/i.test(String(candidate?.source||'').trim());
+  const playerFinding=GAMEPLAY_DISCOVERY.test(headline);
+  const officialAttribution=/\brockstar(?:\s+games)?\s+(?:has\s+)?(?:confirm(?:s|ed)?|announc(?:es|ed)|reveal(?:s|ed)|publish(?:es|ed)|detail(?:s|ed))\b/i.test(headline+' '+summary);
+  const isUnconfirmed=RUMOR_TERMS.test(headline+' '+summary)
+    ||(playerFinding&&!sourcedByRockstar&&!officialAttribution);
+  return {
+    reportStatus:isUnconfirmed?'rumor':'confirmed',
+    spoilerWarning:GAMEPLAY_SPOILER.test(headline),
+  };
+}
+
+
 const words = value => String(value || '').trim().split(/\s+/).filter(Boolean).length;
 const meaningful = text => String(text || '').trim();
 
