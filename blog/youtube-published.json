@@ -573,5 +573,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=SU42PKSGx70",
     "socialScore": 74,
     "publishedAt": "2026-10-15T18:34:26.679154+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e",
+    "publicationKey": "rockstar-media:report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "vSR5sCDMKtc",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vSR5sCDMKtc",
+    "publishedAt": "2026-10-15T20:06:03.825630+00:00"
   }
 ]

@@ -543,5 +543,18 @@
     "uploadMode": "github-release",
     "socialScore": 74,
     "publishedAt": "2026-10-15T18:34:18.687Z"
+  },
+  "rockstar-media://rockstar-media:report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e/",
+    "mediaId": "18094153199476304",
+    "permalink": "https://www.instagram.com/reel/DehxwsGCsjR/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Unleashed (Instrumental)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-15T20:06:54.794021+00:00"
   }
 }

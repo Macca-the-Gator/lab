@@ -16,7 +16,8 @@
     "new-gta-6-merch-released-alongside-art-museum-exhibition",
     "gta-6-reveals-6-radio-stations-and-on-foot-podcasts",
     "rockstar-says-gta-6-will-speed-up-future-game-development",
-    "new-gta-6-screenshots-revealed-via-bloomberg-interview"
+    "new-gta-6-screenshots-revealed-via-bloomberg-interview",
+    "report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -34,7 +35,8 @@
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -148,6 +150,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-15T01:56:52.808584+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e:brian-heder-video-clip",
+      "articleSlug": "report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-15T20:06:56.378952+00:00"
     }
   ]
 }
