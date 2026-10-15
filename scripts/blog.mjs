@@ -4,6 +4,7 @@ import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
 import { HUBS, buildGrowthPages, relatedHubs, socialScore, searchConsoleBonus } from './growth_v2.mjs';
+import { articleQualityIssue, selectCandidate, retryAnotherCandidate } from './blog_quality.mjs';
 
 const ROOT = process.cwd();
 // Growth pipeline: generated publication state is rebuilt from blog/posts.json.
@@ -275,7 +276,7 @@ async function fetchArticle(item) {
   } catch(e) { console.warn(`Could not fetch article body for ${item.link}: ${e.message}`); return item; }
 }
 
-async function ask(prompt) {
+async function ask(prompt, {validate}={}) {
   const errors=[];
   const attempts=[];
   if(process.env.GEMINI_API_KEY) attempts.push(['Gemini',async(p)=>{
@@ -293,8 +294,22 @@ async function ask(prompt) {
   }]);
   if(!attempts.length) throw new Error('No AI provider credentials configured.');
   for(const [name,call] of attempts) {
-    for(let retry=0;retry<2;retry++) try { const out=await call(retry?`${prompt}\n\nFORMAT REMINDER: Return exactly one valid JSON object. Do not write prose or markdown outside it.`:prompt); if(out){parseModel(out);console.log(`Article generated with ${name}${retry?' after format retry':''}`);return out;} throw new Error('Empty response'); } catch(e) { errors.push(`${name}${retry?' retry':''}: ${e.message}`); if(retry===0)console.warn(`${name} returned invalid output; retrying with a strict JSON reminder.`); }
-    console.warn(`${name} failed; trying next provider.`);
+    for(let retry=0;retry<2;retry++) {
+      try {
+        const reminder='FORMAT AND EDITORIAL QUALITY REMINDER: Return exactly one valid JSON object. For news reports, provide two or three descriptive sections, each at least 25 words and at least 100 words total, with verified source attribution. Never present an unconfirmed report as Rockstar confirmation.';
+        const out=await call(retry?prompt+'\n\n'+reminder:prompt);
+        if(!out) throw new Error('Empty response');
+        const parsed=parseModel(out);
+        const issue=validate?.(parsed);
+        if(issue) throw new Error('Editorial quality failed: '+issue);
+        console.log('Article generated with '+name+(retry?' after validation retry':''));
+        return out;
+      } catch(e) {
+        errors.push(name+(retry?' retry':'')+': '+e.message);
+        if(retry===0) console.warn(name+' returned invalid or incomplete output; retrying with an editorial quality reminder.');
+      }
+    }
+    console.warn(name+' failed; trying next provider.');
   }
   throw new Error(`All AI providers failed: ${errors.join('; ')}`);
 }
@@ -431,7 +446,7 @@ async function build() {
 }
 
 function sourceLinks(posts,history) {
-  return new Set([...posts.map(p=>p.sourceUrl),...history.flatMap(h=>[h.sourceUrl,...(h.sourceUrls||[])])].filter(Boolean));
+  return new Set([...posts.map(p=>p.sourceUrl),...history.filter(h=>h.status!=='ai-rejected').flatMap(h=>[h.sourceUrl,...(h.sourceUrls||[])])].filter(Boolean));
 }
 
 const UPDATE_SIGNAL = /\b(confirm(?:ed|s)?|official|announce(?:d|ment)?|delay(?:ed)?|release date|launch date|pre-?order|trailer|den(?:y|ies|ied)|court|lawsuit|arrest(?:ed)?|charged|settle(?:d|ment)?|new details?|reveals?|response|responds?|changes?|update)\b/i;
@@ -463,8 +478,17 @@ async function monitor() {
   await refreshPerformanceFeedback(posts);
   const state=await readJson(MONITOR_STATE_FILE,{cooldowns:{}}), cooldowns=state.cooldowns||{};
   const now=Date.now(), retryAfter=6*60*60*1000;
+  // An editorial skip may be a model false negative. Cool it down instead of
+  // permanently treating it as published/used. This also avoids repeated calls.
+  const recentlyRejected=new Map();
+  for(const entry of history) {
+    if(entry.status!=='ai-rejected'||!entry.sourceUrl) continue;
+    const when=Date.parse(entry.date||'');
+    if(Number.isFinite(when)) recentlyRejected.set(entry.sourceUrl,Math.max(when,recentlyRejected.get(entry.sourceUrl)||0));
+  }
   const fresh=candidates.filter(item=>{
     if(!isNovel(item,posts,history)) return false;
+    if(now-(recentlyRejected.get(item.link)||0)<retryAfter) return false;
     const last=Date.parse(typeof cooldowns[item.link]==='string'?cooldowns[item.link]:cooldowns[item.link]?.attemptedAt||'');
     return !Number.isFinite(last)||now-last>=retryAfter;
   }).sort((a,b)=>topicScore(b)-topicScore(a));
@@ -681,6 +705,7 @@ Impressions: ${item.impressions}; CTR: ${item.ctr}; Position: ${item.position}`)
 
 async function generate() {
   generate.rejected ||= 0;
+  generate.skippedLinks ||= new Set();
   const dryRun=process.argv.includes('--dry-run');
   if(!BACKFILL&&!dryRun) {
     const currentPosts=await readJson(DATA_FILE,[]);
@@ -696,11 +721,12 @@ async function generate() {
   const posts=await readJson(DATA_FILE,[]), history=await readJson(HISTORY_FILE,[]);
   await refreshPerformanceFeedback(posts);
   const used=sourceLinks(posts,history), saved=await readJson(CANDIDATE_FILE,null), forced=saved?.candidate?.link?saved.candidate:null;
-  const ranked=candidates.filter(c=>isNovel(c,posts,history,used)).sort((a,b)=>topicScore(b)-topicScore(a));
-  const candidate=forced?(candidates.find(c=>c.link===forced.link)||forced):ranked[0];
+  const ranked=candidates.filter(c=>!generate.skippedLinks.has(c.link)&&isNovel(c,posts,history,used)).sort((a,b)=>topicScore(b)-topicScore(a));
+  const forcedEligible=forced&&!generate.skippedLinks.has(forced.link)&&isNovel(forced,posts,history,used);
+  const candidate=selectCandidate(ranked,forcedEligible?forced:null,generate.skippedLinks);
   if(!candidate) { console.log('No sufficiently novel topic; skipping this run.'); return; }
   if(!isNovel(candidate,posts,history,used)) { console.log(`Monitored item is no longer novel; skipping: ${candidate.title}`); return; }
-  const updateTarget=(saved?.updateTargetSlug&&posts.find(post=>post.slug===saved.updateTargetSlug))||findUpdateTarget(candidate,posts);
+  const updateTarget=(candidate.link===forced?.link&&saved?.updateTargetSlug&&posts.find(post=>post.slug===saved.updateTargetSlug))||findUpdateTarget(candidate,posts);
   if(dryRun) console.log(`Dry run selected candidate: ${candidate.title} (${candidate.link})`);
   const relatedFeeds=[candidate,...candidates.filter(c=>c.link!==candidate.link&&similarity(c.title,candidate.title)>0.2)].slice(0,5);
   const sourced=await Promise.all(relatedFeeds.map(fetchArticle));
@@ -708,7 +734,7 @@ async function generate() {
   if(dryRun) console.log(`Research fetched ${sourced.length} source page(s); primary excerpt: ${(mainSource.excerpt||mainSource.description||'none').length} characters.`);
   const imageSources=sourced.filter(s=>s.imageUrl).map(s=>({url:s.imageUrl,sourceUrl:s.canonical||s.link,title:s.title}));
   const lifecycleContext=updateTarget?`\nEXISTING STORY TO UPDATE (keep this canonical URL and return a complete revised version, not a separate duplicate):\nTitle: ${updateTarget.title}\nURL: ${BASE}/blog/${updateTarget.slug}/\nPublished: ${updateTarget.date}\nCurrent summary: ${updateTarget.description}\nCurrent sources: ${(updateTarget.sources||[]).map(source=>`${source.title} — ${source.url}`).join('; ')}\nOnly revise it if the lead item is a material development of the same story. If it is not the same story, return skip:true.\n`:'';
-  const prompt=`Act as an editor validating the lead item before writing. It must be recent, materially about Grand Theft Auto or Rockstar Games, and contain a specific report or announcement. One credible publication report or one Rockstar/Take-Two primary source is enough; a second source is not required. Return JSON with skip:true and a brief reason for irrelevant items, duplicates, stale items, memes, vague posts, or unsupported speculation. Rumors and leaks may be covered when a credible publication reports them, with clear attribution and uncertainty. Treat third-party X posts as tips, not confirmation: prefer linked reporting or a Rockstar/Take-Two primary source in related coverage. Skip an isolated social post that offers no linked report or specific, verifiable information. Do not invent missing details. Describe crime and legal matters only as attributed allegations, never as established guilt; distinguish separate investigations and avoid naming a suspect unless the identity is essential and confirmed by authoritative sources. For accepted items, write a concise English post and attribute each claim to the named publisher, forum, or account. When details are sparse, write a short 150-250 word news brief that says what the source reported and what remains unknown. Cover Rockstar Games and Take-Two news as well as GTA. Return JSON only. For accepted items include title, description, seoTitle (accurate search title, max 64 characters, important GTA/Rockstar terms first, no clickbait), seoDescription (accurate search description, 120-158 characters), category, tags (array), featured (boolean), youtubeTitle (max 78 characters, front-load the concrete GTA/Rockstar fact, no channel branding), socialHook (one direct factual sentence suitable for the first second of a Short/Reel), instagramCaptionLead (one concise factual hook, max 180 characters), sections (array of {heading,paragraphs:[...]}), thumbnail (string), thumbnailAlt (string), inlineImages (array of {url,alt,caption,sourceUrl}), and sources (array of {title,url,publisher}). Use 2-3 sections. Include the source URL as supplied. For thumbnail and inline images, choose only exact URLs from AVAILABLE SOURCE IMAGES. Never invent, alter, or guess an image URL. If none is suitable, set thumbnail to empty and inlineImages to []. Images are hotlinked from the reporting page and will not be copied into the repository. The article hero/banner is always the Macca image.
+  const prompt=`Act as an editor validating the lead item before writing. It must be recent, materially about Grand Theft Auto or Rockstar Games, and contain a specific report or announcement. One credible publication report or one Rockstar/Take-Two primary source is enough; a second source is not required. Return JSON with skip:true and a brief reason for irrelevant items, duplicates, stale items, memes, vague posts, or unsupported speculation. Rumors and leaks may be covered when a credible publication reports them, with clear attribution and uncertainty. Treat third-party X posts as tips, not confirmation: prefer linked reporting or a Rockstar/Take-Two primary source in related coverage. Skip an isolated social post that offers no linked report or specific, verifiable information. Do not invent missing details. Describe crime and legal matters only as attributed allegations, never as established guilt; distinguish separate investigations and avoid naming a suspect unless the identity is essential and confirmed by authoritative sources. For accepted items, write a concise English post and attribute each claim to the named publisher, forum, or account. When details are sparse, write a short 150-250 word news brief that says what the source reported and what remains unknown. Keep at least 100 words overall, with at least 2 descriptive sections of 25 or more words each. Use real section headings, never 'None' or null. If discussing a third-party rumor, attribute the key allegations to the named publisher and do not call the report official Rockstar confirmation. Cover Rockstar Games and Take-Two news as well as GTA. Return JSON only. For accepted items include title, description, seoTitle (accurate search title, max 64 characters, important GTA/Rockstar terms first, no clickbait), seoDescription (accurate search description, 120-158 characters), category, tags (array), featured (boolean), youtubeTitle (max 78 characters, front-load the concrete GTA/Rockstar fact, no channel branding), socialHook (one direct factual sentence suitable for the first second of a Short/Reel), instagramCaptionLead (one concise factual hook, max 180 characters), sections (array of {heading,paragraphs:[...]}), thumbnail (string), thumbnailAlt (string), inlineImages (array of {url,alt,caption,sourceUrl}), and sources (array of {title,url,publisher}). Use 2-3 sections. Include the source URL as supplied. For thumbnail and inline images, choose only exact URLs from AVAILABLE SOURCE IMAGES. Never invent, alter, or guess an image URL. If none is suitable, set thumbnail to empty and inlineImages to []. Images are hotlinked from the reporting page and will not be copied into the repository. The article hero/banner is always the Macca image.
 ${lifecycleContext}
 LEAD ITEM: ${candidate.title}
 Publisher: ${candidate.source}
@@ -728,13 +754,20 @@ Summary: ${s.description}
 Article image: ${s.imageUrl||'[none]'}
 Article excerpts: ${s.excerpt||'[No body available]'}`).join('\n\n')}
 `;
-  const generated=parseModel(await ask(prompt));
+  const generated=parseModel(await ask(prompt,{validate:draft=>articleQualityIssue(draft,{leadTitle:candidate.title})}));
   if(dryRun) { if(generated.skip) { console.log(`Dry run provider declined topic: ${generated.reason||'no reason supplied'}`); return; } if(!generated.title||!Array.isArray(generated.sections)||generated.sections.length<2) throw new Error('Provider returned incomplete article JSON.'); console.log(`Dry run received valid article JSON (${generated.title}); no files changed.`); return; }
   if(generated.skip) {
     const reason=String(generated.reason||'AI validation found insufficient or unsuitable reporting.').slice(0,500);
     console.log(`AI validation skipped this item: ${reason}`);
     history.unshift({sourceUrl:candidate.link,title:candidate.title,date:new Date().toISOString(),status:'ai-rejected',reason,sourceUrls:relatedFeeds.map(s=>s.link)});
     await writeJson(HISTORY_FILE,history.slice(0,500));
+    generate.skippedLinks.add(candidate.link);
+    generate.rejected++;
+    if(retryAnotherCandidate(generate.rejected)) {
+      console.log('Editorially skipped candidate; trying the next ranked GTA/Rockstar source.');
+      return generate();
+    }
+    console.log('Reached safe per-run limit after editorially skipped candidates.');
     return;
   }
   if(!generated.title||!Array.isArray(generated.sections)||generated.sections.length<1) throw new Error('Provider returned incomplete article JSON.');
@@ -782,7 +815,7 @@ Article excerpts: ${s.excerpt||'[No body available]'}`).join('\n\n')}
     return;
   }
   const p={...generated,title,description:String(generated.description||mainSource.description||candidate.description||title).slice(0,300),seoTitle:String(generated.seoTitle||title).trim().slice(0,64),seoDescription:String(generated.seoDescription||generated.description||mainSource.description||candidate.description||title).trim().slice(0,158),category:normalizeCategory(generated.category,title,generated.description||mainSource.description||candidate.description||''),tags:normalizeTags(Array.isArray(generated.tags)?generated.tags:[],title,generated.description||mainSource.description||candidate.description||''),youtubeTitle:String(generated.youtubeTitle||title).trim().slice(0,78),socialHook:String(generated.socialHook||generated.description||title).trim().slice(0,220),instagramCaptionLead:String(generated.instagramCaptionLead||generated.socialHook||title).trim().slice(0,180),thumbnail:selectedThumbnail,thumbnailAlt:String(generated.thumbnailAlt||title).slice(0,180),inlineImages,date:new Date().toISOString().slice(0,10),publishedAt:new Date().toISOString(),slug:slugify(title),sourceUrl:mainSource.canonical||candidate.link,sources:generatedSources};
-  if(posts.some(x=>x.slug===p.slug||similarity(x.title,p.title)>0.36)) { console.log(`Skipping near-duplicate generated title: ${p.title}`); history.unshift({sourceUrl:candidate.link,title:candidate.title,date:new Date().toISOString(),status:'near-duplicate',sourceUrls:relatedFeeds.map(s=>s.link)}); await writeJson(HISTORY_FILE,history.slice(0,500)); generate.rejected++; if(generate.rejected<3) return generate(); console.log('Reached per-run limit while skipping duplicates.'); return; }
+  if(posts.some(x=>x.slug===p.slug||similarity(x.title,p.title)>0.36)) { console.log(`Skipping near-duplicate generated title: ${p.title}`); history.unshift({sourceUrl:candidate.link,title:candidate.title,date:new Date().toISOString(),status:'near-duplicate',sourceUrls:relatedFeeds.map(s=>s.link)}); await writeJson(HISTORY_FILE,history.slice(0,500)); generate.skippedLinks.add(candidate.link); generate.rejected++; if(retryAnotherCandidate(generate.rejected)) return generate(); console.log('Reached per-run limit while skipping duplicates.'); return; }
   posts.unshift(p); await writeJson(DATA_FILE,posts); history.unshift({slug:p.slug,title:p.title,sourceUrl:p.sourceUrl,sourceUrls:relatedFeeds.map(s=>s.link),date:p.date,status:'published',hash:crypto.createHash('sha256').update(`${p.title}|${p.sourceUrl}`).digest('hex')}); await writeJson(HISTORY_FILE,history.slice(0,500));
   await queueSocialPublication(p);
   await build(); console.log(`Published ${p.slug}`);
@@ -811,7 +844,7 @@ else if(cmd==='monitor') await monitor();
 else if(cmd==='record-monitor-failure') await recordMonitorFailure();
 else if(cmd==='generate') {
   const count=Math.max(1,Math.min(BACKFILL?50:5,Number(process.argv.find(x=>x.startsWith('--count='))?.split('=')[1]||1)));
-  for(let i=0;i<count;i++) { const before=(await readJson(DATA_FILE,[])).length; generate.rejected=0; await generate(); const after=(await readJson(DATA_FILE,[])).length; if(process.argv.includes('--dry-run')||after===before) break; }
+  for(let i=0;i<count;i++) { const before=(await readJson(DATA_FILE,[])).length; generate.rejected=0; generate.skippedLinks=new Set(); await generate(); const after=(await readJson(DATA_FILE,[])).length; if(process.argv.includes('--dry-run')||after===before) break; }
 }
 else if(cmd==='deep-dive') await generateDeepDive();
 else if(cmd==='search-optimize') await optimizeSearchMetadata();
