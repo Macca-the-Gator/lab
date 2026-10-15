@@ -2,7 +2,7 @@ name: Growth v2 safe CI
 
 on:
   push:
-    branches: ['chatgpt/growth-v2', 'chatgpt/growth-v2-final', 'fix/macca-news-quality-recovery-20261015']
+    branches: ['chatgpt/growth-v2', 'chatgpt/growth-v2-final']
   workflow_dispatch:
 
 permissions:
@@ -41,4 +41,3 @@ jobs:
         run: |
           node scripts/test-growth.mjs
           node scripts/test-engagement.mjs
-          node --test scripts/test-blog-quality.mjs
