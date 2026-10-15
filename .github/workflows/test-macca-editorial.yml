@@ -1,0 +1,32 @@
+name: Macca editorial recovery regression
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/blog.mjs
+      - scripts/blog_quality.mjs
+      - scripts/test-blog-quality.mjs
+      - .github/workflows/test-macca-editorial.yml
+  pull_request:
+    paths:
+      - scripts/blog.mjs
+      - scripts/blog_quality.mjs
+      - scripts/test-blog-quality.mjs
+      - .github/workflows/gta-blog.yml
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test short-article quality and next-source fallback without publishing
+        run: |
+          node --check scripts/blog.mjs
+          node --check scripts/blog_quality.mjs
+          node --test scripts/test-blog-quality.mjs
+          node scripts/test-growth.mjs
