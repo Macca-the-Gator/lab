@@ -495,5 +495,17 @@
     "uploadMode": "github-release",
     "socialScore": 80,
     "publishedAt": "2026-10-15T07:36:40.561Z"
+  },
+  "https://macca-lab.onrender.com/blog/gta-6-launch-trailer-released/": {
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-launch-trailer-released/",
+    "publicationKey": "gta-6-launch-trailer-released",
+    "mediaId": "18635312107063028",
+    "permalink": "https://www.instagram.com/reel/DehEy7BCQEF/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "uploadMode": "github-release",
+    "socialScore": 98,
+    "publishedAt": "2026-10-15T13:33:48.007Z"
   }
 }
