@@ -15,7 +15,8 @@
     "gta-6-leak-hacker-trial-begins-10-days-before-release",
     "new-gta-6-merch-released-alongside-art-museum-exhibition",
     "gta-6-reveals-6-radio-stations-and-on-foot-podcasts",
-    "rockstar-says-gta-6-will-speed-up-future-game-development"
+    "rockstar-says-gta-6-will-speed-up-future-game-development",
+    "new-gta-6-screenshots-revealed-via-bloomberg-interview"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -32,7 +33,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -139,6 +141,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-14T20:24:21.717750+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:new-gta-6-screenshots-revealed-via-bloomberg-interview:boobie-ike-video-clip",
+      "articleSlug": "new-gta-6-screenshots-revealed-via-bloomberg-interview",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-15T01:56:52.808584+00:00"
     }
   ]
 }
