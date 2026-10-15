@@ -6,6 +6,8 @@ on:
     paths:
       - '.github/workflows/gta-blog.yml'
       - 'scripts/blog.mjs'
+      - 'scripts/blog_quality.mjs'
+      - 'scripts/test-blog-quality.mjs'
       - 'scripts/growth_v2.mjs'
       - 'scripts/article_covers.py'
       - 'scripts/search_console.py'
@@ -118,6 +120,8 @@ jobs:
         if: github.event_name != 'schedule' || (steps.monitor.outputs.should_generate == 'true' && steps.ai_generation.outcome == 'success')
         run: |
           node scripts/test-growth.mjs
+          node --test scripts/test-blog-quality.mjs
+          node --check scripts/blog_quality.mjs
           node --check scripts/blog.mjs
           node --check scripts/growth_v2.mjs
           node --check scripts/indexnow.mjs
