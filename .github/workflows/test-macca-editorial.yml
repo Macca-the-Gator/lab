@@ -22,6 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Checkout private Macca editorial code (read-only)
+        if: github.event_name != 'pull_request'
         uses: actions/checkout@v4
         with:
           repository: PkLavc/blog
@@ -31,6 +32,7 @@ jobs:
           path: .private-engine
           sparse-checkout: scripts/macca_engine
       - name: Verify the private editorial modules
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           for file in blog.mjs blog_quality.mjs growth_v2.mjs; do
@@ -42,6 +44,11 @@ jobs:
       - name: Test short-article quality and next-source fallback without publishing
         run: |
           node --check scripts/blog.mjs
-          node --check scripts/blog_quality.mjs
+          if [[ '${{ github.event_name }}' == 'pull_request' ]]; then
+            echo 'Source-only tests run on trusted main-branch pushes after the deploy key is configured.'
+            exit 0
+          fi
+          node --check .private-engine/scripts/macca_engine/blog.mjs
+          node --check .private-engine/scripts/macca_engine/blog_quality.mjs
           node --test scripts/test-blog-quality.mjs
           node scripts/test-growth.mjs
