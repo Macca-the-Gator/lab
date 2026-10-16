@@ -556,5 +556,18 @@
     "musicTitle": "Unleashed (Instrumental)",
     "uploadMode": "github-release",
     "publishedAt": "2026-10-15T20:06:54.794021+00:00"
+  },
+  "rockstar-media://rockstar-media:gta-6-launch-trailer-released:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-launch-trailer-released:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-launch-trailer-released/",
+    "mediaId": "17913615330515997",
+    "permalink": "https://www.instagram.com/reel/DeiYnCUDrbZ/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Electro Banger",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-16T01:46:22.247000+00:00"
   }
 }
