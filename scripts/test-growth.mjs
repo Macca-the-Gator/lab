@@ -11,7 +11,7 @@ const [
   worker, wrangler, webAnalyticsLoader, webAnalyticsWorkflow, covers, growthCss, siteComponentsCss, siteComponentsJs, blogIndex, visitorsPage, visitorMapJs
 ] = await Promise.all([
   read('ads.txt'),
-  read('scripts/blog.mjs'),
+  read('.private-engine/scripts/macca_engine/blog.mjs'),
   read('scripts/build-seo.mjs'),
   read('assets/site-components.js'),
   read('blog/assets/engagement.js'),
@@ -25,7 +25,7 @@ const [
   read('.github/workflows/instagram-metrics.yml'),
   read('.github/workflows/youtube-weekly.yml'),
   read('.github/workflows/daily-analysis.yml'),
-  read('scripts/growth_v2.mjs'),
+  read('.private-engine/scripts/macca_engine/growth_v2.mjs'),
   read('scripts/search_console.py'),
   read('.github/workflows/search-console.yml'),
   read('.github/workflows/search-optimize.yml'),

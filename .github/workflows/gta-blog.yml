@@ -57,6 +57,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Checkout private Macca editorial code (read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: PkLavc/blog
+          ref: main
+          ssh-key: ${{ secrets.MACCA_ENGINE_DEPLOY_KEY }}
+          persist-credentials: false
+          path: .private-engine
+          sparse-checkout: scripts/macca_engine
+      - name: Verify the private editorial modules
+        shell: bash
+        run: |
+          for file in blog.mjs blog_quality.mjs growth_v2.mjs; do
+            test -s ".private-engine/scripts/macca_engine/$file" || { echo "::error::Private Macca engine is missing"; exit 1; }
+          done
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -121,9 +136,9 @@ jobs:
         run: |
           node scripts/test-growth.mjs
           node --test scripts/test-blog-quality.mjs
-          node --check scripts/blog_quality.mjs
+          node --check .private-engine/scripts/macca_engine/blog_quality.mjs
           node --check scripts/blog.mjs
-          node --check scripts/growth_v2.mjs
+          node --check .private-engine/scripts/macca_engine/growth_v2.mjs
           node --check scripts/indexnow.mjs
           node --check scripts/instagram.mjs
           node --check scripts/instagram_metrics.mjs
