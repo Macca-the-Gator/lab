@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { articleQualityIssue, selectCandidate, retryAnotherCandidate, reportingFlags, GAMEPLAY_DISCOVERY } from './blog_quality.mjs';
+import { articleQualityIssue, selectCandidate, retryAnotherCandidate, reportingFlags, GAMEPLAY_DISCOVERY } from '../.private-engine/scripts/macca_engine/blog_quality.mjs';
 
 const paragraph = 'An independent games publication described a new report about Grand Theft Auto. The article distinguishes what the reporter saw from what Rockstar Games has officially announced, explains the timeline and names unknown details clearly. Readers can follow the original source without treating this third-party coverage as a confirmed announcement.';
 const valid = () => ({
