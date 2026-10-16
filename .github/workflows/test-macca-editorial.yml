@@ -2,7 +2,7 @@ name: Macca editorial recovery regression
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, feat/macca-private-engine-after-2242-20261016]
     paths:
       - scripts/blog.mjs
       - scripts/blog_quality.mjs
