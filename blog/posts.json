@@ -1,5 +1,83 @@
 [
   {
+    "title": "Report: Real Life GTA 6 Vehicles Are Driving Around Miami as Part of Rockstar Marketing Push",
+    "description": "GameRant reports that Rockstar Games has deployed real-world vehicles modded to resemble Grand Theft Auto 6 cars on the streets of Miami as part of the game's marketing campaign. The convoy includes look-alikes of the Progen Emerus, Cheetah, Coquette D10, Tempesta, and Manana, with some bearing Leon",
+    "seoTitle": "GTA 6 Real Life Vehicles Driving Miami Rockstar Marketing",
+    "seoDescription": "GameRant reports Rockstar Games is driving real-life GTA 6-style cars through Miami as part of the game's marketing campaign ahead of launch.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Miami",
+      "Marketing"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Real-Life Vehicles Spotted in Miami Marketing Convoy",
+    "socialHook": "Rockstar is driving real-life GTA 6 cars through Miami streets ahead of launch, per GameRant.",
+    "instagramCaptionLead": "Rockstar brings GTA 6 to Miami streets with real-life modded cars, GameRant reports.",
+    "sections": [
+      {
+        "heading": "Rockstar Deploys GTA 6 Vehicles in Miami",
+        "paragraphs": [
+          "GameRant reports that Rockstar Games has heavily modified real vehicles to look like their Grand Theft Auto 6 counterparts and driven them through Miami, Florida. The outlet says fans began spotting the brightly colored convoy earlier this week, with cars bearing Leonida license plates. Vehicles identified include a McLaren modded to resemble the Progen Emerus, a Lamborghini Huracan with Vice City Police Department liveries, and real-world versions of the Cheetah, Coquette D10, Tempesta, and Manana."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Marketing Context and Local Reaction",
+        "paragraphs": [
+          "According to GameRant, the street activation is part of a broader GTA 6 marketing push roughly one month before the game's release. The report says Miami-Dade County Commissioner Juan Carlos Bermudez and Sheriff Rosie Cordero-Stutz initially opposed a potential marketing deal because of the franchise's association with criminal activity, though the deal appears to have been completed. Social media accounts such as ONLY in DADE and X user Ben posted clips of the convoy, including vehicles stopped at a local Shell gas station."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What Remains Unknown",
+        "paragraphs": [
+          "GameRant does not specify how many vehicles are in the convoy, how long they will remain on Miami streets, or whether Rockstar plans similar activations elsewhere. The report also does not provide financial details of the marketing agreement or confirm which Take-Two executives approved the campaign."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/10/gta-6-ultimate-edition-custom-car.jpg?w=1600&amp;h=900&amp;fit=crop",
+    "thumbnailAlt": "Real-life GTA 6 modded vehicles driving in Miami marketing convoy",
+    "inlineImages": [
+      {
+        "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/10/gta-6-ultimate-edition-custom-car.jpg?w=1600&h=900&fit=crop",
+        "alt": "Real-life GTA 6 modded vehicles driving in Miami marketing convoy",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://gamerant.com/gta-6-rockstar-miami-modded-cars-tempesta-cheetah/"
+      },
+      {
+        "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/10/gta-6-ultimate-edition-custom-car.jpg?w=1600&amp;h=900&amp;fit=crop",
+        "alt": "Real-life GTA 6 modded vehicles driving in Miami marketing convoy",
+        "caption": "GameRant reports Rockstar deployed real-life GTA 6-style cars on Miami streets.",
+        "sourceUrl": "https://gamerant.com/gta-6-rockstar-miami-modded-cars-tempesta-cheetah/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Real Life GTA 6 Vehicles Are Driving Around Miami",
+        "url": "https://gamerant.com/gta-6-rockstar-miami-modded-cars-tempesta-cheetah/",
+        "publisher": "gamerant.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-10-16",
+    "publishedAt": "2026-10-16T17:26:22.935Z",
+    "slug": "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
+    "sourceUrl": "https://gamerant.com/gta-6-rockstar-miami-modded-cars-tempesta-cheetah/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-real-life-gta-6-vehicles-are-driving-around-miami-as-part.jpg",
+    "discoverImage": "/blog/assets/covers/report-real-life-gta-6-vehicles-are-driving-around-miami-as-part-discover.jpg"
+  },
+  {
     "title": "New GTA 6 Screenshot and Launch Trailer Artwork Released",
     "description": "RockstarINTEL reports a brand new GTA 6 screenshot and launch trailer artwork featuring protagonists Jason and Lucia, confirming the November 19, 2026 release date.",
     "seoTitle": "GTA 6 New Screenshot and Launch Trailer Artwork Released – Rocks",
