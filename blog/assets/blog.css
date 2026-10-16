@@ -90,3 +90,12 @@ footer{align-items:flex-start;flex-wrap:wrap;gap:1rem 2rem;padding-top:1.5rem;pa
 .article-share{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}.article-share button{appearance:none;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.06);color:var(--text);padding:.48rem .72rem;font:700 .74rem/1 Inter,system-ui,sans-serif;cursor:pointer}.article-share button:hover{border-color:var(--cyan);color:var(--cyan)}
 
 .archive-pagination{display:flex;justify-content:space-between;gap:.75rem;flex-wrap:wrap;margin:1.5rem 0 0}.archive-pagination a{display:inline-flex;align-items:center;padding:.65rem .85rem;border:1px solid var(--line);border-radius:999px;color:var(--cyan);background:rgba(255,255,255,.035);font:800 .78rem/1 Inter,system-ui,sans-serif;text-decoration:none}.archive-pagination a:hover{border-color:var(--cyan);background:rgba(77,224,237,.06)}
+
+/* Shared editorial section presentation. The renderer implementation remains private. */
+.article-body .editorial-section{position:relative;margin:1.5rem 0;padding:1.25rem 1.35rem;border:1px solid rgba(255,255,255,.10);border-radius:16px;background:rgba(15,13,26,.33)}
+.article-body .editorial-section h2{margin:.35rem 0 .9rem}
+.article-body .editorial-section-label{display:inline-block;color:var(--cyan);font:800 .69rem/1.4 Inter,system-ui,sans-serif;letter-spacing:.085em;text-transform:uppercase}
+.article-body .editorial-section[data-editorial-kind="claim"]{border-left:3px solid #ffb16b}
+.article-body .editorial-section[data-editorial-kind="claim"] .editorial-section-label{color:#ffbb7b}
+.article-body .editorial-section[data-editorial-kind="evidence"]{border-left:3px solid var(--cyan)}
+@media(max-width:640px){.article-body .editorial-section{margin:1rem 0;padding:.95rem 1rem;border-radius:12px}}
