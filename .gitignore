@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .cache/
 rockstar-media-preview/
+
+# Runtime-only checkout of the private editorial engine
+.private-engine/
