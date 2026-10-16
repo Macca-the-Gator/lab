@@ -40,6 +40,50 @@ def _ranked(items):
         reverse=True)
 
 
+def _render_with_private_engine(article: dict, output: Path) -> bool:
+    """Consume shared private source in an isolated subprocess, never expose code."""
+    shared_dir = os.environ.get("MACCA_PRIVATE_ENGINE_DIR", "").strip()
+    if not shared_dir:
+        return False
+    private_root = Path(shared_dir).resolve()
+    module = private_root / "scripts" / "private_runner" / "macca_video.py"
+    if not module.is_file():
+        print("::notice::Private engine unavailable; keeping the existing Macca renderer.")
+        return False
+    with tempfile.TemporaryDirectory(prefix="macca-private-video-") as temp:
+        source = Path(temp) / "macca-article.json"
+        source.write_text(json.dumps(article, ensure_ascii=False), encoding="utf-8")
+        args = [
+            sys.executable, "-m", "scripts.private_runner.macca_video",
+            "--article", str(source), "--output", str(output.resolve()),
+            "--workdir", str((Path(temp) / "frames").resolve()),
+        ]
+        # The private renderer needs files and local model caches, not any
+        # Macca Instagram/YouTube/OAuth/AI credentials.
+        allowed = (
+            "PATH", "HOME", "TMPDIR", "RUNNER_TEMP", "LANG", "LC_ALL",
+            "XDG_CACHE_HOME", "HF_HOME", "HF_HUB_CACHE",
+            "HTTP_PROXY", "HTTPS_PROXY", "NO_PROXY",
+        )
+        isolated_env = {key: os.environ[key] for key in allowed if key in os.environ}
+        isolated_env["PYTHONDONTWRITEBYTECODE"] = "1"
+        try:
+            completed = subprocess.run(
+                args, cwd=private_root, timeout=650, check=False,
+                stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
+                env=isolated_env,
+            )
+            if completed.returncode == 0 and output.is_file() and output.stat().st_size > 100000:
+                print("Shared private animation and captions rendered with Macca branding.")
+                return True
+            # Never expose private Python source excerpts through public CI logs.
+            print("::warning::Private Macca renderer did not complete; using previous public renderer.")
+        except (subprocess.TimeoutExpired, OSError):
+            print("::warning::Private Macca renderer unavailable; using previous public renderer.")
+        output.unlink(missing_ok=True)
+        return False
+
+
 def _music_ready_video(source: Path, target: Path) -> None:
     """Preserve Macca visuals but omit narration; Instagram adds catalog MUSIC."""
     subprocess.run([
@@ -70,12 +114,19 @@ def main() -> None:
             continue
         output = VIDEO_DIR / f"{slug}.mp4"
         if not output.is_file():
-            with tempfile.TemporaryDirectory(prefix="macca-shorts-") as work:
-                create_short(article, output, work)
+            if not _render_with_private_engine(article, output):
+                with tempfile.TemporaryDirectory(prefix="macca-shorts-") as work:
+                    create_short(article, output, work)
         entry = {"localPath": str(output)}
         if any(item.get("slug") == slug for item in instagram):
-            insta = VIDEO_DIR / f"{slug}-instagram.mp4"
-            _music_ready_video(output, insta)
+            # Shared engine supplies an actual caption-free Instagram variant.
+            # The fallback renderer continues using its existing mute helper.
+            prepared = VIDEO_DIR / f"{slug}-instagram-music.mp4"
+            if prepared.is_file():
+                insta = prepared
+            else:
+                insta = VIDEO_DIR / f"{slug}-instagram.mp4"
+                _music_ready_video(output, insta)
             entry["instagramPath"] = str(insta)
             entry["releaseTag"] = release_tag(slug)
         manifest["videos"][slug] = entry
