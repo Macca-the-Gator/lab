@@ -65,7 +65,10 @@ jobs:
           ssh-key: ${{ secrets.MACCA_ENGINE_DEPLOY_KEY }}
           persist-credentials: false
           path: .private-engine
-          sparse-checkout: scripts/macca_engine
+          sparse-checkout: |
+            scripts/macca_engine
+            scripts/private_runner
+            scripts/social_video
       - name: Verify the private editorial modules
         shell: bash
         run: |
@@ -108,6 +111,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Apply shared PkLavc editorial layout to new Macca articles
+        if: steps.ai_generation.outcome == 'success'
+        run: python .private-engine/scripts/private_runner/macca_articles.py --site "$GITHUB_WORKSPACE"
       - name: Generate original article social cards
         id: article_covers
         if: github.event_name != 'schedule' || (steps.monitor.outputs.should_generate == 'true' && steps.ai_generation.outcome == 'success')
@@ -174,7 +180,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface/hub
-          key: kokoro-${{ runner.os }}-hexgrad-82m-am-michael-v1
+          key: kokoro-${{ runner.os }}-hexgrad-82m-shared-female-v1
           restore-keys: |
             kokoro-${{ runner.os }}-hexgrad-82m-
       - name: Install shared video renderer dependencies
@@ -200,6 +206,7 @@ jobs:
           KOKORO_VOICE: am_michael
           SOCIAL_VIDEO_DIR: ${{ runner.temp }}/macca-social-videos
           INSTAGRAM_REEL_MANIFEST_FILE: ${{ runner.temp }}/macca-reel-manifest.json
+          MACCA_PRIVATE_ENGINE_DIR: ${{ github.workspace }}/.private-engine
           INSTAGRAM_GRAPH_VERSION: 'v26.0'
           INSTAGRAM_RETRY_ONLY_FIRST: ${{ contains(github.event.head_commit.message, '[instagram-retry]') && 'true' || 'false' }}
         run: python -m scripts.social_video
