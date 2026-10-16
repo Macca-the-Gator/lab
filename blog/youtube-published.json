@@ -604,5 +604,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=FRHv6NGMh7s",
     "socialScore": 90,
     "publishedAt": "2026-10-16T17:30:43.938982+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
+    "publicationKey": "rockstar-media:report-real-life-gta-6-vehicles-are-driving-around-miami-as-part:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-real-life-gta-6-vehicles-are-driving-around-miami-as-part/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "DreQuan_Priest_Video_Clip.mp4",
+    "youtubeVideoId": "O-m5-ttQcPU",
+    "youtubeUrl": "https://www.youtube.com/watch?v=O-m5-ttQcPU",
+    "publishedAt": "2026-10-16T19:45:48.698136+00:00"
   }
 ]

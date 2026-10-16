@@ -581,5 +581,18 @@
     "uploadMode": "github-release",
     "socialScore": 90,
     "publishedAt": "2026-10-16T17:30:35.568Z"
+  },
+  "rockstar-media://rockstar-media:report-real-life-gta-6-vehicles-are-driving-around-miami-as-part:drequan-priest-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-real-life-gta-6-vehicles-are-driving-around-miami-as-part:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-real-life-gta-6-vehicles-are-driving-around-miami-as-part/",
+    "mediaId": "18100076936565055",
+    "permalink": "https://www.instagram.com/reel/DekUOwtkWK5/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Bandoleira (feat. MC Meno K, Mc Lele JP & Mc Jvila)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-16T19:46:27.028176+00:00"
   }
 }
