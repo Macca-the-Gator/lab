@@ -360,6 +360,30 @@
             "heavy_rewatch_or_reporting_outlier",
             "exclude_from_automatic_learning"
           ]
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 383.1,
+          "dataPeriod": {
+            "startDate": "2026-09-30",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 28,
+            "engagedViews": 6,
+            "averageViewDuration": 711,
+            "averageViewPercentage": 2540.1,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": [
+            "heavy_rewatch_or_reporting_outlier",
+            "exclude_from_automatic_learning"
+          ]
         }
       ],
       "daily": [
@@ -872,6 +896,27 @@
           "dataPeriod": {
             "startDate": "2026-09-30",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 276,
+            "engagedViews": 52,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 29.270000000000003,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 380.1,
+          "dataPeriod": {
+            "startDate": "2026-09-30",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -2432,6 +2477,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 373.1,
+          "dataPeriod": {
+            "startDate": "2026-09-30",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 5,
+            "engagedViews": 1,
+            "averageViewDuration": 4,
+            "averageViewPercentage": 17,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -2941,6 +3007,27 @@
           "dataPeriod": {
             "startDate": "2026-09-30",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 70,
+            "engagedViews": 20,
+            "averageViewDuration": 10,
+            "averageViewPercentage": 36.97,
+            "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 373.1,
+          "dataPeriod": {
+            "startDate": "2026-09-30",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -4501,6 +4588,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 368.2,
+          "dataPeriod": {
+            "startDate": "2026-09-30",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 10,
+            "engagedViews": 3,
+            "averageViewDuration": 14,
+            "averageViewPercentage": 81.02,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -5023,6 +5131,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 367.1,
+          "dataPeriod": {
+            "startDate": "2026-09-30",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 11,
+            "engagedViews": 3,
+            "averageViewDuration": 15,
+            "averageViewPercentage": 86.7,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -5504,6 +5633,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 345.2,
+          "dataPeriod": {
+            "startDate": "2026-10-01",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 17,
+            "engagedViews": 5,
+            "averageViewDuration": 14,
+            "averageViewPercentage": 74.82,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -5971,6 +6121,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 339.8,
+          "dataPeriod": {
+            "startDate": "2026-10-01",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 27,
+            "engagedViews": 7,
+            "averageViewDuration": 12,
+            "averageViewPercentage": 66.38,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -6404,6 +6575,27 @@
           "dataPeriod": {
             "startDate": "2026-10-02",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 55,
+            "engagedViews": 28,
+            "averageViewDuration": 5,
+            "averageViewPercentage": 36.82,
+            "likes": 0,
+            "comments": 1,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 335.9,
+          "dataPeriod": {
+            "startDate": "2026-10-02",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -7874,6 +8066,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 321.8,
+          "dataPeriod": {
+            "startDate": "2026-10-02",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 72,
+            "engagedViews": 25,
+            "averageViewDuration": 10,
+            "averageViewPercentage": 51.7,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -9309,6 +9522,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 313.1,
+          "dataPeriod": {
+            "startDate": "2026-10-03",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 18,
+            "engagedViews": 2,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 51.88,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -9692,6 +9926,27 @@
           "dataPeriod": {
             "startDate": "2026-10-03",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 43,
+            "engagedViews": 10,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 44.19,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 312.6,
+          "dataPeriod": {
+            "startDate": "2026-10-03",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -11126,6 +11381,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 311.3,
+          "dataPeriod": {
+            "startDate": "2026-10-03",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 187,
+            "engagedViews": 29,
+            "averageViewDuration": 14,
+            "averageViewPercentage": 70.27,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -12484,6 +12760,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 239.9,
+          "dataPeriod": {
+            "startDate": "2026-10-06",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 54,
+            "engagedViews": 11,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 37.72,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -13496,6 +13793,27 @@
           "dataPeriod": {
             "startDate": "2026-10-07",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 69,
+            "engagedViews": 11,
+            "averageViewDuration": 6,
+            "averageViewPercentage": 40.24,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 1
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 196.4,
+          "dataPeriod": {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -14631,6 +14949,27 @@
           },
           "metrics": {
             "views": 112,
+            "engagedViews": 23,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 47.86,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 196.0,
+          "dataPeriod": {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 109,
             "engagedViews": 23,
             "averageViewDuration": 7,
             "averageViewPercentage": 47.86,
@@ -15900,6 +16239,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 193.2,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 8,
+            "engagedViews": 1,
+            "averageViewDuration": 13,
+            "averageViewPercentage": 85,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -16112,6 +16472,27 @@
           },
           "metrics": {
             "views": 67,
+            "engagedViews": 10,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 38.63,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 192.6,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 69,
             "engagedViews": 10,
             "averageViewDuration": 7,
             "averageViewPercentage": 38.63,
@@ -17187,6 +17568,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 190.6,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 20,
+            "engagedViews": 4,
+            "averageViewDuration": 5,
+            "averageViewPercentage": 35.96,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -17395,6 +17797,27 @@
           "dataPeriod": {
             "startDate": "2026-10-08",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 19,
+            "engagedViews": 3,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 48.33,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 186.2,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -17629,6 +18052,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 180.5,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 14,
+            "engagedViews": 4,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 48.13,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -17837,6 +18281,27 @@
           "dataPeriod": {
             "startDate": "2026-10-08",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 19,
+            "engagedViews": 3,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 49.21,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 178.0,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -18062,6 +18527,27 @@
           },
           "metrics": {
             "views": 119,
+            "engagedViews": 27,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 57.9,
+            "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 172.0,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 118,
             "engagedViews": 27,
             "averageViewDuration": 9,
             "averageViewPercentage": 57.9,
@@ -19317,6 +19803,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 172.0,
+          "dataPeriod": {
+            "startDate": "2026-10-08",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 206,
+            "engagedViews": 73,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 58.269999999999996,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -20542,6 +21049,27 @@
             "subscribersGained": 1
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 167.5,
+          "dataPeriod": {
+            "startDate": "2026-10-09",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 105,
+            "engagedViews": 19,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 48.19,
+            "likes": 3,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 1
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -21753,6 +22281,27 @@
             "subscribersGained": 1
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 166.5,
+          "dataPeriod": {
+            "startDate": "2026-10-09",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 60,
+            "engagedViews": 19,
+            "averageViewDuration": 6,
+            "averageViewPercentage": 41.52,
+            "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 1
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -22805,6 +23354,27 @@
           },
           "metrics": {
             "views": 546,
+            "engagedViews": 132,
+            "averageViewDuration": 10,
+            "averageViewPercentage": 66.12,
+            "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 160.6,
+          "dataPeriod": {
+            "startDate": "2026-10-09",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 554,
             "engagedViews": 132,
             "averageViewDuration": 10,
             "averageViewPercentage": 66.12,
@@ -24025,6 +24595,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 153.4,
+          "dataPeriod": {
+            "startDate": "2026-10-09",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 10,
+            "engagedViews": 2,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 55.47,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -24198,6 +24789,27 @@
           "dataPeriod": {
             "startDate": "2026-10-09",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 24,
+            "engagedViews": 5,
+            "averageViewDuration": 4,
+            "averageViewPercentage": 20.2,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 148.7,
+          "dataPeriod": {
+            "startDate": "2026-10-09",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -24397,6 +25009,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 148.3,
+          "dataPeriod": {
+            "startDate": "2026-10-09",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 26,
+            "engagedViews": 9,
+            "averageViewDuration": 3,
+            "averageViewPercentage": 18.79,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -24562,6 +25195,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 144.8,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 13,
+            "engagedViews": 2,
+            "averageViewDuration": 4,
+            "averageViewPercentage": 25.31,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -24704,6 +25358,27 @@
           },
           "metrics": {
             "views": 81,
+            "engagedViews": 16,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 55.61000000000001,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 142.8,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 79,
             "engagedViews": 16,
             "averageViewDuration": 8,
             "averageViewPercentage": 55.61000000000001,
@@ -25889,6 +26564,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 138.5,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 165,
+            "engagedViews": 6,
+            "averageViewDuration": 11,
+            "averageViewPercentage": 58.96,
+            "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -26031,6 +26727,27 @@
           },
           "metrics": {
             "views": 123,
+            "engagedViews": 24,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 48.16,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 131.9,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 122,
             "engagedViews": 24,
             "averageViewDuration": 7,
             "averageViewPercentage": 48.16,
@@ -27136,6 +27853,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 127.0,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 22,
+            "engagedViews": 9,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 58.95,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -27282,6 +28020,27 @@
           },
           "metrics": {
             "views": 44,
+            "engagedViews": 10,
+            "averageViewDuration": 21,
+            "averageViewPercentage": 136.14,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 125.3,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 43,
             "engagedViews": 10,
             "averageViewDuration": 21,
             "averageViewPercentage": 136.14,
@@ -28469,6 +29228,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 123.0,
+          "dataPeriod": {
+            "startDate": "2026-10-10",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 210,
+            "engagedViews": 93,
+            "averageViewDuration": 17,
+            "averageViewPercentage": 87.87,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -29624,6 +30404,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 119.7,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 12,
+            "engagedViews": 3,
+            "averageViewDuration": 18,
+            "averageViewPercentage": 116.67,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -29734,6 +30535,27 @@
             "engagedViews": 98,
             "averageViewDuration": 8,
             "averageViewPercentage": 41.54,
+            "likes": 2,
+            "comments": 0,
+            "shares": 1,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 119.4,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 366,
+            "engagedViews": 100,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 41.16,
             "likes": 2,
             "comments": 0,
             "shares": 1,
@@ -30881,6 +31703,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 112.8,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 12,
+            "engagedViews": 3,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 57.2,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -30992,6 +31835,27 @@
             "averageViewDuration": 9,
             "averageViewPercentage": 49.84,
             "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 105.9,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 191,
+            "engagedViews": 68,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 47.38,
+            "likes": 3,
             "comments": 0,
             "shares": 0,
             "subscribersGained": 0
@@ -32138,6 +33002,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 101.3,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -32248,6 +33133,27 @@
             "engagedViews": 207,
             "averageViewDuration": 8,
             "averageViewPercentage": 42.07,
+            "likes": 1,
+            "comments": 1,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 101.0,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 772,
+            "engagedViews": 230,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 41.12,
             "likes": 1,
             "comments": 1,
             "shares": 0,
@@ -33395,6 +34301,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 97.9,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 587,
+            "engagedViews": 310,
+            "averageViewDuration": 6,
+            "averageViewPercentage": 39.07,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -34515,6 +35442,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 95.0,
+          "dataPeriod": {
+            "startDate": "2026-10-12",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 3,
+            "engagedViews": 2,
+            "averageViewDuration": 3,
+            "averageViewPercentage": 20.58,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -34591,6 +35539,27 @@
             "averageViewDuration": 7,
             "averageViewPercentage": 38.48,
             "likes": 1,
+            "comments": 1,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 91.7,
+          "dataPeriod": {
+            "startDate": "2026-10-12",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 988,
+            "engagedViews": 373,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 37.06,
+            "likes": 2,
             "comments": 1,
             "shares": 0,
             "subscribersGained": 0
@@ -35693,6 +36662,27 @@
           },
           "metrics": {
             "views": 226,
+            "engagedViews": 47,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 47.48,
+            "likes": 3,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 1
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 82.2,
+          "dataPeriod": {
+            "startDate": "2026-10-12",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 231,
             "engagedViews": 47,
             "averageViewDuration": 7,
             "averageViewPercentage": 47.48,
@@ -36808,6 +37798,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 74.6,
+          "dataPeriod": {
+            "startDate": "2026-10-12",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 56,
+            "engagedViews": 16,
+            "averageViewDuration": 5,
+            "averageViewPercentage": 35.94,
+            "likes": 2,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -37914,6 +38925,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 74.4,
+          "dataPeriod": {
+            "startDate": "2026-10-12",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 4,
+            "engagedViews": 1,
+            "averageViewDuration": 1,
+            "averageViewPercentage": 10.63,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -37961,6 +38993,27 @@
           "dataPeriod": {
             "startDate": "2026-10-13",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 381,
+            "engagedViews": 114,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 58.26,
+            "likes": 7,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 69.7,
+          "dataPeriod": {
+            "startDate": "2026-10-13",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
@@ -38533,6 +39586,27 @@
             "subscribersGained": 1
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 54.3,
+          "dataPeriod": {
+            "startDate": "2026-10-13",
+            "endDate": "2026-10-16",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 18,
+            "engagedViews": 4,
+            "averageViewDuration": 4,
+            "averageViewPercentage": 25.629999999999995,
+            "likes": 1,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 1
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -38566,6 +39640,27 @@
           "dataPeriod": {
             "startDate": "2026-10-13",
             "endDate": "2026-10-15",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 210,
+            "engagedViews": 60,
+            "averageViewDuration": 8,
+            "averageViewPercentage": 56.08,
+            "likes": 5,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-16",
+          "collectedAt": "2026-10-16T01:41:09.130164+00:00",
+          "actualAgeHours": 52.1,
+          "dataPeriod": {
+            "startDate": "2026-10-13",
+            "endDate": "2026-10-16",
             "basis": "UTC calendar-day cumulative report"
           },
           "metrics": {
