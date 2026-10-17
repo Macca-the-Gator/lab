@@ -20,7 +20,8 @@
     "report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e",
     "gta-6-launch-trailer-released",
     "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
-    "gta-6-release-date-review-timing-and-insider-details-ahead-of-no"
+    "gta-6-release-date-review-timing-and-insider-details-ahead-of-no",
+    "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -42,7 +43,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -184,6 +186,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-17T01:39:25.479531+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending:boobie-ike-video-clip",
+      "articleSlug": "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-17T18:54:39.599525+00:00"
     }
   ]
 }
