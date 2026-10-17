@@ -1,5 +1,73 @@
 [
   {
+    "title": "Report: Citi Bank Predicts New Red Dead Game Could Launch by 2027-2028",
+    "description": "Investment bank Citi says a new Red Dead title could arrive in 2027 or 2028, but Rockstar's development cycle may make that timeline unrealistic.",
+    "seoTitle": "Rockstar Red Dead 2027 Release Predicted",
+    "seoDescription": "Citi bank predicts a new Red Dead game could launch by 2027-2028, but Rockstar's development schedule makes it unlikely, GameSpot reports.",
+    "category": "Rockstar Games",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Red Dead",
+      "Citi",
+      "Bank",
+      "Prediction"
+    ],
+    "featured": true,
+    "youtubeTitle": "Red Dead 2027? Citi Bank Predicts New Rockstar Game",
+    "socialHook": "Citi bank says a new Red Dead game could launch by 2027 or 2028.",
+    "instagramCaptionLead": "Citi bank predicts a new Red Dead game could launch by 2027-2028, but Rockstar's schedule makes it unlikely.",
+    "sections": [
+      {
+        "heading": "Citi's Prediction",
+        "paragraphs": [
+          "GameSpot reports that investment bank Citi, in a note cited by Yahoo Finance, suggested that a new Red Dead game could launch as early as 2027 or 2028, a timeline that would be unprecedented for Rockstar."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Development Timeline",
+        "paragraphs": [
+          "The same article notes that Rockstar historically spaces major releases several years apart, with Red Dead Redemption in 2010, Grand Theft Auto V in 2013, Red Dead Redemption II in 2018, and Grand Theft Auto VI expected in 2026, making a 2027 launch a significant acceleration."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Industry Context",
+        "paragraphs": [
+          "Take‑Two CEO Strauss Zelnick recently told The Game Business that recent technological advances could compress development timelines without sacrificing quality, while Rockstar's Phil Hooker noted that hiring sprees and technology updates may also speed up production."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: Citi Bank Predicts New Red Dead Game Could Launch by 2027-2028",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "Next Red Dead Launching By 2027 Or 2028 &#8220;May Not Be Unreasonable,&#8221; Bank Says, But It Definitely Is",
+        "url": "https://www.gamespot.com/articles/next-red-dead-launching-by-2027-or-2028-may-not-be-unreasonable-bank-says-but-it-definitely-is/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-10-17",
+    "publishedAt": "2026-10-17T22:22:21.152Z",
+    "slug": "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
+    "sourceUrl": "https://www.gamespot.com/articles/next-red-dead-launching-by-2027-or-2028-may-not-be-unreasonable-bank-says-but-it-definitely-is/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027.jpg",
+    "discoverImage": "/blog/assets/covers/report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6 Leaker 'Cyberleek' Quits After Meme Coin Crash, Ending at Risk via Dead Man’s Switch",
     "description": "Credible RockstarINTEL reports that the notorious GTA 6 leaker 'Cyberleek' has ceased sharing content following a failed meme coin venture, leaving fans worried about unverified claims of a dead man’s switch protecting the game's ending.",
     "category": "GTA 6",
