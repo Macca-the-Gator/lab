@@ -655,5 +655,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=FH-6npqe73g",
     "socialScore": 80,
     "publishedAt": "2026-10-17T22:26:22.225590+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
+    "publicationKey": "rockstar-media:report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "VAB2xbXG2Us",
+    "youtubeUrl": "https://www.youtube.com/watch?v=VAB2xbXG2Us",
+    "publishedAt": "2026-10-18T01:38:09.425173+00:00"
   }
 ]
