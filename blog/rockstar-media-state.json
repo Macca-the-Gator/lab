@@ -22,7 +22,8 @@
     "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
     "gta-6-release-date-review-timing-and-insider-details-ahead-of-no",
     "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending",
-    "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027"
+    "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
+    "gta-6-pc-port-could-arrive-within-three-months-of-console-launch"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -46,7 +47,8 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -202,6 +204,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-18T01:38:55.401185+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-pc-port-could-arrive-within-three-months-of-console-launch:cal-hampton-video-clip",
+      "articleSlug": "gta-6-pc-port-could-arrive-within-three-months-of-console-launch",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-18T19:01:08.773758+00:00"
     }
   ]
 }
