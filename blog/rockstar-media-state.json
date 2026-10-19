@@ -24,7 +24,8 @@
     "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending",
     "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
     "gta-6-pc-port-could-arrive-within-three-months-of-console-launch",
-    "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r"
+    "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
+    "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -50,7 +51,8 @@
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
     {
@@ -220,6 +222,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-19T01:51:55.577591+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo:gtavi-official-cover-art-landscape",
+      "articleSlug": "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-19T21:19:42.904593+00:00"
     }
   ]
 }
