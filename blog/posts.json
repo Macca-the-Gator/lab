@@ -1,5 +1,62 @@
 [
   {
+    "title": "Report: GTA 6 Pre‑orders Outpace Call of Duty: Modern Warfare 2 by 148%",
+    "description": "GTA 6 preorders are outpacing Call of Duty: Modern Warfare 2 by 148% ahead of launch, according to Sensor Tower data reported by Gamespot.",
+    "seoTitle": "GTA 6 Pre‑orders 148% Ahead of MW2 – Gamespot",
+    "seoDescription": "GTA 6 preorders are outpacing Call of Duty: Modern Warfare 2 by 148% ahead of launch, according to Sensor Tower data reported by Gamespot.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Pre-order",
+      "Sales"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Pre‑orders Lead MW2 by 148% – Gamespot Report",
+    "socialHook": "GTA 6 preorders are 148% ahead of Modern Warfare 2’s pace, per new Sensor Tower data.",
+    "instagramCaptionLead": "GTA 6 is crushing pre‑order records, 148% ahead of MW2 and trending toward $2B before launch.",
+    "sections": [
+      {
+        "heading": "Record Pre‑order Momentum",
+        "paragraphs": [
+          "GTA 6’s digital pre‑orders are outpacing the biggest AAA titles of the past six years, according to a new analysis by Sensor Tower cited in a Gamespot report. The data shows GTA 6 leading Call of Duty: Modern Warfare 2 (MW2) by 148% over a comparable pre‑launch window, making it the strongest preorder performer among recent releases like Diablo 4, Hogwarts Legacy, and Marvel’s Spider‑Man. Sensor Tower’s tracker indicates the game has already sold more than 6.45 million copies, generating over $630 million in revenue before its November 19, 2026 launch for PS5 and Xbox Series X|S."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Platform Split & Future Outlook",
+        "paragraphs": [
+          "The preorder distribution favors PlayStation 5, with 74% of digital purchases on PS5 versus 26% on Xbox Series X|S, reflecting the console’s broader market penetration. Xbox executives have expressed satisfaction with the numbers, though the majority of pre‑orders are expected to arrive in the final week before release. If the projected 25 million total pre‑orders materialize, GTA 6 could gross more than $2 billion in advance sales. Rockstar plans a single‑player launch initially, with a future GTA Online sequel slated to further boost revenue."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: GTA 6 Pre‑orders Outpace Call of Duty: Modern Warfare 2 by 148%",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6 Is 148% Ahead Of This Other Popular AAA Game So Far",
+        "url": "https://www.gamespot.com/articles/gta-6-is-148-ahead-of-this-other-popular-aaa-game-so-far/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-10-20",
+    "publishedAt": "2026-10-20T17:09:01.527Z",
+    "slug": "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-is-148-ahead-of-this-other-popular-aaa-game-so-far/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by-discover.jpg"
+  },
+  {
     "title": "GTA 6's Vast Scope Means No Single Developer Knows It All, Says Rockstar",
     "description": "Eurogamer reports that Rockstar's autonomous development culture, which produced unexpected details like Red Dead Redemption 2's horse testicles, shapes GTA 6's unprecedented scale. Journalist Jason Schreier recounted Rockstar head of development Aaron Garbut discussing how developers independently ",
     "seoTitle": "GTA 6 So Detailed No Employee Knows It All - Rockstar",
