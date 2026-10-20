@@ -26,7 +26,8 @@
     "gta-6-pc-port-could-arrive-within-three-months-of-console-launch",
     "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
     "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo",
-    "fan-recreates-gta-6-trailer-in-gta-5-highlighting-massive-visual"
+    "fan-recreates-gta-6-trailer-in-gta-5-highlighting-massive-visual",
+    "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -54,7 +55,8 @@
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -238,6 +240,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-20T02:13:37.901654+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by:cal-hampton-video-clip",
+      "articleSlug": "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-20T20:12:50.949459+00:00"
     }
   ]
 }

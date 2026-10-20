@@ -737,5 +737,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=mnradLjDfMA",
     "socialScore": 80,
     "publishedAt": "2026-10-20T17:13:06.791468+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
+    "publicationKey": "rockstar-media:report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "kBRXPYngWlo",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kBRXPYngWlo",
+    "publishedAt": "2026-10-20T20:12:06.999704+00:00"
   }
 ]
