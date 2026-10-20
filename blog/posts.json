@@ -1,5 +1,69 @@
 [
   {
+    "title": "Report: Rockstar Releases Three Beer Brands Based on GTA 6 Game Content",
+    "description": "Rockstar is reportedly launching three new beer brands—Pißwasser, Patriot, and No Mames Vice City—produced by Tripping Animals Brewing, with alcohol strengths ranging from 4.2% to 6% ABV.",
+    "seoDescription": "Rockstar is reportedly launching three new beer brands—Pißwasser, Patriot, and No Mames Vice City—produced by Tripping Animals Brewing, with alcohol strengths",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Beer",
+      "TTB Database",
+      "Alcohol Regulation",
+      "Video Game Licensing"
+    ],
+    "featured": false,
+    "youtubeTitle": "Rockstar Launches Real Beer Brands Based on GTA 6 - Official Announcement",
+    "socialHook": "Rockstar is reportedly releasing three new beer brands inspired by its upcoming GTA 6 game.",
+    "instagramCaptionLead": "New beer brands mirror GTA 6 drinks: Pißwasser, Patriot, and No Mames Vice City will hit shelves soon.",
+    "sections": [
+      {
+        "heading": "Regulatory Discovery and Product Launch",
+        "paragraphs": [
+          "According to reports from X, Rockstar is reportedly launching three new beer brands—Pißwasser, Patriot, and No Mames Vice City—produced by Tripping Animals Brewing. These beverages feature alcohol strengths of 4.2% ABV for Pißwasser and Patriot, and 6% ABV for No Mames Vice City, linking in-game references to real-world production."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Uncertainties and Next Steps",
+        "paragraphs": [
+          "While the report from X suggests Rockstar may be creating real products based on in-game alcohol references, several details remain unclear. There is no official confirmation from Rockstar or Take-Two regarding the authenticity of these claims, nor is there a public launch schedule. The TTB database discovery adds regulatory interest, but consumer availability depends on further verification and corporate statements."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Hero image featuring beer bottles and GTA 6 logo",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "Rockstar is reportedly releasing multiple beer brands from GTA 6 in real life after they were discovered in the TTB database",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MUGZISC12aGthYVBmazhhaENuSnBtbFdwbUdjdzlIQlpoc2M1TGhIRk5uNzZsZEJBb0dSbDYwbHNTeWlRWXJlci1MVGxNdGVIdV8zYmNvZTItcTlSQTd3WjVidkt6d2s?oc=5",
+        "publisher": "X"
+      },
+      {
+        "title": "Rockstar is reportedly releasing multiple beer brands from GTA 6 in real life after they were discovered in the TTB database: - Pißwasser: 4.2% ABV - Patriot: 4.2% ABV - No Mames Vice City: 6% ABV They will be produced by Tripping Animals Brewing, a local",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MUGZISC12aGthYVBmazhhaENuSnBtbFdwbUdjdzlIQlpoc2M1TGhIRk5uNzZsZEJBb0dSbDYwbHNTeWlRWXJlci1MVGxNdGVIdV8zYmNvZTItcTlSQTd3WjVidkt6d2s?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "publisher": "X"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "seoTitle": "Report: Rockstar Releases Three Beer Brands Based on GTA 6 Game ",
+    "date": "2026-10-20",
+    "publishedAt": "2026-10-20T20:38:32.188Z",
+    "slug": "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MUGZISC12aGthYVBmazhhaENuSnBtbFdwbUdjdzlIQlpoc2M1TGhIRk5uNzZsZEJBb0dSbDYwbHNTeWlRWXJlci1MVGxNdGVIdV8zYmNvZTItcTlSQTd3WjVidkt6d2s?oc=5&hl=en-US&gl=US&ceid=US:en",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c.jpg",
+    "discoverImage": "/blog/assets/covers/report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6 Pre‑orders Outpace Call of Duty: Modern Warfare 2 by 148%",
     "description": "GTA 6 preorders are outpacing Call of Duty: Modern Warfare 2 by 148% ahead of launch, according to Sensor Tower data reported by Gamespot.",
     "seoTitle": "GTA 6 Pre‑orders 148% Ahead of MW2 – Gamespot",
