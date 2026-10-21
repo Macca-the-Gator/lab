@@ -28,7 +28,8 @@
     "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo",
     "fan-recreates-gta-6-trailer-in-gta-5-highlighting-massive-visual",
     "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
-    "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c"
+    "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
+    "extended-gta-6-launch-trailer-airing-on-tv"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -58,7 +59,8 @@
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "DreQuan_Priest_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -256,6 +258,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-21T02:07:56.668524+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:extended-gta-6-launch-trailer-airing-on-tv:drequan-priest-video-clip",
+      "articleSlug": "extended-gta-6-launch-trailer-airing-on-tv",
+      "clip": "DreQuan_Priest_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-21T20:25:57.792421+00:00"
     }
   ]
 }

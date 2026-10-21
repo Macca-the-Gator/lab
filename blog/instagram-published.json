@@ -795,5 +795,18 @@
     "uploadMode": "github-release",
     "socialScore": 98,
     "publishedAt": "2026-10-21T10:15:55.952Z"
+  },
+  "rockstar-media://rockstar-media:extended-gta-6-launch-trailer-airing-on-tv:drequan-priest-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:extended-gta-6-launch-trailer-airing-on-tv:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/extended-gta-6-launch-trailer-airing-on-tv/",
+    "mediaId": "17909301582591622",
+    "permalink": "https://www.instagram.com/reel/DexQt8GlIt3/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Victoria's Secret - Slowed",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-21T20:25:56.071489+00:00"
   }
 }

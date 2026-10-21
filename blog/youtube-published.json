@@ -777,5 +777,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=aFsn4nBLfpc",
     "socialScore": 98,
     "publishedAt": "2026-10-21T10:16:03.047082+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "extended-gta-6-launch-trailer-airing-on-tv",
+    "publicationKey": "rockstar-media:extended-gta-6-launch-trailer-airing-on-tv:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/extended-gta-6-launch-trailer-airing-on-tv/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "DreQuan_Priest_Video_Clip.mp4",
+    "youtubeVideoId": "Cb13iO8XM8w",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Cb13iO8XM8w",
+    "publishedAt": "2026-10-21T20:25:14.230722+00:00"
   }
 ]
