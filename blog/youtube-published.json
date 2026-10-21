@@ -757,5 +757,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=P4OAok7dnDw",
     "socialScore": 84,
     "publishedAt": "2026-10-20T20:42:37.120413+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
+    "publicationKey": "rockstar-media:report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "Juwi_tOwUZE",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Juwi_tOwUZE",
+    "publishedAt": "2026-10-21T02:07:08.044066+00:00"
   }
 ]
