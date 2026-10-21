@@ -1,5 +1,71 @@
 [
   {
+    "title": "Extended GTA 6 Launch Trailer Airing on TV",
+    "description": "RockstarINTEL reports an extended cut of the GTA 6 launch trailer aired on TV during an NBA broadcast.",
+    "seoTitle": "Extended GTA 6 Launch Trailer Airing on TV",
+    "seoDescription": "RockstarINTEL reports an extended GTA 6 launch trailer aired on TV during an NBA broadcast, with extra scenes and a 60‑second cut.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "launch trailer",
+      "TV ad",
+      "NBC",
+      "NBA"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Extended Launch Trailer Airing on TV",
+    "socialHook": "An extended GTA 6 launch trailer is now airing on TV.",
+    "instagramCaptionLead": "RockstarINTEL reports an extended GTA 6 launch trailer aired during an NBA broadcast on NBC, with extra scenes and a 60‑second cut.",
+    "sections": [
+      {
+        "heading": "Extended Trailer Airing on TV",
+        "paragraphs": [
+          "RockstarINTEL reports that an extended cut of the GTA 6 launch trailer began airing on television during the NBA game between the Philadelphia 76ers and the New York Knicks on NBC. The trailer was shown in a commercial break, and a fan recorded the broadcast, noting several differences from the online version."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Key Differences From the Online Cut",
+        "paragraphs": [
+          "The TV version includes a longer clip of Raul Bautista dancing after the first shower scene, extended footage of Lucia jumping onto the plane landing gear, and a brief extension of Jason nudging Lucia. The online cut omits the shower kiss and Lucia's ankle tag, while the TV edition adds a longer sequence of Jason attempting to retrieve a knife and a slightly extended dance from Roxy. A separate 60‑second spot also circulates, trimming several opening scenes."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/Grand-Theft-Auto-VI-Launch-Trailer-00-01-03-copy.webp",
+    "thumbnailAlt": "Extended GTA 6 launch trailer TV ad",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/Grand-Theft-Auto-VI-Launch-Trailer-00-01-03-copy.webp",
+        "alt": "Extended GTA 6 launch trailer TV ad",
+        "caption": "Extended GTA 6 launch trailer as aired on TV",
+        "sourceUrl": "https://rockstarintel.com/extended-gta-6-launch-trailer-has-begun-airing-on-tv/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Extended GTA 6 Launch Trailer Has Begun Airing On TV",
+        "url": "https://rockstarintel.com/extended-gta-6-launch-trailer-has-begun-airing-on-tv/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-10-21",
+    "publishedAt": "2026-10-21T10:12:05.316Z",
+    "slug": "extended-gta-6-launch-trailer-airing-on-tv",
+    "sourceUrl": "https://rockstarintel.com/extended-gta-6-launch-trailer-has-begun-airing-on-tv/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/extended-gta-6-launch-trailer-airing-on-tv.jpg",
+    "discoverImage": "/blog/assets/covers/extended-gta-6-launch-trailer-airing-on-tv-discover.jpg"
+  },
+  {
     "title": "Report: Rockstar Releases Three Beer Brands Based on GTA 6 Game Content",
     "description": "Rockstar is reportedly launching three new beer brands—Pißwasser, Patriot, and No Mames Vice City—produced by Tripping Animals Brewing, with alcohol strengths ranging from 4.2% to 6% ABV.",
     "seoDescription": "Rockstar is reportedly launching three new beer brands—Pißwasser, Patriot, and No Mames Vice City—produced by Tripping Animals Brewing, with alcohol strengths",
