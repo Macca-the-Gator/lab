@@ -39343,6 +39343,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-22",
+          "collectedAt": "2026-10-22T07:59:01.929303+00:00",
+          "actualAgeHours": 270.0,
+          "dataPeriod": {
+            "startDate": "2026-10-11",
+            "endDate": "2026-10-22",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 12,
+            "engagedViews": 3,
+            "averageViewDuration": 18,
+            "averageViewPercentage": 116.67,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -68337,6 +68358,15 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/gta-online-event-week-halloween-event-continues-october-8th-14th/",
       "youtubeUrl": "https://www.youtube.com/watch?v=9TLzDxMvEH0",
       "publishedAt": "2026-10-21T23:26:47.371363+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "UmituSrpcCQ": {
+      "slug": "gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r",
+      "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UmituSrpcCQ",
+      "publishedAt": "2026-10-22T01:59:42.912004+00:00",
       "samples": [],
       "daily": [],
       "retentionSnapshots": []
