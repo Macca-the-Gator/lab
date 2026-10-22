@@ -820,5 +820,18 @@
     "uploadMode": "github-release",
     "socialScore": 80,
     "publishedAt": "2026-10-21T23:26:40.698Z"
+  },
+  "rockstar-media://rockstar-media:gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r:gtavi-official-cover-art-landscape": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r/",
+    "mediaId": "18124849468697659",
+    "permalink": "https://www.instagram.com/reel/Dex2_slEe6y/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Victoria's Secret - Slowed",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-22T02:00:28.213406+00:00"
   }
 }
