@@ -848,5 +848,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Xsh8TcBpi0o",
     "socialScore": 82,
     "publishedAt": "2026-10-23T19:19:11.519452+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
+    "publicationKey": "rockstar-media:gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "40h9EYy24qI",
+    "youtubeUrl": "https://www.youtube.com/watch?v=40h9EYy24qI",
+    "publishedAt": "2026-10-23T20:08:39.573629+00:00"
   }
 ]
