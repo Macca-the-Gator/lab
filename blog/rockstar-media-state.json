@@ -31,7 +31,8 @@
     "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
     "extended-gta-6-launch-trailer-airing-on-tv",
     "gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r",
-    "report-rahul-kohli-pitch-for-l-a-noire-spinoff-idea-sounds-incre"
+    "report-rahul-kohli-pitch-for-l-a-noire-spinoff-idea-sounds-incre",
+    "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -64,7 +65,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -283,6 +285,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-22T20:22:52.161695+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says:cal-hampton-video-clip",
+      "articleSlug": "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-23T02:04:54.568970+00:00"
     }
   ]
 }
