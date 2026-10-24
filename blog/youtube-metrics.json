@@ -60342,6 +60342,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-10-24",
+          "collectedAt": "2026-10-24T06:31:04.685777+00:00",
+          "actualAgeHours": 220.6,
+          "dataPeriod": {
+            "startDate": "2026-10-15",
+            "endDate": "2026-10-24",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 44,
+            "engagedViews": 3,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 48.5,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -77018,6 +77039,15 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar/",
       "youtubeUrl": "https://www.youtube.com/watch?v=40h9EYy24qI",
       "publishedAt": "2026-10-23T20:08:39.573629+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "TFZJAJ9GvJQ": {
+      "slug": "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
+      "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TFZJAJ9GvJQ",
+      "publishedAt": "2026-10-24T06:01:49.558695+00:00",
       "samples": [],
       "daily": [],
       "retentionSnapshots": []
