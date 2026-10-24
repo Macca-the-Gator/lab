@@ -1,5 +1,72 @@
 [
   {
+    "skip": false,
+    "title": "Report: PureGym Shares Thumb Workouts to Prepare for GTA VI Launch",
+    "description": "GameSpot reports PureGym shared three thumb exercises from trainer David Hope to help players warm up before Grand Theft Auto VI releases on November 19, alongside related launch-day projections and themed food at Miami's Kaseya Center.",
+    "seoTitle": "GTA VI Thumb Workouts: PureGym Exercises Before Launch",
+    "seoDescription": "GameSpot reports PureGym shared three thumb workouts from trainer David Hope to help players prepare for Grand Theft Auto VI's November 19 release.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "PureGym",
+      "David Hope",
+      "GameSpot",
+      "exercises"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA VI Launch Prep: PureGym Reveals Thumb Workouts Before November 19",
+    "socialHook": "PureGym has shared three thumb workouts to help players warm up before Grand Theft Auto VI launches on November 19, according to GameSpot.",
+    "instagramCaptionLead": "Get your thumbs ready for GTA VI! GameSpot reports PureGym trainer David Hope shared three hand exercises to warm up before the November 19 launch.",
+    "sections": [
+      {
+        "heading": "PureGym Thumb Workouts for GTA VI",
+        "paragraphs": [
+          "GameSpot reports that fitness company PureGym shared three thumb workouts from personal trainer David Hope to help players prepare for Grand Theft Auto VI. The routine includes tapping the thumb with each finger on the same hand, forming a fist with the thumb on the outside, and performing finger pushups by pressing both hands fingertips into the floor. PureGym recommends repeating each exercise 10 times before and after extended gaming sessions."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "GTA VI Release Date and Related Reports",
+        "paragraphs": [
+          "According to GameSpot, Grand Theft Auto VI is scheduled to release on November 19. The outlet also cited an economics professor projecting that 1.5 million people in America could call in sick around the launch, and noted that Miami's Kaseya Center, home of the NBA's Heat, currently features GTA-themed Burger Shot and Cluckin' Bell food locations."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What Remains Unknown",
+        "paragraphs": [
+          "GameSpot's report does not state whether Rockstar Games or Take-Two Interactive endorsed the PureGym routine, and it provides no methodology for the economics professor's projection. Details on how long the Burger Shot and Cluckin' Bell offerings will remain at Kaseya Center were also not included."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: PureGym Shares Thumb Workouts to Prepare for GTA VI Launch",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "Finger Out How To Prep For GTA 6 With These Exercises",
+        "url": "https://www.gamespot.com/articles/finger-out-how-to-prep-for-gta-6-with-these-exercises/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-10-24",
+    "publishedAt": "2026-10-24T11:03:56.887Z",
+    "slug": "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
+    "sourceUrl": "https://www.gamespot.com/articles/finger-out-how-to-prep-for-gta-6-with-these-exercises/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc.jpg",
+    "discoverImage": "/blog/assets/covers/report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6’s New TV Trailer Is A Bit Different, See It For Yourself",
     "description": "Gamespot details new GTA 6 TV commercial variations, including removed shower scenes, extended airplane shots, Xbox logo removal, and real-life restaurant tie-ins ahead of launch.",
     "seoTitle": "GTA 6 TV Trailer Cuts Showers Removes Xbox Logo",
