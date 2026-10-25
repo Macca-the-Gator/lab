@@ -35,7 +35,8 @@
     "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
     "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
     "gta-6-burgers-will-be-available-in-florida-throughout-the-year",
-    "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc"
+    "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
+    "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your"
   ],
   "clipHistory": [
     "Boobie_Ike_Video_Clip.mp4",
@@ -72,7 +73,8 @@
     "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -319,6 +321,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-25T01:46:32.783967+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your:boobie-ike-video-clip",
+      "articleSlug": "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-25T19:20:20.925564+00:00"
     }
   ]
 }
