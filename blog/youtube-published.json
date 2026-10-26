@@ -919,5 +919,16 @@
     "youtubeVideoId": "ze7Zx8sEmdo",
     "youtubeUrl": "https://www.youtube.com/watch?v=ze7Zx8sEmdo",
     "publishedAt": "2026-10-25T19:19:25.656111+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-boxed-copies-sold-out-at-some-retailers",
+    "publicationKey": "rockstar-media:gta-6-boxed-copies-sold-out-at-some-retailers:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-boxed-copies-sold-out-at-some-retailers/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "NrgQICLoSJk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NrgQICLoSJk",
+    "publishedAt": "2026-10-26T01:50:57.281075+00:00"
   }
 ]

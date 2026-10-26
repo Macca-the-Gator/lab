@@ -36,10 +36,10 @@
     "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
     "gta-6-burgers-will-be-available-in-florida-throughout-the-year",
     "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
-    "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your"
+    "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
+    "gta-6-boxed-copies-sold-out-at-some-retailers"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -74,7 +74,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -328,6 +329,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-25T19:20:20.925564+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-boxed-copies-sold-out-at-some-retailers:cal-hampton-video-clip",
+      "articleSlug": "gta-6-boxed-copies-sold-out-at-some-retailers",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-26T01:52:23.614017+00:00"
     }
   ]
 }

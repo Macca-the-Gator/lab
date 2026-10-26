@@ -971,5 +971,18 @@
     "musicTitle": "Perdeu, Perdeu",
     "uploadMode": "github-release",
     "publishedAt": "2026-10-25T19:20:19.315948+00:00"
+  },
+  "rockstar-media://rockstar-media:gta-6-boxed-copies-sold-out-at-some-retailers:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-boxed-copies-sold-out-at-some-retailers:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-boxed-copies-sold-out-at-some-retailers/",
+    "mediaId": "18037078994847495",
+    "permalink": "https://www.instagram.com/reel/De8JPzfgoUp/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Perdeu, Perdeu",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-26T01:52:22.305957+00:00"
   }
 }
