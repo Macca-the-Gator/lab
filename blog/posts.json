@@ -1,5 +1,71 @@
 [
   {
+    "skip": false,
+    "title": "GTA 6 Early Review Access Confirmed by Rockstar Insider",
+    "description": "RockstarINTEL reports that review codes for Grand Theft Auto VI have been distributed to reviewers, with public reviews scheduled for November 18th, one day before launch.",
+    "seoTitle": "GTA 6 Reviewers Get Early Access Codes - Nov 18 Release",
+    "seoDescription": "RockstarINTEL confirms early reviewer access for GTA 6 with public reviews starting November 18, 2026, ahead of the game's launch.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Review",
+      "Early Access",
+      "November 18"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Early Review Access Confirmed by RockstarINTEL",
+    "socialHook": "Review codes for GTA 6 have been sent to reviewers, with public reviews set for November 18th.",
+    "instagramCaptionLead": "RockstarINTEL reports early reviewer access for GTA 6 with public reviews starting November 18.",
+    "sections": [
+      {
+        "heading": "Insider Report on Early Access",
+        "paragraphs": [
+          "RockstarINTEL, a credible gaming news outlet, has broken the news that Rockstar Games has already begun distributing review codes to professional reviewers. This insider source, citing NateTheHate, indicates that the early access period is significantly longer than previously speculated. Reviewers will have more than three weeks to experience the massive open-world title before public release."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Implications for Game Reception",
+        "paragraphs": [
+          "The early release timeline suggests that review scores may be influenced by extensive testing periods. With public reviews beginning on November 18th, just one day before the scheduled launch, critics will have ample time to analyze the game's mechanics and narrative. This extended window could potentially mitigate negative feedback or highlight specific issues that might otherwise go unnoticed in a shorter review cycle."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/09/Lucia_Caminos_10-copy.webp",
+    "thumbnailAlt": "Game cover art related to GTA 6 early reviewer access report",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/09/Lucia_Caminos_10-copy.webp",
+        "alt": "GTA 6 early review image",
+        "caption": "RockstarINTEL report on GTA 6 reviewer access",
+        "sourceUrl": "https://rockstarintel.com/gta-6-has-just-been-sent-out-early-to-reviewers/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 Has Just Been Sent Out Early To Reviewers",
+        "url": "https://rockstarintel.com/gta-6-has-just-been-sent-out-early-to-reviewers/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-10-26",
+    "publishedAt": "2026-10-26T19:23:40.686Z",
+    "slug": "gta-6-early-review-access-confirmed-by-rockstar-insider",
+    "sourceUrl": "https://rockstarintel.com/gta-6-has-just-been-sent-out-early-to-reviewers/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-6-early-review-access-confirmed-by-rockstar-insider.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-early-review-access-confirmed-by-rockstar-insider-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6: Gameplay, Trailers, Features & Everything We Know (Updated October 2026)",
     "description": "Beebom published an updated October 2026 overview of Grand Theft Auto 6 covering gameplay, trailers, and features. The RSS listing does not include specific article details.",
     "seoTitle": "GTA 6 Gameplay, Trailers, Features & Everything We Know",
