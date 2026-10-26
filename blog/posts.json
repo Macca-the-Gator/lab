@@ -1,6 +1,66 @@
 [
   {
     "skip": false,
+    "title": "GTA 6 Coffee Launch: Leonida Blend Available in Miami",
+    "description": "Gamespot reports that Vice City Bean has partnered with Rockstar Games to release the officially licensed GTA 6 Leonida coffee blend, a medium roast made from Colombian and Ethiopian beans, priced at $23 for a 10‑ounce bag, with options for ground, medium or fine grind, and limited availability ahea",
+    "seoTitle": "GTA 6 Coffee Launch: Leonida Blend Available in Miami",
+    "seoDescription": "Officially licensed GTA 6 coffee, the Leonida blend, is sold by Vice City Bean in Miami for $23 per 10‑oz bag, limited release before the November 19 game lau",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Coffee",
+      "Miami",
+      "Vice City Bean",
+      "Marketing"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Coffee Launch: Leonida Blend Available Now",
+    "socialHook": "Officially licensed GTA 6 coffee, the Leonida blend, is now on sale in Miami for $23 per 10‑oz bag.",
+    "instagramCaptionLead": "Get the limited‑edition GTA 6 Leonida coffee from Vice City Bean – $23 for 10 oz, celebrating Miami’s vibe ahead of the November 19 game launch.",
+    "sections": [
+      {
+        "heading": "GTA 6 Coffee Partnership Details",
+        "paragraphs": [
+          "Gamespot reports that Vice City Bean has partnered with Rockstar Games to release the officially licensed GTA 6 Leonida coffee blend, a medium roast made from Colombian and Ethiopian beans, priced at $23 for a 10‑ounce bag, with options for ground, medium or fine grind, and limited availability ahead of the November 19 launch."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Marketing Context and Release Timeline",
+        "paragraphs": [
+          "Gamespot notes that the coffee launch is part of Rockstar’s extensive, controversial marketing push for GTA 6 in Miami, highlighting the game’s Vice City inspiration, while the title remains slated for release on November 19 for PS5 and Xbox Series X|S, though exact timing beyond the date has not been confirmed."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "GTA 6 Coffee Launch: Leonida Blend Available in Miami",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6 Coffee Is Here To Keep You Warm Until The Game Releases",
+        "url": "https://www.gamespot.com/articles/gta-6-coffee-is-here-to-keep-you-warm-until-the-game-releases/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-10-26",
+    "publishedAt": "2026-10-26T23:56:08.679Z",
+    "slug": "gta-6-coffee-launch-leonida-blend-available-in-miami",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-coffee-is-here-to-keep-you-warm-until-the-game-releases/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-6-coffee-launch-leonida-blend-available-in-miami.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-coffee-launch-leonida-blend-available-in-miami-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "GTA 6 Early Review Access Confirmed by Rockstar Insider",
     "description": "RockstarINTEL reports that review codes for Grand Theft Auto VI have been distributed to reviewers, with public reviews scheduled for November 18th, one day before launch.",
     "seoTitle": "GTA 6 Reviewers Get Early Access Codes - Nov 18 Release",
