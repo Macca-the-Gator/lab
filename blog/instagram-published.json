@@ -1008,5 +1008,18 @@
     "uploadMode": "github-release",
     "socialScore": 90,
     "publishedAt": "2026-10-26T19:27:20.729Z"
+  },
+  "rockstar-media://rockstar-media:gta-6-early-review-access-confirmed-by-rockstar-insider:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-early-review-access-confirmed-by-rockstar-insider:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-early-review-access-confirmed-by-rockstar-insider/",
+    "mediaId": "18348194344252478",
+    "permalink": "https://www.instagram.com/reel/De-Of_sCDfB/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "MEGA FUNK XHAKINHA BROTA PRA CÁ BB",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-10-26T21:16:45.525200+00:00"
   }
 }

@@ -948,5 +948,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=GzNoIhf0Ue4",
     "socialScore": 90,
     "publishedAt": "2026-10-26T19:27:27.020620+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-early-review-access-confirmed-by-rockstar-insider",
+    "publicationKey": "rockstar-media:gta-6-early-review-access-confirmed-by-rockstar-insider:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-early-review-access-confirmed-by-rockstar-insider/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "O8e6vKT7qCg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=O8e6vKT7qCg",
+    "publishedAt": "2026-10-26T21:15:25.509307+00:00"
   }
 ]

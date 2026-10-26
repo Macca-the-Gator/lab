@@ -37,10 +37,10 @@
     "gta-6-burgers-will-be-available-in-florida-throughout-the-year",
     "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
     "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
-    "gta-6-boxed-copies-sold-out-at-some-retailers"
+    "gta-6-boxed-copies-sold-out-at-some-retailers",
+    "gta-6-early-review-access-confirmed-by-rockstar-insider"
   ],
   "clipHistory": [
-    "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
@@ -75,7 +75,8 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Cal_Hampton_Video_Clip.mp4"
+    "Cal_Hampton_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -336,6 +337,13 @@
       "clip": "Cal_Hampton_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-26T01:52:23.614017+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-early-review-access-confirmed-by-rockstar-insider:brian-heder-video-clip",
+      "articleSlug": "gta-6-early-review-access-confirmed-by-rockstar-insider",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-26T21:16:47.142682+00:00"
     }
   ]
 }
