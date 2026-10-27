@@ -2,6 +2,40 @@
   {
     "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wYmwzcmhtYXg4UW1lTHI2Q0FHZEFYTER4dkpobTJzUk52czBtZkZWbmVrd1NobUhmUkZHdVJNUGl2N2lzMWNrWWlQMHdNWkhmQ21nS1Z6YVJWOWlzU2FNSXV1eENWekU?oc=5",
     "title": "One of the artists featured on the GTA 6 album, Fuerza Regida just shared a new video and picture at a secret location with Rockstar’s custom cars, as they’re potentially shooting a music video for their track “Suzuki”",
+    "date": "2026-10-27T16:43:26.151Z",
+    "status": "ai-rejected",
+    "reason": "Isolated X post with no linked article body, no verifiable specifics, and no credible publication or Rockstar/Take-Two primary source; claims are vague and unsupported.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wYmwzcmhtYXg4UW1lTHI2Q0FHZEFYTER4dkpobTJzUk52czBtZkZWbmVrd1NobUhmUkZHdVJNUGl2N2lzMWNrWWlQMHdNWkhmQ21nS1Z6YVJWOWlzU2FNSXV1eENWekU?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE45S1FDaWtqaWFwNkR2RFBpeTdNNUFTZlVSYVlVVV9lR2EtZmQzcF9ocnZVRG5kekdPUmphb1YwZEFnY1lSV1JJV1I3Sm1EREpSZUFYVkpWZVFweEFYOHJQS1h0VElUZlo2T2dWRVRoNEwydw?oc=5"
+    ]
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10NllRUGZpVU5ZVV82cmRDdFB0RF91eGdLTkVRQWZFakZNcWdxRmNpSWJ2eWdodDhCR1ZWNGgxTXFuWTBVZHU2N3oxMHpYMTNwOW1qOFo4bVA0cHg4czJOQnhZU1BrYm8?oc=5",
+    "title": "A new look at all the GTA 6 vehicle wrap designs. The campaign covers 6 areas in Miami, consisting of 20 vehicles and will run until January 7th, 2027. (Source: https://t.co/tYA2PghA9F)",
+    "date": "2026-10-27T16:42:51.268Z",
+    "status": "ai-rejected",
+    "reason": "Third‑party X post without linked reporting; no primary Rockstar/Take‑Two source or credible news outlet to verify the vehicle wrap campaign.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10NllRUGZpVU5ZVV82cmRDdFB0RF91eGdLTkVRQWZFakZNcWdxRmNpSWJ2eWdodDhCR1ZWNGgxTXFuWTBVZHU2N3oxMHpYMTNwOW1qOFo4bVA0cHg4czJOQnhZU1BrYm8?oc=5"
+    ]
+  },
+  {
+    "sourceUrl": "https://www.gamespot.com/articles/one-day-out-from-early-access-emberville-has-been-delayed-to-2027/",
+    "title": "One Day Out From Early Access, Emberville Has Been Delayed To 2027",
+    "date": "2026-10-27T16:42:33.180Z",
+    "status": "ai-rejected",
+    "reason": "Irrelevant: article focuses on Emberville delay, not GTA or Rockstar Games.",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/one-day-out-from-early-access-emberville-has-been-delayed-to-2027/",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxWWhKdmN3SElPbHlZT2hUS2pjTjRsRmJuU2xFNUlyWGlzTVY5NlRIdlFmZjQtMlljLXZ1U3hEamhTTnp1UWtrbzZXaVJmLVFDcmdhNEJwTlZtZjFRRlM1TW5kcXpnUUhQVTEySkUxN1RUdEFfRmt0dVBmTkFKb1U?oc=5",
+      "https://rockstarintel.com/gta-6-has-just-been-sent-out-early-to-reviewers/",
+      "https://www.pcgamer.com/games/rpg/one-day-before-launch-arpg-emberville-gets-delayed-until-2027/"
+    ]
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wYmwzcmhtYXg4UW1lTHI2Q0FHZEFYTER4dkpobTJzUk52czBtZkZWbmVrd1NobUhmUkZHdVJNUGl2N2lzMWNrWWlQMHdNWkhmQ21nS1Z6YVJWOWlzU2FNSXV1eENWekU?oc=5",
+    "title": "One of the artists featured on the GTA 6 album, Fuerza Regida just shared a new video and picture at a secret location with Rockstar’s custom cars, as they’re potentially shooting a music video for their track “Suzuki”",
     "date": "2026-10-27T10:39:51.987Z",
     "status": "ai-rejected",
     "reason": "Isolated X post aggregated by Google News with no linked credible reporting, no verifiable details, future date (2026), and unverified claims about a GTA 6 album that has not been announced. Treated as a tip only; no primary source or publication confirms the music video shoot or Fuerza Regida's involvement.",
