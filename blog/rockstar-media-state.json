@@ -39,10 +39,10 @@
     "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
     "gta-6-boxed-copies-sold-out-at-some-retailers",
     "gta-6-early-review-access-confirmed-by-rockstar-insider",
-    "gta-6-coffee-launch-leonida-blend-available-in-miami"
+    "gta-6-coffee-launch-leonida-blend-available-in-miami",
+    "report-gta-6-gameplay-trailers-features-everything-we-know-updat"
   ],
   "clipHistory": [
-    "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
@@ -77,7 +77,8 @@
     "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
     {
@@ -352,6 +353,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-27T02:31:01.563247+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-gameplay-trailers-features-everything-we-know-updat:gtavi-official-cover-art-landscape",
+      "articleSlug": "report-gta-6-gameplay-trailers-features-everything-we-know-updat",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-27T21:03:35.812543+00:00"
     }
   ]
 }
