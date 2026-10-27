@@ -1,5 +1,76 @@
 [
   {
+    "title": "GTA 6 Developers to Vote on Union Recognition",
+    "description": "Rockstar Games UK staff are set to vote on union recognition during the GTA 6 launch, with voting scheduled from November 12 to 26.",
+    "seoTitle": "GTA 6 Union Vote: Rockstar Staff to Decide Recognition",
+    "seoDescription": "Rockstar UK staff to vote on union recognition during GTA 6 launch, voting set for November 12-26, could create largest games union in UK.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Union",
+      "IWGB",
+      "Unionization",
+      "Gaming Union"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Developers Vote on Union Recognition During Launch",
+    "socialHook": "Rockstar Games UK staff are voting on union recognition during the GTA 6 launch period.",
+    "instagramCaptionLead": "GTA 6 developers in the UK will vote on union recognition from November 12-26, during the game's launch.",
+    "sections": [
+      {
+        "heading": "Union Vote Details",
+        "paragraphs": [
+          "According to RockstarINTEL, the Independent Workers’ Union of Great Britain (IWGB) announced that all Rockstar staff in the UK will vote on recognition of the Rockstar Game Workers Union. The vote runs from November 12 through November 26, overlapping with the launch of Grand Theft Auto VI on November 19. If approved, the union would become the largest in the UK video game sector."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Context and Reactions",
+        "paragraphs": [
+          "GameSpot reports that the negotiating process between the union and Rockstar management lasted months, and the vote covers issues such as pay, bonuses, overtime, generative AI policies, flexible working, and redundancies. The move coincides with an employment tribunal in Glasgow on November 17‑18, where closing arguments are expected in a case alleging that Rockstar fired workers for union activity. Rockstar’s head of publishing, Jennifer Kolbe, recently told Bloomberg that the company would allow a union if staff vote for one."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/08/lucia_jason_webpage_frame-copy.webp",
+    "thumbnailAlt": "GTA 6 union vote announcement",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/08/lucia_jason_webpage_frame-copy.webp",
+        "alt": "GTA 6 union vote announcement",
+        "caption": "Announcement of union vote for Rockstar UK staff",
+        "sourceUrl": "https://rockstarintel.com/gta-6-developers-announce-historic-vote-for-unionisation-on-release-day/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 Developers Announce Historic Vote For Unionisation On Release Day",
+        "url": "https://rockstarintel.com/gta-6-developers-announce-historic-vote-for-unionisation-on-release-day/",
+        "publisher": "rockstarintel.com"
+      },
+      {
+        "title": "GTA 6 Developers Are About To Do Something Historic",
+        "url": "https://www.gamespot.com/articles/gta-6-developers-are-about-to-do-something-historic/",
+        "publisher": "GameSpot"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-10-27",
+    "publishedAt": "2026-10-27T21:23:19.832Z",
+    "slug": "gta-6-developers-to-vote-on-union-recognition",
+    "sourceUrl": "https://rockstarintel.com/gta-6-developers-announce-historic-vote-for-unionisation-on-release-day/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-6-developers-to-vote-on-union-recognition.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-developers-to-vote-on-union-recognition-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "GTA 6 Coffee Launch: Leonida Blend Available in Miami",
     "description": "Gamespot reports that Vice City Bean has partnered with Rockstar Games to release the officially licensed GTA 6 Leonida coffee blend, a medium roast made from Colombian and Ethiopian beans, priced at $23 for a 10‑ounce bag, with options for ground, medium or fine grind, and limited availability ahea",
