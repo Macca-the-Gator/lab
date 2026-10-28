@@ -41,10 +41,10 @@
     "gta-6-early-review-access-confirmed-by-rockstar-insider",
     "gta-6-coffee-launch-leonida-blend-available-in-miami",
     "report-gta-6-gameplay-trailers-features-everything-we-know-updat",
-    "gta-6-developers-to-vote-on-union-recognition"
+    "gta-6-developers-to-vote-on-union-recognition",
+    "gta-6-file-size-revealed-210gb-on-ps5-preload-starts-november-12"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Lucia_Caminos_Video_Clip.mp4",
@@ -79,7 +79,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -368,6 +369,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-28T02:40:43.014145+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-file-size-revealed-210gb-on-ps5-preload-starts-november-12:cal-hampton-video-clip",
+      "articleSlug": "gta-6-file-size-revealed-210gb-on-ps5-preload-starts-november-12",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-28T21:24:13.049320+00:00"
     }
   ]
 }
