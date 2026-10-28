@@ -1,5 +1,94 @@
 [
   {
+    "title": "GTA 6 File Size Revealed: 210GB on PS5, Preload Starts November 12",
+    "description": "GameSpot reports that the PlayStation 5 standard edition of Grand Theft Auto VI will occupy 210GB of storage, according to data from the PlayStation Game Size Twitter account. The figure is roughly double the install size of Red Dead Redemption 2. Preloading begins November 12, a week before the Nov",
+    "seoTitle": "GTA 6 File Size 210GB PS5 Preload November 12",
+    "seoDescription": "GameSpot reports GTA 6 standard edition requires 210GB on PS5, double Red Dead Redemption 2, with preload starting Nov 12 ahead of Nov 19 launch.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "File Size",
+      "PS5",
+      "Preload"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 File Size Revealed: 210GB on PS5, Preload Nov 12",
+    "socialHook": "GTA 6 will require 210GB on PS5, double the size of Red Dead Redemption 2.",
+    "instagramCaptionLead": "GTA 6's PS5 standard edition is 210GB, preload begins Nov 12 for Nov 19 launch. #GTA6 #RockstarGames",
+    "sections": [
+      {
+        "heading": "File Size Revealed",
+        "paragraphs": [
+          "GameSpot reports that the PlayStation 5 standard edition of Grand Theft Auto VI will require 210GB of storage, citing the PlayStation Game Size Twitter account which scrapes the PlayStation Store backend for pre‑load sizes. RockstarINTEL confirms the same figure, noting that the account has a reliable track record for upcoming PlayStation titles. Kotaku adds that Insider Gaming corroborated the number, making it likely accurate."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Preload and Release Details",
+        "paragraphs": [
+          "According to GameSpot, preloading for the standard edition begins on November 12, giving players a full week before the November 19 release date. Physical code‑in‑box copies will also be available on November 12 for pre‑load. The Ultimate Edition’s size and Xbox Series X|S install sizes have not been disclosed, though RockstarINTEL suggests the Xbox version may be slightly larger due to different compression, while Series S could be smaller without 4K assets."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Context and Comparison",
+        "paragraphs": [
+          "The 210GB footprint is roughly double Red Dead Redemption 2’s install size and places GTA 6 among the largest console games ever, though Kotaku notes several Call of Duty titles and ARK: Survival Evolved with all DLC exceed it. GameSpot mentions the game’s map is three times larger than Red Dead Redemption 2’s, contributing to the massive data requirement. A PC version is expected in early 2027, but its file size remains unknown."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/09/jason_lucia-ab67686400002f7fc3e6447c59b1c1687dc21db3-copy.webp",
+    "thumbnailAlt": "GTA 6 key art featuring protagonists Jason and Lucia",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/09/jason_lucia-ab67686400002f7fc3e6447c59b1c1687dc21db3-copy.webp",
+        "alt": "GTA 6 key art featuring protagonists Jason and Lucia",
+        "caption": "RockstarINTEL header image for the file size story",
+        "sourceUrl": "https://rockstarintel.com/gta-6-download-size-revealed-and-its-210gb/"
+      },
+      {
+        "url": "https://kotaku.com/app/uploads/2026/10/gta-6-screen-booth.jpg",
+        "alt": "GTA 6 booth screenshot showing game environment",
+        "caption": "Kotaku article image illustrating the game’s scale",
+        "sourceUrl": "https://kotaku.com/gta-6s-expectedly-massive-file-size-has-been-revealed-2000750298"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 File Size Revealed, And It&#8217;s Massive",
+        "url": "https://www.gamespot.com/articles/gta-6-file-size-revealed-and-its-massive/",
+        "publisher": "www.gamespot.com"
+      },
+      {
+        "title": "GTA 6 Download Size Revealed And It’s 210GB",
+        "url": "https://rockstarintel.com/gta-6-download-size-revealed-and-its-210gb/",
+        "publisher": "RockstarINTEL"
+      },
+      {
+        "title": "GTA 6’s Expectedly Massive File Size Has Been Revealed",
+        "url": "https://kotaku.com/gta-6s-expectedly-massive-file-size-has-been-revealed-2000750298",
+        "publisher": "Kotaku"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-10-28",
+    "publishedAt": "2026-10-28T08:35:59.949Z",
+    "slug": "gta-6-file-size-revealed-210gb-on-ps5-preload-starts-november-12",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-file-size-revealed-and-its-massive/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-6-file-size-revealed-210gb-on-ps5-preload-starts-november-12.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-file-size-revealed-210gb-on-ps5-preload-starts-november-12-discover.jpg"
+  },
+  {
     "title": "GTA 6 Developers to Vote on Union Recognition",
     "description": "Rockstar Games UK staff are set to vote on union recognition during the GTA 6 launch, with voting scheduled from November 12 to 26.",
     "seoTitle": "GTA 6 Union Vote: Rockstar Staff to Decide Recognition",
