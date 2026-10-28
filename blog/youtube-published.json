@@ -999,5 +999,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=9dlOOt8F4ow",
     "socialScore": 98,
     "publishedAt": "2026-10-27T21:27:44.896251+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-developers-to-vote-on-union-recognition",
+    "publicationKey": "rockstar-media:gta-6-developers-to-vote-on-union-recognition:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-developers-to-vote-on-union-recognition/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "ZUrt1ldp2jc",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZUrt1ldp2jc",
+    "publishedAt": "2026-10-28T02:39:50.975089+00:00"
   }
 ]

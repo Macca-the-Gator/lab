@@ -40,10 +40,10 @@
     "gta-6-boxed-copies-sold-out-at-some-retailers",
     "gta-6-early-review-access-confirmed-by-rockstar-insider",
     "gta-6-coffee-launch-leonida-blend-available-in-miami",
-    "report-gta-6-gameplay-trailers-features-everything-we-know-updat"
+    "report-gta-6-gameplay-trailers-features-everything-we-know-updat",
+    "gta-6-developers-to-vote-on-union-recognition"
   ],
   "clipHistory": [
-    "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
@@ -78,7 +78,8 @@
     "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -360,6 +361,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-27T21:03:35.812543+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-developers-to-vote-on-union-recognition:boobie-ike-video-clip",
+      "articleSlug": "gta-6-developers-to-vote-on-union-recognition",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-10-28T02:40:43.014145+00:00"
     }
   ]
 }
