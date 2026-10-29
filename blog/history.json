@@ -1,5 +1,34 @@
 [
   {
+    "slug": "report-gta-6-gameplay-shown-in-new-south-park-episode-rockstarin",
+    "title": "Report: GTA 6 Gameplay Shown in New South Park Episode, RockstarINTEL Reports",
+    "sourceUrl": "https://rockstarintel.com/new-gta-6-gameplay-released-in-an-episode-of-south-park/",
+    "sourceUrls": [
+      "https://rockstarintel.com/new-gta-6-gameplay-released-in-an-episode-of-south-park/",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE10QTN6TW5mSU9NOUJfTzNQMXhBZHprVWdHNG1WeVM2SDZDdjZ2WUpRMEdIR1EzRG5hdGFvQU5nT1REVUstaF9melJONmo0QmZ6UzQxbjV4QmtfSEhNVlQtYUxLMHRkNnFrMHpXbHlVcw?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZzhhZWpPNFYwOVdkWm9GVjQycktlUTBlMWNHczY0SzkyN2lBLUk0a1BKNF9YZjFoMlRjcHVxMi01Q0RoZ2RVdDgwcWlSS3MxV1lwYXl2MXQ2VE1QQzZOT3hSUGtxTW85eERQZnFKdmhuQTNYbHg1WE0xU0VGYlF1TS1SY3lUV05icUE?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5cU5YZFZBZDBTemZLdl8wVlpvUEJaOGl0bDRoaHJKZWhWRDZMRTdVRmt2WTlqSDA4MDFlVmhpV3FpUi1WUzA1Z08xSTVqZENlSnIxQ1AwcVdjbnQwQ2tabVc5SWNPaXhCLW9B?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wX1RFZzZ4RkM0M29qUFdWMk5GWjBxRnpDQmZWVTdXOHVQUmdIczZVUTYzbnRPMTNUc1haSmYxX2dVcGZUWHN2eXZxaFdJLWhVbU1SUUtXNWhyOHY1WGpiZXBwVTlXNkk?oc=5"
+    ],
+    "date": "2026-10-29",
+    "status": "published",
+    "hash": "d04bc1dd601c8f2496eda92df1141d65e28dfbb57111acabaa6655fe486a8983"
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZzhhZWpPNFYwOVdkWm9GVjQycktlUTBlMWNHczY0SzkyN2lBLUk0a1BKNF9YZjFoMlRjcHVxMi01Q0RoZ2RVdDgwcWlSS3MxV1lwYXl2MXQ2VE1QQzZOT3hSUGtxTW85eERQZnFKdmhuQTNYbHg1WE0xU0VGYlF1TS1SY3lUV05icUE?oc=5",
+    "title": "New GTA 6 Gameplay Released In An Episode Of South Park",
+    "date": "2026-10-29T14:22:13.364Z",
+    "status": "ai-rejected",
+    "reason": "Stale item: the lead was published on 29 Oct 2026, which is after the current date and therefore not recent enough to validate as a current GTA/Rockstar news lead.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZzhhZWpPNFYwOVdkWm9GVjQycktlUTBlMWNHczY0SzkyN2lBLUk0a1BKNF9YZjFoMlRjcHVxMi01Q0RoZ2RVdDgwcWlSS3MxV1lwYXl2MXQ2VE1QQzZOT3hSUGtxTW85eERQZnFKdmhuQTNYbHg1WE0xU0VGYlF1TS1SY3lUV05icUE?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE10QTN6TW5mSU9NOUJfTzNQMXhBZHprVWdHNG1WeVM2SDZDdjZ2WUpRMEdIR1EzRG5hdGFvQU5nT1REVUstaF9melJONmo0QmZ6UzQxbjV4QmtfSEhNVlQtYUxLMHRkNnFrMHpXbHlVcw?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5cU5YZFZBZDBTemZLdl8wVlpvUEJaOGl0bDRoaHJKZWhWRDZMRTdVRmt2WTlqSDA4MDFlVmhpV3FpUi1WUzA1Z08xSTVqZENlSnIxQ1AwcVdjbnQwQ2tabVc5SWNPaXhCLW9B?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wX1RFZzZ4RkM0M29qUFdWMk5GWjBxRnpDQmZWVTdXOHVQUmdIczZVUTYzbnRPMTNUc1haSmYxX2dVcGZUWHN2eXZxaFdJLWhVbU1SUUtXNWhyOHY1WGpiZXBwVTlXNkk?oc=5",
+      "https://flowgames.gg/gta-6-tem-trecho-de-jogabilidade-revelado-south-park/"
+    ]
+  },
+  {
     "slug": "gta-online-event-week-halloween-event-continues-october-8th-14th",
     "title": "GTA Online Halloween Event Ends: Final Week Bonuses (October 29–November 4)",
     "sourceUrl": "https://rockstarintel.com/gta-online-event-week-halloween-event-ends-october-29th-november-4th/",

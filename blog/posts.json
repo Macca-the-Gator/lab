@@ -123,6 +123,70 @@
     "spoilerWarning": false
   },
   {
+    "title": "Report: GTA 6 Gameplay Shown in New South Park Episode, RockstarINTEL Reports",
+    "description": "RockstarINTEL reports that official Grand Theft Auto VI gameplay aired during a new South Park episode, featuring Jason and Lucia in Vice City and a beach scene with dense NPCs.",
+    "seoTitle": "GTA 6 Gameplay Shown in New South Park Episode",
+    "seoDescription": "RockstarINTEL reports that official Grand Theft Auto VI gameplay aired during a new South Park episode, featuring Jason and Lucia in Vice City.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "South Park",
+      "Gameplay"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Gameplay Shown in South Park Episode: Jason and Lucia in Vice City",
+    "socialHook": "GTA 6 gameplay featuring Jason and Lucia in Vice City just aired in a new South Park episode.",
+    "instagramCaptionLead": "Official GTA 6 gameplay appeared in South Park’s latest episode, showing Jason and Lucia driving through Vice City and walking a crowded beach.",
+    "sections": [
+      {
+        "heading": "South Park Debuts GTA 6 Gameplay",
+        "paragraphs": [
+          "RockstarINTEL reports that a new episode of South Park, renamed South America for its 29th season, included official Grand Theft Auto VI gameplay on Wednesday night. The outlet says Rockstar provided the footage as part of the show’s ongoing GTA 6 jokes. According to RockstarINTEL, the clips show Jason and Lucia driving around Vice City and Jason walking along a busy Vice City beach filled with NPCs and props."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Dog Scene and Tish Hicks Voice Role",
+        "paragraphs": [
+          "RockstarINTEL describes a non-player close-up of a dog defecating while Jason and Lucia approach; the report says Jason throws food at the dog walker, who drops the bag, and Jason then attacks the NPC with it. The article also identifies Tish Hicks, known to Grand Theft Auto V fans as the voiceover lady from GTA V gameplay videos, as the voice actress for the character introducing the gameplay. RockstarINTEL notes that 12 unrelated screenshots were released the same day but gives no further details on them."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/jason-beach-screenshot-1280.webp",
+    "thumbnailAlt": "Jason walking on a Vice City beach in GTA 6 gameplay shown on South Park",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/jason-beach-screenshot-1280.webp",
+        "alt": "GTA 6 Jason beach screenshot from South Park episode",
+        "caption": "RockstarINTEL reports this GTA 6 beach scene was among the gameplay clips shown in the South Park episode.",
+        "sourceUrl": "https://rockstarintel.com/new-gta-6-gameplay-released-in-an-episode-of-south-park/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "New GTA 6 Gameplay Released In An Episode Of South Park",
+        "url": "https://rockstarintel.com/new-gta-6-gameplay-released-in-an-episode-of-south-park/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-10-29",
+    "publishedAt": "2026-10-29T14:23:32.143Z",
+    "slug": "report-gta-6-gameplay-shown-in-new-south-park-episode-rockstarin",
+    "sourceUrl": "https://rockstarintel.com/new-gta-6-gameplay-released-in-an-episode-of-south-park/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-gameplay-shown-in-new-south-park-episode-rockstarin.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-gameplay-shown-in-new-south-park-episode-rockstarin-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Rockstar Games Pays About $3.9 Million for GTA 6 Miami Marketing Deal",
     "description": "RockstarINTEL reports Rockstar Games and Miami-Dade County finalized a roughly $3.9 million GTA 6 marketing agreement for Vice City branding at Miami International Airport, PortMiami, and county traffic cabinets.",
