@@ -1039,5 +1039,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Ni6CJf9bd8E",
     "socialScore": 82,
     "publishedAt": "2026-10-29T01:03:48.376078+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "rockstar-games-pays-about-3-9-million-for-gta-6-miami-marketing",
+    "publicationKey": "rockstar-media:rockstar-games-pays-about-3-9-million-for-gta-6-miami-marketing:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/rockstar-games-pays-about-3-9-million-for-gta-6-miami-marketing/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "QN942v2k6Ic",
+    "youtubeUrl": "https://www.youtube.com/watch?v=QN942v2k6Ic",
+    "publishedAt": "2026-10-29T02:59:19.091250+00:00"
   }
 ]
