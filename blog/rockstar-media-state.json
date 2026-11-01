@@ -46,10 +46,10 @@
     "rockstar-games-pays-about-3-9-million-for-gta-6-miami-marketing",
     "gta-6-original-score-soundtrack-announced-vinyl-pre-orders-go-li",
     "report-gta-6-gameplay-shown-in-new-south-park-episode-rockstarin",
-    "free-grotti-turismo-omaggio-and-rockstar-motorsport-livery-via-g"
+    "free-grotti-turismo-omaggio-and-rockstar-motorsport-livery-via-g",
+    "gta-online-halloween-weather-returns-with-green-filter-workaroun"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -84,7 +84,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -408,6 +409,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-10-31T20:22:20.106946+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-online-halloween-weather-returns-with-green-filter-workaroun:cal-hampton-video-clip",
+      "articleSlug": "gta-online-halloween-weather-returns-with-green-filter-workaroun",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-01T02:43:31.032939+00:00"
     }
   ]
 }
