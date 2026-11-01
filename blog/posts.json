@@ -1,5 +1,78 @@
 [
   {
+    "title": "GTA Online Halloween Weather Returns with Green Filter; Workaround Discovered",
+    "description": "RockstarINTEL reports that GTA Online's Halloween weather has returned for 2026, applying a green-orange filter from 19:00 to 7:30 in-game time. Players have found a temporary workaround using apartments to disable the filter, and green-tint glasses in first-person reduce the effect.",
+    "seoTitle": "GTA Online Halloween Weather 2026 Returns with Filter Workaround",
+    "seoDescription": "RockstarINTEL details GTA Online's 2026 Halloween weather schedule and a player-discovered apartment method to temporarily disable the green filter.",
+    "category": "GTA Online",
+    "tags": [
+      "GTA Online",
+      "Rockstar Games",
+      "Halloween",
+      "Weather",
+      "Workaround"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA Online Halloween Weather Returns: How to Turn Off Green Filter",
+    "socialHook": "GTA Online's Halloween weather is back with a green filter—here's how players are disabling it.",
+    "instagramCaptionLead": "GTA Online Halloween weather returns with green filter; apartment workaround lets you disable it temporarily.",
+    "sections": [
+      {
+        "heading": "Halloween Weather Returns to GTA Online",
+        "paragraphs": [
+          "RockstarINTEL reports that Rockstar Games has re-enabled the Halloween weather event in GTA Online as of Friday, October 30, 2026. The weather applies a dark green and orange filter to all players between 19:00 and 7:30 in-game time, covering roughly half of each in-game day. The event was activated later than in previous years, arriving just before Halloween weekend and potentially lasting through Monday."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Player-Discovered Workaround to Disable Filter",
+        "paragraphs": [
+          "Reddit user Glyphistaken found a temporary method to remove the Halloween filter: enter an apartment, then exit to see the filter disabled. The effect persists until the player completes a job or loads into a new GTA Online session. Another user, Outrageous-List-5118, noted that wearing green-tint glasses in first-person view heavily reduces the green filter. RockstarINTEL notes these are player discoveries, not official features."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Additional GTA 6 Updates Mentioned",
+        "paragraphs": [
+          "The RockstarINTEL article also references 12 new GTA VI screenshots released separately and South Park airing gameplay footage showing Jason throwing dog poo at an NPC. These details are unrelated to the Halloween weather event but were included in the same report."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/halloween-weather-featured-2.webp",
+    "thumbnailAlt": "GTA Online Halloween weather featured image",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/halloween-weather-featured-2.webp",
+        "alt": "GTA Online Halloween weather featured image",
+        "caption": "Halloween weather filter in GTA Online (source: RockstarINTEL)",
+        "sourceUrl": "https://rockstarintel.com/gta-online-gets-halloween-weather-ahead-of-gta-6-heres-how-to-turn-it-off/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA Online Gets Halloween Weather Ahead Of GTA 6, Here&#8217;s How To Turn It Off",
+        "url": "https://rockstarintel.com/gta-online-gets-halloween-weather-ahead-of-gta-6-heres-how-to-turn-it-off/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-11-01",
+    "publishedAt": "2026-11-01T01:12:05.426Z",
+    "slug": "gta-online-halloween-weather-returns-with-green-filter-workaroun",
+    "sourceUrl": "https://rockstarintel.com/gta-online-gets-halloween-weather-ahead-of-gta-6-heres-how-to-turn-it-off/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-online-halloween-weather-returns-with-green-filter-workaroun.jpg",
+    "discoverImage": "/blog/assets/covers/gta-online-halloween-weather-returns-with-green-filter-workaroun-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Free Grotti Turismo Omaggio and Rockstar Motorsport Livery Via GTA Online Twitch Drops",
     "description": "RockstarINTEL reports that Rockstar Games and Twitch are offering GTA Online players a free Grotti Turismo Omaggio supercar and Rockstar Motorsport livery via Twitch Drops from October 30 through November 1, 2026.",
