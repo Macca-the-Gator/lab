@@ -47,10 +47,10 @@
     "gta-6-original-score-soundtrack-announced-vinyl-pre-orders-go-li",
     "report-gta-6-gameplay-shown-in-new-south-park-episode-rockstarin",
     "free-grotti-turismo-omaggio-and-rockstar-motorsport-livery-via-g",
-    "gta-online-halloween-weather-returns-with-green-filter-workaroun"
+    "gta-online-halloween-weather-returns-with-green-filter-workaroun",
+    "report-gta-6-buying-guide-console-costs-editions-and-digital-onl"
   ],
   "clipHistory": [
-    "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
@@ -85,7 +85,8 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Cal_Hampton_Video_Clip.mp4"
+    "Cal_Hampton_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -416,6 +417,13 @@
       "clip": "Cal_Hampton_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-01T02:43:31.032939+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-buying-guide-console-costs-editions-and-digital-onl:brian-heder-video-clip",
+      "articleSlug": "report-gta-6-buying-guide-console-costs-editions-and-digital-onl",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-02T23:45:36.624489+00:00"
     }
   ]
 }
