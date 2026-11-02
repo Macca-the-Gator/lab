@@ -1,5 +1,78 @@
 [
   {
+    "title": "Report: GTA 6 Buying Guide: Console Costs, Editions, and Digital-Only Release Detailed by GameSpot",
+    "description": "GameSpot publishes a buying guide for GTA 6's November 19 release, outlining console prices, edition details, 201GB file size, preloading start date, and digital-only distribution.",
+    "seoTitle": "GTA 6 Buying Guide: Console Prices, Editions, Preload Details",
+    "seoDescription": "GameSpot breaks down GTA 6 costs: consoles from $400-$900, $80/$100 editions, 201GB download, preload Nov 12, digital-only.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Buying Guide",
+      "PlayStation 5",
+      "Xbox Series X",
+      "Digital Only"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Buying Guide: Console Prices, Editions, 201GB File Size, Preload Date",
+    "socialHook": "GameSpot details GTA 6's November 19 launch costs: consoles up to $900, $80 standard edition, 201GB download.",
+    "instagramCaptionLead": "GTA 6 launches Nov 19: GameSpot breaks down console prices, $80/$100 editions, 201GB digital-only download.",
+    "sections": [
+      {
+        "heading": "Console Pricing and Availability",
+        "paragraphs": [
+          "GameSpot reports that players will need a PlayStation 5 or Xbox Series X|S to play GTA 6 at launch on November 19, 2026, with new console prices ranging from $500 for an Xbox Series S to $900 for a PlayStation 5 Pro.",
+          "The guide notes that certified refurbished units from Sony and Microsoft offer lower entry points at $500 for a PS5 and $400 for an Xbox Series S, while secondhand markets like eBay may provide further options.",
+          "Analyst Mat Piscatella of Circana is cited saying the game will sell phenomenally regardless of the lack of a physical disc edition."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Game Editions and Digital-Only Release",
+        "paragraphs": [
+          "The standard edition of GTA 6 is priced at $80 and the Ultimate Edition at $100, both digital-only with no disc version available; physical retail boxes will contain only a download code.",
+          "GameSpot explains that the Ultimate Edition includes exclusive cosmetics and in-game shops inaccessible to standard edition buyers, and preorders grant the Vintage Vice City Pack plus a free month of GTA+.",
+          "Rhys Elliott of Alinea Analytics is quoted suggesting the digital-exclusive strategy eliminates the secondhand market and maximizes revenue for Rockstar and Take-Two."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Preloading, File Size, and Online Requirements",
+        "paragraphs": [
+          "The game's file size is reported at 201GB, with preloading beginning November 12, a week before launch, though the game will not unlock until November 19.",
+          "GameSpot states that GTA 6 is a strictly single-player experience at launch, so PlayStation Plus or Xbox Game Pass subscriptions are likely not required, though Rockstar has not confirmed this.",
+          "A new GTA Online component is expected in early 2027, at which point a subscription may become necessary."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: GTA 6 Buying Guide: Console Costs, Editions, and Digital-Only Release Detailed by GameSpot",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6 Buying Guide: Get Ready For Sticker Shock",
+        "url": "https://www.gamespot.com/articles/gta-6-buying-guide-get-ready-for-sticker-shock/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-02",
+    "publishedAt": "2026-11-02T23:33:02.831Z",
+    "slug": "report-gta-6-buying-guide-console-costs-editions-and-digital-onl",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-buying-guide-get-ready-for-sticker-shock/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-buying-guide-console-costs-editions-and-digital-onl.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-buying-guide-console-costs-editions-and-digital-onl-discover.jpg"
+  },
+  {
     "title": "GTA Online Halloween Weather Returns with Green Filter; Workaround Discovered",
     "description": "RockstarINTEL reports that GTA Online's Halloween weather has returned for 2026, applying a green-orange filter from 19:00 to 7:30 in-game time. Players have found a temporary workaround using apartments to disable the filter, and green-tint glasses in first-person reduce the effect.",
     "seoTitle": "GTA Online Halloween Weather 2026 Returns with Filter Workaround",
