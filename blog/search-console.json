@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "site": "https://macca-lab.onrender.com/",
   "scope": "https://www.googleapis.com/auth/webmasters.readonly",
-  "collectedAt": "2026-11-02T20:30:30.504321+00:00",
+  "collectedAt": "2026-11-03T18:04:12.677715+00:00",
   "period": {
-    "startDate": "2026-10-04",
-    "endDate": "2026-10-31"
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-01"
   },
   "rows": [],
   "topicSignals": [],
