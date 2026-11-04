@@ -1307,6 +1307,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -2504,6 +2518,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -4748,6 +4776,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -5945,6 +5987,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -8189,6 +8245,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -9397,6 +9467,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -10539,6 +10623,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -11703,6 +11801,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -12810,6 +12922,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -14964,6 +15090,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -17071,6 +17211,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -18142,6 +18296,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -20260,6 +20428,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -22262,6 +22444,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -23948,6 +24144,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -25765,6 +25975,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -27708,6 +27932,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -28606,6 +28844,20 @@
           "date": "2026-11-01",
           "metrics": {
             "views": 2,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
@@ -30367,6 +30619,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -31263,6 +31529,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -32181,6 +32461,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -33088,6 +33382,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -33984,6 +34292,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -35927,6 +36249,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -37813,6 +38149,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -39721,6 +40071,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -41459,6 +41823,20 @@
           "date": "2026-11-01",
           "metrics": {
             "views": 2,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
@@ -43365,6 +43743,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -44237,6 +44629,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -45098,6 +45504,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -46971,6 +47391,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -47797,6 +48231,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -49670,6 +50118,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -50496,6 +50958,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -52289,6 +52765,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -53121,6 +53611,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -54994,6 +55498,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -56821,6 +57339,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -57612,6 +58144,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -59450,6 +59996,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -60241,6 +60801,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -62079,6 +62653,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -62872,6 +63460,20 @@
           "date": "2026-11-01",
           "metrics": {
             "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 2,
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
@@ -64708,6 +65310,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 6,
+            "engagedViews": 5,
+            "averageViewDuration": 6,
+            "averageViewPercentage": 41.24,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -66500,6 +67116,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -68026,6 +68656,20 @@
             "engagedViews": 9,
             "averageViewDuration": 4,
             "averageViewPercentage": 22.26,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 10,
+            "engagedViews": 8,
+            "averageViewDuration": 4,
+            "averageViewPercentage": 20.87,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -69813,6 +70457,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -71616,6 +72274,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -73408,6 +74080,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -74129,6 +74815,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -75897,6 +76597,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -76618,6 +77332,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -78351,6 +79079,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -80073,6 +80815,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -80759,6 +81515,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -81467,6 +82237,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -82164,6 +82948,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -82815,6 +83613,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -83488,6 +84300,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -84139,6 +84965,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -85837,6 +86677,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -87524,6 +88378,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -88188,6 +89056,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -88839,6 +89721,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -90502,6 +91398,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -92143,6 +93053,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -93806,6 +94730,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -95423,6 +96361,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -96009,6 +96961,20 @@
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 15,
+            "averageViewPercentage": 95.13,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -97621,6 +98587,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -99251,6 +100231,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -99797,6 +100791,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -101390,6 +102398,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -102937,6 +103959,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -103459,6 +104495,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -103935,6 +104985,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -105458,6 +106522,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -105934,6 +107012,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -106444,6 +107536,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -106926,6 +108032,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -107424,6 +108544,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -107876,6 +109010,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -108317,6 +109465,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -109805,6 +110967,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -111282,6 +112458,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -112724,6 +113914,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -113132,6 +114336,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -114550,6 +115768,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 48.91,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -115948,6 +117180,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -117366,6 +118612,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -117748,6 +119008,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -118084,6 +119358,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -118442,6 +119730,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -118778,6 +120080,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -119136,6 +120452,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -119448,6 +120778,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 2,
+            "engagedViews": 1,
+            "averageViewDuration": 12,
+            "averageViewPercentage": 68.33,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -119749,6 +121093,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -121062,6 +122420,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -122053,6 +123425,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -123366,6 +124752,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -124668,6 +126068,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 2,
+            "engagedViews": 2,
+            "averageViewDuration": 5,
+            "averageViewPercentage": 34.89,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -125715,6 +127129,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -125946,6 +127374,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -126190,6 +127632,20 @@
           "date": "2026-11-01",
           "metrics": {
             "views": 1,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
@@ -127466,6 +128922,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -127662,6 +129132,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -127880,6 +129364,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -128076,6 +129574,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -129114,6 +130626,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -129280,6 +130806,20 @@
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 11,
+            "averageViewPercentage": 69.46,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -130074,6 +131614,20 @@
           "date": "2026-11-01",
           "metrics": {
             "views": 3,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
             "engagedViews": 0,
             "averageViewDuration": 0,
             "averageViewPercentage": 0,
@@ -131280,6 +132834,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 4,
+            "averageViewPercentage": 23.32,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -131441,6 +133009,20 @@
         },
         {
           "date": "2026-11-01",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
           "metrics": {
             "views": 0,
             "engagedViews": 0,
@@ -131624,6 +133206,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 61.25000000000001,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -131761,6 +133357,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 0,
+            "engagedViews": 0,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 0,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": []
@@ -131857,6 +133467,20 @@
             "engagedViews": 17,
             "averageViewDuration": 9,
             "averageViewPercentage": 60.42999999999999,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 25,
+            "engagedViews": 5,
+            "averageViewDuration": 12,
+            "averageViewPercentage": 76.33,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -132990,6 +134614,20 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 6,
+            "engagedViews": 1,
+            "averageViewDuration": 0,
+            "averageViewPercentage": 5.63,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "retentionSnapshots": [
@@ -134076,6 +135714,20 @@
             "engagedViews": 10,
             "averageViewDuration": 12,
             "averageViewPercentage": 75.61,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 5,
+            "engagedViews": 2,
+            "averageViewDuration": 10,
+            "averageViewPercentage": 65.63,
             "likes": 0,
             "comments": 0,
             "shares": 0,
@@ -135174,6 +136826,23 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 11,
+            "engagedViews": 1,
+            "averageViewDuration": 49,
+            "averageViewPercentage": 307.5,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": [
+            "heavy_rewatch_or_reporting_outlier",
+            "exclude_from_automatic_learning"
+          ]
         }
       ],
       "retentionSnapshots": [
@@ -136208,8 +137877,45 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-buying-guide-console-costs-editions-and-digital-onl/",
       "youtubeUrl": "https://www.youtube.com/watch?v=OSYpM1rnXLc",
       "publishedAt": "2026-11-02T23:37:51.455529+00:00",
-      "samples": [],
-      "daily": [],
+      "samples": [
+        {
+          "collectedDate": "2026-11-04",
+          "collectedAt": "2026-11-04T22:16:28.676439+00:00",
+          "actualAgeHours": 46.6,
+          "dataPeriod": {
+            "startDate": "2026-11-02",
+            "endDate": "2026-11-04",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 59.31000000000001,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 1,
+            "engagedViews": 1,
+            "averageViewDuration": 9,
+            "averageViewPercentage": 59.31000000000001,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        }
+      ],
       "retentionSnapshots": []
     },
     "-XAJ71CR3R0": {
@@ -136217,8 +137923,45 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-buying-guide-console-costs-editions-and-digital-onl/",
       "youtubeUrl": "https://www.youtube.com/watch?v=-XAJ71CR3R0",
       "publishedAt": "2026-11-02T23:45:01.949959+00:00",
-      "samples": [],
-      "daily": [],
+      "samples": [
+        {
+          "collectedDate": "2026-11-04",
+          "collectedAt": "2026-11-04T22:16:28.676439+00:00",
+          "actualAgeHours": 46.5,
+          "dataPeriod": {
+            "startDate": "2026-11-02",
+            "endDate": "2026-11-04",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 8,
+            "engagedViews": 5,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 46.56,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-11-02",
+          "metrics": {
+            "views": 8,
+            "engagedViews": 5,
+            "averageViewDuration": 7,
+            "averageViewPercentage": 46.56,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
+        }
+      ],
       "retentionSnapshots": []
     },
     "0w2sZTdCZZ4": {
