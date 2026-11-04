@@ -1,5 +1,37 @@
 [
   {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OOXlUMk9jRm0zakxXWU92c1N2VURyM3FmbndGdmpBVllxSnhURjdDRkZSaTlndTM3R2dIc2xJQ2JmVkxpdjI0Zm03SFJNNFkxbGhrRTN3NW5ERTlxNVczdU1mbmVnTEk?oc=5",
+    "title": "Rockstar brought back the iconic GTA 5 gameplay trailer narrator, Tish Hicks to present the GTA 6 clip in a collaboration with South Park. Rob Nelson previously stated that the team avoided making a narrated trailer this time, due to the amount of stuff they wan",
+    "date": "2026-11-04T09:15:42.877Z",
+    "status": "ai-rejected",
+    "reason": "Skipped: the lead item is sourced primarily to X and its Google News RSS summary is truncated, so it lacks a credible publication report or Rockstar/Take-Two primary source with specific, verifiable details. The claim remains vague and cannot be validated for editorial use.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OOXlUMk9jRm0zakxXWU92c1N2VURyM3FmbndGdmpBVllxSnhURjdDRkZSaTlndTM3R2dIc2xJQ2JmVkxpdjI0Zm03SFJNNFkxbGhrRTN3NW5ERTlxNVczdU1mbmVnTEk?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE1YV1pKa2NaUFljWUp5Q192RXpYR0NJZ2tmanM1UkhOYWJJU19KREtPV0MwV0drZ05rY0wxa0xvTFQxaC1rZUVWU3lDQmx3VzZqeGJnS2hwV09sN0d4MkU3TU5MMG5DVzNtd25xRzkwaG4tdw?oc=5"
+    ]
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YV1pKa2NaUFljWUp5Q192RXpYR0NJZ2tmanM1UkhOYWJJU19KREtPV0MwV0drZ05rY0wxa0xvTFQxaC1rZUVWU3lDQmx3VzZqeGJnS2hwV09sN0d4MkU3TU5MMG5DVzNtd25xRzkwaG4tdw?oc=5",
+    "title": "Rockstar brought back the iconic GTA 5 gameplay trailer narrator, Tish Hicks to present the GTA 6 clip in a collaboration with South Park. Rob Nelson previously stated that the team avoided making a narrated trailer this time, due to the amount of stuff they wan",
+    "date": "2026-11-04T09:15:21.626Z",
+    "status": "ai-rejected",
+    "reason": "Isolated X post with no linked report or specific verifiable information; vague, truncated summary and unsupported speculation about a GTA 6/South Park collaboration without a credible publication or Rockstar/Take-Two primary source.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE1YV1pKa2NaUFljWUp5Q192RXpYR0NJZ2tmanM1UkhOYWJJU19KREtPV0MwV0drZ05rY0wxa0xvTFQxaC1rZUVWU3lDQmx3VzZqeGJnS2hwV09sN0d4MkU3TU5MMG5DVzNtd25xRzkwaG4tdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OOXlUMk9jRm0zakxXWU92c1N2VURyM3FmbndGdmpBVllxSnhURjdDRkZSaTlndTM3R2dIc2xJQ2JmVkxpdjI0Zm03SFJNNFkxbGhrRTN3NW5ERTlxNVczdU1mbmVnTEk?oc=5"
+    ]
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91YlV4YUI1NXRYZnFXTlZVVGJzaHRxLXAtaWVrVW04d0RFTEJVYmJwOE9IN0l5d0xZVjVSUHBZQXRjVzhmbGZWWEdqLTBjSlNQODFQcDBwc05MQTJl?oc=5",
+    "title": "Things people speculated we'd eventually get in GTA Online but never came to fruition (so far): - Stock market - Flamethrower - Naval / aircraft carrier DLC - Michael movie DLC - Liberty City new location - San Andreas map expansion - GTA VI teaser content (T",
+    "date": "2026-11-04T09:15:12.090Z",
+    "status": "ai-rejected",
+    "reason": "Vague speculation list lacking a credible publication report, primary source, or recent announcement; not a news item with verifiable details.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91YlV4YUI1NXRYZnFXTlZVVGJzaHRxLXAtaWVrVW04d0RFTEJVYmJwOE9IN0l5d0xZVjVSUHBZQXRjVzhmbGZWWEdqLTBjSlNQODFQcDBwc05MQTJl?oc=5"
+    ]
+  },
+  {
     "slug": "gta-6-pre-load-date-release-time-physical-map-confirmed",
     "title": "GTA 6 Pre-Load Date, Release Time & Physical Map Confirmed",
     "sourceUrl": "https://rockstarintel.com/gta-6-pre-load-date-changes-release-time-physical-map-confirmed/",
