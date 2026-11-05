@@ -1210,5 +1210,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=FTBIcNvQrPw",
     "socialScore": 64,
     "publishedAt": "2026-11-05T22:05:04.935963+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-month-56-all-rewards-for-november-2026",
+    "publicationKey": "rockstar-media:gta-month-56-all-rewards-for-november-2026:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-month-56-all-rewards-for-november-2026/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "KDZcdOCzsMU",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KDZcdOCzsMU",
+    "publishedAt": "2026-11-05T22:20:29.005487+00:00"
   }
 ]
