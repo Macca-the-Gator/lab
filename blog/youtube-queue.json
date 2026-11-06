@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var",
+    "publicationKey": "gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var/",
+    "sourceUrl": "https://rockstarintel.com/updated-gta6-download-size-reveal-potential-censorship-differences/",
+    "title": "GTA 6 File Sizes Differ Across Xbox and PlayStation, Regional Variations Hint at Censorship",
+    "description": "RockstarINTEL reports that updated backend data shows GTA 6’s Xbox download size exceeds the PlayStation 5 version, while regional builds on both platforms vary in ways that suggest possible censorship for Japan, Australia, and New Zealand. The Xbox global build measures 209.86 GiB (225.34 GB), larg",
+    "youtubeTitle": "GTA 6 File Sizes Reveal Platform and Regional Differences",
+    "socialHook": "GTA 6's Xbox version is larger than PS5, and regional size gaps hint at censorship.",
+    "sections": [
+      {
+        "heading": "Platform File Size Discrepancies",
+        "paragraphs": [
+          "According to RockstarINTEL, PlayStationSize reported a 212 GB blanket size for GTA 6 on PlayStation 5, with three distinct regional builds: worldwide, Japan, and Australia/New Zealand. The same tracker now indicates the Xbox global version weighs 209.86 GiB (225.34 GB), making it larger than the PS5 version, a difference RockstarINTEL attributes to Sony’s improved compression algorithm."
+        ]
+      },
+      {
+        "heading": "Regional Variations Suggest Possible Censorship",
+        "paragraphs": [
+          "RockstarINTEL highlights that the Xbox Japan build is missing 1.2 GB of data compared to the global variant, while the Australia/New Zealand build differs by only 844 KiB in metadata. The publication notes this pattern mirrors GTA V’s regional cuts and could indicate censorship for the Japanese release, though it also acknowledges the gaps might stem from localized language, text, or voice‑over assets. The Xbox figures are sourced from an X post by @Cokymoky69 and are not officially confirmed by Rockstar Games or Microsoft."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "File Size",
+      "Censorship",
+      "Xbox",
+      "PlayStation 5"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_and_Lucia_20-0cd-c7jr-5g9-1280.webp",
+    "thumbnailAlt": "Jason and Lucia artwork from GTA 6",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "Updated GTA6 Download Size Reveal Potential Censorship Differences",
+        "url": "https://rockstarintel.com/updated-gta6-download-size-reveal-potential-censorship-differences/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 82,
+    "queuedAt": "2026-11-06T23:10:43.309Z"
+  }
+]
