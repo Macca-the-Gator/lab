@@ -1,5 +1,76 @@
 [
   {
+    "title": "Report: GTA 6 Early Access via New Zealand Region Swap on PS5 & Xbox",
+    "description": "Gamerant reports a simple region‑swap trick that lets GTA 6 players launch the game up to 18 hours before its official Nov 19 midnight release. On Xbox Series X|S, users can change the console’s system location to New Zealand (GMT+13) in Settings, restart, and the pre‑loaded copy of GTA 6 will unloc",
+    "seoTitle": "GTA 6 Early Play Method: New Zealand Region Trick on PS5 & Xbox",
+    "seoDescription": "Learn how to unlock GTA 6 up to 18 hours early on PS5 and Xbox by switching your console’s region to New Zealand before the Nov 19 launch.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "PS5",
+      "Xbox",
+      "Early Access",
+      "Region Swap"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Early Play via New Zealand Region Trick on PS5 & Xbox",
+    "socialHook": "Swap your PS5 or Xbox to New Zealand region for up to 18‑hour‑early GTA 6 access before the Nov 19 launch.",
+    "instagramCaptionLead": "Want GTA 6 early? Switch your console to New Zealand to launch up to 18 hours before the official Nov 19 release. Quick region swap, no ban.",
+    "sections": [
+      {
+        "heading": "How the New Zealand region swap works",
+        "paragraphs": [
+          "According to Gamerant, Xbox Series X|S users can simply change their console’s system location to New Zealand in the Settings menu. After restarting the system, the console checks against Microsoft’s New Zealand storefront, and the pre‑installed GTA 6 unlocks the moment NZ crosses midnight (GMT+13). PlayStation 5 owners must create a secondary PSN account registered to a New Zealand address and download the game from the NZ PlayStation Store. While this violates Sony’s Terms of Service, actual bans for regional account sharing are exceptionally rare. Once the account is active, the game launches early on PS5 as well. Both platforms require the game to be pre‑loaded before the swap to avoid missing the early unlock window."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "What to watch out for",
+        "paragraphs": [
+          "Gamerant warns that activation codes tied to specific regions may not work after the swap, and any pre‑order bonuses or account‑bound perks usually remain locked to the original New Zealand purchase account. Players should also ensure they have at least 212 GB of free space for the massive install. The method does not involve any official early‑access program from Rockstar Games, so there is no guarantee against future policy changes. While the trick is currently unofficially supported by the community, users should be aware of potential Terms of Service violations on PS5 and monitor for any updates from Sony or Rockstar regarding regional account usage."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/how-to-play-gta-6-early.jpg?w=1600&amp;h=900&amp;fit=crop",
+    "thumbnailAlt": "GTA 6 early access region trick on PS5 and Xbox via New Zealand swap",
+    "inlineImages": [
+      {
+        "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/how-to-play-gta-6-early.jpg?w=1600&h=900&fit=crop",
+        "alt": "GTA 6 early access region trick on PS5 and Xbox via New Zealand swap",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://gamerant.com/gta-6-play-early-new-zealand-trick/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How to Play GTA 6 Early on PS5 & Xbox (New Zealand Trick)",
+        "url": "https://gamerant.com/gta-6-play-early-new-zealand-trick/",
+        "publisher": "gamerant.com"
+      },
+      {
+        "title": "How To Play GTA 6 Early And Before Release Day",
+        "url": "https://rockstarintel.com/how-to-play-gta-6-early-and-before-release-day/",
+        "publisher": "RockstarINTEL"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-06",
+    "publishedAt": "2026-11-06T18:01:31.863Z",
+    "slug": "report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo",
+    "sourceUrl": "https://gamerant.com/gta-6-play-early-new-zealand-trick/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo-discover.jpg"
+  },
+  {
     "title": "GTA+ Month 56: All Rewards For November 2026",
     "description": "GTA+ members receive a host of new incentives for November 2026, including the exclusive Grotti Itali RSX sports car, fresh Chameleon paints, extra aircraft storage slots, and discounted test‑drive vehicles at the members‑only Vinewood Car Club. Subscribers can claim these perks between November 5 a",
     "seoTitle": "GTA+ Month 56 November 2026 Free Grotti RSX & More",
