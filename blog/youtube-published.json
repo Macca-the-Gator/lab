@@ -1230,5 +1230,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=e2L9Yd0FUjk",
     "socialScore": 90,
     "publishedAt": "2026-11-06T18:05:22.649453+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo",
+    "publicationKey": "rockstar-media:report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "DZX2DU6I9ts",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DZX2DU6I9ts",
+    "publishedAt": "2026-11-06T21:49:18.885032+00:00"
   }
 ]

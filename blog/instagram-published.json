@@ -1359,5 +1359,18 @@
     "uploadMode": "github-release",
     "socialScore": 90,
     "publishedAt": "2026-11-06T18:05:15.698Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo/",
+    "mediaId": "17910836121666656",
+    "permalink": "https://www.instagram.com/reel/DfanDtDnLSP/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "As BB Quer Tomar Gin (feat. ZANOLINI)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-06T21:50:00.991242+00:00"
   }
 }
