@@ -54,10 +54,10 @@
     "gta-6-pre-load-date-release-time-physical-map-confirmed",
     "gta-month-56-all-rewards-for-november-2026",
     "report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo",
-    "new-gta6-screenshots-compare-real-life-cars-to-in-game-vehicles"
+    "new-gta6-screenshots-compare-real-life-cars-to-in-game-vehicles",
+    "gta-6-box-copies-begin-arriving-early-with-online-feature-and-ne"
   ],
   "clipHistory": [
-    "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
@@ -92,7 +92,8 @@
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
     {
@@ -472,6 +473,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-07T03:19:30.871492+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-box-copies-begin-arriving-early-with-online-feature-and-ne:gtavi-official-cover-art-landscape",
+      "articleSlug": "gta-6-box-copies-begin-arriving-early-with-online-feature-and-ne",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-07T20:33:43.632543+00:00"
     }
   ]
 }
