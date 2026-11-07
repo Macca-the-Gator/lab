@@ -53,10 +53,10 @@
     "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending",
     "gta-6-pre-load-date-release-time-physical-map-confirmed",
     "gta-month-56-all-rewards-for-november-2026",
-    "report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo"
+    "report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo",
+    "new-gta6-screenshots-compare-real-life-cars-to-in-game-vehicles"
   ],
   "clipHistory": [
-    "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
@@ -91,7 +91,8 @@
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "DreQuan_Priest_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -464,6 +465,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-06T21:50:02.436737+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:new-gta6-screenshots-compare-real-life-cars-to-in-game-vehicles:drequan-priest-video-clip",
+      "articleSlug": "new-gta6-screenshots-compare-real-life-cars-to-in-game-vehicles",
+      "clip": "DreQuan_Priest_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-07T03:19:30.871492+00:00"
     }
   ]
 }
