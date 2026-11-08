@@ -56,10 +56,10 @@
     "report-gta-6-early-access-via-new-zealand-region-swap-on-ps5-xbo",
     "new-gta6-screenshots-compare-real-life-cars-to-in-game-vehicles",
     "gta-6-box-copies-begin-arriving-early-with-online-feature-and-ne",
-    "report-take-two-forecasts-20-growth-from-gta-vi"
+    "report-take-two-forecasts-20-growth-from-gta-vi",
+    "gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -94,7 +94,8 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Cal_Hampton_Video_Clip.mp4"
+    "Cal_Hampton_Video_Clip.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -488,6 +489,13 @@
       "clip": "Cal_Hampton_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-08T02:48:13.622920+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var:boobie-ike-video-clip",
+      "articleSlug": "gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-08T20:50:21.353941+00:00"
     }
   ]
 }
