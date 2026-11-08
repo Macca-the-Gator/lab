@@ -150521,6 +150521,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-11-08",
+          "collectedAt": "2026-11-08T09:34:25.441932+00:00",
+          "actualAgeHours": 176.1,
+          "dataPeriod": {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-08",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 35,
+            "engagedViews": 13,
+            "averageViewDuration": 11,
+            "averageViewPercentage": 72.84,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -156820,6 +156841,15 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/report-take-two-forecasts-20-growth-from-gta-vi/",
       "youtubeUrl": "https://www.youtube.com/watch?v=Az0b9pSSxi8",
       "publishedAt": "2026-11-07T20:59:04.723010+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "ptg4cH0ccB8": {
+      "slug": "report-take-two-forecasts-20-growth-from-gta-vi",
+      "articleUrl": "https://macca-lab.onrender.com/blog/report-take-two-forecasts-20-growth-from-gta-vi/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ptg4cH0ccB8",
+      "publishedAt": "2026-11-08T02:47:31.719783+00:00",
       "samples": [],
       "daily": [],
       "retentionSnapshots": []
