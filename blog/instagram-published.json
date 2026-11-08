@@ -1446,5 +1446,18 @@
     "uploadMode": "github-release",
     "socialScore": 68,
     "publishedAt": "2026-11-07T20:58:59.209Z"
+  },
+  "rockstar-media://rockstar-media:report-take-two-forecasts-20-growth-from-gta-vi:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-take-two-forecasts-20-growth-from-gta-vi:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-take-two-forecasts-20-growth-from-gta-vi/",
+    "mediaId": "17933367126164868",
+    "permalink": "https://www.instagram.com/reel/Dfdt-psFIDV/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "As BB Quer Tomar Gin (feat. ZANOLINI)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-08T02:48:12.259268+00:00"
   }
 }

@@ -1299,5 +1299,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Az0b9pSSxi8",
     "socialScore": 68,
     "publishedAt": "2026-11-07T20:59:04.723010+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-take-two-forecasts-20-growth-from-gta-vi",
+    "publicationKey": "rockstar-media:report-take-two-forecasts-20-growth-from-gta-vi:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-take-two-forecasts-20-growth-from-gta-vi/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "ptg4cH0ccB8",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ptg4cH0ccB8",
+    "publishedAt": "2026-11-08T02:47:31.719783+00:00"
   }
 ]
