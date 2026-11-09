@@ -1,5 +1,79 @@
 [
   {
+    "title": "GTA 6 Pop‑up Store Opens in London, Selling Exclusive Merch",
+    "description": "Rockstar Games partners with Selfridges for a limited‑time GTA 6 pop‑up in London, selling bags, jackets and more. The store runs Nov 9‑28, with £2,500 jacket and strict purchase limits.",
+    "seoTitle": "GTA 6 Pop‑up Store London Exclusive Merch Launch",
+    "seoDescription": "Rockstar Games partners with Selfridges for a limited‑time GTA 6 pop‑up in London, selling bags, jackets and more. The store runs Nov 9‑28, with £2,500 jacket",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Merchandise",
+      "Selfridges",
+      "London",
+      "Event"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Pop‑up Store Opens in London, Selling £2,500 Jacket",
+    "socialHook": "A GTA 6 pop‑up store has opened at Selfridges London, offering exclusive merch including a £2,500 jacket, running Nov 9‑28, 2026.",
+    "instagramCaptionLead": "Visit the GTA 6 pop‑up at Selfridges Oxford Street – limited edition gear, a £2,500 jacket, and a real Grotti Cheetah. Open Nov 9‑28, 2026!",
+    "sections": [
+      {
+        "heading": "Popup Details",
+        "paragraphs": [
+          "Rockstar Games and Selfridges launched a physical GTA 6 merchandise pop‑up at the flagship London store on November 9, 2026, running through November 28. The event offers a curated range of exclusive items, including bags, keyrings, basketballs, t‑shirts, and a £2,500 designer jacket, all sold both in‑store and online. According to RockstarINTEL, the online store has already sold out of many items, and purchases are limited to six per person with a no‑duplicate rule. Every buy comes packaged in new GTA VI logo bags, and some merchandise can be tried on before purchase."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Notable Features",
+        "paragraphs": [
+          "The pop‑up includes a real‑life Grotti Cheetah custom car, flown in from Miami after being used in various film shoots, allowing fans to pose for photos. A large Macca the Gator figurine and a VI logo sign also serve as photo opportunities. While the car and figurine are display pieces, visitors can interact with the merch displays and experience the immersive GTA VI event atmosphere created by West Coast Customs."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Availability & Access",
+        "paragraphs": [
+          "The pop‑up is open daily from 10 am to 9 pm during its two‑week run, with long queues expected and periodic restocks announced by Selfridges. Although the online store is largely sold out, the physical venue continues to offer remaining stock. Rockstar Games has not disclosed a future expansion of the pop‑up beyond the scheduled London dates."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/popup-event-featured.webp",
+    "thumbnailAlt": "Featured image from RockstarINTEL covering the GTA 6 pop‑up store at Selfridges London",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/popup-event-featured.webp",
+        "alt": "Featured image from RockstarINTEL covering the GTA 6 pop‑up store at Selfridges London",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://rockstarintel.com/we-visited-the-gta-6-popup-store-and-heres-everything-you-need-to-know/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "We Visited The GTA 6 Popup Store And Here&#8217;s Everything You Need To Know",
+        "url": "https://rockstarintel.com/we-visited-the-gta-6-popup-store-and-heres-everything-you-need-to-know/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-11-09",
+    "publishedAt": "2026-11-09T17:31:10.497Z",
+    "slug": "gta-6-pop-up-store-opens-in-london-selling-exclusive-merch",
+    "sourceUrl": "https://rockstarintel.com/we-visited-the-gta-6-popup-store-and-heres-everything-you-need-to-know/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-6-pop-up-store-opens-in-london-selling-exclusive-merch.jpg",
+    "discoverImage": "/blog/assets/covers/gta-6-pop-up-store-opens-in-london-selling-exclusive-merch-discover.jpg"
+  },
+  {
     "title": "GTA 6 PS5 Physical Boxes Have Hit The Wild, A Harbinger Of Our Disc-Less Future",
     "description": "Kotaku reports that physical PlayStation 5 boxes for Grand Theft Auto 6 have begun appearing in retail locations ahead of the November 12 street date, with the packaging confirmed to contain no physical disc and requiring an internet connection to redeem the digital download code. The images were sh",
     "seoTitle": "GTA 6 PS5 Physical Boxes Appear Wild Disc-Less Future",
