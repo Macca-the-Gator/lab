@@ -66,7 +66,29 @@ const simulados2 = {
 };
 
 const aliases = { 'Sistema- Distribuidos-e-Processamento-Paralelo': 'distribuídos', 'Protocolos-De-Redes-De-Computadores': 'redes', 'Sistemas-Operacionais': 'operacionais', 'Sistemas-Digitais-Para-Computacao': 'digitais' };
-const subject = aliases[decodeURIComponent(location.pathname).split('/').filter(Boolean).slice(-2, -1)[0]];
+const pathSegments = decodeURIComponent(location.pathname).split('/').filter(Boolean);
+const subjectFolder = pathSegments.at(-1) === 'index.html' ? pathSegments.at(-2) : pathSegments.at(-1);
+const subject = aliases[subjectFolder];
+const figureAssets = {
+  'distribuídos': {
+    2: ['distribuidos-q03.svg', 'Tabela do log de transações com seis registros, identificadores T1, T2 e T3, linhas anterior e posterior e operações.'],
+    3: ['distribuidos-q04.svg', 'Arquitetura de memória com quatro CPUs, quatro bancos de memória e dois controladores de entrada e saída, interligados por conexões de alta velocidade.']
+  },
+  'digitais': {
+    1: ['digitais-q02.svg', 'Multiplexador de oito entradas D0 a D7, seleção por A, B e C, linhas de alimentação e terra e saída F.'],
+    2: ['digitais-q03.svg', 'Multiplexador de quatro entradas IP0 a IP3 e mapa de Karnaugh com linhas XY e colunas UV em código Gray.'],
+    6: ['digitais-q07.svg', 'Flip-flop JK sensível à borda de descida e formas de onda de clock, J e K, com instantes t1, t2 e t3.'],
+    7: ['digitais-q08.svg', 'Contador assíncrono com quatro flip-flops em cascata, entradas de clock e saídas Q0 a Q3.'],
+    8: ['digitais-q09.svg', 'Circuito com duas portas lógicas E, flip-flop SR com clock e realimentações de Q e Q negado.']
+  }
+};
+const renderFigure = (subject, index) => {
+  const item = figureAssets[subject]?.[index];
+  if (!item) return '';
+  const [file, alt] = item;
+  const src = '../assets/simulado2/' + file;
+  return `<figure class="question-figure"><a href="${src}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar figura da questão ${index + 1}"><img src="${src}" alt="${alt}" loading="lazy" decoding="async"></a><figcaption>Figura da questão — clique para ampliar</figcaption></figure>`;
+};
 const data = simulados2[subject];
 if (data) {
   const section = document.createElement('section');
@@ -80,9 +102,9 @@ if (data) {
     link.textContent = 'Praticar Simulado 2 →';
     hero.append(link);
   }
-  section.innerHTML = `<div class="section-head"><div><span class="kicker">${data.titulo}</span><h2>Teste seu conhecimento</h2></div><p>Selecione uma alternativa e abra “Conferir resposta” para ver o gabarito e a explicação.</p></div><div class="grid">${data.questoes.map((q,i)=>`<article class="card question"><h3>${String(i+1).padStart(2,'0')}. Questão ${i+1}</h3><p>${q[0]}</p><fieldset class="quiz-options"><legend class="sr-only">Alternativas da questão ${i+1}</legend>${q[1].map((op,j)=>`<label class="quiz-option"><input type="radio" name="${subject}-${i}" value="${j}" aria-label="Alternativa ${String.fromCharCode(65+j)}"><span><b>${String.fromCharCode(65+j)}</b>${op}</span></label>`).join('')}</fieldset><details class="answer"><summary>Conferir resposta</summary><p><strong>Resposta: ${q[2] < 0 ? 'Nenhuma alternativa' : String.fromCharCode(65+q[2])}.</strong> ${q[3]}</p></details></article>`).join('')}</div><p class="score-key"><strong>Gabarito:</strong> ${data.gabarito}</p>`;
+  section.innerHTML = `<div class="section-head"><div><span class="kicker">${data.titulo}</span><h2>Teste seu conhecimento</h2></div><p>Selecione uma alternativa e abra “Conferir resposta” para ver o gabarito e a explicação.</p></div><div class="grid">${data.questoes.map((q,i)=>`<article class="card question"><h3>${String(i+1).padStart(2,'0')}. Questão ${i+1}</h3><p>${q[0]}</p>${renderFigure(subject, i)}<fieldset class="quiz-options"><legend class="sr-only">Alternativas da questão ${i+1}</legend>${q[1].map((op,j)=>`<label class="quiz-option"><input type="radio" name="${subject}-${i}" value="${j}" aria-label="Alternativa ${String.fromCharCode(65+j)}"><span><b>${String.fromCharCode(65+j)}</b>${op}</span></label>`).join('')}</fieldset><details class="answer"><summary>Conferir resposta</summary><p><strong>Resposta: ${q[2] < 0 ? 'Nenhuma alternativa' : String.fromCharCode(65+q[2])}.</strong> ${q[3]}</p></details></article>`).join('')}</div><p class="score-key"><strong>Gabarito:</strong> ${data.gabarito}</p>`;
   const style = document.createElement('style');
-  style.textContent = `.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.simulado2 .quiz-options{display:grid;gap:8px;margin:14px 0 0;padding:0;border:0}.quiz-option{display:block;cursor:pointer}.quiz-option input{position:absolute;opacity:0;pointer-events:none}.quiz-option span{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font: .93rem/1.45 Arial,sans-serif;transition:border-color .15s,background .15s}.quiz-option b{flex:0 0 23px;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#f1f3f2;font-size:.76rem}.quiz-option:hover span{border-color:var(--green)}.quiz-option input:checked+span{border-color:var(--green);background:var(--mint)}.quiz-option input:focus-visible+span{outline:3px solid #e1b94f;outline-offset:2px}.simulado2 .answer{padding:0;border:0;border-left:4px solid var(--green);background:var(--mint)}.simulado2 .answer summary{padding:11px 14px;cursor:pointer;color:var(--dark);font:800 .82rem Arial,sans-serif}.simulado2 .answer p{padding:0 14px 12px;margin:0}.score-key{color:var(--muted);font:.8rem Arial,sans-serif;margin-top:14px}.simulado2 .section-head{grid-column:1/-1}`;
+  style.textContent = `.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.simulado2 .quiz-options{display:grid;gap:8px;margin:14px 0 0;padding:0;border:0}.quiz-option{display:block;cursor:pointer}.quiz-option input{position:absolute;opacity:0;pointer-events:none}.quiz-option span{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font: .93rem/1.45 Arial,sans-serif;transition:border-color .15s,background .15s}.quiz-option b{flex:0 0 23px;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#f1f3f2;font-size:.76rem}.quiz-option:hover span{border-color:var(--green)}.quiz-option input:checked+span{border-color:var(--green);background:var(--mint)}.quiz-option input:focus-visible+span{outline:3px solid #e1b94f;outline-offset:2px}.simulado2 .answer{padding:0;border:0;border-left:4px solid var(--green);background:var(--mint)}.simulado2 .answer summary{padding:11px 14px;cursor:pointer;color:var(--dark);font:800 .82rem Arial,sans-serif}.simulado2 .answer p{padding:0 14px 12px;margin:0}.score-key{color:var(--muted);font:.8rem Arial,sans-serif;margin-top:14px}.simulado2 .section-head{grid-column:1/-1}.simulado2 .question-figure{margin:14px 0 12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fff;max-width:100%;text-align:center}.simulado2 .question-figure a{display:block;max-width:100%;overflow-x:auto}.simulado2 .question-figure img{display:block;width:100%;height:auto;max-height:470px;object-fit:contain;margin:auto}.simulado2 .question-figure figcaption{font: .76rem/1.4 Arial,sans-serif;color:var(--muted);margin-top:7px}`;
   document.head.append(style);
   const marker = [...document.querySelectorAll('.content > .grid')].at(-1);
   if (marker) marker.insertAdjacentElement('afterend', section); else document.querySelector('.content').append(section);
