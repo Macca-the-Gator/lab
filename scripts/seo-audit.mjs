@@ -35,6 +35,14 @@ for(const file of pages){
   const desc=getMeta('description');
   const canonicals=[...html.matchAll(/<link\b[^>]*>/gi)].map(m=>m[0])
     .filter(tag=>attr(tag,'rel').toLowerCase().split(/\s+/).includes('canonical')).map(tag=>attr(tag,'href'));
+  // Canonicalized HTML redirect stubs are intentional aliases, not duplicate
+  // indexable pages. Require their destination to be in the published sitemap.
+  const redirect=/<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i.test(html);
+  if(redirect){
+    if(!canonicals[0] || !sitemapUrls.has(canonicals[0]))record('redirect-target-not-indexable',route,canonicals[0]||'none');
+    if(sitemapUrls.has(url))record('redirect-stub-in-sitemap',route,url);
+    continue;
+  }
   if(!title)record('missing-title',route,'No title tag');
   if(!desc)record('missing-description',route,'No meta description');
   if(canonicals.length!==1)record('canonical-count',route,canonicals.length);
