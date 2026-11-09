@@ -148,3 +148,7 @@
     feedObserver.observe(sentinel);
   }
 }());
+
+
+/* Load responsive navigation on generated articles and topic pages. */
+(function(){if(document.querySelector('script[src*="/assets/macca-redesign-v2.js"]'))return;const script=document.createElement("script");script.src="/assets/macca-redesign-v2.js?v=20261109-v2";script.defer=true;document.head.appendChild(script)})();
