@@ -5,7 +5,8 @@ on:
     branches: [main]
     paths:
       - 'index.html'
-      - 'blog/**'
+      - 'blog/index.html'
+      - 'blog/**/index.html'
       - 'gta-6/**'
       - 'gta-online/**'
       - 'rockstar-games/**'
@@ -35,7 +36,7 @@ jobs:
         run: |
           before="${{ github.event.before }}"
           if [[ -n "$before" && "$before" != "0000000000000000000000000000000000000000" ]]; then
-            git diff --name-only "$before" "$GITHUB_SHA" | node scripts/indexnow.mjs
+            git diff --name-only --diff-filter=ACMRT "$before" "$GITHUB_SHA" | node scripts/indexnow.mjs
           else
             node scripts/indexnow.mjs < /dev/null
           fi

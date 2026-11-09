@@ -182,13 +182,19 @@ def main() -> None:
     end = datetime.now(timezone.utc).date() - timedelta(days=2)
     start = end - timedelta(days=27)
     all_rows = []
+    successful_sources = 0
     for search_type in ("web", "discover", "googleNews"):
         try:
             rows = query_report(token, search_type, start.isoformat(), end.isoformat())
             all_rows.extend(rows)
+            successful_sources += 1
             print(f"Search Console {search_type}: {len(rows)} row(s).")
         except Exception as exc:
             print(f"Search Console {search_type} unavailable: {type(exc).__name__}: {exc}")
+
+    if successful_sources == 0:
+        print("All Search Console queries failed; retaining previous results instead of overwriting them.")
+        return
 
     topic_signals, page_opportunities = build_signals(all_rows)
     output = {

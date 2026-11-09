@@ -19,12 +19,7 @@ function urlForFile(file){
 }
 
 let urls=[...new Set(files.map(urlForFile).filter(Boolean))];
-if(!urls.length){
-  try{
-    const posts=JSON.parse(await fs.readFile('blog/posts.json','utf8'));
-    urls=(posts||[]).slice(0,8).filter(post=>post?.slug).map(post=>`${SITE}/blog/${encodeURIComponent(post.slug)}/`);
-  }catch{}
-}
+// No content changes means no submissions. Never resend unrelated recent posts.
 urls=[...new Set(urls)].slice(0,200);
 if(!urls.length){
   console.log('IndexNow: no public content URL changed.');
