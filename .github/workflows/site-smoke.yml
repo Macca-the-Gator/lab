@@ -1,0 +1,39 @@
+name: Macca public site smoke checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/site-smoke.yml'
+      - 'scripts/enhance-site.mjs'
+      - 'scripts/test-enhance-site.mjs'
+      - 'scripts/build-seo.mjs'
+      - 'scripts/test-site-experience.mjs'
+      - 'assets/site-components.js'
+      - 'assets/ui-runtime.js'
+      - 'blog/assets/engagement.js'
+      - 'blog/assets/growth.css'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax validation
+        run: |
+          node --check scripts/enhance-site.mjs
+          node --check scripts/build-seo.mjs
+          node --check assets/site-components.js
+          node --check assets/ui-runtime.js
+          node --check blog/assets/engagement.js
+          node --check scripts/test-site-experience.mjs
+          node --check scripts/test-enhance-site.mjs
+      - name: Isolated post-build regression tests
+        run: node scripts/test-enhance-site.mjs
