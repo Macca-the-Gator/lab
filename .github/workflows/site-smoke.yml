@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/site-smoke.yml'
       - 'scripts/enhance-site.mjs'
+      - 'scripts/seo-audit.mjs'
       - 'assets/macca-redesign-v2.css'
       - 'assets/macca-redesign-v2.js'
       - 'scripts/test-enhance-site.mjs'
@@ -31,6 +32,7 @@ jobs:
       - name: Syntax validation
         run: |
           node --check scripts/enhance-site.mjs
+          node --check scripts/seo-audit.mjs
           node --check assets/macca-redesign-v2.js
           node --check scripts/build-seo.mjs
           node --check assets/site-components.js
@@ -40,3 +42,11 @@ jobs:
           node --check scripts/test-enhance-site.mjs
       - name: Isolated post-build regression tests
         run: node scripts/test-enhance-site.mjs
+      - name: Check public SEO report
+        run: node scripts/seo-audit.mjs --output seo-audit.json
+      - name: Store SEO issues
+        uses: actions/upload-artifact@v4
+        with:
+          name: macca-seo-issues
+          path: seo-audit.json
+          retention-days: 7

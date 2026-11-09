@@ -20,6 +20,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Audit public canonicals and internal links
+        run: node scripts/seo-audit.mjs --output seo-audit.json
+      - name: Save weekly SEO audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: macca-weekly-seo-audit
+          path: seo-audit.json
+          retention-days: 14
       - name: Check Search Console data before AI optimization
         id: demand
         run: |
