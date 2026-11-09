@@ -152,3 +152,6 @@ await fs.writeFile(path.join(ROOT,'ai.txt'),`# Public content discovery\n\nWebsi
 await fs.mkdir(path.join(ROOT,'images'),{recursive:true});
 await fs.writeFile(path.join(ROOT,'images','site-card.svg'),`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#301d42"/><stop offset="1" stop-color="#f36cae"/></linearGradient></defs><rect width="1200" height="630" fill="#100d1b"/><circle cx="990" cy="165" r="150" fill="url(#g)"/><path d="M0 510 220 330l150 120 180-235 140 185 170-135 340 240v125H0Z" fill="#21182c"/><text x="80" y="160" fill="#4de0ed" font-family="Arial,sans-serif" font-size="32" letter-spacing="8">MACCA LAB</text><text x="80" y="300" fill="#fff2ec" font-family="Arial,sans-serif" font-size="90" font-weight="700">Projects &amp; stories</text><text x="85" y="370" fill="#e2cce0" font-family="Arial,sans-serif" font-size="32">Macca Blog: GTA, Rockstar and more</text></svg>\n`);
 console.log(`SEO metadata, ${urls.length} canonical page URLs, sitemap index and AI directories generated.`);
+
+// Keep navigational changes and editorial recommendations after auto-generated builds.
+await import('./enhance-site.mjs');

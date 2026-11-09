@@ -130,55 +130,7 @@ function observeAffiliateImpression(slot, link, ad) {
   slot._maccaAdObserver = observer;
 }
 
-function mountPklavcPopup() {
-  const acceptedKey = 'macca:pklavc-blog-accepted';
-  const dismissedKey = 'macca:pklavc-blog-dismissed-at';
-  let accepted = false;
-  let dismissedRecently = false;
-  try {
-    accepted = localStorage.getItem(acceptedKey) === '1';
-    const dismissedAt = Number(localStorage.getItem(dismissedKey) || 0);
-    dismissedRecently = dismissedAt > 0 && Date.now() - dismissedAt < 24 * 60 * 60 * 1000;
-    if (dismissedAt && !dismissedRecently) localStorage.removeItem(dismissedKey);
-  } catch {
-    // Keep the popup usable when browser storage is unavailable.
-  }
-  if (accepted || dismissedRecently) return;
-
-  let shown = false;
-  const showAtScrollDepth = () => {
-    if (shown) return;
-    const scrollable = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
-    if (window.scrollY / scrollable < 0.35) return;
-    shown = true;
-
-    const backdrop = document.createElement('div');
-    backdrop.className = 'pklavc-partner-modal-backdrop';
-    backdrop.innerHTML = `<section class="pklavc-partner-modal" role="dialog" aria-modal="true" aria-labelledby="pklavc-partner-modal-title" aria-describedby="pklavc-partner-modal-description"><button class="pklavc-partner-modal-close" type="button" aria-label="Close advertisement">&times;</button><div class="pklavc-partner-modal-copy"><p class="eyebrow">FROM OUR PARTNER</p><h2 id="pklavc-partner-modal-title">Curious minds, meet PKLAVC.</h2><p id="pklavc-partner-modal-description">Explore the PKLAVC Blog for technology, engineering, open-source projects, and more.</p><a class="pklavc-partner-modal-link" href="https://pklavc.com/blog" target="_blank" rel="sponsored noopener noreferrer">Visit the PKLAVC Blog <span aria-hidden="true">&#8599;</span></a></div><div class="pklavc-partner-modal-art"><img src="/assets/creatives/visual-16.webp" alt="PKLAVC partner artwork" loading="lazy"></div></section>`;
-    document.body.append(backdrop);
-
-    const closeButton = backdrop.querySelector('.pklavc-partner-modal-close');
-    const close = wasDismissed => {
-      if (wasDismissed) {
-        try { localStorage.setItem(dismissedKey, String(Date.now())); } catch { /* storage is optional */ }
-      }
-      backdrop.remove();
-      document.removeEventListener('keydown', onKeydown);
-    };
-    const onKeydown = event => {
-      if (event.key === 'Escape') close(true);
-    };
-    closeButton.addEventListener('click', () => close(true));
-    backdrop.querySelector('.pklavc-partner-modal-link').addEventListener('click', () => {
-      try { localStorage.setItem(acceptedKey, '1'); } catch { /* storage is optional */ }
-      close(false);
-    });
-    document.addEventListener('keydown', onKeydown);
-    closeButton.focus();
-  };
-
-  window.addEventListener('scroll', showAtScrollDepth, {passive: true});
-}
+// Partner discovery is handled by accessible inline editorial links.
 
 let adConfigPromise = null;
 
@@ -193,7 +145,6 @@ async function loadAdConfig() {
 }
 
 async function mountAds(root = document) {
-  if (root === document) mountPklavcPopup();
   try {
     const [config] = await Promise.all([loadAdConfig(), loadAffiliateAnalytics()]);
     const placements = [...root.querySelectorAll('[data-content-slot], [data-content-unit]')]

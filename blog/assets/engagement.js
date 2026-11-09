@@ -92,7 +92,7 @@
   function cleanFetchedArticle(doc, post) {
     var fetched = doc.querySelector('main.layout > article');
     if (!fetched) throw new Error('article_missing');
-    fetched.querySelectorAll('.back, .article-related, .continuous-feed').forEach(function (node) { node.remove(); });
+    fetched.querySelectorAll('.back, .article-related, .continuous-feed, .macca-network-related').forEach(function (node) { node.remove(); });
     fetched.classList.add('continuous-article-body');
 
     var wrapper = document.createElement('article');

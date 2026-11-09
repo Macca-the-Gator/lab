@@ -68,3 +68,26 @@
 .policy-copy a{color:var(--cyan)}
 @media(max-width:850px){.landing-story-grid,.landing-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.landing-section-heading{display:block}.landing-section-heading>a{display:inline-block;margin-top:.65rem}.landing-story-grid,.landing-topic-grid{grid-template-columns:1fr}}
+
+
+/* Editorial network links: readable, responsive, clearly distinguished from ads. */
+.macca-network-section{display:grid;grid-template-columns:minmax(0,1fr) minmax(160px,29%);align-items:center;gap:clamp(1rem,4vw,3rem);margin:0 0 3rem;padding:clamp(1.3rem,4vw,2.5rem);overflow:hidden;border:1px solid rgba(77,224,237,.28);border-radius:20px;background:linear-gradient(120deg,#211a33,#13111e)}
+.macca-network-section h2{margin:.3rem 0 .7rem;font-size:clamp(1.65rem,3vw,2.5rem);line-height:1.12;color:#fff2ec}
+.macca-network-section p:not(.eyebrow){margin:0;max-width:58ch;color:#c7b9cf}
+.macca-network-section img{width:100%;height:auto;max-height:260px;object-fit:contain}
+.macca-network-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.macca-network-actions a,.macca-network-callout>a,.macca-network-related>a{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;min-height:44px;padding:.68rem 1rem;border-radius:999px;font:750 .88rem/1.25 Inter,system-ui,sans-serif;text-decoration:none;transition:border-color .18s,background .18s}
+.macca-network-primary{background:#4de0ed;color:#10111a;border:1px solid #4de0ed}
+.macca-network-primary:hover{background:#89eef5;color:#10111a}
+.macca-network-secondary{border:1px solid rgba(255,255,255,.27);color:#fff}
+.macca-network-secondary:hover{color:#fff;border-color:#4de0ed}
+.macca-network-callout,.macca-network-related{display:flex;align-items:center;justify-content:space-between;gap:1.1rem;padding:1.1rem 1.35rem;border:1px solid rgba(77,224,237,.25);border-radius:16px;background:rgba(77,224,237,.045)}
+.macca-network-callout{margin:0 0 1.7rem}
+.macca-network-related{margin:2rem 0;clear:both}
+.macca-network-kicker{display:block;color:#4de0ed;font:800 .68rem/1.5 Inter,system-ui,sans-serif;letter-spacing:.12em}
+.macca-network-callout strong,.macca-network-related h2{display:block;margin:.2rem 0;color:#fff2ec;font-size:1.08rem;line-height:1.32}
+.macca-network-callout p,.macca-network-related p{margin:.25rem 0 0;color:#c7b9cf;font-size:.88rem;line-height:1.5}
+.macca-network-callout>a,.macca-network-related>a{flex:none;border:1px solid rgba(77,224,237,.5);color:#4de0ed}
+.macca-network-callout>a:hover,.macca-network-related>a:hover{background:rgba(77,224,237,.1);color:#fff}
+.macca-network-section a:focus-visible,.macca-network-callout a:focus-visible,.macca-network-related a:focus-visible{outline:3px solid #4de0ed;outline-offset:3px}
+@media(max-width:720px){.macca-network-section{grid-template-columns:1fr}.macca-network-section img{display:none}.macca-network-callout,.macca-network-related{align-items:stretch;flex-direction:column}.macca-network-callout>a,.macca-network-related>a{align-self:flex-start}}

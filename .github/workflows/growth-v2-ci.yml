@@ -55,4 +55,5 @@ jobs:
       - name: Growth regression checks
         run: |
           node scripts/test-growth.mjs
+          node scripts/test-site-experience.mjs
           node scripts/test-engagement.mjs

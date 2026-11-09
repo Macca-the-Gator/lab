@@ -19,6 +19,8 @@ on:
       - 'blog/assets/engagement.js'
       - 'analytics/**'
       - 'scripts/build-seo.mjs'
+      - 'scripts/enhance-site.mjs'
+      - 'scripts/test-site-experience.mjs'
       - 'scripts/instagram.mjs'
       - 'scripts/social_video.py'
       - 'scripts/github_reel_media.py'
@@ -141,9 +143,11 @@ jobs:
         if: github.event_name != 'schedule' || (steps.monitor.outputs.should_generate == 'true' && steps.ai_generation.outcome == 'success')
         run: |
           node scripts/test-growth.mjs
+          node scripts/test-site-experience.mjs
           node --test scripts/test-blog-quality.mjs
           node --check .private-engine/scripts/macca_engine/blog_quality.mjs
           node --check scripts/blog.mjs
+          node --check scripts/enhance-site.mjs
           node --check .private-engine/scripts/macca_engine/growth_v2.mjs
           node --check scripts/indexnow.mjs
           node --check scripts/instagram.mjs
