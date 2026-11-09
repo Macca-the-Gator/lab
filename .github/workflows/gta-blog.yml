@@ -20,6 +20,8 @@ on:
       - 'analytics/**'
       - 'scripts/build-seo.mjs'
       - 'scripts/enhance-site.mjs'
+      - 'assets/macca-redesign-v2.css'
+      - 'assets/macca-redesign-v2.js'
       - 'scripts/test-site-experience.mjs'
       - 'scripts/instagram.mjs'
       - 'scripts/social_video.py'

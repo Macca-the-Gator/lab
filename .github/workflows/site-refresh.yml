@@ -1,0 +1,52 @@
+name: Macca public layout refresh
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/site-refresh.yml'
+      - 'assets/macca-redesign-v2.css'
+      - 'assets/macca-redesign-v2.js'
+      - 'scripts/enhance-site.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: macca-public-layout-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate layout scripts
+        run: |
+          node --check scripts/enhance-site.mjs
+          node --check assets/macca-redesign-v2.js
+      - name: Apply visual theme to all public pages
+        run: node scripts/enhance-site.mjs
+      - name: Validate idempotency and navigation
+        run: |
+          node scripts/test-enhance-site.mjs
+          node scripts/test-site-experience.mjs
+      - name: Save generated public page changes
+        run: |
+          git add -u -- '*.html'
+          if git diff --cached --quiet; then
+            echo "No generated page updates needed."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Apply Macca responsive design to generated pages [short-render-preview-only]'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

@@ -72,7 +72,7 @@ assert.match(blog, /sitemap-image\/1\.1/);
 assert.match(blog, /<image:image>/);
 assert.match(seo, /blog\/news-sitemap\.xml/);
 assert.match(seo, /auxiliaryNoindexRoute/);
-assert.match(seo, /study\|play/);
+assert.match(seo, /auxiliaryNoindexRoute/);
 assert.match(blog, /observations\.length<20/);
 assert.match(blog, /historicalPerformanceBonus/);
 assert.match(blog, /function searchIndexable/);
@@ -109,13 +109,13 @@ assert.match(growth, /New from Macca Blog/);
 assert.match(growth, /editorial-policy/);
 assert.match(growth, /Corrections & Updates/);
 assert.match(growth, /href="\/study\/">Study<\/a>/);
-assert.match(growth, /href="\/play\/">Play<\/a>/);
+
 assert.match(growthCss, /\.growth-card>a\{[^}]*grid-template-rows:auto minmax\(0,1fr\)[^}]*align-content:start/);
 assert.match(growthCss, /\.growth-card img\{[^}]*height:auto[^}]*aspect-ratio:16\/9/);
 assert.match(growthCss, /\.social-story-main\{[^}]*align-items:start/);
 assert.match(growthCss, /\.social-story-main img\{[^}]*height:auto[^}]*aspect-ratio:16\/9/);
-assert.match(siteComponentsCss, /a\[href="\/study\/"\],a\[href="\/play\/"\]\{display:none!important\}/);
-assert.match(siteComponentsJs, /document\.querySelectorAll\('a\[href="\/study\/"\],a\[href="\/play\/"\]'\)/);
+assert.match(siteComponentsCss, /a\[href="\/study\/"\]\{display:none!important\}/);
+assert.match(siteComponentsJs, /document\.querySelectorAll\('a\[href="\/study\/"\]'\)/);
 assert.doesNotMatch(blogIndex, /href="\/study\/"|href="\/play\/"/);
 
 assert.match(covers, /render_discover/);

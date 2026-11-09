@@ -82,3 +82,37 @@ for (const post of posts) {
   if (await edit(path.join('blog', slug, 'index.html'), enhanceArticle)) changedArticles++;
 }
 console.log('Macca experience updated: ' + changedPages + ' landing pages and ' + changedArticles + ' articles.');
+
+
+// Shared style and mobile menu are applied to public index pages. Preserve
+// /study/ pages and all their assets; the /play/ route has been removed.
+const SITE_THEME_VERSION = '20261109-v2';
+function enhanceSharedLayout(html) {
+  if (!/<head\b/i.test(html) || !/<\/head>/i.test(html)) return html;
+  html = html.replace(/<a\b(?=[^>]*\bhref=["']\/play(?:\/|["']))[^>]*>[\s\S]*?<\/a>/gi, '');
+  html = html.replace(/(<header\b[^>]*class=["'][^"']*(?:top|site-header)[^"']*["'][^>]*>[\s\S]*?<\/header>)/i, header =>
+    header.replace(/<a\b(?=[^>]*\bhref=["']\/study\/["'])[^>]*>[\s\S]*?<\/a>/gi, ''));
+  if (!html.includes('/assets/macca-redesign-v2.css')) {
+    html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/assets/macca-redesign-v2.css?v=' + SITE_THEME_VERSION + '"></head>');
+  }
+  if (!html.includes('/assets/macca-redesign-v2.js')) {
+    html=html.replace(/<\/head>/i,'<script defer src="/assets/macca-redesign-v2.js?v=' + SITE_THEME_VERSION + '"></script></head>');
+  }
+  return html;
+}
+const ignoredDirectories = new Set(['.git','.github','.private-engine','assets','images','scripts','src','study','play','node_modules','tests','skylet','docs','ads','analytics']);
+async function visitPublicPages(directory = '') {
+  const entries = await fs.readdir(path.join(ROOT,directory),{withFileTypes:true});
+  let touched = 0;
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      if(entry.name.startsWith('.') || ignoredDirectories.has(entry.name)) continue;
+      touched+=await visitPublicPages(path.join(directory,entry.name));
+    } else if (entry.isFile() && entry.name === 'index.html') {
+      if(await edit(path.join(directory,entry.name),enhanceSharedLayout)) touched++;
+    }
+  }
+  return touched;
+}
+const themed=await visitPublicPages();
+console.log('Updated shared theme and mobile navigation on ' + themed + ' public pages.');

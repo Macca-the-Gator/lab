@@ -1,5 +1,5 @@
 if (location.pathname !== '/') {
-  document.querySelectorAll('a[href="/study/"],a[href="/play/"]').forEach(link => link.remove());
+  document.querySelectorAll('a[href="/study/"]').forEach(link => link.remove());
 }
 
 const AFFILIATE_SESSION_KEY = 'macca:affiliate-session:v1';

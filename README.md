@@ -1,10 +1,9 @@
-# Lab
+# Macca Lab
 
-Site estático com duas áreas:
+Independent Rockstar / GTA coverage and Macca Blog editorial pages, built as a static site.
 
-- `/study/` reúne as matérias, documentos e simuladores.
-- `/play/` reúne jogos; o CS 1.6 para navegador fica em `/play/cs16/`.
+The `/study/` section retains its educational materials and simulators and is intentionally excluded from public navigation and search indexing. Its pages remain accessible through their direct URLs.
 
-Para servir localmente, execute `python -m http.server 8000` na raiz deste repositório e abra `http://localhost:8000/`.
+The former game section has been discontinued and its files are removed.
 
-O CS usa Xash3D/WebAssembly. Seus assets devem ser preparados localmente a partir de uma instalação legítima; os ZIPs e arquivos de jogo ficam ignorados pelo Git. Consulte [as instruções do CS](play/cs16/README.md).
+To preview the static site locally, run `python -m http.server 8000` from the repository root.

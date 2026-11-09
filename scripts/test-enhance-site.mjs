@@ -15,7 +15,7 @@ const make = async (name, content) => {
 };
 const load = name => fs.readFile(path.join(tmp,name),'utf8');
 try {
-  await make('index.html','<html><head></head><body><header><nav><a href="/study/">Study</a><a href="/blog/">Blog</a></nav></header><main><a class="partner-banner" href="https://pklavc.com/">Old partner</a></main></body></html>');
+  await make('index.html','<html><head></head><body><header><nav><a href="/study/">Study</a><a href="/play/">Play</a><a href="/blog/">Blog</a></nav></header><main><a class="partner-banner" href="https://pklavc.com/">Old partner</a></main></body></html>');
   await make('blog/index.html','<html><main><section class="intro"><h1>Blog</h1></section><p>Latest</p></main></html>');
   await make('social/index.html','<html><main><section class="growth-hero"><h1>Social</h1></section></main></html>');
   await make('blog/posts.json',JSON.stringify([{slug:'latest-news',title:'Latest news'}]));
@@ -25,6 +25,9 @@ try {
   run();
   const first={home:await load('index.html'),blog:await load('blog/index.html'),social:await load('social/index.html'),article:await load('blog/latest-news/index.html')};
   assert.doesNotMatch(first.home,/href="\/study\/"/);
+  assert.doesNotMatch(first.home,/href="\/play\/"/);
+  assert.match(first.home,/macca-redesign-v2\.css/);
+  assert.match(first.home,/macca-redesign-v2\.js/);
   assert.match(first.home,/id="macca-network"/);
   assert.match(first.blog,/class="macca-network-callout"/);
   assert.match(first.social,/class="macca-network-callout"/);

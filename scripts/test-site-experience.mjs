@@ -8,6 +8,9 @@ const [home, study, blog, social, sitemap, rawPosts] = await Promise.all([
   read('social/index.html'), read('sitemap-pages.xml'), read('blog/posts.json')
 ]);
 assert.doesNotMatch(home, /href=["']\/study\/["']/i, 'Study must not be in the home menu');
+assert.doesNotMatch(home, /href=["']\/play\/["']/i, 'Play must not be in the home menu');
+assert.match(home, /macca-redesign-v2\.css/);
+assert.match(home, /macca-redesign-v2\.js/);
 assert.match(study, /<meta name="robots" content="noindex, follow">/i, 'Study remains accessible but unindexed');
 assert.doesNotMatch(sitemap, /\/study\//i, 'Private study navigation should not be listed in the sitemap');
 assert.match(home, /id="macca-network"/);

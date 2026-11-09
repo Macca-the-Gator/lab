@@ -106,7 +106,7 @@ body.has-fixed-content-dock .about-chat-widget{bottom:calc(var(--fixed-content-d
 .content-filter-notice p{margin:0;color:#ead8ea}
 .content-filter-notice button{flex:none;width:1.8rem;height:1.8rem;border:1px solid #ffffff44;border-radius:50%;background:#100d1b;color:#fff;font-size:1.1rem;cursor:pointer}
 /* Study and Play are root-only navigation entries. */
-a[href="/study/"],a[href="/play/"]{display:none!important}
+a[href="/study/"]{display:none!important}
 
 /* Local sponsor marks stay visible independently from each banner illustration. */
 .content-unit .sponsor-art>img:not(.sponsor-logo-image){height:76%;max-height:76%;}

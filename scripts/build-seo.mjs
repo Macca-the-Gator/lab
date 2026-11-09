@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const ROOT=process.cwd();
 const SITE=(process.env.SITE_URL||'https://macca-lab.onrender.com').replace(/\/$/,'');
-const SKIP=new Set(['.git','node_modules','blog','scripts','.github','coverage','dist','build']);
+const SKIP=new Set(['.git','node_modules','blog','scripts','.github','coverage','dist','build','play']);
 const HOME_TITLE='Macca Lab | GTA 6 & Rockstar News, Analysis and Projects';
 const HOME_DESCRIPTION='Independent GTA 6, GTA Online and Rockstar Games news, analysis and source-backed coverage from Macca Blog, plus Macca Lab projects.';
 const ADSENSE_SCRIPT=''; // ads.txt stays ready; AdSense script is disabled until approval.
@@ -91,7 +91,7 @@ for(const file of files){
   const url=new URL(rel,`${SITE}/`).href;
   const routePath=new URL(url).pathname;
   const internalToolRoute=/\/simulador\/(?:app|src)\/$/i.test(routePath);
-  const auxiliaryNoindexRoute=/^\/(?:study|play)(?:\/|$)/i.test(routePath);
+  const auxiliaryNoindexRoute=/^\/study(?:\/|$)/i.test(routePath);
   const title=titleOf(html,file);const description=descOf(html,title,file);const lang=html.match(/<html\b[^>]*\blang=["']([^"']+)/i)?.[1]||'en';
   const publicEditorialPage=routePath==='/'||/^\/(?:about|contact|privacy|editorial-policy|corrections)\/$/.test(routePath);
   if(publicEditorialPage&&!html.includes('/analytics/web-analytics.js')){
