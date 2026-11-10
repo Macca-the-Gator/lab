@@ -388,7 +388,7 @@ export default function App() {
     const correctIndex = correct.charCodeAt(0) - 65;
     const acertou = selected === correctIndex;
     const expected = verdict.dataset.expected === 'true';
-    verdict.textContent = acertou ? 'Acertou! Alternativa ' + correct + '.' : (expected ? 'Gabarito esperado: ' : 'Errou. Alternativa correta: ') + correct + '.';
+    verdict.textContent = acertou ? (expected ? 'Acertou! Gabarito esperado: ' : 'Acertou! Alternativa ') + correct + '.' : (expected ? 'Errou. Gabarito esperado: ' : 'Errou. Alternativa correta: ') + correct + '.';
     feedback.hidden = false;
     feedback.classList.toggle('correct', acertou);
     feedback.classList.toggle('incorrect', !acertou);
