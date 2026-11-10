@@ -1379,5 +1379,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=tjY-WeOqQHE",
     "socialScore": 100,
     "publishedAt": "2026-11-10T17:56:20.137230+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "rockstar-games-launcher-adds-revamped-chat-overlay-with-discord",
+    "publicationKey": "rockstar-media:rockstar-games-launcher-adds-revamped-chat-overlay-with-discord:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/rockstar-games-launcher-adds-revamped-chat-overlay-with-discord/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "youtubeVideoId": "xN-92G0IU-A",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xN-92G0IU-A",
+    "publishedAt": "2026-11-10T22:01:46.445353+00:00"
   }
 ]
