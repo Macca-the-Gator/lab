@@ -58,10 +58,10 @@
     "gta-6-box-copies-begin-arriving-early-with-online-feature-and-ne",
     "report-take-two-forecasts-20-growth-from-gta-vi",
     "gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var",
-    "gta-6-pop-up-store-opens-in-london-selling-exclusive-merch"
+    "gta-6-pop-up-store-opens-in-london-selling-exclusive-merch",
+    "rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch"
   ],
   "clipHistory": [
-    "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
@@ -96,7 +96,8 @@
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "DreQuan_Priest_Video_Clip.mp4"
   ],
   "runs": [
     {
@@ -504,6 +505,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-10T00:31:12.371515+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch:drequan-priest-video-clip",
+      "articleSlug": "rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch",
+      "clip": "DreQuan_Priest_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-10T04:53:01.660668+00:00"
     }
   ]
 }

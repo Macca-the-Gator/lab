@@ -1359,5 +1359,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=x7EvwM5sQFk",
     "socialScore": 98,
     "publishedAt": "2026-11-10T01:38:04.477337+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch",
+    "publicationKey": "rockstar-media:rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "DreQuan_Priest_Video_Clip.mp4",
+    "youtubeVideoId": "nh097j9mv-o",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nh097j9mv-o",
+    "publishedAt": "2026-11-10T04:52:16.651850+00:00"
   }
 ]
