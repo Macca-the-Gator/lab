@@ -1339,5 +1339,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=bT3hog1-V3s",
     "socialScore": 82,
     "publishedAt": "2026-11-09T17:35:43.322934+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-pop-up-store-opens-in-london-selling-exclusive-merch",
+    "publicationKey": "rockstar-media:gta-6-pop-up-store-opens-in-london-selling-exclusive-merch:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-pop-up-store-opens-in-london-selling-exclusive-merch/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "5yD5QHGQw_I",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5yD5QHGQw_I",
+    "publishedAt": "2026-11-10T00:30:24.173206+00:00"
   }
 ]

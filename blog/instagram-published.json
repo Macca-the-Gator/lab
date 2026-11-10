@@ -1496,5 +1496,18 @@
     "uploadMode": "github-release",
     "socialScore": 82,
     "publishedAt": "2026-11-09T17:35:33.894Z"
+  },
+  "rockstar-media://rockstar-media:gta-6-pop-up-store-opens-in-london-selling-exclusive-merch:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-pop-up-store-opens-in-london-selling-exclusive-merch:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-pop-up-store-opens-in-london-selling-exclusive-merch/",
+    "mediaId": "18028803347870677",
+    "permalink": "https://www.instagram.com/reel/Dfin4huEdmq/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "As BB Quer Tomar Gin (feat. ZANOLINI)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-10T00:31:10.717000+00:00"
   }
 }
