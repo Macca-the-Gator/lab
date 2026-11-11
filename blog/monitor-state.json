@@ -1,17 +1,5 @@
 {
   "cooldowns": {
-    "https://rockstarintel.com/red-dead-online-event-month-halloween-october-6th-november-2nd/": {
-      "attemptedAt": "2026-10-06T00:48:59.343Z",
-      "title": "Red Dead Online Event Month: Halloween (October 6th-November 2nd)"
-    },
-    "https://rockstarintel.com/new-gta-6-details-reveal-more-gameplay-systems-naked-showers-confirmed/": {
-      "attemptedAt": "2026-10-07T20:37:12.362Z",
-      "title": "New GTA 6 Details Reveal More Gameplay Systems, Naked Showers Confirmed"
-    },
-    "https://rockstarintel.com/rockstar-quietly-releases-gta-online-update-to-fix-glitches/": {
-      "attemptedAt": "2026-10-09T16:12:05.547Z",
-      "title": "Rockstar Quietly Releases GTA Online Update To Fix Glitches"
-    },
     "https://www.gamespot.com/articles/all-the-records-gta-6-will-break-we-think/": {
       "attemptedAt": "2026-10-17T19:32:11.498Z",
       "title": "All The Records GTA 6 Will Break, We Think"
@@ -27,6 +15,10 @@
     "https://rockstarintel.com/gta-online-event-week-halloween-event-ends-october-29th-november-4th/": {
       "attemptedAt": "2026-10-28T21:09:18.654Z",
       "title": "GTA Online Event Week: Halloween Event Ends (October 29th-November 4th)"
+    },
+    "https://rockstarintel.com/gta-6-pre-order-numbers-are-unprecedented-says-take-two/": {
+      "attemptedAt": "2026-11-11T06:24:36.222Z",
+      "title": "GTA 6 Pre-Order Numbers Are &#8220;Unprecedented&#8221; Says Take-Two"
     }
   }
 }
