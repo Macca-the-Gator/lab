@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-online-event-week-halloween-event-continues-october-8th-14th",
     "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
     "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
     "gta-month-55-launches-with-free-vehicles-and-discounts",
@@ -60,10 +59,10 @@
     "gta-6-file-sizes-differ-across-xbox-and-playstation-regional-var",
     "gta-6-pop-up-store-opens-in-london-selling-exclusive-merch",
     "rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch",
-    "rockstar-games-launcher-adds-revamped-chat-overlay-with-discord"
+    "rockstar-games-launcher-adds-revamped-chat-overlay-with-discord",
+    "gta-6-ps5-physical-boxes-have-hit-the-wild-a-harbinger-of-our-di"
   ],
   "clipHistory": [
-    "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:gta-online-event-week-halloween-event-continues-october-8th-14th:boobie-ike-video-clip",
-      "articleSlug": "gta-online-event-week-halloween-event-continues-october-8th-14th",
-      "clip": "Boobie_Ike_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-07T21:44:20.281762+00:00"
-    },
     {
       "publicationKey": "rockstar-media:xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco:brian-heder-video-clip",
       "articleSlug": "xbox-secures-exclusive-streaming-rights-for-gta-6-at-launch-acco",
@@ -520,6 +513,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-10T22:02:39.939125+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-6-ps5-physical-boxes-have-hit-the-wild-a-harbinger-of-our-di:cal-hampton-video-clip",
+      "articleSlug": "gta-6-ps5-physical-boxes-have-hit-the-wild-a-harbinger-of-our-di",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-11T03:11:36.464461+00:00"
     }
   ]
 }
