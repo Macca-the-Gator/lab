@@ -1410,5 +1410,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=UoWWpazJ2kc",
     "socialScore": 90,
     "publishedAt": "2026-11-11T22:07:40.866993+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "rockstar-games-confirms-new-gta-vi-footage-shared-by-miami-socia",
+    "publicationKey": "rockstar-media:rockstar-games-confirms-new-gta-vi-footage-shared-by-miami-socia:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/rockstar-games-confirms-new-gta-vi-footage-shared-by-miami-socia/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "0tbGX-3hocw",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0tbGX-3hocw",
+    "publishedAt": "2026-11-11T23:07:32.477659+00:00"
   }
 ]
