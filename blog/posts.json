@@ -1,5 +1,92 @@
 [
   {
+    "skip": false,
+    "title": "Report: GTA 6 Map Leaks via Collector's Box Sold Early at Selfridges UK",
+    "description": "A Grand Theft Auto VI Collector's Edition box was reportedly sold early at a Selfridges store in Manchester, revealing the game's official map ahead of the November 19 release. Photos shared on social media show the folded map displaying new location names such as Southwind and Pelican Valley.",
+    "seoTitle": "GTA 6 Map Leak: Collector's Box Sold Early at Selfridges Reveals",
+    "seoDescription": "GTA 6 map seemingly leaks from Collector's Edition display at Selfridges Manchester, showing new locations like Southwind and Pelican Valley ahead of November",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Map Leak",
+      "Collector's Edition",
+      "Selfridges"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Map Leaks Early via Collector's Box at Selfridges UK",
+    "socialHook": "GTA 6's map has leaked early after a Collector's Edition box was sold at Selfridges Manchester, revealing new locations.",
+    "instagramCaptionLead": "GTA 6 map leaks from Collector's Box sold early at Selfridges, showing Southwind and Pelican Valley.",
+    "sections": [
+      {
+        "heading": "Collector's Box Sold Early at Selfridges Manchester",
+        "paragraphs": [
+          "RockstarINTEL reports that a Grand Theft Auto VI Collector's Box was on sale at the Selfridges Manchester Exchange Square store on November 12, 2026, and has since been sold. The box includes an official folded map that was visible in the display, and a photo shared by Instagram user @GazzaMontana shows the map partially unfolded, revealing several in‑game location names.",
+          "VGC corroborates the leak, noting that the clearest images came from an Instagram account that has since been deleted, but multiple sources have shared similar photos of the folded map. The outlet adds that the Collector's Edition is not being sold at Selfridges; the display was part of a partnership with Rockstar Games, and the edition will ship in time for the November 19 launch."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "New Locations Revealed on Leaked Map",
+        "paragraphs": [
+          "The leaked map shows new area names including Southwind and Pelican Valley, which appear to be smaller settlements and natural areas outside Vice City. RockstarINTEL notes that the last two names on the map are not completely clear in the photos, so their exact spelling remains uncertain.",
+          "VGC observes that the map is highly stylised and may represent only one side of a double‑sided insert. No other sources have yet shared images of a potential reverse side, so the full extent of the map is still unknown."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Rockstar Has Not Officially Released the Map",
+        "paragraphs": [
+          "Rockstar Games has not publicly shared the full Collector's Edition map. With the game's release date approaching on November 19, 2026, fans may not have to wait much longer for an official reveal. Both publications caution that the leaked images are from a retail display error and do not constitute an official announcement."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_and_Lucia_09.jpg",
+    "thumbnailAlt": "GTA VI Collector's Box map display at Selfridges Manchester",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_and_Lucia_09.jpg",
+        "alt": "GTA VI Collector's Box map display at Selfridges Manchester",
+        "caption": "Photo of the folded map inside the Collector's Box at Selfridges Manchester, shared by @GazzaMontana.",
+        "sourceUrl": "https://rockstarintel.com/gta-vi-map-leaks-as-collectors-box-sold-early/"
+      },
+      {
+        "url": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic01.jpg",
+        "alt": "GTA 6 map image shared from Selfridges merch drop",
+        "caption": "Image of the stylised map reportedly leaked from the Selfridges London display.",
+        "sourceUrl": "https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI Map Leaks As Collector&#8217;s Box Sold Early",
+        "url": "https://rockstarintel.com/gta-vi-map-leaks-as-collectors-box-sold-early/",
+        "publisher": "rockstarintel.com"
+      },
+      {
+        "title": "GTA 6 map seemingly leaks at Selfridges merch drop",
+        "url": "https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/",
+        "publisher": "Video Games Chronicle"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-12",
+    "publishedAt": "2026-11-12T18:59:03.028Z",
+    "slug": "report-gta-6-map-leaks-via-collector-s-box-sold-early-at-selfrid",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-map-leaks-as-collectors-box-sold-early/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-map-leaks-via-collector-s-box-sold-early-at-selfrid.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-map-leaks-via-collector-s-box-sold-early-at-selfrid-discover.jpg"
+  },
+  {
     "title": "Report: Guardian Interview Reveals New GTA 6 Gameplay Details From Rockstar North Visit",
     "description": "The Guardian's Keza MacDonald toured Rockstar North and reported new gameplay details for Grand Theft Auto VI, including protagonist Jason Duval eating a hot dog while holding a beer and a donut, realistic liquid physics when running with a six-pack, and insights into the studio's Miami research tri",
     "seoTitle": "GTA 6 Gameplay Details: Guardian Interview Reveals Eating, Drink",
