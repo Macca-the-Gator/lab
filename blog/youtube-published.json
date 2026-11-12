@@ -1430,5 +1430,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=8XtEVzZ436g",
     "socialScore": 98,
     "publishedAt": "2026-11-12T03:05:08.935267+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-online-event-week-last-one-before-gta-6-nov-12-18",
+    "publicationKey": "rockstar-media:gta-online-event-week-last-one-before-gta-6-nov-12-18:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-online-event-week-last-one-before-gta-6-nov-12-18/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "-WJi-2SkOcE",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-WJi-2SkOcE",
+    "publishedAt": "2026-11-12T04:24:16.023374+00:00"
   }
 ]

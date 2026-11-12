@@ -1609,5 +1609,18 @@
     "uploadMode": "github-release",
     "socialScore": 98,
     "publishedAt": "2026-11-12T03:05:00.855Z"
+  },
+  "rockstar-media://rockstar-media:gta-online-event-week-last-one-before-gta-6-nov-12-18:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-online-event-week-last-one-before-gta-6-nov-12-18:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-online-event-week-last-one-before-gta-6-nov-12-18/",
+    "mediaId": "18140493064728608",
+    "permalink": "https://www.instagram.com/reel/DfoMO1em635/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "What's Up - Deep house",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-12T04:25:17.391211+00:00"
   }
 }

@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
     "gta-month-55-launches-with-free-vehicles-and-discounts",
     "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
     "gta-online-background-patch-fixes-kortz-heist-glitches",
@@ -60,10 +59,10 @@
     "rockstar-confirms-ongoing-gta-online-support-after-gta-6-launch",
     "rockstar-games-launcher-adds-revamped-chat-overlay-with-discord",
     "gta-6-ps5-physical-boxes-have-hit-the-wild-a-harbinger-of-our-di",
-    "rockstar-games-confirms-new-gta-vi-footage-shared-by-miami-socia"
+    "rockstar-games-confirms-new-gta-vi-footage-shared-by-miami-socia",
+    "gta-online-event-week-last-one-before-gta-6-nov-12-18"
   ],
   "clipHistory": [
-    "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
@@ -98,16 +97,10 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:gta-6-screenshots-rockstar-reveals-new-vice-city-views:cal-hampton-video-clip",
-      "articleSlug": "gta-6-screenshots-rockstar-reveals-new-vice-city-views",
-      "clip": "Cal_Hampton_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-08T21:43:32.498774+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-month-55-launches-with-free-vehicles-and-discounts:drequan-priest-video-clip",
       "articleSlug": "gta-month-55-launches-with-free-vehicles-and-discounts",
@@ -520,6 +513,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-11T23:08:07.861490+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-online-event-week-last-one-before-gta-6-nov-12-18:brian-heder-video-clip",
+      "articleSlug": "gta-online-event-week-last-one-before-gta-6-nov-12-18",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-12T04:25:18.871934+00:00"
     }
   ]
 }
