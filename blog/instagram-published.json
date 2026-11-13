@@ -1672,5 +1672,18 @@
     "musicTitle": "What's Up - Deep house",
     "uploadMode": "github-release",
     "publishedAt": "2026-11-13T03:42:32.240885+00:00"
+  },
+  "rockstar-media://rockstar-media:gta-6-developers-to-vote-on-union-recognition:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-developers-to-vote-on-union-recognition:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-developers-to-vote-on-union-recognition/",
+    "mediaId": "17866446957692395",
+    "permalink": "https://www.instagram.com/reel/DfsrgDDiYQ4/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "What's Up - Deep house",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-13T22:15:06.554505+00:00"
   }
 }

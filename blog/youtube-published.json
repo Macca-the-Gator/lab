@@ -1481,5 +1481,16 @@
     "youtubeVideoId": "AuqQOZ9rcA4",
     "youtubeUrl": "https://www.youtube.com/watch?v=AuqQOZ9rcA4",
     "publishedAt": "2026-11-13T03:41:47.867639+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-6-developers-to-vote-on-union-recognition",
+    "publicationKey": "rockstar-media:gta-6-developers-to-vote-on-union-recognition:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-developers-to-vote-on-union-recognition/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "UMjEj7_8euI",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UMjEj7_8euI",
+    "publishedAt": "2026-11-13T22:14:27.965152+00:00"
   }
 ]
