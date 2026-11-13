@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
     "gta-online-background-patch-fixes-kortz-heist-glitches",
     "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
     "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
@@ -60,10 +59,10 @@
     "gta-6-ps5-physical-boxes-have-hit-the-wild-a-harbinger-of-our-di",
     "rockstar-games-confirms-new-gta-vi-footage-shared-by-miami-socia",
     "gta-online-event-week-last-one-before-gta-6-nov-12-18",
-    "report-gta-6-map-leaks-via-collector-s-box-sold-early-at-selfrid"
+    "report-gta-6-map-leaks-via-collector-s-box-sold-early-at-selfrid",
+    "report-guardian-interview-reveals-new-gta-6-gameplay-details-fro"
   ],
   "clipHistory": [
-    "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr:gtavi-official-cover-art-landscape",
-      "articleSlug": "gta-6-radio-hosts-revealed-bad-bunny-lana-del-rey-burna-boy-kerr",
-      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-09T21:21:04.379716+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-online-background-patch-fixes-kortz-heist-glitches:boobie-ike-video-clip",
       "articleSlug": "gta-online-background-patch-fixes-kortz-heist-glitches",
@@ -520,6 +513,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-12T22:31:00.988270+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-guardian-interview-reveals-new-gta-6-gameplay-details-fro:gtavi-official-cover-art-landscape",
+      "articleSlug": "report-guardian-interview-reveals-new-gta-6-gameplay-details-fro",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-13T03:42:33.764017+00:00"
     }
   ]
 }
