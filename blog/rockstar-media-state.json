@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
     "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
     "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia",
     "gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot",
@@ -60,10 +59,10 @@
     "gta-online-event-week-last-one-before-gta-6-nov-12-18",
     "report-gta-6-map-leaks-via-collector-s-box-sold-early-at-selfrid",
     "report-guardian-interview-reveals-new-gta-6-gameplay-details-fro",
-    "gta-6-developers-to-vote-on-union-recognition"
+    "gta-6-developers-to-vote-on-union-recognition",
+    "report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Cal_Hampton_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says:brian-heder-video-clip",
-      "articleSlug": "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
-      "clip": "Brian_Heder_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-10T20:24:15.183984+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build:cal-hampton-video-clip",
       "articleSlug": "gta-6-leaker-cyberleek-reportedly-threatens-full-playable-build",
@@ -520,6 +513,13 @@
       "clip": "Cal_Hampton_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-13T22:15:08.278676+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash:cal-hampton-video-clip",
+      "articleSlug": "report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-14T03:41:34.897057+00:00"
     }
   ]
 }

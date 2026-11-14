@@ -1501,5 +1501,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=_noA5tlxAvs",
     "socialScore": 64,
     "publishedAt": "2026-11-14T03:21:43.227640+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash",
+    "publicationKey": "rockstar-media:report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "xUZhXU-ngUo",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xUZhXU-ngUo",
+    "publishedAt": "2026-11-14T03:40:36.270809+00:00"
   }
 ]

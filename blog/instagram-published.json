@@ -1697,5 +1697,18 @@
     "uploadMode": "github-release",
     "socialScore": 64,
     "publishedAt": "2026-11-14T03:21:36.728Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash/",
+    "mediaId": "18159086857578968",
+    "permalink": "https://www.instagram.com/reel/DftQ0u-D_II/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "What's Up - Deep house",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-14T03:41:33.664538+00:00"
   }
 }
