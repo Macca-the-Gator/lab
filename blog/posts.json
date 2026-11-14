@@ -1,6 +1,74 @@
 [
   {
     "skip": false,
+    "title": "Report: GTA 6 Physical Copies in PEGI Regions Vulnerable to Flashlight Code Theft",
+    "description": "GameSpot reports that physical \"code-in-box\" copies of Grand Theft Auto 6 sold in PEGI regions print the download code on the inside of the cover, making it visible through the closed case with a flashlight. The flaw could allow thieves to steal codes before purchase. North American copies reportedl",
+    "seoTitle": "GTA 6 Physical Copies Flashlight Code Theft Risk PEGI Regions",
+    "seoDescription": "GameSpot reveals GTA 6 physical copies in Europe have download codes visible through case with flashlight, enabling theft before purchase.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Physical Copies",
+      "Security",
+      "Packaging",
+      "PEGI"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Physical Copies Vulnerable to Flashlight Code Theft in PEGI Regions",
+    "socialHook": "GameSpot reports GTA 6 physical copies in PEGI regions have download codes visible through the case with a flashlight.",
+    "instagramCaptionLead": "GTA 6 physical copies in Europe risk code theft via flashlight trick, GameSpot reports.",
+    "sections": [
+      {
+        "heading": "Packaging Flaw Exposes Download Codes",
+        "paragraphs": [
+          "GameSpot reports that physical copies of Grand Theft Auto 6 sold in PEGI regions print the game's download code directly on the inside of the cover art, rather than on a separate insert. When a flashlight is shone through the closed case, the code becomes visible in reverse, allowing potential thieves to photograph and redeem it before purchase."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Regional Differences and Rockstar Response",
+        "paragraphs": [
+          "The vulnerability appears limited to PEGI regions; North American copies reportedly obscure the code intentionally. GameSpot has reached out to Rockstar Games for comment but had not received a response at publication. The code-in-box copies unlock on November 19 for PlayStation 5 and Xbox Series X|S."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Community Discovery and Mitigation",
+        "paragraphs": [
+          "The issue was first highlighted by users on the ResetEra forum and demonstrated in a YouTube video. Players who purchase physical copies are advised to redeem codes immediately or consider digital purchases to avoid potential theft. The thief cannot play the game until the November 19 launch date."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: GTA 6 Physical Copies in PEGI Regions Vulnerable to Flashlight Code Theft",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "&#8220;Physical&#8221; GTA 6 Copies Might Be Vulnerable To A Very Stupid But Serious Trick",
+        "url": "https://www.gamespot.com/articles/physical-gta-6-copies-might-be-vulnerable-to-a-very-stupid-but-serious-trick/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-14",
+    "publishedAt": "2026-11-14T03:17:50.955Z",
+    "slug": "report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash",
+    "sourceUrl": "https://www.gamespot.com/articles/physical-gta-6-copies-might-be-vulnerable-to-a-very-stupid-but-serious-trick/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GTA 6 Map Leaks via Collector's Box Sold Early at Selfridges UK",
     "description": "A Grand Theft Auto VI Collector's Edition box was reportedly sold early at a Selfridges store in Manchester, revealing the game's official map ahead of the November 19 release. Photos shared on social media show the folded map displaying new location names such as Southwind and Pelican Valley.",
     "seoTitle": "GTA 6 Map Leak: Collector's Box Sold Early at Selfridges Reveals",
