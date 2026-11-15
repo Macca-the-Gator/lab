@@ -1,5 +1,78 @@
 [
   {
+    "title": "GTA VI Update 01.002.000 Rolls Out on PS5 and Xbox Ahead of Launch",
+    "description": "RockstarINTEL reports that Rockstar Games has released a new pre-launch GTA VI update, 01.002.000, on PS5 and Xbox Series X|S. The outlet cites X accounts for rollout timing, affected files, and update sizes; official patch notes were not included in the report.",
+    "seoTitle": "GTA VI Update 01.002.000 Rolls Out on PS5 and Xbox",
+    "seoDescription": "RockstarINTEL reports GTA VI update 01.002.000 is rolling out on PS5 and Xbox Series X|S ahead of launch, with size and rollout details attributed to cited ac",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Update",
+      "PS5",
+      "Xbox Series X|S"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA VI Update 01.002.000 Rolls Out on PS5 and Xbox Ahead of Launch",
+    "socialHook": "RockstarINTEL reports a new GTA VI pre-launch update, 01.002.000, is rolling out on PS5 and Xbox Series X|S.",
+    "instagramCaptionLead": "RockstarINTEL reports GTA VI update 01.002.000 is rolling out on PS5 and Xbox Series X|S ahead of launch.",
+    "sections": [
+      {
+        "heading": "What RockstarINTEL reported",
+        "paragraphs": [
+          "RockstarINTEL reports that Rockstar Games released a new pre-launch update for Grand Theft Auto VI on PlayStation 5 and Xbox Series X|S. The outlet says update 01.002.000 began appearing around midday UK time for some PS5 users who had already completed the initial pre-load, and that only about 50% of users received it initially, with the rest expected within the next 11 hours."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "File details and platform timing",
+        "paragraphs": [
+          "Citing @PlaystationSize, RockstarINTEL says the split rollout was expected to reach the remaining PS5 users by midnight UK time on November 14. Citing @iGrandTheftAuto, it reports the roughly 1GB PS5 update affects files labelled 'story000-[GameContent]' and 'Levels(americas)-0,' while the required PlayStation firmware remains 14.22.00.00. RockstarINTEL later added that an Xbox update went live around 4pm GMT and came in at about 2.2GB on Xbox Series X|S."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What remains unclear",
+        "paragraphs": [
+          "RockstarINTEL does not publish official patch notes or a Rockstar/Take-Two statement in the item, so the exact fixes and whether another patch will arrive before launch remain unknown. The report also does not confirm whether the update is universal across all regions or accounts. Readers should treat the rollout details as the outlet's report, with the cited X accounts providing the size and file information."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/10/Jason_Lucia_Lock_And_Load_landscape-scaled.jpg",
+    "thumbnailAlt": "Jason and Lucia promotional art for Grand Theft Auto VI",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/10/Jason_Lucia_Lock_And_Load_landscape-scaled.jpg",
+        "alt": "Jason and Lucia promotional art for Grand Theft Auto VI",
+        "caption": "Promotional art included in RockstarINTEL's report on the GTA VI pre-launch update.",
+        "sourceUrl": "https://rockstarintel.com/new-gta-vi-update-released-and-heres-what-you-need-to-know/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "New GTA VI Update Released And Here&#8217;s What You Need To Know",
+        "url": "https://rockstarintel.com/new-gta-vi-update-released-and-heres-what-you-need-to-know/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-11-15",
+    "publishedAt": "2026-11-15T09:28:30.341Z",
+    "slug": "gta-vi-update-01-002-000-rolls-out-on-ps5-and-xbox-ahead-of-laun",
+    "sourceUrl": "https://rockstarintel.com/new-gta-vi-update-released-and-heres-what-you-need-to-know/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-vi-update-01-002-000-rolls-out-on-ps5-and-xbox-ahead-of-laun.jpg",
+    "discoverImage": "/blog/assets/covers/gta-vi-update-01-002-000-rolls-out-on-ps5-and-xbox-ahead-of-laun-discover.jpg"
+  },
+  {
     "title": "GTA VI Is Still a Mystery Even to Grand Theft Auto’s Original Creators",
     "description": "Dave Jones and Brian Baglow, key creators of the original Grand Theft Auto, reveal they have not played GTA VI before its release, as shared in a BBC News interview reported by RockstarINTEL. The discussion covers their wait for release and memories of the series' origins.",
     "seoTitle": "GTA VI Original Creators Haven't Played Game Before Release - BB",
