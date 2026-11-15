@@ -1561,5 +1561,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=S5TYml-M0WI",
     "socialScore": 90,
     "publishedAt": "2026-11-15T17:17:26.748261+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-vi-album-track-list-reportedly-leaks",
+    "publicationKey": "rockstar-media:report-gta-vi-album-track-list-reportedly-leaks:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-album-track-list-reportedly-leaks/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "DreQuan_Priest_Video_Clip.mp4",
+    "youtubeVideoId": "imYBDSj_5kw",
+    "youtubeUrl": "https://www.youtube.com/watch?v=imYBDSj_5kw",
+    "publishedAt": "2026-11-15T21:21:30.919707+00:00"
   }
 ]
