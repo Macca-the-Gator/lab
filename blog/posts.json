@@ -1,5 +1,67 @@
 [
   {
+    "skip": false,
+    "title": "Report: New GTA 6 Gameplay Clips Circulate One Week Before the November 19 Launch",
+    "description": "Happy Gamer reports that new GTA 6 gameplay clips are circulating online roughly one week ahead of the November 19 launch. The footage has not been confirmed as official Rockstar material, and details about its origin remain unclear.",
+    "seoTitle": "GTA 6 Gameplay Clips Surface Before November 19 Launch",
+    "seoDescription": "Happy Gamer reports new GTA 6 gameplay clips are circulating online one week before the November 19 launch. Source and authenticity remain unverified.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "gameplay footage"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Gameplay Clips Circulate Before November 19 Launch",
+    "socialHook": "New GTA 6 gameplay clips are reportedly circulating online ahead of the November 19 launch.",
+    "instagramCaptionLead": "GTA 6 gameplay clips are surfacing one week before launch, according to Happy Gamer. The footage remains unverified and is not an official Rockstar announcement.",
+    "sections": [
+      {
+        "heading": "Happy Gamer Reports Circulating GTA 6 Gameplay Clips",
+        "paragraphs": [
+          "Happy Gamer reported on Thursday, November 12, 2026, that new GTA 6 gameplay clips are circulating online, approximately one week before the scheduled November 19 launch. The publication’s available summary does not identify who captured the footage or where it first appeared, and it does not present the material as an official Rockstar Games release."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "What Remains Unknown About the Footage",
+        "paragraphs": [
+          "It is unclear whether the clips show final build gameplay, earlier development material, or edited video. Happy Gamer’s report does not state whether Rockstar Games or Take-Two Interactive has commented on the circulation, nor does it name the original source of the videos. Readers should treat the clips as unverified player discoveries rather than confirmed official footage."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "GTA 6 protagonist Jason Duval promotional artwork",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "New GTA 6 Gameplay Clips Circulate One Week Before the November 19 Launch",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSGYzeE5LcVpQbjVoamY4T0hkbU9zYUJ6Z0R2VklwWDRxVGNNZmVHcjNOSUZmQTZYTWtFRG01R1ZVQTZEeUFVbDJhZnZmd1FWVFhXRW4tOFliTjVXYnRSMmpyZ0FMZXp2cXdCLUhQcVVOZ1EzVC1tN3NaeUhqU3Y2Zg?oc=5",
+        "publisher": "Happy Gamer"
+      },
+      {
+        "title": "New GTA 6 Gameplay Clips Circulate One Week Before the November 19 Launch",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSGYzeE5LcVpQbjVoamY4T0hkbU9zYUJ6Z0R2VklwWDRxVGNNZmVHcjNOSUZmQTZYTWtFRG01R1ZVQTZEeUFVbDJhZnZmd1FWVFhXRW4tOFliTjVXYnRSMmpyZ0FMZXp2cXdCLUhQcVVOZ1EzVC1tN3NaeUhqU3Y2Zg?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "publisher": "Happy Gamer"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-15",
+    "publishedAt": "2026-11-15T21:53:13.997Z",
+    "slug": "report-new-gta-6-gameplay-clips-circulate-one-week-before-the-no",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSGYzeE5LcVpQbjVoamY4T0hkbU9zYUJ6Z0R2VklwWDRxVGNNZmVHcjNOSUZmQTZYTWtFRG01R1ZVQTZEeUFVbDJhZnZmd1FWVFhXRW4tOFliTjVXYnRSMmpyZ0FMZXp2cXdCLUhQcVVOZ1EzVC1tN3NaeUhqU3Y2Zg?oc=5&hl=en-US&gl=US&ceid=US:en",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-new-gta-6-gameplay-clips-circulate-one-week-before-the-no.jpg",
+    "discoverImage": "/blog/assets/covers/report-new-gta-6-gameplay-clips-circulate-one-week-before-the-no-discover.jpg"
+  },
+  {
     "title": "Report: GTA VI Album Track List Reportedly Leaks",
     "description": "RockstarINTEL reports that a retail employee’s video shows the rear cover of the GTA VI album vinyl, listing 34 tracks. Rockstar Games has not confirmed the list, and the report relies on an unverified retail source.",
     "seoTitle": "GTA VI Album Track List Reportedly Leaks",
