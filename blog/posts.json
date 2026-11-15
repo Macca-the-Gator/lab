@@ -1,5 +1,71 @@
 [
   {
+    "title": "GTA VI Is Still a Mystery Even to Grand Theft Auto’s Original Creators",
+    "description": "Dave Jones and Brian Baglow, key creators of the original Grand Theft Auto, reveal they have not played GTA VI before its release, as shared in a BBC News interview reported by RockstarINTEL. The discussion covers their wait for release and memories of the series' origins.",
+    "seoTitle": "GTA VI Original Creators Haven't Played Game Before Release - BB",
+    "seoDescription": "Dave Jones and Brian Baglow reveal they haven't played GTA VI before release in BBC News interview, highlighting creator anticipation and franchise origins ah",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Dave Jones",
+      "Brian Baglow",
+      "BBC News",
+      "GTA 6 Release"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA VI Creators Admit They Haven't Played Game Before Release",
+    "socialHook": "Even the original creators of Grand Theft Auto haven't played GTA VI before its release.",
+    "instagramCaptionLead": "GTA VI original creators Dave Jones and Brian Baglow admit they haven't played the game before release, per BBC News.",
+    "sections": [
+      {
+        "heading": "Creators Await GTA VI Release",
+        "paragraphs": [
+          "With GTA VI just days from release, Dave Jones and Brian Baglow -- key figures behind the original Grand Theft Auto -- have yet to play Rockstar's upcoming title. Both recently spoke to BBC News, with Jones stating, \"We're all waiting to see what they've done.\" Baglow confirmed he has pre-ordered his copy, highlighting that even the franchise's pioneers must wait for release day to experience the new game."
+        ],
+        "editorialLabel": "Confirmed facts",
+        "editorialKind": "fact"
+      },
+      {
+        "heading": "Memories of Original GTA Development",
+        "paragraphs": [
+          "The interview also dug into the origins of the series, revealing that Grand Theft Auto began as a racing project called Race 'n' Chase before granting players freedom to exit vehicles and steal others. Jones explained the team considered allowing players to become police officers but ultimately chose the criminal perspective. The developers also discussed creating fictional businesses, radio stations, and DJs due to expensive real-world licensing, with these custom elements becoming central to the series' unique identity."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_Duval_09.jpg",
+    "thumbnailAlt": "GTA VI original creators article image from RockstarINTEL",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_Duval_09.jpg",
+        "alt": "Jason Duval image from GTA VI article",
+        "caption": "Illustration from RockstarINTEL article",
+        "sourceUrl": "https://rockstarintel.com/gta-vi-is-still-a-mystery-even-to-grand-theft-autos-original-creators/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI Is Still a Mystery Even to Grand Theft Auto&#8217;s Original Creators",
+        "url": "https://rockstarintel.com/gta-vi-is-still-a-mystery-even-to-grand-theft-autos-original-creators/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "confirmed",
+    "spoilerWarning": false,
+    "date": "2026-11-15",
+    "publishedAt": "2026-11-15T01:57:45.936Z",
+    "slug": "gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-is-still-a-mystery-even-to-grand-theft-autos-original-creators/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "CONFIRMED",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr.jpg",
+    "discoverImage": "/blog/assets/covers/gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Report: GTA 6 Physical Copies in PEGI Regions Vulnerable to Flashlight Code Theft",
     "description": "GameSpot reports that physical \"code-in-box\" copies of Grand Theft Auto 6 sold in PEGI regions print the download code on the inside of the cover, making it visible through the closed case with a flashlight. The flaw could allow thieves to steal codes before purchase. North American copies reportedl",
