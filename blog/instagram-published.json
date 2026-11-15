@@ -1735,5 +1735,18 @@
     "uploadMode": "github-release",
     "socialScore": 98,
     "publishedAt": "2026-11-15T02:01:23.270Z"
+  },
+  "rockstar-media://rockstar-media:gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr/",
+    "mediaId": "18114186410616581",
+    "permalink": "https://www.instagram.com/reel/DfvyUY3CWWl/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "What's Up - Deep house",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-15T03:12:46.678724+00:00"
   }
 }

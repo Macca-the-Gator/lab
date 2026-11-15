@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia",
     "gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot",
     "gta-6-boxed-copies-sold-out-at-some-retailers",
     "gta-6-leak-hacker-trial-begins-10-days-before-release",
@@ -60,10 +59,10 @@
     "report-guardian-interview-reveals-new-gta-6-gameplay-details-fro",
     "gta-6-developers-to-vote-on-union-recognition",
     "report-gta-6-physical-copies-in-pegi-regions-vulnerable-to-flash",
-    "rockstar-games-pays-about-3-9-million-for-gta-6-miami-marketing"
+    "rockstar-games-pays-about-3-9-million-for-gta-6-miami-marketing",
+    "gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr"
   ],
   "clipHistory": [
-    "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:gta-6-leaker-cyberleek-shares-new-video-featuring-lucia:lucia-caminos-video-clip",
-      "articleSlug": "gta-6-leaker-cyberleek-shares-new-video-featuring-lucia",
-      "clip": "Lucia_Caminos_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-11T20:39:20.271545+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot:lucia-caminos-video-clip",
       "articleSlug": "gta-6-leak-shows-lucia-skydiving-naked-in-new-crypto-driven-foot",
@@ -520,6 +513,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-14T20:59:48.029949+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr:brian-heder-video-clip",
+      "articleSlug": "gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-15T03:12:47.900564+00:00"
     }
   ]
 }

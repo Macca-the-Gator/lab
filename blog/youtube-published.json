@@ -1532,5 +1532,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=U6q-yZwL_O0",
     "socialScore": 98,
     "publishedAt": "2026-11-15T02:01:30.744098+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr",
+    "publicationKey": "rockstar-media:gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-vi-is-still-a-mystery-even-to-grand-theft-auto-s-original-cr/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "DPDc9gCzgks",
+    "youtubeUrl": "https://www.youtube.com/watch?v=DPDc9gCzgks",
+    "publishedAt": "2026-11-15T03:11:46.784738+00:00"
   }
 ]
