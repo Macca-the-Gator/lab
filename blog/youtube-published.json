@@ -1590,5 +1590,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Nk4JwOxpxhY",
     "socialScore": 74,
     "publishedAt": "2026-11-16T02:15:21.204542+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-vi-game-length-leaked-by-reviewer",
+    "publicationKey": "rockstar-media:report-gta-vi-game-length-leaked-by-reviewer:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-game-length-leaked-by-reviewer/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "youtubeVideoId": "uFcS49dfOjk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=uFcS49dfOjk",
+    "publishedAt": "2026-11-16T03:17:06.696969+00:00"
   }
 ]
