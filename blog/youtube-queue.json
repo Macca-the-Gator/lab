@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach",
+    "publicationKey": "gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach/",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-hacker-pleads-guilty-to-all-crimes/",
+    "title": "GTA 6 Hacker Arion Kurtaj Pleads Guilty to 2022 Rockstar Breach",
+    "description": "Arion Kurtaj, 21, pleaded guilty at Woolwich Crown Court to hacking Rockstar Games and leaking nearly 100 GTA 6 gameplay videos in 2022, along with other cybercrimes. Sentencing is pending as GTA 6 approaches its November 19 release.",
+    "youtubeTitle": "GTA 6 Hacker Arion Kurtaj Pleads Guilty to All Charges in 2022 Rockstar Breach",
+    "socialHook": "GTA 6 hacker Arion Kurtaj pleads guilty to leaking 90 gameplay videos and other cybercrimes.",
+    "sections": [
+      {
+        "heading": "Guilty Plea at Woolwich Crown Court",
+        "paragraphs": [
+          "On November 16, 2026, Arion Kurtaj, now 21, pleaded guilty at Woolwich Crown Court in London to all charges related to the 2022 breach of Rockstar Games’ servers, according to BBC reporting cited by RockstarINTEL, PC Gamer, Kotaku, and Rock Paper Shotgun. Kurtaj, a member of the hacking group Lapsus$, admitted to stealing and releasing nearly 100 videos of unfinished Grand Theft Auto 6 gameplay, as well as other cybercrimes including fraud and physical assaults."
+        ]
+      },
+      {
+        "heading": "Background and Legal Proceedings",
+        "paragraphs": [
+          "Kurtaj carried out the intrusion while on bail for previous offenses and staying at a Travelodge hotel under police protection, using an Amazon Fire Stick, a Bluetooth keyboard, and a mouse to access Rockstar’s internal Slack and threaten the company, per Rock Paper Shotgun. He was initially deemed unfit to stand trial due to acute autism and sentenced to indefinite detention in a secure hospital, but a January 2026 review found him fit to proceed, leading to today’s guilty plea, Kotaku reports. Sentencing is scheduled for a later date."
+        ]
+      },
+      {
+        "heading": "Impact and Ongoing Leaks",
+        "paragraphs": [
+          "Rockstar stated the breach cost the company $5 million in recovery and thousands of staff hours, according to Rock Paper Shotgun. The 2022 leak was followed by another wave of GTA 6 footage in 2024 from a source known as “Cyberleek,” prompting further legal action by Take-Two. Grand Theft Auto 6 is set to release on November 19, 2026, with a mandatory pre-load update already issued, RockstarINTEL notes. A separate hacker arrest in September involving violent crimes was also reported."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Take-Two Interactive",
+      "Arion Kurtaj",
+      "Lapsus$",
+      "hacking",
+      "legal",
+      "leak"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/09/Jason_Duval_07-copy.webp",
+    "thumbnailAlt": "Arion Kurtaj mugshot released by City of London police",
+    "inlineImages": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Zb9knsapKKuVr4cW9QJkc8-2560-80.jpg",
+        "alt": "PC Gamer coverage of GTA 6 hacker guilty plea",
+        "caption": "PC Gamer reports on Arion Kurtaj's guilty plea at Woolwich Crown Court.",
+        "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/"
+      },
+      {
+        "url": "https://kotaku.com/app/uploads/2026/11/Jason_Duval_11.jpg",
+        "alt": "Kotaku coverage of GTA 6 hacker guilty plea",
+        "caption": "Kotaku details Kurtaj's history and the 2022 Rockstar breach.",
+        "sourceUrl": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI Hacker Pleads Guilty To All Crimes",
+        "url": "https://rockstarintel.com/gta-vi-hacker-pleads-guilty-to-all-crimes/",
+        "publisher": "rockstarintel.com"
+      },
+      {
+        "title": "Grand Theft Auto 6 hacker pleads guilty to all charges",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/",
+        "publisher": "PC Gamer"
+      },
+      {
+        "title": "GTA 6 Hacker Pleads Guilty To Cybercrimes After Infamous 2022 Leak",
+        "url": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500",
+        "publisher": "Kotaku"
+      },
+      {
+        "title": "GTA 6 hacker pleads guilty to 2022 Rockstar Games breach which the company claim cost them $5 million",
+        "url": "https://www.rockpapershotgun.com/gta-6-hacker-pleads-guilty-to-2022-rockstar-games-breach-which-the-company-claim-cost-them-5-million",
+        "publisher": "Rock Paper Shotgun"
+      }
+    ],
+    "socialScore": 100,
+    "queuedAt": "2026-11-16T20:33:12.921Z"
+  }
+]
