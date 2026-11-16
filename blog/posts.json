@@ -1,5 +1,71 @@
 [
   {
+    "title": "Report: GTA VI Game Length Leaked by Reviewer",
+    "description": "A reviewer has leaked estimates for GTA VI's game length, citing Insider Gaming via RockstarINTEL.",
+    "seoTitle": "GTA VI Game Length Leaked by Reviewer",
+    "seoDescription": "A reviewer has leaked that GTA VI's main story lasts about 50 hours, with full completion near 200 hours, according to Insider Gaming via RockstarINTEL.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "game length",
+      "leak",
+      "Insider Gaming",
+      "reviewer"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA VI Game Length Leaked: 50 Hours Main Story, 200 Hours Full Completion",
+    "socialHook": "A reviewer has leaked that GTA VI's main story takes about 50 hours.",
+    "instagramCaptionLead": "GTA VI's main campaign reportedly lasts around 50 hours, with full completion near 200 hours, according to a leak reported by RockstarINTEL.",
+    "sections": [
+      {
+        "heading": "Leaked Game Length Details",
+        "paragraphs": [
+          "RockstarINTEL reports that a reviewer who received an early copy of Grand Theft Auto VI has shared estimates for the game's length. According to the outlet, the main story campaign is expected to take approximately 50 hours to complete, while achieving 100% completion could require around 200 hours. The information originates from a report by Insider Gaming, which cites individuals who have played the game."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Implications for Players",
+        "paragraphs": [
+          "These figures suggest that GTA VI will offer a substantial amount of content, comparable to previous titles like Red Dead Redemption 2. The reported 50‑hour main story aligns with Rockstar's previous comments about extensive playtime, and the 200‑hour full completion estimate includes optional activities such as wildlife scanning and side quests. Players should anticipate a lengthy experience, though actual time may vary based on individual playstyles."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Vice_City_06.jpg",
+    "thumbnailAlt": "GTA VI Game Length Potentially Leaked By Reviewer - RockstarINTEL",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Vice_City_06.jpg",
+        "alt": "GTA VI Game Length Potentially Leaked By Reviewer - RockstarINTEL",
+        "caption": "GTA VI Game Length Potentially Leaked By Reviewer",
+        "sourceUrl": "https://rockstarintel.com/gta-vi-game-length-potentially-leaked-by-reviewer/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI Game Length Potentially Leaked By Reviewer",
+        "url": "https://rockstarintel.com/gta-vi-game-length-potentially-leaked-by-reviewer/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-16",
+    "publishedAt": "2026-11-16T02:11:23.344Z",
+    "slug": "report-gta-vi-game-length-leaked-by-reviewer",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-game-length-potentially-leaked-by-reviewer/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-vi-game-length-leaked-by-reviewer.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-vi-game-length-leaked-by-reviewer-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Report: New GTA 6 Gameplay Clips Circulate One Week Before the November 19 Launch",
     "description": "Happy Gamer reports that new GTA 6 gameplay clips are circulating online roughly one week ahead of the November 19 launch. The footage has not been confirmed as official Rockstar material, and details about its origin remain unclear.",
