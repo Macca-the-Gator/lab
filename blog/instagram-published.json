@@ -1846,5 +1846,18 @@
     "uploadMode": "github-release",
     "socialScore": 100,
     "publishedAt": "2026-11-16T20:36:44.841Z"
+  },
+  "rockstar-media://rockstar-media:gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach/",
+    "mediaId": "18103901345532075",
+    "permalink": "https://www.instagram.com/reel/Df0purXlZg8/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Pra Começar O Final De Semana - Eletrofunk",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-17T00:33:39.396461+00:00"
   }
 }
