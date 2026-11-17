@@ -1639,5 +1639,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=mMu45j0Ixeg",
     "socialScore": 98,
     "publishedAt": "2026-11-17T04:02:01.959937+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "discord-launches-vice-city-themed-takeover-ahead-of-gta-vi",
+    "publicationKey": "rockstar-media:discord-launches-vice-city-themed-takeover-ahead-of-gta-vi:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/discord-launches-vice-city-themed-takeover-ahead-of-gta-vi/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "fVUKOUv9Xgk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fVUKOUv9Xgk",
+    "publishedAt": "2026-11-17T05:18:38.117453+00:00"
   }
 ]
