@@ -1659,5 +1659,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=C5t6ZbxnizA",
     "socialScore": 76,
     "publishedAt": "2026-11-17T13:33:44.500937+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gamespot-details-xbox-region-trick-to-play-gta-6-early",
+    "publicationKey": "rockstar-media:report-gamespot-details-xbox-region-trick-to-play-gta-6-early:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gamespot-details-xbox-region-trick-to-play-gta-6-early/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "Thb3UIZ6_6w",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Thb3UIZ6_6w",
+    "publishedAt": "2026-11-17T23:42:27.292376+00:00"
   }
 ]
