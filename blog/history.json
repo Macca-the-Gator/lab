@@ -1,5 +1,37 @@
 [
   {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pTEVWLWtOMzV1Nlg3ZHdMdVBNNHR3Q3g4dy1RdHZzeE9hVWRUNHM3M2pOOE1GNk9UTkxnNm0tLUZmQWEyeGtCVDdSSS03UzVsMGxwN2diTUV3Q1JkenpUeHo0QjI?oc=5",
+    "title": "There's a GTA VI Midnight Launch Event in Miami hosted by @gwrldmedia and HyperX! They're bringing classic midnight launch energy with: 🎮 Gaming stations 📸 Creators ✨Collectibles 👕Merch 🦩 Giveaway Doors open 5pm @ Grails, Wynwood on Nov 18th",
+    "date": "2026-11-17T22:26:30.791Z",
+    "status": "ai-rejected",
+    "reason": "The lead item is an isolated X (Twitter) post announcing a GTA VI Midnight Launch Event, with no linked credible publication report, Rockstar/Take-Two primary source, or verifiable details beyond user-generated content. The two related Google News RSS feeds provide no article body or substantiation, only aggregate labels. It fails the requirement for a specific, reported announcement from a credible outlet or the publisher.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pTEVWLWtOMzV1Nlg3ZHdMdVBNNHR3Q3g4dy1RdHZzeE9hVWRUNHM3M2pOOE1GNk9UTkxnNm0tLUZmQWEyeGtCVDdSSS03UzVsMGxwN2diTUV3Q1JkenpUeHo0QjI?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GQW1nTjhKNU9nYTNXbkc0ZEJpUnc0VVJJRnZwX0Q5Mkk0cGJMbFZxZHlaQzN1eTBNNmJnZFZQRnZWRnFRVjZ1NFJPX2dmT2t4ZVp5UUlKbl9CQURRWHdBeFV3UUZVVVg4UHBoNnlVQQ?oc=5"
+    ]
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GQW1nTjhKNU9nYTNXbkc0ZEJpUnc0VVJJRnZwX0Q5Mkk0cGJMbFZxZHlaQzN1eTBNNmJnZFZQRnZWRnFRVjZ1NFJPX2dmT2t4ZVp5UUlKbl9CQURRWHdBeFV3UUZVVVg4UHBoNnlVQQ?oc=5",
+    "title": "There's a GTA VI Midnight Launch Event in Miami hosted by @gwrldmedia and HyperX! They're bringing classic midnight launch energy with: 🎮 Gaming stations 📸 Creators ✨Collectibles 👕Merch 🦩 Giveaway Doors open 5pm @ Grails, Wynwood on Nov 18th",
+    "date": "2026-11-17T22:26:16.107Z",
+    "status": "ai-rejected",
+    "reason": "Irrelevant: isolated X post with no linked report or official Rockstar/Take‑Two source; a promotional event rather than a GTA news announcement.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GQW1nTjhKNU9nYTNXbkc0ZEJpUnc0VVJJRnZwX0Q5Mkk0cGJMbFZxZHlaQzN1eTBNNmJnZFZQRnZWRnFRVjZ1NFJPX2dmT2t4ZVp5UUlKbl9CQURRWHdBeFV3UUZVVVg4UHBoNnlVQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pTEVWLWtOMzV1Nlg3ZHdMdVBNNHR3Q3g4dy1RdHZzeE9hVWRUNHM3M2pOOE1GNk9UTkxnNm0tLUZmQWEyeGtCVDdSSS03UzVsMGxwN2diTUV3Q1JkenpUeHo0QjI?oc=5"
+    ]
+  },
+  {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CeW9OZkI1MWh5ejhzTm5EZ0gwQW82UnpOYVpRRFMyaEc0dC12dGZYSWxMMXFsaEUwdU8zY0lyX0V3TmxUVlJ5SnJLQnExTEZsWUxmSXlvWkFfN1BDemIyOVRmejZ5Vm8?oc=5",
+    "title": "GTA 6 hacker’s mugshot has been released. After 4 years, Arion Kurtaj finally pleaded guilty today to all offenses including hacking Rockstar with a TV Stick while on bail and stealing internal 90 clips showing nearly 60 minutes of early gameplay, which cost th",
+    "date": "2026-11-17T22:26:05.815Z",
+    "status": "ai-rejected",
+    "reason": "Skipped: the lead is an unlinked third-party X post rather than a credible publication report or Rockstar/Take-Two primary source, and the supplied snippet is truncated, lacking sufficient verifiable details to validate the mugshot release and guilty plea.",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CeW9OZkI1MWh5ejhzTm5EZ0gwQW82UnpOYVpRRFMyaEc0dC12dGZYSWxMMXFsaEUwdU8zY0lyX0V3TmxUVlJ5SnJLQnExTEZsWUxmSXlvWkFfN1BDemIyOVRmejZ5Vm8?oc=5"
+    ]
+  },
+  {
     "slug": "report-gamespot-details-xbox-region-trick-to-play-gta-6-early",
     "title": "Report: GameSpot Details Xbox Region Trick to Play GTA 6 Early",
     "sourceUrl": "https://www.gamespot.com/articles/how-to-play-gta-6-early-on-xbox-using-this-trick/",
