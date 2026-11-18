@@ -1946,5 +1946,18 @@
     "uploadMode": "github-release",
     "socialScore": 82,
     "publishedAt": "2026-11-18T22:03:05.183Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-vi-hands-on-gameplay-impressions:gtavi-official-cover-art-landscape": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-vi-hands-on-gameplay-impressions:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-hands-on-gameplay-impressions/",
+    "mediaId": "18019543853752452",
+    "permalink": "https://www.instagram.com/reel/Df5qSs9kiyS/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Alecrim Dourado (Funk-Remix Infantil Brasileiro)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-18T23:14:45.101019+00:00"
   }
 }

@@ -1699,5 +1699,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=U0OPvsutK_o",
     "socialScore": 82,
     "publishedAt": "2026-11-18T22:03:12.046130+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-vi-hands-on-gameplay-impressions",
+    "publicationKey": "rockstar-media:report-gta-vi-hands-on-gameplay-impressions:gtavi-official-cover-art-landscape",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-hands-on-gameplay-impressions/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "youtubeVideoId": "jbxijCRzcBY",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jbxijCRzcBY",
+    "publishedAt": "2026-11-18T23:13:22.455988+00:00"
   }
 ]
