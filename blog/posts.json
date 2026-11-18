@@ -1,6 +1,75 @@
 [
   {
     "skip": false,
+    "title": "Report: GTA VI Hands-On Gameplay Impressions",
+    "description": "RockstarINTEL’s first hands‑on impressions of GTA VI describe a cinematic experience that rivals Red Dead Redemption 2, with top‑tier acting, fluid animations, and an immersive open world called Leonida that feels truly lived‑in. The report notes that Rockstar has dramatically increased unique and r",
+    "seoTitle": "GTA VI Hands-On Gameplay Impressions from RockstarINTEL",
+    "seoDescription": "RockstarINTEL delivers first hands‑on impressions of GTA VI, praising cinematic quality, NPC interactions, control updates, and noting the 30FPS cap while hig",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Gameplay",
+      "Hands-On",
+      "Review",
+      "30FPS"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA VI Hands-On Gameplay Impressions: Cinematic Quality and 30FPS Cap",
+    "socialHook": "RockstarINTEL shares first hands‑on impressions of GTA VI, highlighting cinematic quality and a 30FPS performance cap.",
+    "instagramCaptionLead": "First hands‑on impressions of GTA VI reveal cinematic depth, refined NPC interactions, and a 30FPS frame rate.",
+    "sections": [
+      {
+        "heading": "First Impressions",
+        "paragraphs": [
+          "RockstarINTEL’s first hands‑on impressions of GTA VI describe a cinematic experience that rivals Red Dead Redemption 2, with top‑tier acting, fluid animations, and an immersive open world called Leonida that feels truly lived‑in.",
+          "The report notes that Rockstar has dramatically increased unique and realistic NPC interactions, offering far more depth than previous titles, and praises the game’s overall polish, especially the improved collision system that reduces clipping incidents to rare occurrences."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Technical Performance",
+        "paragraphs": [
+          "Rockstar reworked the default control scheme to borrow from Red Dead 2’s interaction system and modernizes even basic inputs, which may require an adjustment period for long‑time GTA players but ultimately provides greater versatility.",
+          "The article also addresses the controversy over a locked 30FPS frame rate, explaining that Rockstar prioritized immersive gameplay and visual fidelity over a higher frame rate, resulting in a stable but not silky smooth performance."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/HXXJx_SXMAAal_Y-copy.webp",
+    "thumbnailAlt": "GTA VI Hands-On Gameplay Impressions - RockstarINTEL",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/HXXJx_SXMAAal_Y-copy.webp",
+        "alt": "GTA VI Hands-On Gameplay Impressions - RockstarINTEL",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://rockstarintel.com/gta-vi-hands-on-gameplay-impressions/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI Hands-On Gameplay Impressions",
+        "url": "https://rockstarintel.com/gta-vi-hands-on-gameplay-impressions/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-18",
+    "publishedAt": "2026-11-18T21:58:57.501Z",
+    "slug": "report-gta-vi-hands-on-gameplay-impressions",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-hands-on-gameplay-impressions/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-vi-hands-on-gameplay-impressions.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-vi-hands-on-gameplay-impressions-discover.jpg"
+  },
+  {
+    "skip": false,
     "reason": "Recent post-launch GTA 6 guide from a dedicated GTA/Rockstar outlet (RockstarINTEL, Nov 18, 2026) with a specific, reproducible unlock procedure and attribution to Rockstar's own wording; guide topics are explicitly valid.",
     "title": "Report: How To Get The Exclusive GTA VI Tropical Weapon Skins",
     "description": "RockstarINTEL reports GTA 6's two Tropical weapon patterns unlock by linking your Rockstar Games account to your console account, then checking the Cosmetics/Wraps menu at Ammu-Nation in Leonida.",
