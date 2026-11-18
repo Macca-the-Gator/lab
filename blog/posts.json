@@ -1,6 +1,86 @@
 [
   {
     "skip": false,
+    "reason": "Recent post-launch GTA 6 guide from a dedicated GTA/Rockstar outlet (RockstarINTEL, Nov 18, 2026) with a specific, reproducible unlock procedure and attribution to Rockstar's own wording; guide topics are explicitly valid.",
+    "title": "Report: How To Get The Exclusive GTA VI Tropical Weapon Skins",
+    "description": "RockstarINTEL reports GTA 6's two Tropical weapon patterns unlock by linking your Rockstar Games account to your console account, then checking the Cosmetics/Wraps menu at Ammu-Nation in Leonida.",
+    "seoTitle": "GTA 6 Tropical Weapon Skins: How to Unlock Both Patterns",
+    "seoDescription": "RockstarINTEL reports how to unlock the GTA 6 Tropical weapon patterns by linking your Rockstar and console accounts, then visiting Ammu-Nation.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Tropical Weapon Patterns",
+      "Ammu-Nation",
+      "cosmetics",
+      "Leonida",
+      "RockstarIntel"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Tropical Weapon Skins: How to Unlock Both Patterns at Ammu-Nation",
+    "socialHook": "GTA 6's two Tropical weapon patterns unlock once you link your Rockstar Games account to your PlayStation or Xbox account, RockstarINTEL reports.",
+    "instagramCaptionLead": "RockstarINTEL reports GTA 6's two Tropical weapon patterns come from linking your Rockstar Games account to your console account, then checking Ammu-Nation.",
+    "sections": [
+      {
+        "heading": "What the GTA 6 Tropical Weapon Patterns Are",
+        "paragraphs": [
+          "RockstarINTEL reports that GTA 6 includes two Vice City-inspired tropical weapon patterns that cannot be earned simply by playing the game. The outlet describes both designs as account-linked cosmetics rather than mission rewards or normal progression unlocks.",
+          "According to RockstarINTEL, the patterns show up as a Cosmetics / Wraps option inside the weapon modify menu at Ammu-Nation, and the outlet describes applying them as a very simple process once the account connection is complete."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "How to Unlock and Equip the Patterns",
+        "paragraphs": [
+          "RockstarINTEL's steps start on the Rockstar Games website: sign in, then open Account > Manage Account > Connections and link the PlayStation or Xbox account that owns your copy of GTA 6. The outlet says you must reboot the game afterwards.",
+          "With the accounts connected, RockstarINTEL says to visit any Ammu-Nation store in Leonida and check the Cosmetics / Wraps section of the modify menu, where both Tropical Patterns will be listed among the available wraps."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Weapon Limits and What Rockstar Hasn't Specified",
+        "paragraphs": [
+          "RockstarINTEL cites Rockstar saying the pattern works on \"most\" weapons, not all of them. The outlet adds that no list of incompatible weapons has been released, so which guns are excluded remains unclear and players may need to check individually.",
+          "The same report notes GTA+ members have access to other exclusive GTA 6 content, which RockstarINTEL covers in a separate roundup. The report does not state an expiry date for the patterns or confirm whether the requirement changes on PC."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Tropical-Weapon-pattern-image-gta-vi.png",
+    "thumbnailAlt": "GTA 6 tropical weapon pattern shown on a gun in RockstarINTEL's unlock guide",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Tropical-Weapon-pattern-image-gta-vi.png",
+        "alt": "GTA 6 weapon displaying one of the Tropical weapon patterns",
+        "caption": "One of the two Tropical patterns RockstarINTEL says is available in the Ammu-Nation Cosmetics / Wraps menu.",
+        "sourceUrl": "https://rockstarintel.com/how-to-get-the-exclusive-gta-vi-tropical-weapon-skins/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How To Get The Exclusive GTA VI Tropical Weapon Skins",
+        "url": "https://rockstarintel.com/how-to-get-the-exclusive-gta-vi-tropical-weapon-skins/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-18",
+    "publishedAt": "2026-11-18T14:00:11.998Z",
+    "slug": "report-how-to-get-the-exclusive-gta-vi-tropical-weapon-skins",
+    "sourceUrl": "https://rockstarintel.com/how-to-get-the-exclusive-gta-vi-tropical-weapon-skins/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-how-to-get-the-exclusive-gta-vi-tropical-weapon-skins.jpg",
+    "discoverImage": "/blog/assets/covers/report-how-to-get-the-exclusive-gta-vi-tropical-weapon-skins-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GameSpot Details Xbox Region Trick to Play GTA 6 Early",
     "description": "GameSpot details an Xbox region-change trick that may let players access GTA 6 in New Zealand time before the U.S. launch, with caveats about Microsoft policy and no guarantee of success.",
     "seoTitle": "GTA 6 Xbox New Zealand Region Trick to Play Early",
