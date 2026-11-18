@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "rockstar-says-gta-6-will-speed-up-future-game-development",
     "new-gta-6-screenshots-revealed-via-bloomberg-interview",
     "report-rockstarintel-reports-claimed-final-gta-6-leak-includes-e",
     "gta-6-launch-trailer-released",
@@ -60,10 +59,10 @@
     "report-gta-vi-game-length-leaked-by-reviewer",
     "gta-6-hacker-arion-kurtaj-pleads-guilty-to-2022-rockstar-breach",
     "discord-launches-vice-city-themed-takeover-ahead-of-gta-vi",
-    "report-gamespot-details-xbox-region-trick-to-play-gta-6-early"
+    "report-gamespot-details-xbox-region-trick-to-play-gta-6-early",
+    "free-gta-vi-via-twitch-and-kick-launch-giveaways"
   ],
   "clipHistory": [
-    "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "DreQuan_Priest_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:rockstar-says-gta-6-will-speed-up-future-game-development:gtavi-official-cover-art-landscape",
-      "articleSlug": "rockstar-says-gta-6-will-speed-up-future-game-development",
-      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-14T20:24:21.717750+00:00"
-    },
     {
       "publicationKey": "rockstar-media:new-gta-6-screenshots-revealed-via-bloomberg-interview:boobie-ike-video-clip",
       "articleSlug": "new-gta-6-screenshots-revealed-via-bloomberg-interview",
@@ -520,6 +513,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-17T23:43:07.430816+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:free-gta-vi-via-twitch-and-kick-launch-giveaways:drequan-priest-video-clip",
+      "articleSlug": "free-gta-vi-via-twitch-and-kick-launch-giveaways",
+      "clip": "DreQuan_Priest_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-18T04:48:01.551513+00:00"
     }
   ]
 }
