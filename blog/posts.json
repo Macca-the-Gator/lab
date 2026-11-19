@@ -1,5 +1,72 @@
 [
   {
+    "skip": false,
+    "title": "Report: GameSpot Reports GTA 6's Mandy May Be Hiding Serial Killer Clues",
+    "description": "GameSpot reports that GTA 6 players found clues suggesting Mandy could be a serial killer, including a severed finger in her sink and a grave near her home. Rockstar has not confirmed the theory.",
+    "seoTitle": "GTA 6 Mandy Serial Killer Secret Reported by GameSpot",
+    "seoDescription": "GameSpot reports GTA 6 players found clues suggesting Mandy may be a serial killer, including a severed finger and a grave near her home.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Mandy",
+      "GameSpot",
+      "GTA 6 secrets",
+      "GTA 6 Easter eggs"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Mandy Serial Killer Clues Reported by GameSpot",
+    "socialHook": "GameSpot reports GTA 6 players found a severed finger in Mandy's sink and a grave near her home, sparking serial killer theories.",
+    "instagramCaptionLead": "GameSpot reports GTA 6 players found eerie clues around Mandy's home, including a severed finger in her sink and a freshly dug grave nearby.",
+    "sections": [
+      {
+        "heading": "Spoiler Warning: GameSpot Reports Mandy's Sink and Property Clues",
+        "paragraphs": [
+          "This post contains early GTA 6 story details from GameSpot's report on Mandy. GameSpot says Jason finds a severed finger blocking Mandy's sink while repairing it, and Mandy quickly takes it away. Players who explored her property reportedly found a meat cleaver and tape in her car trunk, acid and saws in her yard, and a newly dug grave beside her home. GameSpot links an IGN post about the discovery and presents the killer theory as fan speculation, not official confirmation."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Romance Restrictions and What Remains Unknown",
+        "paragraphs": [
+          "The same GameSpot report notes that players cannot romance Mandy in GTA 6, even though she flirts with Jason, and that Jason does not reciprocate. Rockstar Games has not confirmed whether Mandy is a serial killer, whether these items are intentional Easter eggs, or how they connect to the main story. The outlet says another explanation is possible."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://cdn.mos.cms.futurecdn.net/gbCJSQbhVyyzDabaLRcaRC-1920-80.jpg",
+    "thumbnailAlt": "GTA 6 Mandy sink scene",
+    "inlineImages": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/gbCJSQbhVyyzDabaLRcaRC-1920-80.jpg",
+        "alt": "GTA 6 Mandy sink scene",
+        "caption": "Image related to GTA 6 Mandy sink discovery from GamesRadar+ coverage of the same story.",
+        "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-sink/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6&#8217;s Mandy Could Be Hiding A Killer Secret",
+        "url": "https://www.gamespot.com/articles/gta-6s-mandy-could-be-hiding-a-killer-secret/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-19",
+    "publishedAt": "2026-11-19T21:41:34.851Z",
+    "slug": "report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6s-mandy-could-be-hiding-a-killer-secret/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille.jpg",
+    "discoverImage": "/blog/assets/covers/report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6 on Xbox Gets Reported VRR Edge Over PS5, per RockstarINTEL",
     "description": "RockstarINTEL, citing Digital Foundry, reports that GTA 6 runs inside a 120Hz VRR container on Xbox Series X|S while PS5 VRR needs 48FPS-plus; the claims are unofficial.",
     "seoTitle": "GTA 6 Xbox Has VRR Edge Over PS5, RockstarINTEL Reports",
