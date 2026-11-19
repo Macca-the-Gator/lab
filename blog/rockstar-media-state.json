@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-6-launch-trailer-released",
     "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
     "gta-6-release-date-review-timing-and-insider-details-ahead-of-no",
     "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending",
@@ -60,10 +59,10 @@
     "report-gamespot-details-xbox-region-trick-to-play-gta-6-early",
     "free-gta-vi-via-twitch-and-kick-launch-giveaways",
     "report-gta-vi-hands-on-gameplay-impressions",
-    "report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra"
+    "report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra",
+    "report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille"
   ],
   "clipHistory": [
-    "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
@@ -98,16 +97,10 @@
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Jason_Duval_Video_Clip.mp4"
+    "Jason_Duval_Video_Clip.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:gta-6-launch-trailer-released:cal-hampton-video-clip",
-      "articleSlug": "gta-6-launch-trailer-released",
-      "clip": "Cal_Hampton_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-16T01:46:23.899211+00:00"
-    },
     {
       "publicationKey": "rockstar-media:report-real-life-gta-6-vehicles-are-driving-around-miami-as-part:drequan-priest-video-clip",
       "articleSlug": "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
@@ -520,6 +513,13 @@
       "clip": "Jason_Duval_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-19T04:38:13.631271+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille:boobie-ike-video-clip",
+      "articleSlug": "report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-19T23:17:44.086354+00:00"
     }
   ]
 }
