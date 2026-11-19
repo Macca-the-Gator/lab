@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "report-gta-6-on-xbox-gets-reported-vrr-edge-over-ps5-per-rocksta",
+    "publicationKey": "report-gta-6-on-xbox-gets-reported-vrr-edge-over-ps5-per-rocksta",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-on-xbox-gets-reported-vrr-edge-over-ps5-per-rocksta/",
+    "sourceUrl": "https://rockstarintel.com/why-xbox-has-a-secret-gta-vi-performance-advantage-over-ps5/",
+    "title": "Report: GTA 6 on Xbox Gets Reported VRR Edge Over PS5, per RockstarINTEL",
+    "description": "RockstarINTEL, citing Digital Foundry, reports that GTA 6 runs inside a 120Hz VRR container on Xbox Series X|S while PS5 VRR needs 48FPS-plus; the claims are unofficial.",
+    "youtubeTitle": "GTA 6 Runs in 120Hz VRR on Xbox Series X|S, Not PS5, Report Says",
+    "socialHook": "RockstarINTEL reports that GTA 6 runs inside a 120Hz VRR container on Xbox Series X|S, while PS5's VRR mode won't engage below 48FPS.",
+    "sections": [
+      {
+        "heading": "Xbox OS-Level VRR Claim",
+        "paragraphs": [
+          "RockstarINTEL reports, citing Digital Foundry's analysis, that Grand Theft Auto VI runs inside a 120Hz Variable Refresh Rate container on Xbox Series X and Xbox Series S at the Xbox OS level, regardless of the game's frame rate, so developers do not need to implement VRR themselves. The publication says this can make the 30FPS-capped game feel smoother on VRR-capable displays, and notes players can enable the setting in Xbox's display menu if their TV or monitor supports it."
+        ]
+      },
+      {
+        "heading": "PS5 VRR Limit and Frame-Rate Notes",
+        "paragraphs": [
+          "The same report states that PlayStation 5's OS-level VRR only works when a game runs above 48FPS, and because GTA VI targets 30FPS, PS5 players cannot use it. RockstarINTEL adds that the game has dropped to 22FPS in demanding areas, and argues the PS5 Pro delivers the most stable frame rate and a sharper image via PSSR, though at a higher cost."
+        ]
+      },
+      {
+        "heading": "What Remains Unverified",
+        "paragraphs": [
+          "These findings are third-party technical reporting, not an official Rockstar Games or Take-Two announcement, and Rockstar has not publicly confirmed them. Precise frame-time measurements, how the Xbox container behaves across every display, and the extent of the PS5 Pro advantage remain unverified, so players should treat the performance claims as reported, not official."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Xbox Series X",
+      "Xbox Series S",
+      "PS5",
+      "PS5 Pro",
+      "VRR",
+      "Digital Foundry"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason-Lucia-vg-screenshot-launch-2-1280.webp",
+    "thumbnailAlt": "GTA VI screenshot used by RockstarINTEL to illustrate its report on Xbox VRR behavior versus PS5",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason-Lucia-vg-screenshot-launch-2-1280.webp",
+        "alt": "GTA VI screenshot used by RockstarINTEL to illustrate its report on Xbox VRR behavior versus PS5",
+        "caption": "Image accompanying the RockstarINTEL report on GTA 6 frame-rate and VRR behavior on Xbox and PS5.",
+        "sourceUrl": "https://rockstarintel.com/why-xbox-has-a-secret-gta-vi-performance-advantage-over-ps5/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Why XBOX Has a Secret GTA VI Performance Advantage Over PS5",
+        "url": "https://rockstarintel.com/why-xbox-has-a-secret-gta-vi-performance-advantage-over-ps5/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 98,
+    "queuedAt": "2026-11-19T13:14:26.923Z"
+  }
+]
