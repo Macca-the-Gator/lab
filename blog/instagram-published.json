@@ -1971,5 +1971,18 @@
     "uploadMode": "github-release",
     "socialScore": 72,
     "publishedAt": "2026-11-19T03:50:52.116Z"
+  },
+  "rockstar-media://rockstar-media:report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra:jason-duval-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra:jason-duval-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra/",
+    "mediaId": "17978054430145982",
+    "permalink": "https://www.instagram.com/reel/Df6PTuZDcio/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Alecrim Dourado (Funk-Remix Infantil Brasileiro)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-19T04:38:11.965826+00:00"
   }
 }

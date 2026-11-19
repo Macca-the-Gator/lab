@@ -1719,5 +1719,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=EYWE6h0WBzU",
     "socialScore": 72,
     "publishedAt": "2026-11-19T03:50:57.401041+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra",
+    "publicationKey": "rockstar-media:report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra:jason-duval-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Jason_Duval_Video_Clip.mp4",
+    "youtubeVideoId": "ooquMxSscc4",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ooquMxSscc4",
+    "publishedAt": "2026-11-19T04:37:29.984239+00:00"
   }
 ]
