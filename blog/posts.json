@@ -1,6 +1,79 @@
 [
   {
     "skip": false,
+    "title": "Report: GTA 6 Vehicle Guide: Cars, Aircraft & Driving Tips",
+    "description": "Game Rant publishes a GTA 6 vehicle hub covering how to steal, purchase, maintain, and drive cars and aircraft in Leonida, including vehicle management and driving mechanics.",
+    "seoTitle": "GTA 6 Vehicle Guide: Cars, Aircraft & Driving Tips",
+    "seoDescription": "Game Rant reports on GTA 6 vehicles, including stealing, purchasing, maintaining, and driving cars and aircraft across Leonida.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "vehicles",
+      "guide"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Vehicle Guide: Cars, Aircraft & Driving Tips Explained",
+    "socialHook": "Game Rant's GTA 6 vehicle guide covers stealing, purchasing, and driving cars and aircraft in Leonida.",
+    "instagramCaptionLead": "Game Rant breaks down GTA 6 vehicles: how to steal, buy, maintain, and drive cars and aircraft in Leonida.",
+    "sections": [
+      {
+        "heading": "What Game Rant Reported",
+        "paragraphs": [
+          "Game Rant published a GTA 6 vehicle hub explaining that players can steal, purchase, and drive a wide variety of vehicles throughout Leonida. The guide includes helicopters and personal vehicles, and covers how to find, use, maintain, and drive the game's various vehicles.",
+          "The report organizes coverage into acquiring vehicles, vehicle management and maintenance, and driving mechanics. This information comes from Game Rant's guide coverage and does not include a Rockstar Games confirmation of the vehicle systems."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "What Remains Unknown",
+        "paragraphs": [
+          "Game Rant's hub does not specify every vehicle model, exact purchase prices, or release details for GTA 6 itself. It also does not confirm which driving features are available at launch versus post-launch updates.",
+          "Readers should treat specific vehicle locations and mechanics as reported by Game Rant until Rockstar Games provides official details or an updated statement. The guide itself is a third-party report, not an official Rockstar announcement."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/gta-6-vehicles.jpg?w=1600&amp;h=900&amp;fit=crop",
+    "thumbnailAlt": "GTA 6 vehicles cars and aircraft guide image",
+    "inlineImages": [
+      {
+        "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/gta-6-vehicles.jpg?w=1600&h=900&fit=crop",
+        "alt": "GTA 6 vehicles cars and aircraft guide image",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://gamerant.com/gta-6-vehicle-guide/"
+      },
+      {
+        "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/gta-6-vehicles.jpg?w=1600&amp;h=900&amp;fit=crop",
+        "alt": "GTA 6 vehicles guide thumbnail",
+        "caption": "Game Rant's GTA 6 vehicle guide covers cars, aircraft, and driving tips in Leonida.",
+        "sourceUrl": "https://gamerant.com/gta-6-vehicle-guide/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 Vehicle Guide: Cars, Aircraft & Driving Tips",
+        "url": "https://gamerant.com/gta-6-vehicle-guide/",
+        "publisher": "gamerant.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-20",
+    "publishedAt": "2026-11-20T03:18:30.428Z",
+    "slug": "report-gta-6-vehicle-guide-cars-aircraft-driving-tips",
+    "sourceUrl": "https://gamerant.com/gta-6-vehicle-guide/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-vehicle-guide-cars-aircraft-driving-tips.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-vehicle-guide-cars-aircraft-driving-tips-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GameSpot Reports GTA 6's Mandy May Be Hiding Serial Killer Clues",
     "description": "GameSpot reports that GTA 6 players found clues suggesting Mandy could be a serial killer, including a severed finger in her sink and a grave near her home. Rockstar has not confirmed the theory.",
     "seoTitle": "GTA 6 Mandy Serial Killer Secret Reported by GameSpot",
