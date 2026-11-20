@@ -1788,5 +1788,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=j6vmSexOsDc",
     "socialScore": 86,
     "publishedAt": "2026-11-20T21:14:02.459838+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-players-are-already-sharing-early-stunt-videos-euro",
+    "publicationKey": "rockstar-media:report-gta-6-players-are-already-sharing-early-stunt-videos-euro:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-players-are-already-sharing-early-stunt-videos-euro/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "Z4oMf6f4Zlo",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Z4oMf6f4Zlo",
+    "publishedAt": "2026-11-20T22:52:44.930824+00:00"
   }
 ]
