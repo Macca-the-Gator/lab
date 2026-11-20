@@ -228563,6 +228563,27 @@
             "subscribersGained": 0
           },
           "qualityFlags": []
+        },
+        {
+          "collectedDate": "2026-11-20",
+          "collectedAt": "2026-11-20T09:12:03.820642+00:00",
+          "actualAgeHours": 222.0,
+          "dataPeriod": {
+            "startDate": "2026-11-11",
+            "endDate": "2026-11-20",
+            "basis": "UTC calendar-day cumulative report"
+          },
+          "metrics": {
+            "views": 57,
+            "engagedViews": 21,
+            "averageViewDuration": 12,
+            "averageViewPercentage": 78.09,
+            "likes": 0,
+            "comments": 0,
+            "shares": 0,
+            "subscribersGained": 0
+          },
+          "qualityFlags": []
         }
       ],
       "daily": [
@@ -241676,6 +241697,24 @@
       "articleUrl": "https://macca-lab.onrender.com/blog/report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille/",
       "youtubeUrl": "https://www.youtube.com/watch?v=LgcHwoDOgeY",
       "publishedAt": "2026-11-19T23:16:59.975648+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "cwypUM_1DBQ": {
+      "slug": "report-gta-6-vehicle-guide-cars-aircraft-driving-tips",
+      "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-vehicle-guide-cars-aircraft-driving-tips/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cwypUM_1DBQ",
+      "publishedAt": "2026-11-20T03:22:58.035338+00:00",
+      "samples": [],
+      "daily": [],
+      "retentionSnapshots": []
+    },
+    "rGPYxgcd5GM": {
+      "slug": "report-gta-6-vehicle-guide-cars-aircraft-driving-tips",
+      "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-vehicle-guide-cars-aircraft-driving-tips/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rGPYxgcd5GM",
+      "publishedAt": "2026-11-20T04:25:47.578230+00:00",
       "samples": [],
       "daily": [],
       "retentionSnapshots": []
