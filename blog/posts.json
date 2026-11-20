@@ -1,5 +1,76 @@
 [
   {
+    "title": "Report: GTA 6 Players Are Already Sharing Early Stunt Videos, Eurogamer Reports",
+    "description": "Eurogamer reports that GTA 6 players are already sharing plane and vehicle stunt videos just days after launch, including a claimed narrow-gap Mallard flight and motorbike jumps. The publication frames these as early community highlights, not official Rockstar announcements.",
+    "seoTitle": "GTA 6 Early Stunt Videos Emerge After Launch",
+    "seoDescription": "Eurogamer reports early GTA 6 players are sharing plane and vehicle stunt videos, including a claimed Mallard gap flight and motorbike jumps.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Eurogamer",
+      "stunts",
+      "community"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Players Share Early Plane and Vehicle Stunt Videos",
+    "socialHook": "Eurogamer reports GTA 6 players are already sharing plane and vehicle stunt videos just days after launch.",
+    "instagramCaptionLead": "Eurogamer reports early GTA 6 stunt videos, including a claimed Mallard gap flight and motorbike jumps, are circulating days after launch.",
+    "sections": [
+      {
+        "heading": "What Eurogamer Reported",
+        "paragraphs": [
+          "Eurogamer reports that GTA 6 players are already posting plane and vehicle stunt videos just days after launch. The publication highlights a TikTok video by user Gstitz that claims to show the “world’s first” Mallard flight sideways through a narrow gap in a large building; Eurogamer notes the stunt took several attempts before it was completed without crashing or broken parts. Eurogamer also points to a video from Hazardous showing motorbikes and cars being flung around the map at promising high-risk jump locations, some of which the publication says are tied to in-game challenges."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "What Remains Unclear",
+        "paragraphs": [
+          "The report presents these videos as early community discoveries and highlights, not as official Rockstar Games announcements. Eurogamer does not independently verify the “world’s first” claim attached to the Mallard stunt, and the publication describes the clips as among the most impressive things seen in GTA 6’s opening week rather than definitive records. It remains unknown how many of the stunts will become widely replicated community challenges or whether Rockstar will formally acknowledge any of them."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-screaming-car.png?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "thumbnailAlt": "GTA 6 artwork showing Lucia in a car",
+    "inlineImages": [
+      {
+        "url": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-screaming-car.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "alt": "GTA 6 artwork showing Lucia in a car",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive"
+      },
+      {
+        "url": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-screaming-car.png?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+        "alt": "GTA 6 artwork showing Lucia in a car",
+        "caption": "GTA 6 artwork used in Eurogamer’s report on early player stunts.",
+        "sourceUrl": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 players are already pulling off high-flying tricks and other impressive stunts, just days after launch",
+        "url": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive",
+        "publisher": "www.eurogamer.net"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-20",
+    "publishedAt": "2026-11-20T21:10:06.923Z",
+    "slug": "report-gta-6-players-are-already-sharing-early-stunt-videos-euro",
+    "sourceUrl": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-players-are-already-sharing-early-stunt-videos-euro.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-players-are-already-sharing-early-stunt-videos-euro-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Report: GTA 6 Vehicle Guide: Cars, Aircraft & Driving Tips",
     "description": "Game Rant publishes a GTA 6 vehicle hub covering how to steal, purchase, maintain, and drive cars and aircraft in Leonida, including vehicle management and driving mechanics.",
