@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
     "gta-6-release-date-review-timing-and-insider-details-ahead-of-no",
     "report-gta-6-leaker-cyberleek-quits-after-meme-coin-crash-ending",
     "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
@@ -60,10 +59,10 @@
     "free-gta-vi-via-twitch-and-kick-launch-giveaways",
     "report-gta-vi-hands-on-gameplay-impressions",
     "report-gamespot-reports-gta-6-gym-trick-lets-jason-and-lucia-tra",
-    "report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille"
+    "report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille",
+    "report-gta-6-vehicle-guide-cars-aircraft-driving-tips"
   ],
   "clipHistory": [
-    "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Jason_Duval_Video_Clip.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:report-real-life-gta-6-vehicles-are-driving-around-miami-as-part:drequan-priest-video-clip",
-      "articleSlug": "report-real-life-gta-6-vehicles-are-driving-around-miami-as-part",
-      "clip": "DreQuan_Priest_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-16T19:46:28.291451+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-release-date-review-timing-and-insider-details-ahead-of-no:gtavi-official-cover-art-landscape",
       "articleSlug": "gta-6-release-date-review-timing-and-insider-details-ahead-of-no",
@@ -520,6 +513,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-19T23:17:44.086354+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-vehicle-guide-cars-aircraft-driving-tips:brian-heder-video-clip",
+      "articleSlug": "report-gta-6-vehicle-guide-cars-aircraft-driving-tips",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-20T04:26:36.009907+00:00"
     }
   ]
 }

@@ -1768,5 +1768,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=cwypUM_1DBQ",
     "socialScore": 70,
     "publishedAt": "2026-11-20T03:22:58.035338+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-vehicle-guide-cars-aircraft-driving-tips",
+    "publicationKey": "rockstar-media:report-gta-6-vehicle-guide-cars-aircraft-driving-tips:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-vehicle-guide-cars-aircraft-driving-tips/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "rGPYxgcd5GM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rGPYxgcd5GM",
+    "publishedAt": "2026-11-20T04:25:47.578230+00:00"
   }
 ]
