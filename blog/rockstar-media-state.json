@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
     "gta-6-pc-port-could-arrive-within-three-months-of-console-launch",
     "gta-6-wanted-system-overhaul-hit-and-run-mechanics-detailed-by-r",
     "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo",
@@ -60,10 +59,10 @@
     "report-gamespot-reports-gta-6-s-mandy-may-be-hiding-serial-kille",
     "report-gta-6-vehicle-guide-cars-aircraft-driving-tips",
     "report-gta-6-players-are-already-sharing-early-stunt-videos-euro",
-    "report-gta-6-twist-wrist-smash-grab-walkthrough-how-to-rob-the-a"
+    "report-gta-6-twist-wrist-smash-grab-walkthrough-how-to-rob-the-a",
+    "report-gta-6-guide-door-code-for-moses-declasse-vamos-vehicle-mi"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027:brian-heder-video-clip",
-      "articleSlug": "report-citi-bank-predicts-new-red-dead-game-could-launch-by-2027",
-      "clip": "Brian_Heder_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-18T01:38:55.401185+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-pc-port-could-arrive-within-three-months-of-console-launch:cal-hampton-video-clip",
       "articleSlug": "gta-6-pc-port-could-arrive-within-three-months-of-console-launch",
@@ -520,6 +513,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-21T04:23:18.169748+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-guide-door-code-for-moses-declasse-vamos-vehicle-mi:gtavi-official-cover-art-landscape",
+      "articleSlug": "report-gta-6-guide-door-code-for-moses-declasse-vamos-vehicle-mi",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-21T21:57:46.833269+00:00"
     }
   ]
 }
