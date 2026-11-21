@@ -1,5 +1,78 @@
 [
   {
+    "title": "Report: 30+ Hidden GTA 6 Controls and Secret Mechanics Reported by RockstarINTEL",
+    "description": "RockstarINTEL reports a community-compiled list of more than 30 hidden GTA 6 controls and secret mechanics spanning combat, driving, and flying, with exact inputs not yet specified.",
+    "seoTitle": "GTA 6 Hidden Controls Secret Mechanics Report",
+    "seoDescription": "RockstarINTEL reports 30+ hidden GTA 6 controls and secret mechanics compiled by community members for combat, driving, and flying.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "controls",
+      "secret mechanics",
+      "guides"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Hidden Controls and Secret Mechanics Reported",
+    "socialHook": "RockstarINTEL reports more than 30 hidden GTA 6 controls and secret mechanics found by the community.",
+    "instagramCaptionLead": "RockstarINTEL shares a community-compiled list of 30+ hidden GTA 6 controls and secret mechanics spanning combat, driving, and flying.",
+    "sections": [
+      {
+        "heading": "What RockstarINTEL Reported",
+        "paragraphs": [
+          "RockstarINTEL published a report listing more than 30 hidden controls and secret mechanics in Grand Theft Auto VI. The outlet said the features cover combat, driving, flying, and interactions with people and items. According to the article, the list was compiled by Reddit users u/fromouterspace1, u/jcgam, and other community members. RockstarINTEL did not present the mechanics as an official Rockstar Games announcement."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "What Remains Unknown",
+        "paragraphs": [
+          "The report does not specify the exact button combinations or identify which hidden interactions are officially implemented versus player discoveries. It is unclear whether Rockstar or Take-Two has acknowledged the list. Specific steps, locations, or cheat codes are not included in the RockstarINTEL summary and should be treated as unverified community reports until confirmed by the publisher."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Related GTA 6 Context",
+        "paragraphs": [
+          "RockstarINTEL also noted in the same article that Grand Theft Auto VI reportedly sold over 30 million copies on its first day, a figure attributed to the outlet rather than an official Take-Two announcement. Separately, PC Gamer reported on unique playlists unlocked by scanning posters in Vice City, but that coverage is distinct from the controls list."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_and_Lucia_17-117_b11r13mg5-1280.webp",
+    "thumbnailAlt": "Jason and Lucia artwork from RockstarINTEL's GTA 6 hidden controls report",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_and_Lucia_17-117_b11r13mg5-1280.webp",
+        "alt": "GTA 6 characters Jason and Lucia featured in RockstarINTEL article",
+        "caption": "Image from RockstarINTEL's report on 30+ hidden GTA 6 controls and secret mechanics.",
+        "sourceUrl": "https://rockstarintel.com/30-hidden-gta-6-controls-and-secret-mechanics-you-probably-missed/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "30+ Hidden GTA 6 Controls and Secret Mechanics You Probably Missed",
+        "url": "https://rockstarintel.com/30-hidden-gta-6-controls-and-secret-mechanics-you-probably-missed/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-21",
+    "publishedAt": "2026-11-21T23:18:55.090Z",
+    "slug": "report-30-hidden-gta-6-controls-and-secret-mechanics-reported-by",
+    "sourceUrl": "https://rockstarintel.com/30-hidden-gta-6-controls-and-secret-mechanics-you-probably-missed/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-30-hidden-gta-6-controls-and-secret-mechanics-reported-by.jpg",
+    "discoverImage": "/blog/assets/covers/report-30-hidden-gta-6-controls-and-secret-mechanics-reported-by-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6 Guide: Door Code for Moses' Declasse Vamos Vehicle Mission",
     "description": "Video Games Chronicle publishes a guide revealing the 2727 door code needed to steal the Declasse Vamos for Moses in Grand Theft Auto 6, explaining the environmental clue location and noting a small chance the code could vary.",
     "seoTitle": "GTA 6 Moses Declasse Vamos Door Code Guide",
