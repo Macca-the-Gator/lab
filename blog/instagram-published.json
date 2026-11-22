@@ -2194,5 +2194,18 @@
     "uploadMode": "github-release",
     "socialScore": 82,
     "publishedAt": "2026-11-22T21:50:52.460Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui/",
+    "mediaId": "18109452611572772",
+    "permalink": "https://www.instagram.com/reel/DgD1u1QHIr4/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Pegue o Gato (Remix)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-22T22:07:01.424253+00:00"
   }
 }

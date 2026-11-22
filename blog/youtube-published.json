@@ -1895,5 +1895,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=3YAJKrrS5-8",
     "socialScore": 82,
     "publishedAt": "2026-11-22T21:51:00.444779+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui",
+    "publicationKey": "rockstar-media:report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "TIhYspIs3LM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TIhYspIs3LM",
+    "publishedAt": "2026-11-22T22:05:30.335235+00:00"
   }
 ]
