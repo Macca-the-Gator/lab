@@ -1,6 +1,87 @@
 [
   {
     "skip": false,
+    "title": "Report: GTA VI 60FPS Glitch Discovered on Xbox Series X|S via Quick Resume",
+    "description": "RockstarINTEL reports a player-discovered glitch unlocks frame rate on Xbox consoles, though with unstable performance and sped-up gameplay physics.",
+    "seoTitle": "GTA VI 60FPS Glitch Xbox Series X|S Quick Resume",
+    "seoDescription": "RockstarINTEL details a player-discovered glitch unlocking higher frame rates in GTA VI on Xbox Series X|S via Quick Resume, though gameplay physics run at do",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Glitch",
+      "Xbox Series X|S",
+      "Frame Rate",
+      "Quick Resume"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA VI 60FPS Glitch on Xbox Series X|S: How It Works",
+    "socialHook": "A glitch lets GTA VI exceed 30FPS on Xbox Series X|S using Quick Resume, but speeds up gameplay physics.",
+    "instagramCaptionLead": "GTA VI players find a glitch unlocking higher frame rates on Xbox, but physics run at double speed.",
+    "sections": [
+      {
+        "heading": "Glitch Unlocks Higher Frame Rates on Xbox Series X|S",
+        "paragraphs": [
+          "RockstarINTEL reports that a player-discovered glitch allows Grand Theft Auto VI to exceed its 30FPS console cap on Xbox Series X and Series S.",
+          "The exploit relies on the console’s Quick Resume feature and requires a 120Hz display, according to the outlet.",
+          "Instead of a stable 60FPS, the glitch unlocks the frame rate entirely, typically yielding performance in the 40FPS range with occasional cutscenes reaching 100FPS."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Gameplay Physics Run at Double Speed",
+        "paragraphs": [
+          "The publication notes a significant caveat: because the game’s physics are tied to frame rate, unlocking it causes gameplay animations to run at twice the intended speed.",
+          "Cutscenes remain unaffected, but the accelerated physics may appeal to speedrunners while detracting from normal play.",
+          "RockstarINTEL also warns that the frame rate is unstable and that variable refresh rate (VRR) can mitigate but not eliminate the issue."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "Discovery Credited to Reddit User; Patch Likely",
+        "paragraphs": [
+          "The glitch was first spotted by Reddit user u/Meowwie64 and is exclusive to Xbox due to its dependence on Quick Resume.",
+          "RockstarINTEL speculates that Rockstar Games may patch the exploit or request Microsoft to block it on the platform level.",
+          "Players interested in testing the method are advised to do so soon, as the workaround may not persist in future updates."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_Duval_11-019l5gj6-1280.webp",
+    "thumbnailAlt": "GTA VI 60FPS glitch demonstration on Xbox Series X|S",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_Duval_11-019l5gj6-1280.webp",
+        "alt": "GTA VI 60FPS glitch demonstration on Xbox Series X|S",
+        "caption": "RockstarINTEL's featured image for the glitch report.",
+        "sourceUrl": "https://rockstarintel.com/gta-vi-60fps-glitch-discovered-and-heres-how-to-do-it/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI 60FPS Glitch Discovered And Here&#8217;s How To Do It",
+        "url": "https://rockstarintel.com/gta-vi-60fps-glitch-discovered-and-heres-how-to-do-it/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-22",
+    "publishedAt": "2026-11-22T21:47:06.563Z",
+    "slug": "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-60fps-glitch-discovered-and-heres-how-to-do-it/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GTA 6 Dubious Provenance Walkthrough: Should You Trust Halifax?",
     "description": "VideoGamesChronicle publishes a complete walkthrough for the three-part Dubious Provenance mission in Grand Theft Auto 6, detailing how to start the mission, the choice to hand over the statue to Benedict Halifax, and the final decision to spare or shoot him. The guide explains mission triggers, rew",
     "seoTitle": "GTA 6 Dubious Provenance Walkthrough: Trust Halifax or Shoot Him",

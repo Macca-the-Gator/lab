@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui",
+    "publicationKey": "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui",
+    "forceRepublish": false,
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui/",
+    "sourceUrl": "https://rockstarintel.com/gta-vi-60fps-glitch-discovered-and-heres-how-to-do-it/",
+    "title": "Report: GTA VI 60FPS Glitch Discovered on Xbox Series X|S via Quick Resume",
+    "description": "RockstarINTEL reports a player-discovered glitch unlocks frame rate on Xbox consoles, though with unstable performance and sped-up gameplay physics.",
+    "youtubeTitle": "GTA VI 60FPS Glitch on Xbox Series X|S: How It Works",
+    "socialHook": "A glitch lets GTA VI exceed 30FPS on Xbox Series X|S using Quick Resume, but speeds up gameplay physics.",
+    "sections": [
+      {
+        "heading": "Glitch Unlocks Higher Frame Rates on Xbox Series X|S",
+        "paragraphs": [
+          "RockstarINTEL reports that a player-discovered glitch allows Grand Theft Auto VI to exceed its 30FPS console cap on Xbox Series X and Series S.",
+          "The exploit relies on the console’s Quick Resume feature and requires a 120Hz display, according to the outlet.",
+          "Instead of a stable 60FPS, the glitch unlocks the frame rate entirely, typically yielding performance in the 40FPS range with occasional cutscenes reaching 100FPS."
+        ]
+      },
+      {
+        "heading": "Gameplay Physics Run at Double Speed",
+        "paragraphs": [
+          "The publication notes a significant caveat: because the game’s physics are tied to frame rate, unlocking it causes gameplay animations to run at twice the intended speed.",
+          "Cutscenes remain unaffected, but the accelerated physics may appeal to speedrunners while detracting from normal play.",
+          "RockstarINTEL also warns that the frame rate is unstable and that variable refresh rate (VRR) can mitigate but not eliminate the issue."
+        ]
+      },
+      {
+        "heading": "Discovery Credited to Reddit User; Patch Likely",
+        "paragraphs": [
+          "The glitch was first spotted by Reddit user u/Meowwie64 and is exclusive to Xbox due to its dependence on Quick Resume.",
+          "RockstarINTEL speculates that Rockstar Games may patch the exploit or request Microsoft to block it on the platform level.",
+          "Players interested in testing the method are advised to do so soon, as the workaround may not persist in future updates."
+        ]
+      }
+    ],
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Glitch",
+      "Xbox Series X|S",
+      "Frame Rate",
+      "Quick Resume"
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_Duval_11-019l5gj6-1280.webp",
+    "thumbnailAlt": "GTA VI 60FPS glitch demonstration on Xbox Series X|S",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/Jason_Duval_11-019l5gj6-1280.webp",
+        "alt": "GTA VI 60FPS glitch demonstration on Xbox Series X|S",
+        "caption": "RockstarINTEL's featured image for the glitch report.",
+        "sourceUrl": "https://rockstarintel.com/gta-vi-60fps-glitch-discovered-and-heres-how-to-do-it/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA VI 60FPS Glitch Discovered And Here&#8217;s How To Do It",
+        "url": "https://rockstarintel.com/gta-vi-60fps-glitch-discovered-and-heres-how-to-do-it/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "socialScore": 82,
+    "queuedAt": "2026-11-22T21:47:06.575Z"
+  }
+]
