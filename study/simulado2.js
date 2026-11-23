@@ -1,7 +1,7 @@
 const simulados2 = {
   distribuídos: {
     titulo: 'Simulado 2 · Sistemas Distribuídos',
-    gabarito: 'C, A, C, A, C, D, E, C, B, D',
+    gabarito: 'C, A, C, A, C, D, E, C, B, A',
     questoes: [
       ['O que é verdadeiro sobre chamadas de procedimentos remotos?', ['Os servidores requisitam serviços dos clientes mediante uma interface HTTP.', 'Servidores necessitam obrigatoriamente conhecer a identidade dos clientes.', 'Os clientes executam chamadas remotas, passando como parâmetros as funções que necessitam ser executadas em um computador remoto.', 'Servidores necessitam conhecer a quantidade de clientes antes de executar as funções remotas.', 'Os clientes implementam a camada de apresentação e de persistência dos dados.'], 2, 'O cliente invoca a operação remota e envia seus argumentos; o servidor executa o procedimento e devolve o resultado. RPC não exige HTTP nem que o servidor conheça previamente todos os clientes.'],
       ['Uma transferência de 20 itens entre almoxarifados sofre uma pane depois de 8 itens. Qual propriedade garante consistência dos dados?', ['Atomicidade.', 'Consistência.', 'Isolamento.', 'Durabilidade.', 'Controle de concorrência.'], 0, 'Atomicidade garante que a transação inteira seja concluída ou revertida; assim, os 8 itens não ficam registrados como uma transferência incompleta.'],
@@ -12,7 +12,7 @@ const simulados2 = {
       ['Qual técnica permitia alternar tarefas nos primeiros sistemas operacionais não preemptivos?', ['Semáforos.', 'Mutex.', 'Threads.', 'Deadlocks.', 'Corrotinas.'], 4, 'Corrotinas cedem explicitamente o controle umas às outras e permitem alternância cooperativa, sem preempção do escalonador.'],
       ['Uma API cria somente processos para explorar paralelismo na execução de um programa. Qual API é essa?', ['OpenMP.', 'Cilk++.', 'MPI (Message Passing Interface).', 'CUDA (Compute Unified Device Architecture).', 'POSIX.'], 2, 'MPI cria processos e coordena a comunicação entre eles, normalmente em sistemas distribuídos. OpenMP e POSIX threads são associados a paralelismo por threads.'],
       ['Sobre paralelismo de dados: I. a computação é assíncrona; II. a mesma tarefa é executada em subconjuntos distintos dos dados; III. o paralelismo é proporcional ao tamanho da saída. Quais são verdadeiras?', ['I e III.', 'Apenas II.', 'II e III.', 'Nenhuma.', 'Todas.'], 1, 'A característica central é aplicar a mesma operação a partes diferentes dos dados. Assincronia não é requisito, e o paralelismo depende da divisão do trabalho, não do tamanho da saída.'],
-      ['A figura mostra vários processadores ligados a uma memória e discos compartilhados. Como se denomina a arquitetura?', ['Memória compartilhada.', 'Nada compartilhado.', 'Discos compartilhados.', 'Tudo compartilhado.', 'Hierárquica.'], 3, 'Os processadores compartilham memória e discos; por isso a arquitetura é de tudo compartilhado.']
+      ['A figura mostra vários processadores ligados a uma memória e discos compartilhados. Como se denomina a arquitetura?', ['Memória compartilhada.', 'Nada compartilhado.', 'Discos compartilhados.', 'Tudo compartilhado.', 'Hierárquica.'], 0, 'A arquitetura é de memória compartilhada: os processadores acessam a mesma memória principal, além dos discos comuns. Essa é a denominação usada no gabarito da questão original.']
     ]
   },
   redes: {
