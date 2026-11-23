@@ -1915,5 +1915,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=RlQzNcNCfus",
     "socialScore": 86,
     "publishedAt": "2026-11-23T02:51:55.348481+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti",
+    "publicationKey": "rockstar-media:report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Cal_Hampton_Video_Clip.mp4",
+    "youtubeVideoId": "b61gLTQn-ZI",
+    "youtubeUrl": "https://www.youtube.com/watch?v=b61gLTQn-ZI",
+    "publishedAt": "2026-11-23T04:05:48.586512+00:00"
   }
 ]

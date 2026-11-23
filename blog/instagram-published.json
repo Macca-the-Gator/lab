@@ -2219,5 +2219,18 @@
     "uploadMode": "github-release",
     "socialScore": 86,
     "publishedAt": "2026-11-23T02:51:49.501Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti:cal-hampton-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti:cal-hampton-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti/",
+    "mediaId": "18112221194461538",
+    "permalink": "https://www.instagram.com/reel/DgEe3Vxj6_6/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Pegue o Gato (Remix)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-23T04:06:33.696524+00:00"
   }
 }

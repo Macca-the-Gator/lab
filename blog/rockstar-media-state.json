@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo",
     "fan-recreates-gta-6-trailer-in-gta-5-highlighting-massive-visual",
     "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
     "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
@@ -60,10 +59,10 @@
     "report-gta-6-twist-wrist-smash-grab-walkthrough-how-to-rob-the-a",
     "report-gta-6-guide-door-code-for-moses-declasse-vamos-vehicle-mi",
     "report-30-hidden-gta-6-controls-and-secret-mechanics-reported-by",
-    "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui"
+    "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui",
+    "report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti"
   ],
   "clipHistory": [
-    "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo:gtavi-official-cover-art-landscape",
-      "articleSlug": "dan-houser-explains-why-he-s-staying-away-from-gta-6-and-open-wo",
-      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-19T21:19:42.904593+00:00"
-    },
     {
       "publicationKey": "rockstar-media:fan-recreates-gta-6-trailer-in-gta-5-highlighting-massive-visual:boobie-ike-video-clip",
       "articleSlug": "fan-recreates-gta-6-trailer-in-gta-5-highlighting-massive-visual",
@@ -520,6 +513,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-22T22:07:02.731137+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti:cal-hampton-video-clip",
+      "articleSlug": "report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-23T04:06:35.405509+00:00"
     }
   ]
 }
