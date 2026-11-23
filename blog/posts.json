@@ -1,5 +1,82 @@
 [
   {
+    "title": "Report: GTA 6 Ocean View Hotel Guide: Where to Find the Vapid '55 Rapid Stainer",
+    "description": "Video Games Chronicle has published a GTA 6 guide to the Ocean View Hotel, a returning Vice City landmark, and the '55 Rapid Stainer parked outside for Ultimate Edition owners.",
+    "seoTitle": "GTA 6 Ocean View Hotel: find the Vapid '55 Rapid Stainer",
+    "seoDescription": "VGC's GTA 6 Ocean View Hotel guide explains where the Vice City landmark sits and how to grab the '55 Rapid Stainer from the Ultimate Edition pack.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Ocean View Hotel",
+      "Vapid '55 Rapid Stainer",
+      "Vice City",
+      "Vintage Vice City pack"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6: Ocean View Hotel hides the Vapid '55 Rapid Stainer — VGC guide",
+    "socialHook": "VGC's GTA 6 guide says the Ocean View Hotel on Vice City's waterfront holds the '55 Rapid Stainer from the Ultimate Edition.",
+    "instagramCaptionLead": "GTA 6's Ocean View Hotel sits on Vice City's waterfront, and VGC says the '55 Rapid Stainer is parked outside for Ultimate Edition owners.",
+    "sections": [
+      {
+        "heading": "Where the Ocean View Hotel sits in GTA 6",
+        "paragraphs": [
+          "Video Games Chronicle reports that the Ocean View Hotel, a returning landmark from GTA: Vice City, can be found on Vice City's waterfront, mirroring its real-life counterpart, The Clevelander Hotel in Miami. VGC says you cannot miss the building, pointing to the huge glowing signs at the front of the hotel and the procession of supercars regularly parked outside it.",
+          "The same VGC guide states that this part of the map becomes available as soon as players get free access to the open world at the beginning of Chapter 1, so the hotel is not locked behind late-game progress."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "What the hotel gives you: the '55 Rapid Stainer",
+        "paragraphs": [
+          "According to VGC, the main reason to visit is to pick up one of the cars included in the Grand Theft Auto 6 Ultimate Edition: the '55 Rapid Stainer, which the publication says can be found outside The Ocean View Hotel as part of the game's Vintage Vice City pack.",
+          "VGC notes the placement is a deliberate reference, echoing both a similar car parked outside the real hotel in Miami and the car that sat outside The Ocean View in GTA: Vice City. Note: this section contains a spoiler for a vehicle collectible location."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What is confirmed and what is not",
+        "paragraphs": [
+          "These details come from a third-party guide published by Video Games Chronicle, not from a Rockstar Games or Take-Two announcement, so they should be treated as reported guide information rather than official confirmation.",
+          "VGC has not published a map coordinate breakdown, screenshot-by-screenshot walkthrough or further Vintage Vice City pack item locations in the summary available, so it remains unclear whether other bonuses in the pack are tied to specific Vice City landmarks."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://www.videogameschronicle.com/files/2026/06/VINTAGE_VICE_CITY_PACK_01.jpg",
+    "thumbnailAlt": "VGC's promotional image for the GTA 6 Vintage Vice City pack, tied to the Ocean View Hotel guide",
+    "inlineImages": [
+      {
+        "url": "https://www.videogameschronicle.com/files/2026/06/VINTAGE_VICE_CITY_PACK_01.jpg",
+        "alt": "Promotional artwork for the GTA 6 Vintage Vice City pack from Video Games Chronicle",
+        "caption": "VGC's guide covers the Vintage Vice City pack, including the '55 Rapid Stainer at the Ocean View Hotel.",
+        "sourceUrl": "https://www.videogameschronicle.com/guide/ocean-view-hotel-gta-6-location-guide-where-to-find-the-vapid-55-stainer/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ocean View Hotel GTA 6 Location Guide: Where to find the Vapid &#8217;55 Stainer",
+        "url": "https://www.videogameschronicle.com/guide/ocean-view-hotel-gta-6-location-guide-where-to-find-the-vapid-55-stainer/",
+        "publisher": "www.videogameschronicle.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-23",
+    "publishedAt": "2026-11-23T12:45:37.043Z",
+    "slug": "report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r",
+    "sourceUrl": "https://www.videogameschronicle.com/guide/ocean-view-hotel-gta-6-location-guide-where-to-find-the-vapid-55-stainer/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Report: GTA 6: Arthur Morgan’s Hat Location from Red Dead Redemption 2",
     "description": "VideoGamesChronicle details how to buy Arthur Morgan's iconic hat from a yard sale in GTA 6 for $35, available from Chapter 2 near Port Gellhorn. GamesRadar corroborates the location and price, while Rockstar has not officially commented on the crossover Easter egg.",
