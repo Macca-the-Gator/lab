@@ -2256,5 +2256,18 @@
     "uploadMode": "github-release",
     "socialScore": 64,
     "publishedAt": "2026-11-24T01:16:03.407Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-6-super-mario-bros-easter-egg-location-and-steps:drequan-priest-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-6-super-mario-bros-easter-egg-location-and-steps:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-super-mario-bros-easter-egg-location-and-steps/",
+    "mediaId": "18112179572216009",
+    "permalink": "https://www.instagram.com/reel/DgG846HFWvg/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Pegue o Gato (Remix)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-24T03:07:20.363494+00:00"
   }
 }

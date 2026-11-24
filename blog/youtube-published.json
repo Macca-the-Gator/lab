@@ -1944,5 +1944,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=NGsjz2c8edM",
     "socialScore": 64,
     "publishedAt": "2026-11-24T01:16:10.119287+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-super-mario-bros-easter-egg-location-and-steps",
+    "publicationKey": "rockstar-media:report-gta-6-super-mario-bros-easter-egg-location-and-steps:drequan-priest-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-super-mario-bros-easter-egg-location-and-steps/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "DreQuan_Priest_Video_Clip.mp4",
+    "youtubeVideoId": "n6zAH2zkv2k",
+    "youtubeUrl": "https://www.youtube.com/watch?v=n6zAH2zkv2k",
+    "publishedAt": "2026-11-24T03:06:39.550912+00:00"
   }
 ]
