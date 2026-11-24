@@ -1,5 +1,18 @@
 [
   {
+    "slug": "report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me",
+    "title": "Report: GTA 6 Has A Secret Mission That Feels Like Hard Target Meets Saw",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-has-a-secret-mission-that-feels-like-hard-target-meets-saw/",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/gta-6-has-a-secret-mission-that-feels-like-hard-target-meets-saw/",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JRm13Q2hhWXRWeDZoaV9uYk1TLVVIc2Q3Yy01S0Z0ajBmbmNfWWZHZ1doYm1YYUZNVUp6ZUkwR09NZGFHbkdjMUVUVUpwY3RReklzWTZ1ekV3S2xiWnhQbQ?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rY05Oc1dhbDNBbnpiMnYwU19fd0hmMThWbnVoMWlwMlJwd3hqYWc2RGVOQm9QYS16WktSZnVfb2tadDJUTHpIUVRBQmh4ZzZLQVIwaXh4d1lING9pSkVJQXlNTDdlRjdfcHN3?oc=5"
+    ],
+    "date": "2026-11-24",
+    "status": "published",
+    "hash": "91edcb35ab43c5a86b520fad37ba7308b7e2df1524ae400831dbccdcd38efb85"
+  },
+  {
     "slug": "report-gta-6-car-service-walkthrough-how-to-steal-the-schafter-v",
     "title": "Report: GTA 6 Car Service walkthrough: how to steal the Schafter V12",
     "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-car-service-walkthrough-how-to-steal-the-schafter-v12/",
@@ -5609,16 +5622,5 @@
     "date": "2026-09-29",
     "status": "published",
     "hash": "63be0e62bdc62a4a8f0c642aec23745f0c08a7ce704d262b022db0703c94f379"
-  },
-  {
-    "slug": "rockstar-tightens-mod-rules-ahead-of-gta-6-targeting-story-map-and-third-party-m",
-    "title": "Rockstar Tightens Mod Rules Ahead of GTA 6, Targeting Story, Map and Third-Party Mods",
-    "sourceUrl": "https://www.eurogamer.net/gta-6-rockstar-games-mod-guidelines-restrictions",
-    "sourceUrls": [
-      "https://www.eurogamer.net/gta-6-rockstar-games-mod-guidelines-restrictions"
-    ],
-    "date": "2026-09-29",
-    "status": "published",
-    "hash": "4dda079adea90ef77583230c03c8a191e9bad08e8710ce067f6ff352c9b831c7"
   }
 ]
