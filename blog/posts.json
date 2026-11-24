@@ -1,5 +1,72 @@
 [
   {
+    "skip": false,
+    "title": "Report: GTA 6 Super Mario Bros Easter Egg: Location and Steps",
+    "description": "GameSpot details a GTA 6 Easter egg in Lummox County where players smash an invisible block to hear a nostalgic tune and collect caps referencing Jason and Lucia.",
+    "seoTitle": "GTA 6 Super Mario Bros Easter Egg Location",
+    "seoDescription": "GameSpot reports a GTA 6 Easter egg near Mount Kalaga where players smash an invisible block to get a retro tune and caps for Jason and Lucia.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Easter eggs",
+      "Super Mario Bros",
+      "Lummox County"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Super Mario Bros Easter Egg: How to Find the Hidden Caps",
+    "socialHook": "GameSpot details a GTA 6 Easter egg where players smash an invisible block to collect Jason and Lucia caps.",
+    "instagramCaptionLead": "GameSpot shows where to find a GTA 6 Super Mario Bros Easter egg in Lummox County and the two caps it awards.",
+    "sections": [
+      {
+        "heading": "Where to find the GTA 6 Super Mario Easter egg",
+        "paragraphs": [
+          "GameSpot reports that the Easter egg is located in Lummox County, north of Mount Kalaga, at the end of a winding road in the woods. The area resembles a Super Mario Bros. stage, according to GameSpot."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "How to activate the hidden block",
+        "paragraphs": [
+          "GameSpot's steps say players should find a purple tarp with a bong, smoke it, then climb the structure in front of them. A plume of smoke marks a column where an invisible block appears when the player stands in it."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What players receive",
+        "paragraphs": [
+          "According to GameSpot, jumping into the block does not award gold coins. Instead, it triggers a nostalgic tune and two caps embroidered with the letters J and L, referencing Jason and Lucia. GameSpot describes the caps as nods to Nintendo's Mario and Luigi."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: GTA 6 Super Mario Bros Easter Egg: Location and Steps",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6 Has A Super Mario Bros. Easter Egg, And It&#8217;s A Trip",
+        "url": "https://www.gamespot.com/articles/gta-6-has-a-super-mario-bros-easter-egg-and-its-a-trip/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-24",
+    "publishedAt": "2026-11-24T00:52:51.647Z",
+    "slug": "report-gta-6-super-mario-bros-easter-egg-location-and-steps",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-has-a-super-mario-bros-easter-egg-and-its-a-trip/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-super-mario-bros-easter-egg-location-and-steps.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-super-mario-bros-easter-egg-location-and-steps-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6 Ocean View Hotel Guide: Where to Find the Vapid '55 Rapid Stainer",
     "description": "Video Games Chronicle has published a GTA 6 guide to the Ocean View Hotel, a returning Vice City landmark, and the '55 Rapid Stainer parked outside for Ultimate Edition owners.",
     "seoTitle": "GTA 6 Ocean View Hotel: find the Vapid '55 Rapid Stainer",

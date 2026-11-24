@@ -1,5 +1,19 @@
 [
   {
+    "slug": "report-gta-6-super-mario-bros-easter-egg-location-and-steps",
+    "title": "Report: GTA 6 Super Mario Bros Easter Egg: Location and Steps",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-has-a-super-mario-bros-easter-egg-and-its-a-trip/",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/gta-6-has-a-super-mario-bros-easter-egg-and-its-a-trip/",
+      "https://www.videogameschronicle.com/news/one-of-gta-6s-most-elaborate-easter-eggs-has-been-solved/",
+      "https://gamerant.com/gta-6-kraken-location-easter-egg/",
+      "https://gamerant.com/gta-6-ghost-ship-lighthouse-mystery-easter-egg/"
+    ],
+    "date": "2026-11-24",
+    "status": "published",
+    "hash": "e40e3641a790440c851f65277c81f4979b3ede13d87dd543b547e114a7ca1cc7"
+  },
+  {
     "slug": "report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r",
     "title": "Report: GTA 6 Ocean View Hotel Guide: Where to Find the Vapid '55 Rapid Stainer",
     "sourceUrl": "https://www.videogameschronicle.com/guide/ocean-view-hotel-gta-6-location-guide-where-to-find-the-vapid-55-stainer/",
@@ -5602,20 +5616,5 @@
     "date": "2026-09-29",
     "status": "published",
     "hash": "b6c76167dac68078ab7881e1719751560aa0073819b4ee1162ee4ebc660949a1"
-  },
-  {
-    "slug": "gta-6-roundup-release-date-map-trailers-and-everything-we-know",
-    "title": "GTA 6 Roundup: Release Date, Map, Trailers and Everything We Know",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrQXlmOFZaZHdTOXJrRXRiZGVpdmdtamFPdUc3ZTdJT3NZM3hHSlpZc2JqMHJMdGpvVEx1X2xUQU5BaTZfWFFqTmlDX1Y0WjVMamVmRkJ6WVVXdWhm?oc=5&hl=en-US&gl=US&ceid=US:en",
-    "sourceUrls": [
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOOUVvTUkzcHhESFJBUTZRcWJBclcxTTgtblUzcTdPRUc3WHBPRDdKRXltcGdMRG5hMTdSZnY0ZmdPLVEtX0pDR3ZOS2trWDF1?oc=5",
-      "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrQXlmOFZaZHdTOXJrRXRiZGVpdmdtamFPdUc3ZTdJT3NZM3hHSlpZc2JqMHJMdGpvVEx1X2xUQU5BaTZfWFFqTmlDX1Y0WjVMamVmRkJ6WVVXdWhm?oc=5",
-      "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZVJIemZVd3dGM0pwNzY5SFRUak1HNFVZdURkWEd3bFJoWjVkVGtOR0tNWUtxY2RpMnpYMjRBUUdhaXZpUEVjYXphZFJseS1WM0l4aVdoRng5VTJaWTM3UWF1ekRmd2dNWUh3N1l3WVNzTWR2UkNjbzdwWmRfeTE3YTROcjZjVTVLb1BfTEZSTEplbTRQd1BKX2Y4Y0dsb3lzaThWaUF6UQ?oc=5",
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOOUVvTUkzcHhESFJBUTZRcWJBclcxTTgtblUzcTdPRUc3WHBPRDdKRXltcGdMRG5hMTdSZnY0ZmdPLVEtX0pDR3ZOS2trWDF1?oc=5",
-      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jTmM0cU5KTm54YUhGejNtejhTUFVONloyQ0hLenkwbS1zN295YWFkT2xSTjZlS3FXZ21CZlRQLVVMdkNOSmR1d0dBNmpXRHJKcEpOTk9BakpleEVlVEE?oc=5"
-    ],
-    "date": "2026-09-29",
-    "status": "published",
-    "hash": "32a31c8187d3d490e4aedfdab4b153c11f7b8599b06b360ddcda10fe93637cb2"
   }
 ]
