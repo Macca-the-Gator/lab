@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
     "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
     "extended-gta-6-launch-trailer-airing-on-tv",
     "gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r",
@@ -60,10 +59,10 @@
     "report-30-hidden-gta-6-controls-and-secret-mechanics-reported-by",
     "report-gta-vi-60fps-glitch-discovered-on-xbox-series-x-s-via-qui",
     "report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti",
-    "report-gta-6-super-mario-bros-easter-egg-location-and-steps"
+    "report-gta-6-super-mario-bros-easter-egg-location-and-steps",
+    "report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r"
   ],
   "clipHistory": [
-    "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by:cal-hampton-video-clip",
-      "articleSlug": "report-gta-6-pre-orders-outpace-call-of-duty-modern-warfare-2-by",
-      "clip": "Cal_Hampton_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-20T20:12:50.949459+00:00"
-    },
     {
       "publicationKey": "rockstar-media:report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c:brian-heder-video-clip",
       "articleSlug": "report-rockstar-releases-three-beer-brands-based-on-gta-6-game-c",
@@ -520,6 +513,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-24T03:07:21.984182+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r:gtavi-official-cover-art-landscape",
+      "articleSlug": "report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-24T07:11:44.394361+00:00"
     }
   ]
 }
