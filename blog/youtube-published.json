@@ -1975,5 +1975,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=G8N3UVYumNw",
     "socialScore": 70,
     "publishedAt": "2026-11-24T11:00:19.706069+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me",
+    "publicationKey": "rockstar-media:report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me:boobie-ike-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Boobie_Ike_Video_Clip.mp4",
+    "youtubeVideoId": "ft90rAxX2HU",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ft90rAxX2HU",
+    "publishedAt": "2026-11-25T01:09:15.493468+00:00"
   }
 ]
