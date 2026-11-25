@@ -1,5 +1,81 @@
 [
   {
+    "skip": false,
+    "title": "Report: GTA 6: Full Vice City retro easter egg walkthrough, all rewards",
+    "description": "VGC reports a GTA 6 retro Vice City easter egg walkthrough. Players can unlock a PS2-style Vice City and earn Tommy Vercetti's shirt and a Malibu motorcycle by visiting 12 substations in order, per VGC. Contains easter egg spoilers.",
+    "seoTitle": "GTA 6 Vice City retro easter egg walkthrough and all rewards",
+    "seoDescription": "VGC publishes a GTA 6 guide to the retro Vice City easter egg, including substation steps, button orders, and rewards such as Tommy Vercetti's shirt.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Vice City easter egg",
+      "walkthrough",
+      "rewards",
+      "Tommy Vercetti",
+      "Malibu motorcycle"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Vice City retro easter egg: full walkthrough and all rewards",
+    "socialHook": "VGC reports a full GTA 6 retro Vice City easter egg walkthrough, with steps for 12 substations and rewards including Tommy Vercetti's shirt.",
+    "instagramCaptionLead": "GTA 6 hides a retro Vice City easter egg. VGC’s guide reveals the substation order, button presses, and all rewards, including Tommy Vercetti’s shirt and the Malibu motorcycle.",
+    "sections": [
+      {
+        "heading": "VGC Guide Covers Retro Vice City Easter Egg",
+        "paragraphs": [
+          "Videogameschronicle (VGC) reports that Grand Theft Auto 6 contains a retro Vice City easter egg built for players nostalgic for older GTA games. According to VGC, completing a set of reasonably complex tasks in a specific order unlocks a PlayStation 2–style version of Vice City. VGC credits Memeio on X with bringing the secret to its attention. The publication states that successful players earn Tommy Vercetti’s shirt and an exclusive Malibu motorcycle. This walkthrough contains GTA 6 easter egg spoilers."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Substation Steps and Reported Restrictions",
+        "paragraphs": [
+          "VGC’s guide identifies 12 Leonida Power and Light substations dotted across Leonida. The substation letters, when combined, spell “Life Is Passing Me By,” a famous Vice City cheat code. Players must visit each substation in the correct sequence and press the button indicated by tape messages such as “Press A” or “Press D.” VGC warns that using RydeMe fast travel or auto-driving with Jason or Lucia breaks the easter egg. The report does not say whether Rockstar Games officially confirmed the secret."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What Remains Unknown",
+        "paragraphs": [
+          "VGC does not state whether Rockstar Games has acknowledged the retro Vice City easter egg or whether any further hidden stages exist beyond Tommy Vercetti’s shirt and the Malibu motorcycle. The guide remains a third-party player discovery reported by VGC rather than an official Rockstar announcement."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Full-Vice-City-retro-easter-egg-walkthrough-all-rewards-29.jpg",
+    "thumbnailAlt": "GTA 6 retro Vice City easter egg walkthrough image from VGC",
+    "inlineImages": [
+      {
+        "url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Full-Vice-City-retro-easter-egg-walkthrough-all-rewards-29.jpg",
+        "alt": "GTA 6 retro Vice City easter egg walkthrough screenshot",
+        "caption": "VGC’s guide to the GTA 6 retro Vice City easter egg and its rewards.",
+        "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-vice-city-retro-easter-egg-walkthrough-rewards/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6: Full Vice City retro easter egg walkthrough, all rewards",
+        "url": "https://www.videogameschronicle.com/guide/gta-6-vice-city-retro-easter-egg-walkthrough-rewards/",
+        "publisher": "www.videogameschronicle.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": true,
+    "date": "2026-11-25",
+    "publishedAt": "2026-11-25T04:16:08.624Z",
+    "slug": "report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew",
+    "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-vice-city-retro-easter-egg-walkthrough-rewards/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew-discover.jpg"
+  },
+  {
     "title": "Report: GTA 6 Has A Secret Mission That Feels Like Hard Target Meets Saw",
     "description": "Gamespot details a secret GTA 6 mission on Hyde Island, blending Hard Target and Saw gameplay elements. Players face a survival challenge involving darting, containment in a shipping container with an explosive necklace, and evasion of a heavily armed hunter and his dog Caesar, with rewards of $15,0",
     "seoTitle": "GTA 6 Secret Mission Hyde Island Hard Target Saw - Gamespot Repo",
