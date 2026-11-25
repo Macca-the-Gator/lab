@@ -1,6 +1,77 @@
 [
   {
     "skip": false,
+    "title": "Report: GTA 6 Players Find Over 1,500 Enterable Buildings Across Leonida",
+    "description": "Eurogamer reports a player count of 1,563 enterable buildings out of 5,588 in GTA 6, about 27.97 percent of Leonida’s structures. The figure comes from a Reddit post by user Aileos and is not an official Rockstar announcement.",
+    "seoTitle": "GTA 6 Over 1,500 Enterable Buildings Reported by Eurogamer",
+    "seoDescription": "Eurogamer reports a GTA 6 player found 1,563 enterable buildings out of 5,588 in Leonida, roughly 28 percent of all structures.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Leonida",
+      "buildings"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Has 1,563 Enterable Buildings, Player Count Finds",
+    "socialHook": "A GTA 6 player counted 1,563 enterable buildings across Leonida, nearly 28 percent of the game's 5,588 structures, according to Eurogamer.",
+    "instagramCaptionLead": "Over 1,500 GTA 6 buildings can be entered in Leonida — nearly 28 percent of all structures — per a player count reported by Eurogamer.",
+    "sections": [
+      {
+        "heading": "Player-Reported Building Count",
+        "paragraphs": [
+          "Eurogamer reports that a GTA 6 player, identified in a Reddit post by user Aileos, examined every building in the game and found that 1,563 of 5,588 structures in Leonida can be entered and explored. That equals 27.97 percent of all buildings on the map. The outlet says some enterable locations are expected, such as stores and banks, while others may surprise players. Eurogamer attributes the count to the Reddit post and does not present it as an official Rockstar Games announcement."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "How It Compares to Earlier Leaks",
+        "paragraphs": [
+          "Eurogamer connects the discovery to a 2025 leak claiming that over 700 buildings could be freely entered in GTA 6, a claim that drew skepticism before release. The report also quotes Reddit user Macklaviel, who cautioned that unproven leaks should not set expectations. The current figure of 1,563 enterable buildings substantially exceeds that earlier rumored number, though Eurogamer makes clear the number comes from player testing rather than Rockstar confirmation."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://assetsio.gnwcdn.com/boobie-gta-6.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+    "thumbnailAlt": "GTA 6 buildings and Leonida map scene from Eurogamer report",
+    "inlineImages": [
+      {
+        "url": "https://assetsio.gnwcdn.com/boobie-gta-6.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "alt": "GTA 6 buildings and Leonida map scene from Eurogamer report",
+        "caption": "Image accompanying the source report",
+        "sourceUrl": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter"
+      },
+      {
+        "url": "https://assetsio.gnwcdn.com/boobie-gta-6.jpg?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp",
+        "alt": "GTA 6 buildings and Leonida map scene from Eurogamer report",
+        "caption": "Eurogamer's report on over 1,500 enterable buildings in GTA 6.",
+        "sourceUrl": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Players discover over 1,500 individual buildings you can enter in GTA 6, nearly 28% of all buildings on the map",
+        "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
+        "publisher": "www.eurogamer.net"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-25",
+    "publishedAt": "2026-11-25T14:26:08.316Z",
+    "slug": "report-gta-6-players-find-over-1-500-enterable-buildings-across",
+    "sourceUrl": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-players-find-over-1-500-enterable-buildings-across.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-players-find-over-1-500-enterable-buildings-across-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GTA 6: Full Vice City retro easter egg walkthrough, all rewards",
     "description": "VGC reports a GTA 6 retro Vice City easter egg walkthrough. Players can unlock a PS2-style Vice City and earn Tommy Vercetti's shirt and a Malibu motorcycle by visiting 12 substations in order, per VGC. Contains easter egg spoilers.",
     "seoTitle": "GTA 6 Vice City retro easter egg walkthrough and all rewards",
