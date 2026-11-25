@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "extended-gta-6-launch-trailer-airing-on-tv",
     "gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r",
     "report-rahul-kohli-pitch-for-l-a-noire-spinoff-idea-sounds-incre",
     "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
@@ -60,10 +59,10 @@
     "report-gta-6-arthur-morgan-s-hat-location-from-red-dead-redempti",
     "report-gta-6-super-mario-bros-easter-egg-location-and-steps",
     "report-gta-6-ocean-view-hotel-guide-where-to-find-the-vapid-55-r",
-    "report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me"
+    "report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me",
+    "report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew"
   ],
   "clipHistory": [
-    "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
-    "Boobie_Ike_Video_Clip.mp4"
+    "Boobie_Ike_Video_Clip.mp4",
+    "Brian_Heder_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:extended-gta-6-launch-trailer-airing-on-tv:drequan-priest-video-clip",
-      "articleSlug": "extended-gta-6-launch-trailer-airing-on-tv",
-      "clip": "DreQuan_Priest_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-21T20:25:57.792421+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r:gtavi-official-cover-art-landscape",
       "articleSlug": "gta-6-s-vast-scope-means-no-single-developer-knows-it-all-says-r",
@@ -520,6 +513,13 @@
       "clip": "Boobie_Ike_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-25T01:09:55.564425+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew:brian-heder-video-clip",
+      "articleSlug": "report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew",
+      "clip": "Brian_Heder_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-25T05:45:53.998859+00:00"
     }
   ]
 }

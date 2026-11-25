@@ -2319,5 +2319,18 @@
     "uploadMode": "github-release",
     "socialScore": 70,
     "publishedAt": "2026-11-25T04:19:40.046Z"
+  },
+  "rockstar-media://rockstar-media:report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew/",
+    "mediaId": "18100938002397552",
+    "permalink": "https://www.instagram.com/reel/DgJz0p6H2RD/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Funk do Flamengo",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-25T05:45:52.301015+00:00"
   }
 }

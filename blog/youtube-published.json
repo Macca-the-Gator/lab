@@ -1995,5 +1995,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=xOLUkVo2amk",
     "socialScore": 70,
     "publishedAt": "2026-11-25T04:19:46.039429+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew",
+    "publicationKey": "rockstar-media:report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "FPnfuMVMZGk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FPnfuMVMZGk",
+    "publishedAt": "2026-11-25T05:45:09.509961+00:00"
   }
 ]
