@@ -1,17 +1,5 @@
 {
   "cooldowns": {
-    "https://www.gamespot.com/articles/all-the-records-gta-6-will-break-we-think/": {
-      "attemptedAt": "2026-10-17T19:32:11.498Z",
-      "title": "All The Records GTA 6 Will Break, We Think"
-    },
-    "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02SVo2ZXh0ZGdnckJMNmF0T2xVc3FzU0xQODRYT0lRQXZ3UEpSOWFkbTNYQy1oS1dNRmg5elctZXVtV0E2SWdTUmtnSzlTdXB0engxRk5HYUZWUDR6ODg4Wg?oc=5": {
-      "attemptedAt": "2026-10-18T11:07:52.372Z",
-      "title": "This scene from the GTA 6 launch trailer is absolutely JAW-DROPPING! 🔥 It really makes you wonder how much crazier the missions will be in the actual game. The stakes could be higher than ever!"
-    },
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05U1BLWFJmc1JVSnlmXzdWbDZzb2tKOEZNRDYzalE4eXB0azVkTjEwdFc5TzhhLXVNWEdjWklFUkR2TExkWnZrQ2ppS1loeGVHV2ZSd1MwTmh0a21QYU1WRVhqRlZnWTA?oc=5": {
-      "attemptedAt": "2026-10-26T01:12:05.055Z",
-      "title": "The GTA 6 file size could be revealed/leaked from Sony’s database next week, as pre-loading begins on November 12 and review copies are expected to go out before the end of this month. Final prediction: 150-200GB"
-    },
     "https://rockstarintel.com/gta-online-event-week-halloween-event-ends-october-29th-november-4th/": {
       "attemptedAt": "2026-10-28T21:09:18.654Z",
       "title": "GTA Online Event Week: Halloween Event Ends (October 29th-November 4th)"
@@ -19,6 +7,10 @@
     "https://rockstarintel.com/gta-6-pre-order-numbers-are-unprecedented-says-take-two/": {
       "attemptedAt": "2026-11-11T06:24:36.222Z",
       "title": "GTA 6 Pre-Order Numbers Are &#8220;Unprecedented&#8221; Says Take-Two"
+    },
+    "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/": {
+      "attemptedAt": "2026-11-25T23:38:45.033Z",
+      "title": "Why GTA 6 Doesn’t Let You Replay Missions&#8211;It Felt &#8220;Alien And Disconnected&#8221;"
     }
   }
 }
