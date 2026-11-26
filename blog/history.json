@@ -1,5 +1,20 @@
 [
   {
+    "slug": "report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5",
+    "title": "Report: GTA 6 Weather Bug Fix: How to Make It Rain on PS5",
+    "sourceUrl": "https://rockstarintel.com/how-to-fix-the-gta-vi-weather-bug-and-make-it-rain/",
+    "sourceUrls": [
+      "https://rockstarintel.com/how-to-fix-the-gta-vi-weather-bug-and-make-it-rain/",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bravado-banshee-location/",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pegassi-infernus-location/",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-atm-winched-vehicle/",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ocelot-bloodless-jugular-location/"
+    ],
+    "date": "2026-11-26",
+    "status": "published",
+    "hash": "4e17a463f9fddd9aaf9dc041c791fe6c8791b2c1776d06c7d5a18eb3cffd8948"
+  },
+  {
     "slug": "report-why-gta-6-doesn-t-let-you-replay-missions-it-felt-alien-a",
     "title": "Report: Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
     "sourceUrl": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
@@ -5615,16 +5630,5 @@
     "date": "2026-09-29",
     "status": "published",
     "hash": "0d276ccdaa0a28c181410bb045c83c7cb6369c4e982c98e4e2328814303c48fd"
-  },
-  {
-    "slug": "reddit-claims-elder-scrolls-2-is-1-900x-bigger-than-gta-6",
-    "title": "Reddit Claims Elder Scrolls 2 Is 1,900x Bigger Than GTA 6",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2tDdk5MOGRZZTJwN0VRbVpGMHNxZXpSOUpBTG1rTHN5TU9SYXdsald2RHg3dWNMOE1sbWxjTWZMMUgzZ18wZklQZ2Q3SlBabkFkSlB2OW9GY01aT2JtX3NwSzlVRWtfbkJWRFFpdWNMQzJyNjRuVmR5bEowajJYd0dMd2JNcHVWVEw2dEE5REllVFFldXBqNFZZRGc?oc=5&hl=en-US&gl=US&ceid=US:en",
-    "sourceUrls": [
-      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2tDdk5MOGRZZTJwN0VRbVpGMHNxZXpSOUpBTG1rTHN5TU9SYXdsald2RHg3dWNMOE1sbWxjTWZMMUgzZ18wZklQZ2Q3SlBabkFkSlB2OW9GY01aT2JtX3NwSzlVRWtfbkJWRFFpdWNMQzJyNjRuVmR5bEowajJYd0dMd2JNcHVWVEw2dEE5REllVFFldXBqNFZZRGc?oc=5"
-    ],
-    "date": "2026-09-29",
-    "status": "published",
-    "hash": "e155248986ca10327f7f248f30b25c325c408e5446de563fa390cc19c6ea0eec"
   }
 ]
