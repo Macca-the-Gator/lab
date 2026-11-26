@@ -6,7 +6,7 @@
 
 - [Abrir área de estudos](./index.html)
 - **Teoria**: onze tópicos de circuitos digitais e analógicos, com fórmulas e resultados de práticas.
-- **Trabalhos**: sete relatórios enviados pelo aluno, transcritos em texto nas páginas da pasta [`relatorios/`](./relatorios/).
+- **Trabalhos**: sete relatórios enviados pelo aluno, em [PDF com imagens](./relatorios/pdfs/) e transcritos em texto na pasta [`relatorios/`](./relatorios/).
 - **Simulados**: exatamente 100 questões de múltipla escolha, com três níveis, filtro por tema, acompanhamento dos acertos e justificativa individual das quatro alternativas.
 - **Simuladores**: atalhos para os dois simuladores anteriores, mantidos nas respectivas pastas de origem.
 
@@ -22,7 +22,7 @@ As respostas são corrigidas ao selecionar uma alternativa, sem avançar automat
 6. TBJ — Relatorio_3_Eletronicos.pdf.
 7. Amplificadores operacionais — Relatorio_de_Aula_Pratica_Amplificadores_Operacionais.pdf.
 
-As transcrições contêm os textos, tabelas e cálculos extraídos dos PDFs fornecidos. Imagens incorporadas aos PDFs não são reproduzidas nas transcrições; os manuais originais e os simuladores já existentes continuam disponíveis em suas pastas. O número de matrícula foi removido das transcrições para não publicá-lo no repositório público.
+As transcrições contêm os textos, tabelas e cálculos extraídos dos PDFs fornecidos. As figuras, gráficos e capturas estão nas versões compactas dos PDFs, preservadas como páginas ilustradas para consulta, enquanto as transcrições permitem busca e cópia do texto. A versão compacta rasterizada não possui camada textual selecionável. O número de matrícula foi removido das duas versões para não publicá-lo no repositório público. Os manuais originais e simuladores continuam disponíveis nas pastas existentes.
 
 ## Estrutura preservada
 
