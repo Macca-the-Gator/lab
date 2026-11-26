@@ -1,5 +1,63 @@
 [
   {
+    "title": "Report: Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
+    "description": "Gamespot published an interview with GTA 6 senior design director Scott Butchard, conducted via Kotaku, in which he revealed that Rockstar considered a mission replay feature early in development but ultimately decided against it because replaying missions felt at odds with the story the team was tr",
+    "seoTitle": "GTA 6 Mission Replay: Rockstar Designer Explains Design Choice",
+    "seoDescription": "Gamespot reports Scott Butchard explains GTA 6 mission replay removal due to story disconnection, including sales data and player workarounds.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Mission Design",
+      "Game Features",
+      "Scott Butchard"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 Designer Scott Butchard on Missing Mission Replay",
+    "socialHook": "GTA 6 doesn't allow direct mission replay, but Scott Butchard says it would feel alien to the story.",
+    "instagramCaptionLead": "GTA 6 lacks simple mission replay, with Scott Butchard citing story disconnection.",
+    "sections": [
+      {
+        "heading": "Design Rationale",
+        "paragraphs": [
+          "Gamespot's report of Scott Butchard's Kotaku interview reveals that Rockstar considered a mission replay feature early in GTA 6 development but ultimately decided against it. Butchard explained that adding replay options felt at odds with the story the team was trying to tell, as replaying missions diminished the impact of player choices and made the experience feel alien and disconnected from the narrative vision."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Player Workarounds and Impact",
+        "paragraphs": [
+          "While GTA 6 does not offer a straightforward mission replay menu, players can reload earlier save files or use the in-game menu to retry, quit, or restart missions in progress. Since launch, GTA 6 has sold 32.5 million copies via pre-purchases alone, generating approximately $4 billion in day-one revenue and contributing to new PlayStation and Xbox hardware sales. Rockstar has also addressed community feedback suggesting the game feels too easy, though the studio has not confirmed plans for a future mission replay update."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "GTA 6 mission replay feature article",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "Why GTA 6 Doesn’t Let You Replay Missions&#8211;It Felt &#8220;Alien And Disconnected&#8221;",
+        "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-26",
+    "publishedAt": "2026-11-26T08:23:06.278Z",
+    "slug": "report-why-gta-6-doesn-t-let-you-replay-missions-it-felt-alien-a",
+    "sourceUrl": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-why-gta-6-doesn-t-let-you-replay-missions-it-felt-alien-a.jpg",
+    "discoverImage": "/blog/assets/covers/report-why-gta-6-doesn-t-let-you-replay-missions-it-felt-alien-a-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Report: GTA 6 Players Find Over 1,500 Enterable Buildings Across Leonida",
     "description": "Eurogamer reports a player count of 1,563 enterable buildings out of 5,588 in GTA 6, about 27.97 percent of Leonida’s structures. The figure comes from a Reddit post by user Aileos and is not an official Rockstar announcement.",
