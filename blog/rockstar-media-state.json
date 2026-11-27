@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
     "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
     "gta-6-burgers-will-be-available-in-florida-throughout-the-year",
     "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
@@ -60,10 +59,10 @@
     "report-gta-6-has-a-secret-mission-that-feels-like-hard-target-me",
     "report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew",
     "report-gta-6-players-find-over-1-500-enterable-buildings-across",
-    "report-gta-6-car-service-walkthrough-how-to-steal-the-schafter-v"
+    "report-gta-6-car-service-walkthrough-how-to-steal-the-schafter-v",
+    "report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5"
   ],
   "clipHistory": [
-    "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
-    "DreQuan_Priest_Video_Clip.mp4"
+    "DreQuan_Priest_Video_Clip.mp4",
+    "GTAVI_Official_Cover_Art_Landscape.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says:cal-hampton-video-clip",
-      "articleSlug": "is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says",
-      "clip": "Cal_Hampton_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-23T02:04:54.568970+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar:brian-heder-video-clip",
       "articleSlug": "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
@@ -520,6 +513,13 @@
       "clip": "DreQuan_Priest_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-26T05:34:00.512041+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5:gtavi-official-cover-art-landscape",
+      "articleSlug": "report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5",
+      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-27T00:52:35.978569+00:00"
     }
   ]
 }
