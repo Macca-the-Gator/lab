@@ -1,6 +1,67 @@
 [
   {
     "skip": false,
+    "title": "Report: GameSpot Details GTA 6 Furry Rescue Mission Featuring Chase the Fox",
+    "description": "GameSpot reports on a random GTA 6 encounter where players can rescue Chase the Fox from police, earn $15,000 or the Furry DW-9 submachine gun, and access a Furry safehouse.",
+    "seoTitle": "GTA 6 Furry Rescue Mission: Chase the Fox Rewards Guide",
+    "seoDescription": "GameSpot details GTA 6's Furry rescue mission featuring Chase the Fox, a $15,000 reward, the DW-9 submachine gun, and safehouse access.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "GameSpot",
+      "Furry Rescue Mission",
+      "Chase the Fox",
+      "DW-9",
+      "Vice City",
+      "Starfish Island"
+    ],
+    "featured": false,
+    "youtubeTitle": "GTA 6 Furry Rescue Mission: Chase the Fox Location and Rewards",
+    "socialHook": "GameSpot reports that GTA 6 players can rescue Chase the Fox from police for cash or a unique submachine gun.",
+    "instagramCaptionLead": "GameSpot details GTA 6's Furry rescue event featuring Chase the Fox, a $15,000 payout, and the DW-9 submachine gun.",
+    "sections": [
+      {
+        "heading": "GameSpot's Report on the Furry Rescue Mission",
+        "paragraphs": [
+          "GameSpot reports that GTA 6 includes a random encounter involving a character named Chase the Fox. According to the publication, the mission can trigger after Chapter 3 on Miramar Drive in Crosstown, Vice City, between midnight and 4 AM. Players who intervene can help Chase evade police, triggering a three-star wanted level. GameSpot presents these mission steps as its own gameplay reporting."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Rewards and Safehouse Access",
+        "paragraphs": [
+          "Once players deliver Chase and his allies to a safehouse on Starfish Island, GameSpot reports they can choose between $15,000 in cash or the unique Furry DW-9 submachine gun. The outlet also notes that players gain access to the Furry group's hideout for weapons and body armor. These details are attributed to GameSpot and are not presented as an official Rockstar announcement."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "",
+    "thumbnailAlt": "Report: GameSpot Details GTA 6 Furry Rescue Mission Featuring Chase the Fox",
+    "inlineImages": [],
+    "sources": [
+      {
+        "title": "GTA 6&#8217;s Furry Rescue Mission Is A Little Weird, But The Rewards Are Worth It",
+        "url": "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
+        "publisher": "www.gamespot.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-27",
+    "publishedAt": "2026-11-27T19:58:28.792Z",
+    "slug": "report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha.jpg",
+    "discoverImage": "/blog/assets/covers/report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GTA 6 The Missing Link Walkthrough: Lucia Meets Monty",
     "description": "VGC explains how to unlock The Missing Link in GTA 6, reach the cartel enforcer Monty with Lucia and Andrea, and what to do at the end. This post contains mission walkthrough spoilers.",
     "seoTitle": "GTA 6 The Missing Link Walkthrough: Monty Mission Steps",

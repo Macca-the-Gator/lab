@@ -1,5 +1,17 @@
 [
   {
+    "slug": "report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha",
+    "title": "Report: GameSpot Details GTA 6 Furry Rescue Mission Featuring Chase the Fox",
+    "sourceUrl": "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
+    "sourceUrls": [
+      "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BQ3RvSmJveXV6ZklnUjdSNHRsNy1PNFhkbFYyUUdneUxoaGJ3Nk5NSWhzdzMzUkpYN1k0SlJzcU13ZFNKTUlhMzRYVGdmQVNhSmNZQmNjX2hzOU84dERzXzlhS0NzUXZmOTA3MFA3eTNaYkxKQUVHUzZIYw?oc=5"
+    ],
+    "date": "2026-11-27",
+    "status": "published",
+    "hash": "3eb8d5bfdcfe9957472fb6bdac7b54b37dacdf29ed52f3a09fc6220a99cfb972"
+  },
+  {
     "slug": "report-gta-6-the-missing-link-walkthrough-lucia-meets-monty",
     "title": "Report: GTA 6 The Missing Link Walkthrough: Lucia Meets Monty",
     "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-the-missing-link-walkthrough/",
@@ -5620,16 +5632,5 @@
     "date": "2026-09-29",
     "status": "published",
     "hash": "732333ac3296172e0c8ce341b6d0e3166824f5b88043f3672ee10d866ca20b7f"
-  },
-  {
-    "slug": "former-gta-6-designer-questions-switch-2-version-citing-subpar-experience",
-    "title": "Former GTA 6 Designer Questions Switch 2 Version, Citing ‘Subpar Experience’",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYzJaejJnQkdISER2SFN6Nzd6c2QxLTI3Q2xmbkNiSGNEekh3dzh0ckdwZlRPRGhpQ1o5UjFWaDlNbjduYnNxUHlYNFAtRXNUSm1QeW51Q0NSVnFkdnhrTUltd3kzQW1YV0w5UUdfUUV4NnA0ZnktY01CUTRJZjRJUTlqZ3VJUGJrNFQwaWc3WndoMnd3SWFF?oc=5&hl=en-US&gl=US&ceid=US:en",
-    "sourceUrls": [
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYzJaejJnQkdISER2SFN6Nzd6c2QxLTI3Q2xmbkNiSGNEekh3dzh0ckdwZlRPRGhpQ1o5UjFWaDlNbjduYnNxUHlYNFAtRXNUSm1QeW51Q0NSVnFkdnhrTUltd3kzQW1YV0w5UUdfUUV4NnA0ZnktY01CUTRJZjRJUTlqZ3VJUGJrNFQwaWc3WndoMnd3SWFF?oc=5"
-    ],
-    "date": "2026-09-29",
-    "status": "published",
-    "hash": "e8fe6f6b4cbd453bdd5100a8940835e8a3045dbcefecd1dbf5fb75fc6ac6b510"
   }
 ]
