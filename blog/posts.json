@@ -1,6 +1,82 @@
 [
   {
     "skip": false,
+    "title": "Report: GTA 6 The Missing Link Walkthrough: Lucia Meets Monty",
+    "description": "VGC explains how to unlock The Missing Link in GTA 6, reach the cartel enforcer Monty with Lucia and Andrea, and what to do at the end. This post contains mission walkthrough spoilers.",
+    "seoTitle": "GTA 6 The Missing Link Walkthrough: Monty Mission Steps",
+    "seoDescription": "VGC's GTA 6 The Missing Link walkthrough explains how to unlock the mission, reach Monty, and decide what to do with him.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "The Missing Link",
+      "Monty",
+      "Walkthrough",
+      "VGC",
+      "Lucia",
+      "Andrea"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA 6 The Missing Link: Lucia Meets Andrea and Finds Monty",
+    "socialHook": "VGC says GTA 6's The Missing Link unlocks after Company Property in Chapter 3.",
+    "instagramCaptionLead": "VGC says GTA 6's The Missing Link unlocks after Company Property in Chapter 3, then sends Lucia to meet Andrea.",
+    "sections": [
+      {
+        "heading": "How to Unlock The Missing Link",
+        "paragraphs": [
+          "This walkthrough contains mission spoilers for Grand Theft Auto 6. According to Video Games Chronicle (VGC), players first need to complete the Company Property mission in Chapter 3 before The Missing Link becomes available. VGC says the guide then explains how to finish the mission, how to get a unique weapon from it, and what to do with Monty."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "Meeting Andrea and Reaching Monty",
+        "paragraphs": [
+          "VGC instructs players to travel to Sloppy Molly's in Watson Bay as Lucia, making sure they are playing as Lucia alone because Andrea is waiting there. After the introductory conversation, VGC says Lucia changes clothes and follows Andrea across the street into a warehouse hosting an illegal cockfight. The guide says players do not have to take part and can simply wait until the next part of the mission starts."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "The Bouncer, the Warehouse, and Monty",
+        "paragraphs": [
+          "According to VGC, players should wait for Andrea to receive a message from her contact, then head to the entrance beside the bouncer wearing a white suit. VGC says players follow Andrea through the building until they reach Monty in a back room. The guide describes Monty as a senior Cartel enforcer that Lucia and Andrea are targeting, and notes that VGC has published dozens of GTA 6 guides while approaching Chapter 4."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://www.videogameschronicle.com/files/2026/11/gta-6-the-missing-link-walkthrough-13.jpg",
+    "thumbnailAlt": "GTA 6 The Missing Link walkthrough screenshot from VGC",
+    "inlineImages": [
+      {
+        "url": "https://www.videogameschronicle.com/files/2026/11/gta-6-the-missing-link-walkthrough-13.jpg",
+        "alt": "GTA 6 The Missing Link walkthrough screenshot from VGC",
+        "caption": "VGC's GTA 6 The Missing Link walkthrough image.",
+        "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-the-missing-link-walkthrough/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GTA 6 The Missing Link Walkthrough",
+        "url": "https://www.videogameschronicle.com/guide/gta-6-the-missing-link-walkthrough/",
+        "publisher": "www.videogameschronicle.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": true,
+    "date": "2026-11-27",
+    "publishedAt": "2026-11-27T10:54:39.545Z",
+    "slug": "report-gta-6-the-missing-link-walkthrough-lucia-meets-monty",
+    "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-the-missing-link-walkthrough/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-6-the-missing-link-walkthrough-lucia-meets-monty.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-6-the-missing-link-walkthrough-lucia-meets-monty-discover.jpg"
+  },
+  {
+    "skip": false,
     "title": "Report: GTA VI Includes Hidden Memorial for Developers' Late Family Members",
     "description": "RockstarINTEL reports that Grand Theft Auto VI features a hidden memorial in Leonida honoring deceased relatives of Rockstar developers. The tribute includes names such as Bev Green, mother of QA developer Matt Green, and Elhuntry and Jade Radcliff, father and daughter of production designer Terranc",
     "seoTitle": "GTA VI Hidden Memorial Honors Developers' Late Family Members",
