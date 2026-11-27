@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
     "gta-6-burgers-will-be-available-in-florida-throughout-the-year",
     "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
     "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
@@ -60,10 +59,10 @@
     "report-gta-6-full-vice-city-retro-easter-egg-walkthrough-all-rew",
     "report-gta-6-players-find-over-1-500-enterable-buildings-across",
     "report-gta-6-car-service-walkthrough-how-to-steal-the-schafter-v",
-    "report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5"
+    "report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5",
+    "report-gta-vi-includes-hidden-memorial-for-developers-late-famil"
   ],
   "clipHistory": [
-    "Boobie_Ike_Video_Clip.mp4",
     "Brian_Heder_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
@@ -98,16 +97,10 @@
     "Brian_Heder_Video_Clip.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "DreQuan_Priest_Video_Clip.mp4",
-    "GTAVI_Official_Cover_Art_Landscape.mp4"
+    "GTAVI_Official_Cover_Art_Landscape.mp4",
+    "Boobie_Ike_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar:brian-heder-video-clip",
-      "articleSlug": "gta-6-worker-absenteeism-study-estimates-paid-leave-day-rockstar",
-      "clip": "Brian_Heder_Video_Clip.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-23T20:09:19.032788+00:00"
-    },
     {
       "publicationKey": "rockstar-media:gta-6-burgers-will-be-available-in-florida-throughout-the-year:drequan-priest-video-clip",
       "articleSlug": "gta-6-burgers-will-be-available-in-florida-throughout-the-year",
@@ -520,6 +513,13 @@
       "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-27T00:52:35.978569+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-vi-includes-hidden-memorial-for-developers-late-famil:boobie-ike-video-clip",
+      "articleSlug": "report-gta-vi-includes-hidden-memorial-for-developers-late-famil",
+      "clip": "Boobie_Ike_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-27T05:28:20.914157+00:00"
     }
   ]
 }
