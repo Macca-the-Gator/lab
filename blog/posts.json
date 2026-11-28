@@ -1,5 +1,80 @@
 [
   {
+    "title": "Report: GTA VI Scarface Easter Egg: How to Find It and Unlock the Little Friend W-10 SMG",
+    "description": "RockstarINTEL details a GTA VI Scarface Easter egg near the Cortez Hotel at Ocean Beach, including the timing window and steps that reportedly reward the Little Friend W-10 SMG.",
+    "seoTitle": "GTA VI Scarface Easter Egg: Little Friend W-10 SMG Guide",
+    "seoDescription": "RockstarINTEL reports a GTA VI Scarface Easter egg at Ocean Beach. Here's how to trigger it and unlock the Little Friend W-10 SMG.",
+    "category": "GTA 6",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Scarface",
+      "Easter Eggs",
+      "Little Friend W-10",
+      "Ocean Beach",
+      "Secrets"
+    ],
+    "featured": true,
+    "youtubeTitle": "GTA VI Scarface Easter Egg & Little Friend W-10 SMG Location",
+    "socialHook": "RockstarINTEL reports a GTA VI Scarface Easter egg near the Cortez Hotel that rewards players with the Little Friend W-10 SMG.",
+    "instagramCaptionLead": "RockstarINTEL reports a GTA VI Scarface Easter egg at Ocean Beach, unlocked between 12 PM and 2 PM, that rewards the Little Friend W-10 SMG.",
+    "sections": [
+      {
+        "heading": "What RockstarINTEL Reported",
+        "paragraphs": [
+          "[Spoilers ahead] According to RockstarINTEL, Grand Theft Auto VI includes an Easter egg inspired by the classic film Scarface, located in Ocean Beach beside the Cortez Hotel. The publication reports that completing the encounter rewards players with a special weapon called the Little Friend W-10 SMG. RockstarINTEL notes that simply walking into a building will not trigger it, and that specific timing and player movement are required."
+        ],
+        "editorialLabel": "Unconfirmed claims and evidence",
+        "editorialKind": "claim"
+      },
+      {
+        "heading": "How to Trigger the Encounter",
+        "paragraphs": [
+          "RockstarINTEL instructs players to visit the location between 12 PM and 2 PM in-game, warning that arriving early and waiting around can prevent the encounter from triggering. It directs players to the front entrance of the building next to the Cortez Hotel and up the front stairs to the first apartment door. Players should try opening that door with Jason or Lucia; it will not open, but RockstarINTEL says the interaction is necessary. Instead of heading back down the front stairs, players should take the rear stairs down to the alley, then return to the front, where the Easter egg reportedly triggers with a car leaving the area and a man left lying on the road."
+        ],
+        "editorialLabel": "Context and analysis",
+        "editorialKind": "analysis"
+      },
+      {
+        "heading": "What Remains Unconfirmed",
+        "paragraphs": [
+          "RockstarINTEL presents this as a player-facing Easter egg guide rather than an official Rockstar Games announcement, and neither Rockstar nor Take-Two has publicly confirmed the encounter or the Little Friend W-10 SMG. The steps and reward are reported by RockstarINTEL and have not been independently verified here. Players attempting the discovery should treat the timing window and sequence as reported, and be prepared for possible inconsistencies until Rockstar comments."
+        ],
+        "editorialLabel": "Additional context",
+        "editorialKind": "analysis"
+      }
+    ],
+    "thumbnail": "https://rockstarintel.com/wp-content/uploads/2026/11/650625.png",
+    "thumbnailAlt": "GTA VI Scarface Easter egg guide from RockstarINTEL",
+    "inlineImages": [
+      {
+        "url": "https://rockstarintel.com/wp-content/uploads/2026/11/650625.png",
+        "alt": "GTA VI Scarface Easter egg location guide from RockstarINTEL",
+        "caption": "RockstarINTEL's guide to the GTA VI Scarface Easter egg at Ocean Beach.",
+        "sourceUrl": "https://rockstarintel.com/how-to-find-the-gta-vi-scarface-easter-egg-unlock-a-special-weapon/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How To Find The GTA VI Scarface Easter Egg &#038; Unlock A Special Weapon",
+        "url": "https://rockstarintel.com/how-to-find-the-gta-vi-scarface-easter-egg-unlock-a-special-weapon/",
+        "publisher": "rockstarintel.com"
+      }
+    ],
+    "reportStatus": "rumor",
+    "spoilerWarning": false,
+    "date": "2026-11-28",
+    "publishedAt": "2026-11-28T02:42:12.746Z",
+    "slug": "report-gta-vi-scarface-easter-egg-how-to-find-it-and-unlock-the",
+    "sourceUrl": "https://rockstarintel.com/how-to-find-the-gta-vi-scarface-easter-egg-unlock-a-special-weapon/",
+    "image": "/images/macca-blog-banner.jpg",
+    "imageAlt": "Macca the Gator at sunset in Vice City",
+    "editorialType": "LEAK",
+    "editorialFormatVersion": "pklavc-editorial-v1",
+    "socialImage": "/blog/assets/covers/report-gta-vi-scarface-easter-egg-how-to-find-it-and-unlock-the.jpg",
+    "discoverImage": "/blog/assets/covers/report-gta-vi-scarface-easter-egg-how-to-find-it-and-unlock-the-discover.jpg"
+  },
+  {
     "skip": false,
     "title": "Report: GameSpot Details GTA 6 Furry Rescue Mission Featuring Chase the Fox",
     "description": "GameSpot reports on a random GTA 6 encounter where players can rescue Chase the Fox from police, earn $15,000 or the Furry DW-9 submachine gun, and access a Furry safehouse.",
