@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "articleHistory": [
-    "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
     "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
     "gta-6-boxed-copies-sold-out-at-some-retailers",
     "gta-6-early-review-access-confirmed-by-rockstar-insider",
@@ -60,10 +59,10 @@
     "report-gta-6-car-service-walkthrough-how-to-steal-the-schafter-v",
     "report-gta-6-weather-bug-fix-how-to-make-it-rain-on-ps5",
     "report-gta-vi-includes-hidden-memorial-for-developers-late-famil",
-    "report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha"
+    "report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha",
+    "report-gta-vi-scarface-easter-egg-how-to-find-it-and-unlock-the"
   ],
   "clipHistory": [
-    "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Cal_Hampton_Video_Clip.mp4",
     "Boobie_Ike_Video_Clip.mp4",
@@ -98,16 +97,10 @@
     "DreQuan_Priest_Video_Clip.mp4",
     "GTAVI_Official_Cover_Art_Landscape.mp4",
     "Boobie_Ike_Video_Clip.mp4",
-    "Brian_Heder_Video_Clip.mp4"
+    "Brian_Heder_Video_Clip.mp4",
+    "Cal_Hampton_Video_Clip.mp4"
   ],
   "runs": [
-    {
-      "publicationKey": "rockstar-media:report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc:gtavi-official-cover-art-landscape",
-      "articleSlug": "report-puregym-shares-thumb-workouts-to-prepare-for-gta-vi-launc",
-      "clip": "GTAVI_Official_Cover_Art_Landscape.mp4",
-      "platformSuccesses": 2,
-      "publishedAt": "2026-10-25T01:46:32.783967+00:00"
-    },
     {
       "publicationKey": "rockstar-media:report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your:boobie-ike-video-clip",
       "articleSlug": "report-gta-6-s-new-tv-trailer-is-a-bit-different-see-it-for-your",
@@ -520,6 +513,13 @@
       "clip": "Brian_Heder_Video_Clip.mp4",
       "platformSuccesses": 2,
       "publishedAt": "2026-11-28T00:18:28.759674+00:00"
+    },
+    {
+      "publicationKey": "rockstar-media:report-gta-vi-scarface-easter-egg-how-to-find-it-and-unlock-the:cal-hampton-video-clip",
+      "articleSlug": "report-gta-vi-scarface-easter-egg-how-to-find-it-and-unlock-the",
+      "clip": "Cal_Hampton_Video_Clip.mp4",
+      "platformSuccesses": 2,
+      "publishedAt": "2026-11-28T05:03:16.510300+00:00"
     }
   ]
 }
