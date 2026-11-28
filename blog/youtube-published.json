@@ -2095,5 +2095,16 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=UbHy2jwJkAw",
     "socialScore": 60,
     "publishedAt": "2026-11-27T10:58:20.738632+00:00"
+  },
+  {
+    "contentType": "rockstar-media",
+    "slug": "report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha",
+    "publicationKey": "rockstar-media:report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha/",
+    "sourceMedia": "https://www.rockstargames.com/VI/media/videos",
+    "clip": "Brian_Heder_Video_Clip.mp4",
+    "youtubeVideoId": "lmiBcrBQieM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lmiBcrBQieM",
+    "publishedAt": "2026-11-28T00:17:46.078848+00:00"
   }
 ]

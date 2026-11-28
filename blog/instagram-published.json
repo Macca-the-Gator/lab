@@ -2444,5 +2444,18 @@
     "uploadMode": "github-release",
     "socialScore": 60,
     "publishedAt": "2026-11-27T10:58:13.278Z"
+  },
+  "rockstar-media://rockstar-media:report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha:brian-heder-video-clip": {
+    "contentType": "rockstar-media",
+    "publicationKey": "rockstar-media:report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha:brian-heder-video-clip",
+    "articleUrl": "https://macca-lab.onrender.com/blog/report-gamespot-details-gta-6-furry-rescue-mission-featuring-cha/",
+    "mediaId": "18119419421145492",
+    "permalink": "https://www.instagram.com/reel/DgQ8vagCedY/",
+    "mediaType": "REELS",
+    "mediaAudioType": "MUSIC",
+    "musicVerified": true,
+    "musicTitle": "Voyage Voyage (Electro Edit)",
+    "uploadMode": "github-release",
+    "publishedAt": "2026-11-28T00:18:27.245278+00:00"
   }
 }
